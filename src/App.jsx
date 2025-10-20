@@ -98,7 +98,7 @@ export default function App() {
           <div className="grid grid-cols-2 gap-4">
             <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="Medición avanzada" desc="PAC3200, ME337, THD, PF, kWh en tiempo real." />
             <Card icon={<Cloud className="h-6 w-6" color={COLORS.energyDark} />} title="Nube industrial" desc="AWS IoT Core, Timestream y QuickSight para analítica energética." />
-            <Card icon={<Network className="h-6 w-6" color={COLORS.energyDark} />} title="Edge & Gateways" desc="Raspberry/ESP32 con Balena, Greengrass y Modbus TCP/RTU." />
+            <Card icon={<Network className="h-6 w-6" color={COLORS.energyDark} />} title="Edge & Gateways" desc="Gateway Greengrass y Modbus TCP/RTU." />
             <Card icon={<ShieldCheck className="h-6 w-6" color={COLORS.energyDark} />} title="Ciberseguridad" desc="Certificados X.509, VPN segura y mTLS integrado." />
             <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="Hardware a medida" desc="Diseño de PCBs, firmware y controladores personalizados." />
             <Card icon={<Zap className="h-6 w-6" color={COLORS.energyDark} />} title="Eficiencia" desc="Implementación de KPIs energéticos y proyectos ISO 50001." />
