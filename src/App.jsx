@@ -266,12 +266,59 @@ export default function App() {
 
           <div className="bg-white rounded-xl p-6 border" style={{ borderColor: '#E5E7EB' }}>
             <h3 className="text-gray-900 font-semibold text-lg mb-4">Formulario</h3>
-            <form className="space-y-4">
-              <input type="text" placeholder="Nombre" className="w-full rounded-lg border px-4 py-2" style={{ borderColor: '#E5E7EB' }} />
-              <input type="email" placeholder="Correo" className="w-full rounded-lg border px-4 py-2" style={{ borderColor: '#E5E7EB' }} />
-              <textarea placeholder="Mensaje" rows="4" className="w-full rounded-lg border px-4 py-2" style={{ borderColor: '#E5E7EB' }}></textarea>
-              <button type="submit" className="w-full py-2 rounded-lg font-semibold text-white" style={{ backgroundColor: COLORS.energy }}>Enviar</button>
-            </form>
+            <form
+  name="contacto-pyp"
+  method="POST"
+  data-netlify="true"
+  netlify-honeypot="bot-field"
+  className="space-y-4"
+>
+  {/* obligatorio para Netlify */}
+  <input type="hidden" name="form-name" value="contacto-pyp" />
+
+  {/* honeypot anti-bots */}
+  <p className="hidden">
+    <label>
+      No llenar: <input name="bot-field" />
+    </label>
+  </p>
+
+  <input
+    type="text"
+    name="nombre"
+    placeholder="Nombre"
+    required
+    className="w-full rounded-lg border px-4 py-2"
+    style={{ borderColor: '#E5E7EB' }}
+  />
+
+  <input
+    type="email"
+    name="correo"
+    placeholder="Correo"
+    required
+    className="w-full rounded-lg border px-4 py-2"
+    style={{ borderColor: '#E5E7EB' }}
+  />
+
+  <textarea
+    name="mensaje"
+    placeholder="Mensaje"
+    rows={4}
+    required
+    className="w-full rounded-lg border px-4 py-2"
+    style={{ borderColor: '#E5E7EB' }}
+  ></textarea>
+
+  <button
+    type="submit"
+    className="w-full py-2 rounded-lg font-semibold text-white"
+    style={{ backgroundColor: COLORS.energy }}
+  >
+    Enviar
+  </button>
+</form>
+
           </div>
         </div>
       </Section>

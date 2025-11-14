@@ -21,6 +21,19 @@
   </head>
 
   <body class="bg-gray-50 text-gray-900">
+    <form
+      name="contacto-pyp"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="contacto-pyp" />
+      <input type="text" name="nombre" />
+      <input type="email" name="correo" />
+      <textarea name="mensaje"></textarea>
+    </form>
+
     <div id="root"></div>
 
     <script type="module" src="/src/main.jsx"></script>
