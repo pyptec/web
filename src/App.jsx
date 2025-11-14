@@ -1,6 +1,8 @@
 import { useEffect, useState } from "react";
 import { Mail, Phone, MapPin, Cpu, Gauge, Cloud, ShieldCheck, Network, Zap, Wrench } from "lucide-react";
-
+import clgImg from "./assets/proyectos/clg.jpeg";
+import lpsImg from "./assets/proyectos/lps.jpeg";
+import rpiImg from "./assets/proyectos/rpi.jpg";
 const COLORS = {
   energy: "#A6CE39",
   energyDark: "#6BA425",
@@ -109,36 +111,116 @@ export default function App() {
       {/* SERVICIOS */}
       <Section id="servicios" title="Servicios" subtitle="Acompañamos todo el ciclo: desde la medición hasta la acción.">
         <div className="grid md:grid-cols-3 gap-6">
-          <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="Monitoreo energético" desc="Implementación de Sistemas de medición energética integrados con AWS IoT Timestream.
-Compatibles con PAC3200, ME337 y protocolos Modbus RTU/TCP, DLMS/COSEM, MQTT e IEC 104, permiten el monitoreo y análisis de energía en tiempo real con visualización avanzada en la nube." />
-          <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="IoT y automatización" desc="Diseño de hardware embebido a la medida para control industrial.
-Desarrollamos soluciones personalizadas que resuelven las necesidades específicas de tu proceso con precisión, confiabilidad y eficiencia
-" />
-          <Card icon={<ShieldCheck className="h-6 w-6" color={COLORS.energyDark} />} title="Eficiencia energética" desc="Equipos de medición modelos SAMEE100/200 y auditorías energéticas bajo la norma ISO 50001.
-Implementamos soluciones integrales para el diagnóstico, pronóstico y monitoreo energético, con generación de alertas tempranas, dashboards personalizados y detección de oportunidades de mejora en los procesos productivos.
+          <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="Monitoreo energético" desc="Implementación de Sistemas de medición 
+          energética integrados con AWS IoT Timestream. Compatibles con PAC3200, ME337 y protocolos Modbus RTU/TCP, DLMS/COSEM, MQTT e IEC 104, permiten 
+          el monitoreo y análisis de energía en tiempo real con visualización avanzada en la nube." />
+          <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="IoT y automatización" desc="Diseño de hardware embebido a la medida 
+          para control industrial. Desarrollamos soluciones personalizadas que resuelven las necesidades específicas de tu proceso con precisión, confiabilidad 
+          y eficiencia " />
+          <Card icon={<ShieldCheck className="h-6 w-6" color={COLORS.energyDark} />} title="Eficiencia energética" desc="Equipos de medición modelos SAMEE100/200 
+          y auditorías energéticas bajo la norma ISO 50001. Implementamos soluciones integrales para el diagnóstico, pronóstico y monitoreo energético, con 
+          generación de alertas tempranas, dashboards personalizados y detección de oportunidades de mejora en los procesos productivos.
 
-Nuestros sistemas permiten una gestión energética inteligente, orientada a la eficiencia, sostenibilidad y cumplimiento normativo, facilitando la toma de decisiones basada en datos reales." />
+          Nuestros sistemas permiten una gestión energética inteligente, orientada a la eficiencia, sostenibilidad y cumplimiento normativo, facilitando la 
+          toma de decisiones basada en datos reales." />
+
         </div>
       </Section>
 
-      {/* PROYECTOS */}
-      <Section id="proyectos" title="Proyectos" subtitle="Casos reales en industria, retail y agro.">
-        <div className="grid md:grid-cols-3 gap-6">
-          <Card icon={<Zap className="h-6 w-6" color={COLORS.energyDark} />} title="Cliente Ganador (CLG) — Alkosto" desc="Dispositivo de audio con telemetría y control remoto.
-Equipo insignia implementado en Almacenes Alkosto y Ktronics, diseñado para la reproducción automática de mensajes publicitarios del programa Cliente Ganador.
+   
+ {/* PROYECTOS */}
+<Section id="proyectos" title="Proyectos" subtitle="Casos reales en industria, retail y agro.">
+  <div className="grid md:grid-cols-3 gap-6">
 
-El sistema emite un audio promocional cada 50 facturas, activado por un pulso de señal, e incorpora publicidades del día cada 15 minutos.
-Cuenta con telemetría integrada, que permite el monitoreo remoto del funcionamiento, la actualización de contenidos publicitarios y la gestión centralizada de campañas desde la nube." />
-          <Card icon={<Cloud className="h-6 w-6" color={COLORS.energyDark} />} title="LPS — Industria plástica" desc="Dashboards y KPIs energéticos integrados con medidores Meatrol ME337 y AWS IoT.
-Implementación del dispositivo SAMEE200 en la planta de producción de plásticos (240 kVA a 440 V), para el monitoreo en tiempo real de variables eléctricas y la generación de indicadores de desempeño energético (KPIs).
-
-El sistema adquiere datos desde medidores Meatrol ME337 mediante comunicación Modbus TCP/IP, los transmite a la nube a través de AWS IoT y los procesa en dashboards personalizados, permitiendo análisis detallados, trazabilidad y toma de decisiones orientadas a la eficiencia y gestión energética." />
-          <Card icon={<Network className="h-6 w-6" color={COLORS.energyDark} />} title="RPI‑MDFR‑001 — Agro" desc="Sistema inteligente de maduración de frutas
-Controla y supervisa en tiempo real los niveles de CO₂, humedad relativa (HR) y etileno mediante una plataforma basada en IoT AWS core.
-Automatiza las variables críticas del proceso —humedad, temperatura, recirculación y extracción de aire, así como el tiempo de apertura de puertas— optimizando eficiencia, calidad y consumo energético
-" />
+    {/* Cliente Ganador */}
+    <div className="group rounded-2xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: '#E5E7EB' }}>
+      {/* Imagen */}
+      <div className="relative h-48 overflow-hidden">
+        <img
+          src={clgImg}
+          alt="Cliente Ganador Alkosto"
+          className="w-full h-48 object-cover" /*"w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"*/
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute bottom-3 left-3 flex items-center gap-2 text-xs font-semibold text-white">
+          
+          <Zap className="h-5 w-5" color="#6BA425" /> Retail · Audio de Publicidad
         </div>
-      </Section>
+      </div>
+    
+      {/* Texto */}
+      <div className="p-6">
+        <h3 className="text-lg font-semibold text-gray-900">Cliente Ganador (CLG) — Alkosto</h3>
+        <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+          Dispositivo de audio con telemetría y control remoto, instalado en Alkosto y Ktronics.
+          Reproduce mensajes del programa Cliente Ganador cada 50 facturas mediante señal digital.
+        </p>
+        <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+          Permite actualizar audios de forma remota, monitorear el estado de cada equipo y gestionar
+          campañas publicitarias centralizadas desde la nube.
+        </p>
+      </div>
+    </div>
+
+    {/* LPS Industria Plástica */}
+    <div className="group rounded-2xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: '#E5E7EB' }}>
+      <div className="relative h-48 overflow-hidden">
+        <img
+          src={lpsImg}
+          alt="LPS Industria Plástica"
+          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute bottom-3 left-3 flex items-center gap-2 text-xs font-semibold text-white">
+          <Cloud className="h-4 w-4" color="#6BA425" /> Industria · Gestión energética
+        </div>
+      </div>
+
+      <div className="p-6">
+        <h3 className="text-lg font-semibold text-gray-900">LPS — Industria plástica</h3>
+        <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+          Monitoreo energético de una planta de 240 kVA con SAMEE200 y medidores Meatrol ME337 vía
+          Modbus TCP/IP, integrado a AWS IoT.
+        </p>
+        <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+          Dashboards de KPIs energéticos por máquina (Aoki, prensas) con trazabilidad, análisis de
+          tendencia y soporte a proyectos de eficiencia bajo ISO 50001.
+        </p>
+      </div>
+    </div>
+
+    {/* RPI-MDFR */}
+    <div className="group rounded-2xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: '#E5E7EB' }}>
+      <div className="relative h-48 overflow-hidden">
+        <img
+          src={rpiImg}
+          alt="RPI-MDFR-001 Maduración de frutas"
+          className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent opacity-80 group-hover:opacity-100 transition-opacity duration-300" />
+        <div className="absolute bottom-3 left-3 flex items-center gap-2 text-xs font-semibold text-white">
+          <Network className="h-4 w-4" color="#6BA425" /> Agro · Maduración
+        </div>
+      </div>
+
+      <div className="p-6">
+        <h3 className="text-lg font-semibold text-gray-900">RPI-MDFR-001 — Maduración de frutas</h3>
+        <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+          Sistema IoT para cámaras de maduración que controla CO₂, humedad, temperatura y etileno
+          desde una plataforma basada en Raspberry Pi y AWS IoT Core.
+        </p>
+        <p className="mt-2 text-gray-600 text-sm leading-relaxed">
+          Automatiza ventilación, recirculación, inyección de etileno y tiempos de apertura de puertas,
+          mejorando calidad del fruto, tiempos de proceso y consumo energético.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</Section>
+
+
+     
 
       {/* TECNOLOGÍA */}
       <Section id="tecnologia" title="Tecnología" subtitle="Conectamos el piso de planta con la nube.">
