@@ -58,7 +58,8 @@ const COLORS = {
 
   energy: "#A6CE39",
 
-  energyDark: "#6BA425",
+  energyDark: "#416D13",
+  energyIcon: "#6BA425",
 
   grayLight: "#F5F5F5",
 
@@ -256,7 +257,7 @@ function FeatureCard({ icon: Icon, title, description }) {
 
       >
 
-        <Icon size={25} color={COLORS.energyDark} />
+        <Icon size={25} color={COLORS.energyIcon} />
 
       </div>
 
@@ -294,7 +295,7 @@ function SectionTitle({ eyebrow, title, description }) {
 
         <p
 
-          className="text-sm font-bold uppercase tracking-widest mb-3"
+          className="text-sm font-bold uppercase tracking-widest mb-3 border-l-4 pl-3"
 
           style={{ color: COLORS.energyDark }}
 
@@ -392,7 +393,7 @@ export default function MonitoreoEnergetico() {
 
 
 
-          <nav className="flex items-center gap-5">
+          <nav aria-label="Navegación de monitoreo energético" className="flex items-center gap-5">
 
             <a
 
@@ -414,9 +415,7 @@ export default function MonitoreoEnergetico() {
 
               href="#contacto"
 
-              className="rounded-xl px-5 py-2.5 font-semibold text-white"
-
-              style={{ backgroundColor: COLORS.energyDark }}
+              className="rounded-xl px-5 py-2.5 font-semibold bg-[#A6CE39] text-[#1E1E1E] hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] transition-colors duration-200"
 
             >
 
@@ -436,7 +435,7 @@ export default function MonitoreoEnergetico() {
 
         {/* HERO */}
 
-        <section className="relative overflow-hidden bg-white">
+        <section className="relative overflow-hidden bg-gradient-to-br from-white via-[#F7FAEF] to-[#EFF6DC]">
 
           <div className="max-w-7xl mx-auto px-6 py-20 md:py-24">
 
@@ -498,9 +497,7 @@ export default function MonitoreoEnergetico() {
 
                   href="#proyectos"
 
-                  className="inline-flex items-center gap-2 rounded-xl px-6 py-3 font-semibold text-white"
-
-                  style={{ backgroundColor: COLORS.energyDark }}
+                  className="inline-flex items-center gap-2 rounded-xl px-6 py-3 font-semibold bg-[#A6CE39] text-[#1E1E1E] hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] transition-colors duration-200"
 
                 >
 
@@ -563,7 +560,7 @@ export default function MonitoreoEnergetico() {
                     const Icon = item.icon;
                     return (
                       <div key={item.title} className="flex items-start gap-3">
-                        <Icon size={25} color={COLORS.energyDark} className="shrink-0" />
+                        <Icon size={25} color={COLORS.energyIcon} className="shrink-0" />
                         <div>
                           <h3 className="font-bold text-gray-900">{item.title}</h3>
                           <p className="mt-1 text-sm text-gray-600">{item.text}</p>
@@ -758,7 +755,7 @@ export default function MonitoreoEnergetico() {
 
                   >
 
-                    <Icon size={30} color={COLORS.energyDark} />
+                    <Icon size={30} color={COLORS.energyIcon} />
 
 
 
@@ -794,7 +791,7 @@ export default function MonitoreoEnergetico() {
 
                   className="shrink-0"
 
-                  color={COLORS.energyDark}
+                  color={COLORS.energyIcon}
 
                 />
 
@@ -852,7 +849,7 @@ export default function MonitoreoEnergetico() {
 
             {/* CASO LPS */}
 
-            <article className="overflow-hidden rounded-3xl bg-white border border-gray-200 shadow-sm mb-12">
+            <article id="lps" className="overflow-hidden rounded-3xl bg-white border border-gray-200 shadow-sm mb-12 scroll-mt-28">
 
               <div className="grid lg:grid-cols-2">
 
@@ -964,7 +961,7 @@ export default function MonitoreoEnergetico() {
 
                   <div className="rounded-2xl bg-gray-50 border border-gray-200 p-6">
 
-                    <Gauge color={COLORS.energyDark} size={30} />
+                    <Gauge color={COLORS.energyIcon} size={30} />
 
 
 
@@ -994,7 +991,7 @@ export default function MonitoreoEnergetico() {
 
                   <div className="rounded-2xl bg-gray-50 border border-gray-200 p-6">
 
-                    <Zap color={COLORS.energyDark} size={30} />
+                    <Zap color={COLORS.energyIcon} size={30} />
 
 
 
@@ -1024,7 +1021,7 @@ export default function MonitoreoEnergetico() {
 
                   <div className="rounded-2xl bg-gray-50 border border-gray-200 p-6">
 
-                    <Thermometer color={COLORS.energyDark} size={30} />
+                    <Thermometer color={COLORS.energyIcon} size={30} />
 
 
 
@@ -1113,7 +1110,7 @@ export default function MonitoreoEnergetico() {
 
                     <div className="rounded-2xl bg-gray-50 border border-gray-200 p-6">
 
-                      <Monitor size={30} color={COLORS.energyDark} />
+                      <Monitor size={30} color={COLORS.energyIcon} />
 
 
 
@@ -1145,7 +1142,7 @@ export default function MonitoreoEnergetico() {
 
                     <div className="rounded-2xl bg-gray-50 border border-gray-200 p-6">
 
-                      <BarChart3 size={30} color={COLORS.energyDark} />
+                      <BarChart3 size={30} color={COLORS.energyIcon} />
 
 
 
@@ -1177,7 +1174,7 @@ export default function MonitoreoEnergetico() {
 
                     <div className="rounded-2xl bg-gray-50 border border-gray-200 p-6">
 
-                      <Bell size={30} color={COLORS.energyDark} />
+                      <Bell size={30} color={COLORS.energyIcon} />
 
 
 
@@ -1301,7 +1298,7 @@ export default function MonitoreoEnergetico() {
 
                         size={21}
 
-                        color={COLORS.energyDark}
+                        color={COLORS.energyIcon}
 
                         className="shrink-0"
 
@@ -1395,7 +1392,7 @@ export default function MonitoreoEnergetico() {
 
             {/* CASO ALKOSTO */}
 
-            <article className="overflow-hidden rounded-3xl bg-white border border-gray-200 shadow-sm">
+            <article id="alkosto" className="overflow-hidden rounded-3xl bg-white border border-gray-200 shadow-sm scroll-mt-28">
 
               <div className="grid lg:grid-cols-2">
 
@@ -1561,7 +1558,7 @@ export default function MonitoreoEnergetico() {
 
                           size={28}
 
-                          color={COLORS.energyDark}
+                          color={COLORS.energyIcon}
 
                         />
 
@@ -1663,7 +1660,7 @@ export default function MonitoreoEnergetico() {
 
                     <Sun
 
-                      color={COLORS.energyDark}
+                      color={COLORS.energyIcon}
 
                       className="shrink-0"
 
@@ -1699,7 +1696,7 @@ export default function MonitoreoEnergetico() {
 
                     <Monitor
 
-                      color={COLORS.energyDark}
+                      color={COLORS.energyIcon}
 
                       className="shrink-0"
 
@@ -1735,7 +1732,7 @@ export default function MonitoreoEnergetico() {
 
                     <Cloud
 
-                      color={COLORS.energyDark}
+                      color={COLORS.energyIcon}
 
                       className="shrink-0"
 
@@ -1807,7 +1804,7 @@ export default function MonitoreoEnergetico() {
                     "Estado del gateway"
                   ].map((item) => (
                     <span key={item} className="inline-flex items-center gap-2 rounded-full bg-[#A6CE391A] px-4 py-2 text-sm font-semibold text-gray-800">
-                      <CheckCircle2 size={17} color={COLORS.energyDark} />{item}
+                      <CheckCircle2 size={17} color={COLORS.energyIcon} />{item}
                     </span>
                   ))}
                 </div>
@@ -1898,7 +1895,7 @@ export default function MonitoreoEnergetico() {
 
                   size={32}
 
-                  color={COLORS.energyDark}
+                  color={COLORS.energyIcon}
 
                 />
 
@@ -1936,7 +1933,7 @@ export default function MonitoreoEnergetico() {
 
                   size={32}
 
-                  color={COLORS.energyDark}
+                  color={COLORS.energyIcon}
 
                 />
 
@@ -1994,7 +1991,7 @@ export default function MonitoreoEnergetico() {
 
                   size={34}
 
-                  color={COLORS.energyDark}
+                  color={COLORS.energyIcon}
 
                   className="shrink-0"
 
@@ -2038,9 +2035,7 @@ export default function MonitoreoEnergetico() {
 
                   href="mailto:jaime.pedraza@pyptecnologia.com?subject=Evaluaci%C3%B3n%20de%20monitoreo%20energ%C3%A9tico"
 
-                  className="inline-flex items-center gap-3 rounded-xl px-6 py-3 font-semibold text-white"
-
-                  style={{ backgroundColor: COLORS.energyDark }}
+                  className="inline-flex items-center gap-3 rounded-xl px-6 py-3 font-semibold bg-[#A6CE39] text-[#1E1E1E] hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] transition-colors duration-200"
 
                 >
 
