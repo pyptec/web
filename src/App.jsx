@@ -42,15 +42,18 @@ const Section = ({ id, title, subtitle, children, white = false }) => (
   </section>
 );
 
-const Card = ({ icon, title, desc }) => (
+const Card = ({ icon, title, desc, headingLevel = 3 }) => {
+  const Heading = headingLevel === 2 ? "h2" : "h3";
+  return (
   <div className="rounded-2xl border bg-white p-6 hover:shadow-md transition-shadow" style={{ borderColor: "#E5E7EB" }}>
     <div className="flex items-center gap-3 text-gray-900 mb-3">
       {icon}
-      <h3 className="font-semibold text-lg">{title}</h3>
+      <Heading className="font-semibold text-lg">{title}</Heading>
     </div>
     <p className="text-gray-600 leading-relaxed">{desc}</p>
   </div>
-);
+  );
+};
 
 const Pill = ({ children }) => (
   <span className="inline-flex items-center rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-semibold text-gray-600">
@@ -125,6 +128,7 @@ export default function App() {
         </div>
       </header>
 
+      <main id="contenido-principal">
       {/* HERO */}
       <section id="inicio" className="relative overflow-hidden">
         <div
@@ -167,12 +171,12 @@ export default function App() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="Energía" desc="Medición, EnPI, línea base, tendencias y desempeño energético." />
-            <Card icon={<Factory className="h-6 w-6" color={COLORS.energyDark} />} title="OEE & Producción" desc="Disponibilidad, rendimiento, calidad, producción y paradas." />
-            <Card icon={<Droplets className="h-6 w-6" color={COLORS.energyDark} />} title="Agua" desc="Caudal, volumen, balances hídricos y variables de vertimiento." />
-            <Card icon={<Radio className="h-6 w-6" color={COLORS.energyDark} />} title="LoRaWAN" desc="Telemetría de sensores y medidores distribuidos sin cableado de datos." />
-            <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="Edge & Control" desc="Operación local, históricos, alarmas y automatización sin depender de la nube." />
-            <Card icon={<Cloud className="h-6 w-6" color={COLORS.energyDark} />} title="Cloud & Integración" desc="AWS IoT, MQTT, APIs e integración con plataformas del cliente." />
+            <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="Energía" headingLevel={2} desc="Medición, EnPI, línea base, tendencias y desempeño energético." />
+            <Card icon={<Factory className="h-6 w-6" color={COLORS.energyDark} />} title="OEE & Producción" headingLevel={2} desc="Disponibilidad, rendimiento, calidad, producción y paradas." />
+            <Card icon={<Droplets className="h-6 w-6" color={COLORS.energyDark} />} title="Agua" headingLevel={2} desc="Caudal, volumen, balances hídricos y variables de vertimiento." />
+            <Card icon={<Radio className="h-6 w-6" color={COLORS.energyDark} />} title="LoRaWAN" headingLevel={2} desc="Telemetría de sensores y medidores distribuidos sin cableado de datos." />
+            <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="Edge & Control" headingLevel={2} desc="Operación local, históricos, alarmas y automatización sin depender de la nube." />
+            <Card icon={<Cloud className="h-6 w-6" color={COLORS.energyDark} />} title="Cloud & Integración" headingLevel={2} desc="AWS IoT, MQTT, APIs e integración con plataformas del cliente." />
           </div>
         </div>
       </section>
@@ -419,21 +423,21 @@ export default function App() {
       {/* CONTACTO */}
       <Section id="contacto" title="Cuéntanos qué necesitas medir, conectar o controlar" subtitle="Energía, producción, agua, variables de proceso o activos distribuidos. Evaluamos la instrumentación, conectividad y arquitectura necesaria." white>
         <div className="grid md:grid-cols-2 gap-8">
-          <div className="bg-gray-50 rounded-2xl p-6 border" style={{ borderColor: "#E5E7EB" }}>
+          <div className="bg-white rounded-2xl p-6 border text-gray-900" style={{ borderColor: "#D1D5DB" }}>
             <h3 className="text-gray-900 font-semibold text-lg mb-4">Datos de contacto</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5" color={COLORS.energyDark} />
-                <a href="mailto:jaime.pedraza@pyptecnologia.com" className="break-all underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-[#416D13]">jaime.pedraza@pyptecnologia.com</a>
+                <a href="mailto:jaime.pedraza@pyptecnologia.com" className="break-all font-medium text-gray-900 underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">jaime.pedraza@pyptecnologia.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5" color={COLORS.energyDark} />
-                <a href="tel:+573204929150" className="underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-[#416D13]">+57 320 492 9150</a>
+                <a href="tel:+573204929150" className="font-medium text-gray-900 underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">+57 320 492 9150</a>
               </li>
               <li className="flex items-center gap-3"><MapPin className="h-5 w-5" color={COLORS.energyDark} /> Colombia</li>
             </ul>
 
-            <div className="mt-8 rounded-xl bg-white border p-5" style={{ borderColor: "#E5E7EB" }}>
+            <div className="mt-8 rounded-xl bg-gray-50 border p-5" style={{ borderColor: "#D1D5DB" }}>
               <h4 className="font-bold text-gray-900">PYP Tecnología Electrónica SAS</h4>
               <p className="mt-2 text-gray-600 text-sm leading-relaxed">
                 Ingeniería electrónica e IoT industrial: hardware, Edge Computing, comunicaciones, automatización,
@@ -494,6 +498,8 @@ export default function App() {
           </div>
         </div>
       </Section>
+
+      </main>
 
       <footer className="border-t py-8 text-center text-gray-700 text-sm" style={{ borderColor: "#E5E7EB" }}>
         © {year} PYP Tecnología Electrónica SAS — IoT Industrial · Edge · Energía · Automatización
