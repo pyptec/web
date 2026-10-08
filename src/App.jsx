@@ -8,7 +8,7 @@ import {
 import clgImg from "./assets/proyectos/clg.jpeg";
 import lpsImg from "./assets/proyectos/lps.jpg";
 import rpiImg from "./assets/proyectos/rpi.jpg";
-import logoPyp from "./assets/proyectos/log_pyp.png";
+import logoPyp from "./assets/proyectos/log_pyp.webp";
 
 const COLORS = {
   energy: "#A6CE39",

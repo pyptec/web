@@ -45,7 +45,7 @@ import lpsInstalacion from "../assets/proyectos/lps-instalacion-samee200.webp";
 
 import solarImg from "../assets/proyectos/paneles-solares.jpg";
 
-import logoPyp from "../assets/proyectos/log_pyp.png";
+import logoPyp from "../assets/proyectos/log_pyp.webp";
 
 import sameeImg from "../assets/proyectos/samee200.jpeg";
 import alkostoCorrientes from "../assets/proyectos/alkosto-corrientes.png";
