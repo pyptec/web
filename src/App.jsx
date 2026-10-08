@@ -118,6 +118,7 @@ export default function App() {
             <NavLink href="#proyectos">Casos</NavLink>
             <NavLink href="#tecnologia">Tecnología</NavLink>
             <NavLink href="/monitoreo-energetico">Monitoreo energético</NavLink>
+            <NavLink href="/iot-industrial">IoT y LoRaWAN</NavLink>
             <NavLink href="#sectores">Sectores</NavLink>
             <NavLink href="https://iotrack.com.co" external>Plataforma</NavLink>
             <NavLink href="#contacto">Contacto</NavLink>
@@ -241,6 +242,9 @@ export default function App() {
             desc="Redes de sensores y medidores distribuidos con gateways PYP, almacenamiento local y reenvío automático de datos al recuperar conectividad. Ideal para puntos donde el cableado de comunicaciones no es práctico."
           />
         </div>
+        <a href="/iot-industrial" className="mt-7 inline-flex items-center rounded-xl bg-[#A6CE39] px-5 py-3 font-semibold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">
+          Conocer soluciones IoT industrial y LoRaWAN →
+        </a>
       </Section>
 
       {/* PROYECTOS */}

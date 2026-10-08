@@ -9,6 +9,11 @@ const SEO_PAGES = {
     description:
       "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
   },
+  "/iot-industrial": {
+    title: "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+    description:
+      "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+  },
   "/monitoreo-energetico": {
     title: "Monitoreo Energético Industrial y Solar | PYP Tecnología",
     description:
