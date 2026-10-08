@@ -110,6 +110,7 @@ export default function App() {
             <NavLink href="#arquitectura">Arquitectura</NavLink>
             <NavLink href="#proyectos">Casos</NavLink>
             <NavLink href="#tecnologia">Tecnología</NavLink>
+            <NavLink href="/monitoreo-energetico">Monitoreo energético</NavLink>
             <NavLink href="#sectores">Sectores</NavLink>
             <NavLink href="https://iotrack.com.co" external>Plataforma</NavLink>
             <NavLink href="#contacto">Contacto</NavLink>
@@ -155,6 +156,9 @@ export default function App() {
               </a>
               <a href="#proyectos" className="px-6 py-3 rounded-xl border font-semibold text-gray-700 hover:bg-white" style={{ borderColor: "#D1D5DB" }}>
                 Casos de aplicación
+              </a>
+              <a href="/monitoreo-energetico" className="px-6 py-3 rounded-xl border font-semibold text-gray-700 hover:bg-white" style={{ borderColor: COLORS.energyDark, color: COLORS.energyDark }}>
+                Conocer SAMEE100 / SAMEE200
               </a>
             </div>
           </div>
@@ -281,6 +285,9 @@ export default function App() {
               <div className="mt-4 flex flex-wrap gap-2">
                 <Pill>SAMEE200</Pill><Pill>Modbus</Pill><Pill>OEE</Pill><Pill>ISO 50001</Pill>
               </div>
+              <a href="/monitoreo-energetico" className="mt-6 inline-flex w-fit items-center rounded-xl px-5 py-3 font-semibold text-white transition-opacity hover:opacity-90" style={{ backgroundColor: COLORS.energyDark }}>
+                Ver proyecto y monitoreo energético →
+              </a>
             </div>
           </article>
 
