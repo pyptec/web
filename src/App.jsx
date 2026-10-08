@@ -12,9 +12,10 @@ import logoPyp from "./assets/proyectos/log_pyp.webp";
 
 const COLORS = {
   energy: "#A6CE39",
-  energyDark: "#6BA425",
+  energyDark: "#416D13",
+  energyButton: "#416D13",
   grayLight: "#F5F5F5",
-  grayMid: "#9CA3AF",
+  grayMid: "#6B7280",
   grayDark: "#1E1E1E",
 };
 
@@ -23,7 +24,7 @@ const NavLink = ({ href, children, external }) => (
     href={href}
     target={external ? "_blank" : "_self"}
     rel={external ? "noopener noreferrer" : undefined}
-    className="text-gray-600 transition-colors duration-200 hover:text-[#A6CE39] focus:text-[#A6CE39] active:text-[#6BA425]"
+    className="text-gray-600 transition-colors duration-200 hover:text-[#416D13] focus-visible:text-[#416D13] active:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#416D13]"
   >
     {children}
   </a>
@@ -97,15 +98,17 @@ export default function App() {
             <img
               src={logoPyp}
               alt="PYP Tecnología Electrónica SAS"
+              width="600"
+              height="450"
               className="h-14 md:h-16 w-auto object-contain"
             />
             <div>
               <p className="font-bold text-base" style={{ color: COLORS.grayDark }}>PYP Tecnología Electrónica SAS</p>
-              <p className="text-xs text-gray-500">IoT Industrial · Edge · Energía · Automatización</p>
+              <p className="text-xs text-gray-700">IoT Industrial · Edge · Energía · Automatización</p>
             </div>
           </a>
 
-          <nav className="hidden lg:flex items-center gap-5 text-sm">
+          <nav aria-label="Navegación principal" className="hidden lg:flex items-center gap-5 text-sm">
             <NavLink href="#soluciones">Soluciones</NavLink>
             <NavLink href="#arquitectura">Arquitectura</NavLink>
             <NavLink href="#proyectos">Casos</NavLink>
@@ -116,7 +119,7 @@ export default function App() {
             <NavLink href="#contacto">Contacto</NavLink>
           </nav>
 
-          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold text-white" style={{ backgroundColor: COLORS.energy }}>
+          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold text-white" style={{ backgroundColor: COLORS.energyButton }}>
             Hablemos
           </a>
         </div>
@@ -151,7 +154,7 @@ export default function App() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#soluciones" className="px-6 py-3 rounded-xl text-white font-semibold" style={{ backgroundColor: COLORS.energy }}>
+              <a href="#soluciones" className="px-6 py-3 rounded-xl text-white font-semibold" style={{ backgroundColor: COLORS.energyButton }}>
                 Ver soluciones
               </a>
               <a href="#proyectos" className="px-6 py-3 rounded-xl border font-semibold text-gray-700 hover:bg-white" style={{ borderColor: "#D1D5DB" }}>
@@ -421,11 +424,11 @@ export default function App() {
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-center gap-3">
                 <Mail className="h-5 w-5" color={COLORS.energyDark} />
-                <a href="mailto:jaime.pedraza@pyptecnologia.com" className="hover:text-[#6BA425]">jaime.pedraza@pyptecnologia.com</a>
+                <a href="mailto:jaime.pedraza@pyptecnologia.com" className="break-all underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-[#416D13]">jaime.pedraza@pyptecnologia.com</a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="h-5 w-5" color={COLORS.energyDark} />
-                <a href="tel:+573204929150" className="hover:text-[#6BA425]">+57 320 492 9150</a>
+                <a href="tel:+573204929150" className="underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-[#416D13]">+57 320 492 9150</a>
               </li>
               <li className="flex items-center gap-3"><MapPin className="h-5 w-5" color={COLORS.energyDark} /> Colombia</li>
             </ul>
@@ -453,11 +456,21 @@ export default function App() {
                 <label>No llenar: <input name="bot-field" /></label>
               </p>
 
-              <input type="text" name="nombre" placeholder="Nombre" required className="w-full rounded-lg border px-4 py-3 bg-white" style={{ borderColor: "#D1D5DB" }} />
-              <input type="text" name="empresa" placeholder="Empresa" className="w-full rounded-lg border px-4 py-3 bg-white" style={{ borderColor: "#D1D5DB" }} />
-              <input type="email" name="correo" placeholder="Correo" required className="w-full rounded-lg border px-4 py-3 bg-white" style={{ borderColor: "#D1D5DB" }} />
+              <div>
+                <label htmlFor="contacto-nombre" className="mb-1 block text-sm font-semibold text-gray-800">Nombre *</label>
+                <input id="contacto-nombre" type="text" name="nombre" autoComplete="name" placeholder="Tu nombre" required className="w-full rounded-lg border px-4 py-3 bg-white text-gray-900 focus-visible:outline-2 focus-visible:outline-[#416D13]" style={{ borderColor: "#9CA3AF" }} />
+              </div>
+              <div>
+                <label htmlFor="contacto-empresa" className="mb-1 block text-sm font-semibold text-gray-800">Empresa</label>
+                <input id="contacto-empresa" type="text" name="empresa" autoComplete="organization" placeholder="Nombre de la empresa" className="w-full rounded-lg border px-4 py-3 bg-white text-gray-900 focus-visible:outline-2 focus-visible:outline-[#416D13]" style={{ borderColor: "#9CA3AF" }} />
+              </div>
+              <div>
+                <label htmlFor="contacto-correo" className="mb-1 block text-sm font-semibold text-gray-800">Correo electrónico *</label>
+                <input id="contacto-correo" type="email" name="correo" autoComplete="email" placeholder="correo@empresa.com" required className="w-full rounded-lg border px-4 py-3 bg-white text-gray-900 focus-visible:outline-2 focus-visible:outline-[#416D13]" style={{ borderColor: "#9CA3AF" }} />
+              </div>
 
-              <select name="solucion" defaultValue="" className="w-full rounded-lg border px-4 py-3 bg-white text-gray-600" style={{ borderColor: "#D1D5DB" }}>
+              <label htmlFor="contacto-solucion" className="mb-1 block text-sm font-semibold text-gray-800">Solución de interés</label>
+              <select id="contacto-solucion" name="solucion" defaultValue="" className="w-full rounded-lg border px-4 py-3 bg-white text-gray-800 focus-visible:outline-2 focus-visible:outline-[#416D13]" style={{ borderColor: "#9CA3AF" }}>
                 <option value="" disabled>¿Qué necesitas monitorear?</option>
                 <option value="energia">Energía</option>
                 <option value="oee">Producción / OEE</option>
@@ -469,9 +482,12 @@ export default function App() {
                 <option value="otro">Otro</option>
               </select>
 
-              <textarea name="mensaje" placeholder="Cuéntanos sobre tu proyecto" rows={5} required className="w-full rounded-lg border px-4 py-3 bg-white" style={{ borderColor: "#D1D5DB" }} />
+              <div>
+                <label htmlFor="contacto-mensaje" className="mb-1 block text-sm font-semibold text-gray-800">Cuéntanos sobre tu proyecto *</label>
+                <textarea id="contacto-mensaje" name="mensaje" placeholder="Describe brevemente lo que necesitas" rows={5} required className="w-full rounded-lg border px-4 py-3 bg-white text-gray-900 focus-visible:outline-2 focus-visible:outline-[#416D13]" style={{ borderColor: "#9CA3AF" }} />
+              </div>
 
-              <button type="submit" className="w-full py-3 rounded-lg font-semibold text-white" style={{ backgroundColor: COLORS.energy }}>
+              <button type="submit" className="w-full py-3 rounded-lg font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
                 Solicitar evaluación
               </button>
             </form>
@@ -479,7 +495,7 @@ export default function App() {
         </div>
       </Section>
 
-      <footer className="border-t py-8 text-center text-gray-500 text-sm" style={{ borderColor: "#E5E7EB" }}>
+      <footer className="border-t py-8 text-center text-gray-700 text-sm" style={{ borderColor: "#E5E7EB" }}>
         © {year} PYP Tecnología Electrónica SAS — IoT Industrial · Edge · Energía · Automatización
       </footer>
     </div>
