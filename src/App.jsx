@@ -138,7 +138,7 @@ export default function App() {
         />
         <div className="max-w-7xl mx-auto px-6 pt-20 pb-20 grid lg:grid-cols-[1.08fr_0.92fr] gap-14 items-center">
           <div>
-            <p className="font-bold uppercase tracking-[0.2em] text-sm border-l-4 pl-3" style={{ color: COLORS.grayDark, borderColor: COLORS.energy }}>
+            <p className="font-bold uppercase tracking-[0.2em] text-sm border-l-4 pl-3" style={{ color: COLORS.energyIcon, borderColor: COLORS.energy }}>
               Ingeniería IoT industrial
             </p>
             <h1 className="mt-3 text-5xl md:text-6xl lg:text-7xl font-black leading-[0.98] tracking-tight" style={{ color: COLORS.grayDark }}>
