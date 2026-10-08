@@ -123,7 +123,7 @@ export default function App() {
             <NavLink href="#contacto">Contacto</NavLink>
           </nav>
 
-          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold text-[#1E1E1E] transition-colors hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
+          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold bg-[#A6CE39] text-[#1E1E1E] hover:bg-[#416D13] hover:text-white transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">
             Hablemos
           </a>
         </div>
