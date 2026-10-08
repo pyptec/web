@@ -13,7 +13,8 @@ import logoPyp from "./assets/proyectos/log_pyp.webp";
 const COLORS = {
   energy: "#A6CE39",
   energyDark: "#416D13",
-  energyButton: "#416D13",
+  energyIcon: "#6BA425",
+  energyButton: "#A6CE39",
   grayLight: "#F5F5F5",
   grayMid: "#6B7280",
   grayDark: "#1E1E1E",
@@ -122,7 +123,7 @@ export default function App() {
             <NavLink href="#contacto">Contacto</NavLink>
           </nav>
 
-          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold text-white" style={{ backgroundColor: COLORS.energyButton }}>
+          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold text-[#1E1E1E] transition-colors hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
             Hablemos
           </a>
         </div>
@@ -137,7 +138,7 @@ export default function App() {
         />
         <div className="max-w-7xl mx-auto px-6 pt-20 pb-20 grid lg:grid-cols-[1.08fr_0.92fr] gap-14 items-center">
           <div>
-            <p className="font-bold uppercase tracking-[0.2em] text-sm" style={{ color: COLORS.energyDark }}>
+            <p className="font-bold uppercase tracking-[0.2em] text-sm border-l-4 pl-3" style={{ color: COLORS.grayDark, borderColor: COLORS.energy }}>
               Ingeniería IoT industrial
             </p>
             <h1 className="mt-3 text-5xl md:text-6xl lg:text-7xl font-black leading-[0.98] tracking-tight" style={{ color: COLORS.grayDark }}>
@@ -158,7 +159,7 @@ export default function App() {
             </div>
 
             <div className="mt-8 flex flex-wrap gap-4">
-              <a href="#soluciones" className="px-6 py-3 rounded-xl text-white font-semibold" style={{ backgroundColor: COLORS.energyButton }}>
+              <a href="#soluciones" className="px-6 py-3 rounded-xl text-[#1E1E1E] font-semibold transition-colors hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
                 Ver soluciones
               </a>
               <a href="#proyectos" className="px-6 py-3 rounded-xl border font-semibold text-gray-700 hover:bg-white" style={{ borderColor: "#D1D5DB" }}>
@@ -171,12 +172,12 @@ export default function App() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="Energía" headingLevel={2} desc="Medición, EnPI, línea base, tendencias y desempeño energético." />
-            <Card icon={<Factory className="h-6 w-6" color={COLORS.energyDark} />} title="OEE & Producción" headingLevel={2} desc="Disponibilidad, rendimiento, calidad, producción y paradas." />
-            <Card icon={<Droplets className="h-6 w-6" color={COLORS.energyDark} />} title="Agua" headingLevel={2} desc="Caudal, volumen, balances hídricos y variables de vertimiento." />
-            <Card icon={<Radio className="h-6 w-6" color={COLORS.energyDark} />} title="LoRaWAN" headingLevel={2} desc="Telemetría de sensores y medidores distribuidos sin cableado de datos." />
-            <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="Edge & Control" headingLevel={2} desc="Operación local, históricos, alarmas y automatización sin depender de la nube." />
-            <Card icon={<Cloud className="h-6 w-6" color={COLORS.energyDark} />} title="Cloud & Integración" headingLevel={2} desc="AWS IoT, MQTT, APIs e integración con plataformas del cliente." />
+            <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyIcon} />} title="Energía" headingLevel={2} desc="Medición, EnPI, línea base, tendencias y desempeño energético." />
+            <Card icon={<Factory className="h-6 w-6" color={COLORS.energyIcon} />} title="OEE & Producción" headingLevel={2} desc="Disponibilidad, rendimiento, calidad, producción y paradas." />
+            <Card icon={<Droplets className="h-6 w-6" color={COLORS.energyIcon} />} title="Agua" headingLevel={2} desc="Caudal, volumen, balances hídricos y variables de vertimiento." />
+            <Card icon={<Radio className="h-6 w-6" color={COLORS.energyIcon} />} title="LoRaWAN" headingLevel={2} desc="Telemetría de sensores y medidores distribuidos sin cableado de datos." />
+            <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyIcon} />} title="Edge & Control" headingLevel={2} desc="Operación local, históricos, alarmas y automatización sin depender de la nube." />
+            <Card icon={<Cloud className="h-6 w-6" color={COLORS.energyIcon} />} title="Cloud & Integración" headingLevel={2} desc="AWS IoT, MQTT, APIs e integración con plataformas del cliente." />
           </div>
         </div>
       </section>
@@ -220,22 +221,22 @@ export default function App() {
       <Section id="soluciones" title="Soluciones" subtitle="Tecnología aplicada a problemas reales de operación, eficiencia y sostenibilidad.">
         <div className="grid md:grid-cols-2 gap-6">
           <Card
-            icon={<Zap className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<Zap className="h-6 w-6" color={COLORS.energyIcon} />}
             title="Eficiencia energética"
             desc="SAMEE100/200 para adquisición y gestión energética: V, I, kW, kWh, factor de potencia, THD, líneas base, EnPI, CUSUM, alarmas y análisis orientado a mejora bajo metodologías de gestión energética e ISO 50001."
           />
           <Card
-            icon={<Factory className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<Factory className="h-6 w-6" color={COLORS.energyIcon} />}
             title="Producción y OEE"
             desc="Integramos estados de máquina, producción, calidad, paradas y energía para calcular disponibilidad, rendimiento, calidad, OEE, horas productivas y consumo específico por unidad producida."
           />
           <Card
-            icon={<Droplets className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<Droplets className="h-6 w-6" color={COLORS.energyIcon} />}
             title="Agua y vertimientos"
             desc="Telemetría de caudal, volumen y variables de proceso para balances hídricos, históricos, tendencias y alarmas. Integramos instrumentación de pH, temperatura, conductividad, nivel o turbidez según cada aplicación."
           />
           <Card
-            icon={<Radio className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<Radio className="h-6 w-6" color={COLORS.energyIcon} />}
             title="IoT industrial y LoRaWAN"
             desc="Redes de sensores y medidores distribuidos con gateways PYP, almacenamiento local y reenvío automático de datos al recuperar conectividad. Ideal para puntos donde el cableado de comunicaciones no es práctico."
           />
@@ -292,7 +293,7 @@ export default function App() {
               <div className="mt-4 flex flex-wrap gap-2">
                 <Pill>SAMEE200</Pill><Pill>Modbus</Pill><Pill>OEE</Pill><Pill>ISO 50001</Pill>
               </div>
-              <a href="/monitoreo-energetico" className="mt-6 inline-flex w-fit items-center rounded-xl px-5 py-3 font-semibold text-white transition-opacity hover:opacity-90" style={{ backgroundColor: COLORS.energyDark }}>
+              <a href="/monitoreo-energetico" className="mt-6 inline-flex w-fit items-center rounded-xl px-5 py-3 font-semibold text-[#1E1E1E] transition-colors hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
                 Ver proyecto y monitoreo energético →
               </a>
             </div>
@@ -332,7 +333,7 @@ export default function App() {
         <div className="mt-8 grid md:grid-cols-2 gap-6">
           <div className="rounded-2xl border bg-gray-50 p-6" style={{ borderColor: "#E5E7EB" }}>
             <div className="flex items-center gap-3">
-              <Radio className="h-6 w-6" color={COLORS.energyDark} />
+              <Radio className="h-6 w-6" color={COLORS.energyIcon} />
               <h3 className="text-xl font-bold text-gray-900">LoRaWAN — Telemetría de agua</h3>
             </div>
             <p className="mt-3 text-gray-600 leading-relaxed">
@@ -343,7 +344,7 @@ export default function App() {
 
           <div className="rounded-2xl border bg-gray-50 p-6" style={{ borderColor: "#E5E7EB" }}>
             <div className="flex items-center gap-3">
-              <Waves className="h-6 w-6" color={COLORS.energyDark} />
+              <Waves className="h-6 w-6" color={COLORS.energyIcon} />
               <h3 className="text-xl font-bold text-gray-900">Monitoreo de agua y vertimientos</h3>
             </div>
             <p className="mt-3 text-gray-600 leading-relaxed">
@@ -362,17 +363,17 @@ export default function App() {
       >
         <div className="grid lg:grid-cols-3 gap-6">
           <Card
-            icon={<Thermometer className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<Thermometer className="h-6 w-6" color={COLORS.energyIcon} />}
             title="Sensores y proceso"
             desc="Temperatura y humedad ambiente, CO₂, etileno, temperatura de pulpa PT100/PT1000, puerta y señales de seguridad."
           />
           <Card
-            icon={<Wind className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<Wind className="h-6 w-6" color={COLORS.energyIcon} />}
             title="Actuadores y HVAC"
             desc="Setpoint del HVAC, recirculación, humidificación, inyección de etileno, extracción de CO₂ y renovación de aire fresco."
           />
           <Card
-            icon={<BarChart3 className="h-6 w-6" color={COLORS.energyDark} />}
+            icon={<BarChart3 className="h-6 w-6" color={COLORS.energyIcon} />}
             title="Trazabilidad por lote"
             desc="Inicio de ciclo, variables en línea, históricos, tendencias, límites operacionales y alarmas para analizar el comportamiento del cuarto y del CO₂ durante la maduración."
           />
@@ -382,16 +383,16 @@ export default function App() {
       {/* TECNOLOGÍA */}
       <Section id="tecnologia" title="Tecnología PYP" subtitle="Hardware, comunicaciones y software integrados desde el piso de planta hasta el dato útil." white>
         <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
-          <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyDark} />} title="SAMEE100 / SAMEE200" desc="Gateways y soluciones de adquisición para gestión energética y analítica industrial." />
-          <Card icon={<Radio className="h-6 w-6" color={COLORS.energyDark} />} title="Gateway LoRaWAN" desc="Concentración de sensores y medidores inalámbricos con almacenamiento local y conectividad IoT." />
-          <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyDark} />} title="RPI-MDFR" desc="Automatización Edge y trazabilidad para procesos de maduración de banano." />
-          <Card icon={<Network className="h-6 w-6" color={COLORS.energyDark} />} title="CLG" desc="Plataforma y dispositivos para control centralizado de activos y contenidos distribuidos en múltiples sedes." />
-          <Card icon={<Server className="h-6 w-6" color={COLORS.energyDark} />} title="Integración de datos" desc="Modbus, MQTT, LoRaWAN, APIs, AWS IoT y conexión con plataformas propietarias del cliente." />
+          <Card icon={<Gauge className="h-6 w-6" color={COLORS.energyIcon} />} title="SAMEE100 / SAMEE200" desc="Gateways y soluciones de adquisición para gestión energética y analítica industrial." />
+          <Card icon={<Radio className="h-6 w-6" color={COLORS.energyIcon} />} title="Gateway LoRaWAN" desc="Concentración de sensores y medidores inalámbricos con almacenamiento local y conectividad IoT." />
+          <Card icon={<Cpu className="h-6 w-6" color={COLORS.energyIcon} />} title="RPI-MDFR" desc="Automatización Edge y trazabilidad para procesos de maduración de banano." />
+          <Card icon={<Network className="h-6 w-6" color={COLORS.energyIcon} />} title="CLG" desc="Plataforma y dispositivos para control centralizado de activos y contenidos distribuidos en múltiples sedes." />
+          <Card icon={<Server className="h-6 w-6" color={COLORS.energyIcon} />} title="Integración de datos" desc="Modbus, MQTT, LoRaWAN, APIs, AWS IoT y conexión con plataformas propietarias del cliente." />
         </div>
 
         <div className="mt-8 rounded-2xl border bg-gray-50 p-6 md:p-8" style={{ borderColor: "#E5E7EB" }}>
           <div className="flex items-start gap-4">
-            <CheckCircle2 className="h-7 w-7 shrink-0 mt-1" color={COLORS.energyDark} />
+            <CheckCircle2 className="h-7 w-7 shrink-0 mt-1" color={COLORS.energyIcon} />
             <div>
               <h3 className="text-xl font-bold text-gray-900">Tus datos, donde los necesitas</h3>
               <p className="mt-2 text-gray-600 leading-relaxed">
@@ -427,14 +428,14 @@ export default function App() {
             <h3 className="text-gray-900 font-semibold text-lg mb-4">Datos de contacto</h3>
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-center gap-3">
-                <Mail className="h-5 w-5" color={COLORS.energyDark} />
+                <Mail className="h-5 w-5" color={COLORS.energyIcon} />
                 <a href="mailto:jaime.pedraza@pyptecnologia.com" className="break-all font-medium text-gray-900 underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">jaime.pedraza@pyptecnologia.com</a>
               </li>
               <li className="flex items-center gap-3">
-                <Phone className="h-5 w-5" color={COLORS.energyDark} />
+                <Phone className="h-5 w-5" color={COLORS.energyIcon} />
                 <a href="tel:+573204929150" className="font-medium text-gray-900 underline underline-offset-2 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">+57 320 492 9150</a>
               </li>
-              <li className="flex items-center gap-3"><MapPin className="h-5 w-5" color={COLORS.energyDark} /> Colombia</li>
+              <li className="flex items-center gap-3"><MapPin className="h-5 w-5" color={COLORS.energyIcon} /> Colombia</li>
             </ul>
 
             <div className="mt-8 rounded-xl bg-gray-50 border p-5" style={{ borderColor: "#D1D5DB" }}>
@@ -491,7 +492,7 @@ export default function App() {
                 <textarea id="contacto-mensaje" name="mensaje" placeholder="Describe brevemente lo que necesitas" rows={5} required className="w-full rounded-lg border px-4 py-3 bg-white text-gray-900 focus-visible:outline-2 focus-visible:outline-[#416D13]" style={{ borderColor: "#9CA3AF" }} />
               </div>
 
-              <button type="submit" className="w-full py-3 rounded-lg font-semibold text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
+              <button type="submit" className="w-full py-3 rounded-lg font-semibold text-[#1E1E1E] transition-colors hover:brightness-95 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" style={{ backgroundColor: COLORS.energyButton }}>
                 Solicitar evaluación
               </button>
             </form>
