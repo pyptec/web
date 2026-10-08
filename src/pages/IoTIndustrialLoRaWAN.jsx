@@ -1,4 +1,5 @@
 import React from "react";
+import logoPyp from "../assets/proyectos/log_pyp.webp";
 import {
   ArrowLeft, ArrowRight, RadioTower, Cpu, Cable, Cloud, Database,
   WifiOff, ShieldCheck, Activity, Gauge, Thermometer, Network,
@@ -64,7 +65,7 @@ export default function IoTIndustrialLoRaWAN() {
       <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
         <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-4">
           <a href="/" className="flex items-center gap-3 font-extrabold text-gray-900" aria-label="PYP Tecnología Electrónica, volver al inicio">
-            <span className="flex h-11 w-11 items-center justify-center rounded-xl bg-[#A6CE39] text-lg font-black text-[#1E1E1E]">PYP</span>
+            <img src={logoPyp} alt="Logo de PYP Tecnología Electrónica" width="600" height="450" className="h-14 w-auto object-contain md:h-16" />
             <span><span className="block text-sm sm:text-base">PYP Tecnología Electrónica SAS</span><span className="block text-xs font-normal text-gray-600">IoT industrial · Energía · Automatización</span></span>
           </a>
           <nav aria-label="Navegación de IoT industrial" className="flex items-center gap-4">
