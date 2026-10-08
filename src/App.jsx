@@ -6,7 +6,7 @@ import {
 } from "lucide-react";
 
 import clgImg from "./assets/proyectos/clg.jpeg";
-import lpsImg from "./assets/proyectos/lps.jpg";
+import lpsImg from "./assets/proyectos/lps.webp";
 import rpiImg from "./assets/proyectos/rpi.jpg";
 import logoPyp from "./assets/proyectos/log_pyp.webp";
 

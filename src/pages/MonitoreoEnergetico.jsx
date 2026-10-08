@@ -40,10 +40,10 @@ import {
 
 
 
-import lpsImg from "../assets/proyectos/lps.jpg";
+import lpsImg from "../assets/proyectos/lps.webp";
 import lpsInstalacion from "../assets/proyectos/lps-instalacion-samee200.webp";
 
-import solarImg from "../assets/proyectos/paneles-solares.jpg";
+import solarImg from "../assets/proyectos/paneles-solares.webp";
 
 import logoPyp from "../assets/proyectos/log_pyp.webp";
 
