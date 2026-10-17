@@ -1,0 +1,23 @@
+{
+  "staticFields": [
+    "form-name",
+    "nombre",
+    "correo",
+    "mensaje"
+  ],
+  "reactFields": [
+    "form-name",
+    "bot-field",
+    "nombre",
+    "empresa",
+    "correo",
+    "solucion",
+    "mensaje"
+  ],
+  "missingInStatic": [
+    "bot-field",
+    "empresa",
+    "solucion"
+  ],
+  "realSubmissionTested": false
+}

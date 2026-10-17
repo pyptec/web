@@ -1,0 +1,882 @@
+[
+  {
+    "name": "@babel/core",
+    "severity": "low",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/@babel/core",
+        "version": "7.28.4"
+      }
+    ],
+    "via": [
+      {
+        "source": 1123528,
+        "name": "@babel/core",
+        "dependency": "@babel/core",
+        "title": "@babel/core: Arbitrary File Read via sourceMappingURL Comment",
+        "url": "https://github.com/advisories/GHSA-4x5r-pxfx-6jf8",
+        "severity": "low",
+        "cwe": [
+          "CWE-22",
+          "CWE-200"
+        ],
+        "cvss": {
+          "score": 3.2,
+          "vectorString": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:C/C:L/I:N/A:N"
+        },
+        "range": "<=7.29.0"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "7.29.7",
+    "compatibility": "Compatible con ^7.28.4 actual.",
+    "regressionRisk": "Bajo/medio: compilación/sourcemaps."
+  },
+  {
+    "name": "baseline-browser-mapping",
+    "severity": "moderate",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/baseline-browser-mapping",
+        "version": "2.8.18"
+      }
+    ],
+    "via": [
+      {
+        "source": 1193686,
+        "name": "baseline-browser-mapping",
+        "dependency": "baseline-browser-mapping",
+        "title": "baseline-browser-mapping process termination on invalid input causes denial of service",
+        "url": "https://github.com/advisories/GHSA-w5vr-8v7q-w6rv",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-705"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": ">=2.0.0 <2.11.0"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "2.11.29; aviso corregido desde 2.11.0",
+    "compatibility": "Compatible con ^2.8.9.",
+    "regressionRisk": "Bajo: datos de navegadores."
+  },
+  {
+    "name": "brace-expansion",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/brace-expansion",
+        "version": "2.0.2"
+      }
+    ],
+    "via": [
+      {
+        "source": 1115541,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
+        "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-400"
+        ],
+        "cvss": {
+          "score": 6.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=2.0.0 <2.0.3"
+      },
+      {
+        "source": 1123896,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups",
+        "url": "https://github.com/advisories/GHSA-3jxr-9vmj-r5cp",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        "range": ">=2.0.0 <2.1.2"
+      },
+      {
+        "source": 1130589,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+        "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=2.0.0 <2.1.3"
+      },
+      {
+        "source": 1130736,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+        "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=2.0.0 <2.1.4"
+      },
+      {
+        "source": 1240101,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
+        "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+        },
+        "range": ">=2.0.0 <2.1.7"
+      },
+      {
+        "source": 1240105,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+        "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=2.0.0 <2.1.6"
+      },
+      {
+        "source": 1240109,
+        "name": "brace-expansion",
+        "dependency": "brace-expansion",
+        "title": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+        "url": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p",
+        "severity": "high",
+        "cwe": [
+          "CWE-400",
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=2.0.0 <2.1.5"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "2.1.7",
+    "compatibility": "Compatible con rangos ^2.0.1/^2.0.2.",
+    "regressionRisk": "Bajo/medio: patrones."
+  },
+  {
+    "name": "braces",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/braces",
+        "version": "3.0.3"
+      }
+    ],
+    "via": [
+      {
+        "source": 1240992,
+        "name": "braces",
+        "dependency": "braces",
+        "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+        "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+        "severity": "high",
+        "cwe": [
+          "CWE-674"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<=3.0.3"
+      }
+    ],
+    "fixAvailable": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    },
+    "target": "Sin parche publicado; latest 3.0.3 afectada",
+    "compatibility": "No hay reemplazo compatible; evaluar cadena Tailwind 4.3.3.",
+    "regressionRisk": "Alto al cambiar cadena."
+  },
+  {
+    "name": "browserslist",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/browserslist",
+        "version": "4.26.3"
+      }
+    ],
+    "via": [
+      {
+        "source": 1153171,
+        "name": "browserslist",
+        "dependency": "browserslist",
+        "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
+        "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
+        "severity": "high",
+        "cwe": [
+          "CWE-770"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<=4.28.6"
+      },
+      {
+        "source": 1153172,
+        "name": "browserslist",
+        "dependency": "browserslist",
+        "title": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
+        "url": "https://github.com/advisories/GHSA-73wf-gq98-2v4g",
+        "severity": "high",
+        "cwe": [
+          "CWE-248",
+          "CWE-1321"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<=4.28.6"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "4.29.3; mínimo corregido 4.28.7",
+    "compatibility": "Compatible con ^4.24.0/^4.24.4.",
+    "regressionRisk": "Medio: objetivos/prefijos CSS."
+  },
+  {
+    "name": "chokidar",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/chokidar",
+        "version": "3.6.0"
+      }
+    ],
+    "via": [
+      "braces"
+    ],
+    "fixAvailable": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    },
+    "target": "No actualizar aisladamente; evaluar Tailwind 4.3.3",
+    "compatibility": "Versión 3.6.0 arrastra braces; Chokidar 5 no cabe en ^3.6.0.",
+    "regressionRisk": "Medio/alto: watchers."
+  },
+  {
+    "name": "esbuild",
+    "severity": "moderate",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/vitepress/node_modules/esbuild",
+        "version": "0.21.5"
+      }
+    ],
+    "via": [
+      {
+        "source": 1102341,
+        "name": "esbuild",
+        "dependency": "esbuild",
+        "title": "esbuild enables any website to send any requests to the development server and read the response",
+        "url": "https://github.com/advisories/GHSA-67mh-4wv8-2f99",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-346"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N"
+        },
+        "range": "<=0.24.2"
+      }
+    ],
+    "fixAvailable": false,
+    "target": "0.25.0 corrige aviso; bloqueado en cadena VitePress",
+    "compatibility": "Vite 5 exige ^0.21.3; no forzar override 0.25.",
+    "regressionRisk": "Alto: rama 0.x incompatible."
+  },
+  {
+    "name": "fast-glob",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/fast-glob",
+        "version": "3.3.3"
+      }
+    ],
+    "via": [
+      "micromatch"
+    ],
+    "fixAvailable": true,
+    "target": "Sin parche standalone; latest 3.3.3 aún arrastra aviso",
+    "compatibility": "micromatch/braces siguen afectados; evaluar Tailwind 4.",
+    "regressionRisk": "Medio/alto: cambiar cadena."
+  },
+  {
+    "name": "glob",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/glob",
+        "version": "10.4.5"
+      }
+    ],
+    "via": [
+      {
+        "source": 1109842,
+        "name": "glob",
+        "dependency": "glob",
+        "title": "glob CLI: Command injection via -c/--cmd executes matches with shell:true",
+        "url": "https://github.com/advisories/GHSA-5j98-mcp5-4vw2",
+        "severity": "high",
+        "cwe": [
+          "CWE-78"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+        },
+        "range": ">=10.2.0 <10.5.0"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "10.5.0",
+    "compatibility": "Compatible con ^10.3.10 de sucrase.",
+    "regressionRisk": "Bajo/medio: CLI y globs."
+  },
+  {
+    "name": "micromatch",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/micromatch",
+        "version": "4.0.8"
+      }
+    ],
+    "via": [
+      "braces"
+    ],
+    "fixAvailable": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    },
+    "target": "Sin parche standalone; latest 4.0.8 aún afectada",
+    "compatibility": "Depende de braces ^3.0.3; evaluar cadena Tailwind 4.",
+    "regressionRisk": "Medio/alto."
+  },
+  {
+    "name": "minimatch",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/minimatch",
+        "version": "9.0.5"
+      }
+    ],
+    "via": [
+      {
+        "source": 1113465,
+        "name": "minimatch",
+        "dependency": "minimatch",
+        "title": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+        "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
+        "severity": "high",
+        "cwe": [
+          "CWE-1333"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": ">=9.0.0 <9.0.6"
+      },
+      {
+        "source": 1113544,
+        "name": "minimatch",
+        "dependency": "minimatch",
+        "title": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+        "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+        "severity": "high",
+        "cwe": [
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=9.0.0 <9.0.7"
+      },
+      {
+        "source": 1113552,
+        "name": "minimatch",
+        "dependency": "minimatch",
+        "title": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+        "url": "https://github.com/advisories/GHSA-23c5-xmqv-rm74",
+        "severity": "high",
+        "cwe": [
+          "CWE-1333"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=9.0.0 <9.0.7"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "9.0.9; mínimo corregido 9.0.7",
+    "compatibility": "Compatible con ^9.0.4.",
+    "regressionRisk": "Bajo/medio: patrones."
+  },
+  {
+    "name": "picomatch",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/picomatch",
+        "version": "2.3.1"
+      },
+      {
+        "location": "node_modules/tinyglobby/node_modules/picomatch",
+        "version": "4.0.3"
+      },
+      {
+        "location": "node_modules/vite/node_modules/picomatch",
+        "version": "4.0.3"
+      }
+    ],
+    "via": [
+      {
+        "source": 1115549,
+        "name": "picomatch",
+        "dependency": "picomatch",
+        "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+        "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-1321"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+        },
+        "range": "<2.3.2"
+      },
+      {
+        "source": 1115551,
+        "name": "picomatch",
+        "dependency": "picomatch",
+        "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+        "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-1321"
+        ],
+        "cvss": {
+          "score": 5.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N"
+        },
+        "range": ">=4.0.0 <4.0.4"
+      },
+      {
+        "source": 1115552,
+        "name": "picomatch",
+        "dependency": "picomatch",
+        "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+        "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+        "severity": "high",
+        "cwe": [
+          "CWE-1333"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<2.3.2"
+      },
+      {
+        "source": 1115554,
+        "name": "picomatch",
+        "dependency": "picomatch",
+        "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+        "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+        "severity": "high",
+        "cwe": [
+          "CWE-1333"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": ">=4.0.0 <4.0.4"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "2.3.2 para rama 2; 4.0.7 para ambas copias rama 4",
+    "compatibility": "Conservar ramas de cada padre; mínimo 4.0.4 para rama 4.",
+    "regressionRisk": "Bajo/medio: patrones."
+  },
+  {
+    "name": "postcss-selector-parser",
+    "severity": "moderate",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/postcss-selector-parser",
+        "version": "6.1.2"
+      }
+    ],
+    "via": [
+      {
+        "source": 1153170,
+        "name": "postcss-selector-parser",
+        "dependency": "postcss-selector-parser",
+        "title": "postcss-selector-parser allows denial of service through uncontrolled AST recursion",
+        "url": "https://github.com/advisories/GHSA-w9m9-85wc-3x92",
+        "severity": "low",
+        "cwe": [
+          "CWE-404"
+        ],
+        "cvss": {
+          "score": 4.3,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L"
+        },
+        "range": ">=6.1.0 <6.1.3"
+      },
+      {
+        "source": 1241232,
+        "name": "postcss-selector-parser",
+        "dependency": "postcss-selector-parser",
+        "title": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+        "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-400",
+          "CWE-407"
+        ],
+        "cvss": {
+          "score": 5.9,
+          "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H"
+        },
+        "range": "<7.1.6"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "7.1.6 corrige todos; 6.1.3/6.1.4 solo parcial",
+    "compatibility": "No cabe en ^6.1.1/^6.1.2 de postcss-nested/Tailwind 3; migrar cadena.",
+    "regressionRisk": "Alto: API/AST mayor."
+  },
+  {
+    "name": "react-router",
+    "severity": "moderate",
+    "direct": false,
+    "scope": "producción",
+    "installed": [
+      {
+        "location": "node_modules/react-router",
+        "version": "6.30.6"
+      }
+    ],
+    "via": [
+      {
+        "source": 1124268,
+        "name": "react-router",
+        "dependency": "react-router",
+        "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+        "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-601"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": ">=6.0.0 <7.18.0"
+      },
+      {
+        "source": 1124272,
+        "name": "react-router",
+        "dependency": "react-router",
+        "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+        "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-470"
+        ],
+        "cvss": {
+          "score": 6.1,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+        },
+        "range": ">=6.4.0 <7.18.0"
+      }
+    ],
+    "fixAvailable": {
+      "name": "react-router-dom",
+      "version": "7.18.4",
+      "isSemVerMajor": true
+    },
+    "target": "7.18.4 transitivo; mínimo corregido 7.18.0",
+    "compatibility": "Lo fija react-router-dom 7.18.4; no forzar bajo Router DOM 6.",
+    "regressionRisk": "Medio: navegación."
+  },
+  {
+    "name": "react-router-dom",
+    "severity": "moderate",
+    "direct": true,
+    "scope": "producción",
+    "installed": [
+      {
+        "location": "node_modules/react-router-dom",
+        "version": "6.30.6"
+      }
+    ],
+    "via": [
+      "react-router"
+    ],
+    "fixAvailable": {
+      "name": "react-router-dom",
+      "version": "7.18.4",
+      "isSemVerMajor": true
+    },
+    "target": "7.18.4",
+    "compatibility": "Cambio mayor fuera de ^6.30.6; Node >=20 y React >=18 cumplidos.",
+    "regressionRisk": "Medio: transiciones, enlaces e historial; autorización previa."
+  },
+  {
+    "name": "rollup",
+    "severity": "high",
+    "direct": false,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/rollup",
+        "version": "4.52.5"
+      }
+    ],
+    "via": [
+      {
+        "source": 1113515,
+        "name": "rollup",
+        "dependency": "rollup",
+        "title": "Rollup 4 has Arbitrary File Write via Path Traversal",
+        "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
+        "severity": "high",
+        "cwe": [
+          "CWE-22"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": ">=4.0.0 <4.59.0"
+      }
+    ],
+    "fixAvailable": true,
+    "target": "4.64.9; mínimo corregido 4.59.0",
+    "compatibility": "Compatible con ^4.34.9 y ^4.20.0.",
+    "regressionRisk": "Medio: bundles/plugins/binarios."
+  },
+  {
+    "name": "tailwindcss",
+    "severity": "high",
+    "direct": true,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/tailwindcss",
+        "version": "3.4.18"
+      }
+    ],
+    "via": [
+      "chokidar",
+      "fast-glob",
+      "micromatch"
+    ],
+    "fixAvailable": {
+      "name": "tailwindcss",
+      "version": "4.3.3",
+      "isSemVerMajor": true
+    },
+    "target": "4.3.3 solo mediante migración separada; 3.4.19 no corrige cadena",
+    "compatibility": "Cambio mayor, pipeline CSS y utilidades/navegadores.",
+    "regressionRisk": "Alto: regresión visual; autorización previa."
+  },
+  {
+    "name": "vite",
+    "severity": "high",
+    "direct": true,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/vite",
+        "version": "6.4.1"
+      },
+      {
+        "location": "node_modules/vitepress/node_modules/vite",
+        "version": "5.4.21"
+      }
+    ],
+    "via": [
+      {
+        "source": 1116229,
+        "name": "vite",
+        "dependency": "vite",
+        "title": "Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+        "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-22",
+          "CWE-200"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": "<=6.4.1"
+      },
+      {
+        "source": 1116234,
+        "name": "vite",
+        "dependency": "vite",
+        "title": "Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
+        "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
+        "severity": "high",
+        "cwe": [
+          "CWE-200",
+          "CWE-306"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": ">=6.0.0 <=6.4.1"
+      },
+      {
+        "source": 1120784,
+        "name": "vite",
+        "dependency": "vite",
+        "title": "launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows",
+        "url": "https://github.com/advisories/GHSA-v6wh-96g9-6wx3",
+        "severity": "moderate",
+        "cwe": [
+          "CWE-73",
+          "CWE-522"
+        ],
+        "cvss": {
+          "score": 0,
+          "vectorString": null
+        },
+        "range": "<=6.4.2"
+      },
+      {
+        "source": 1123525,
+        "name": "vite",
+        "dependency": "vite",
+        "title": "vite: `server.fs.deny` bypass on Windows alternate paths",
+        "url": "https://github.com/advisories/GHSA-fx2h-pf6j-xcff",
+        "severity": "high",
+        "cwe": [
+          "CWE-22",
+          "CWE-200"
+        ],
+        "cvss": {
+          "score": 7.5,
+          "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+        },
+        "range": "<=6.4.2"
+      },
+      "esbuild"
+    ],
+    "fixAvailable": false,
+    "target": "6.4.4 para raíz; 5.4.21 anidado sigue pendiente",
+    "compatibility": "Raíz dentro de ^6.0.0; no compatible con ^5.4.14 de VitePress.",
+    "regressionRisk": "Medio: build/dev/plugins."
+  },
+  {
+    "name": "vitepress",
+    "severity": "moderate",
+    "direct": true,
+    "scope": "desarrollo",
+    "installed": [
+      {
+        "location": "node_modules/vitepress",
+        "version": "1.6.4"
+      }
+    ],
+    "via": [
+      "vite"
+    ],
+    "fixAvailable": false,
+    "target": "Sin estable corregida: latest 1.6.4; no recomendar next alpha.20",
+    "compatibility": "Cadena Vite ^5.4.14; no imponer Vite 6 ni esbuild 0.25.",
+    "regressionRisk": "Alto al forzar mayor o alpha."
+  }
+]

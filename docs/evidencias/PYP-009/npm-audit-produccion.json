@@ -1,0 +1,71 @@
+{
+  "command": "npm audit --omit=dev --json",
+  "exitCode": 1,
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 0,
+      "moderate": 2,
+      "high": 0,
+      "critical": 0,
+      "total": 2
+    },
+    "dependencies": {
+      "prod": 10,
+      "dev": 349,
+      "optional": 73,
+      "peer": 1,
+      "peerOptional": 0,
+      "total": 358
+    }
+  },
+  "vulnerabilities": {
+    "react-router": {
+      "severity": "moderate",
+      "isDirect": false,
+      "range": "6.0.0 - 7.17.0",
+      "scope": "production-or-mixed",
+      "nodes": [
+        "node_modules/react-router"
+      ],
+      "via": [
+        {
+          "name": "react-router",
+          "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+          "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+          "severity": "moderate",
+          "range": ">=6.0.0 <7.18.0"
+        },
+        {
+          "name": "react-router",
+          "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+          "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+          "severity": "moderate",
+          "range": ">=6.4.0 <7.18.0"
+        }
+      ],
+      "fixAvailable": {
+        "name": "react-router-dom",
+        "version": "7.18.4",
+        "isSemVerMajor": true
+      }
+    },
+    "react-router-dom": {
+      "severity": "moderate",
+      "isDirect": true,
+      "range": "6.0.0-alpha.0 - 7.17.0",
+      "scope": "production-or-mixed",
+      "nodes": [
+        "node_modules/react-router-dom"
+      ],
+      "via": [
+        "react-router"
+      ],
+      "fixAvailable": {
+        "name": "react-router-dom",
+        "version": "7.18.4",
+        "isSemVerMajor": true
+      }
+    }
+  }
+}

@@ -9,6 +9,7 @@ import IoTIndustrialLoRaWAN from "./pages/IoTIndustrialLoRaWAN.jsx";
 import Seo from "./components/Seo.jsx";
 
 import "./index.css";
+import AutomatizacionEdge from "./pages/AutomatizacionEdge.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -39,6 +40,16 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <>
               <Seo path="/iot-industrial" />
               <IoTIndustrialLoRaWAN />
+            </>
+          }
+
+        />
+        <Route
+          path="/automatizacion-edge"
+          element={
+            <>
+              <Seo path="/automatizacion-edge" />
+              <AutomatizacionEdge />
             </>
           }
         />

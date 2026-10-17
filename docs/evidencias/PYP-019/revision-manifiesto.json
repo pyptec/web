@@ -1,0 +1,2702 @@
+{
+  "duplicates": [
+    [
+      "docs/evidencias/PYP-006/.gitignore",
+      "docs/evidencias/PYP-007/.gitignore",
+      "docs/evidencias/PYP-008/.gitignore",
+      "docs/evidencias/PYP-009/.gitignore"
+    ],
+    [
+      "docs/evidencias/PYP-006/browser-results.json",
+      "docs/evidencias/PYP-007/corporate-results.json"
+    ],
+    [
+      "docs/evidencias/PYP-012/antes-monitoreo-1440.png",
+      "docs/evidencias/PYP-012/despues-monitoreo-1440.png",
+      "docs/evidencias/PYP-015/despues-monitoreo-1440.png",
+      "docs/evidencias/PYP-016/estable-monitoreo-1440.png",
+      "docs/evidencias/PYP-017/despues-monitoreo-1440.png",
+      "docs/evidencias/PYP-017/estable-monitoreo-1440.png"
+    ],
+    [
+      "docs/evidencias/PYP-012/antes-monitoreo-375.png",
+      "docs/evidencias/PYP-015/despues-monitoreo-375.png",
+      "docs/evidencias/PYP-016/despues-monitoreo-375.png",
+      "docs/evidencias/PYP-016/estable-monitoreo-375.png",
+      "docs/evidencias/PYP-017/despues-monitoreo-375.png",
+      "docs/evidencias/PYP-017/estable-monitoreo-375.png"
+    ],
+    [
+      "docs/evidencias/PYP-012/browser-results.json",
+      "docs/evidencias/PYP-015/browser-results.json"
+    ],
+    [
+      "docs/evidencias/PYP-012/despues-inicio-1440.png",
+      "docs/evidencias/PYP-015/despues-inicio-1440.png",
+      "docs/evidencias/PYP-016/despues-inicio-1440.png",
+      "docs/evidencias/PYP-016/estable-inicio-1440.png",
+      "docs/evidencias/PYP-017/despues-inicio-1440.png",
+      "docs/evidencias/PYP-017/estable-inicio-1440.png"
+    ],
+    [
+      "docs/evidencias/PYP-012/despues-inicio-375.png",
+      "docs/evidencias/PYP-015/despues-inicio-375.png",
+      "docs/evidencias/PYP-016/despues-inicio-375.png",
+      "docs/evidencias/PYP-016/estable-inicio-375.png",
+      "docs/evidencias/PYP-017/despues-inicio-375.png",
+      "docs/evidencias/PYP-017/estable-inicio-375.png"
+    ],
+    [
+      "docs/evidencias/PYP-012/visual-states-failure.json",
+      "docs/evidencias/PYP-012/visual-states-second-attempt.json"
+    ],
+    [
+      "docs/evidencias/PYP-013/browser-failure.json",
+      "docs/evidencias/PYP-013/vite-preview-first-attempt.json"
+    ],
+    [
+      "docs/evidencias/PYP-013/browser-results.json",
+      "docs/evidencias/PYP-015/seo-results.json",
+      "docs/evidencias/PYP-016/seo-results.json",
+      "docs/evidencias/PYP-017/seo-results.json"
+    ],
+    [
+      "docs/evidencias/PYP-013/metadatos-esperados.json",
+      "docs/evidencias/PYP-015/metadatos-esperados.json",
+      "docs/evidencias/PYP-016/metadatos-esperados.json",
+      "docs/evidencias/PYP-017/metadatos-esperados.json"
+    ],
+    [
+      "docs/evidencias/PYP-014/html-inicial/artefacto/automatizacion-edge-con-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/artefacto/automatizacion-edge-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/automatizacion-edge-con-barra.html"
+    ],
+    [
+      "docs/evidencias/PYP-014/html-inicial/artefacto/inicio.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/automatizacion-edge-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/inicio.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/iot-industrial-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/monitoreo-energetico-sin-barra.html"
+    ],
+    [
+      "docs/evidencias/PYP-014/html-inicial/artefacto/iot-industrial-con-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/artefacto/iot-industrial-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/iot-industrial-con-barra.html"
+    ],
+    [
+      "docs/evidencias/PYP-014/html-inicial/artefacto/monitoreo-energetico-con-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/artefacto/monitoreo-energetico-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/preview/monitoreo-energetico-con-barra.html"
+    ],
+    [
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/automatizacion-edge-con-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/automatizacion-edge-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/inicio.html",
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/iot-industrial-con-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/iot-industrial-sin-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/monitoreo-energetico-con-barra.html",
+      "docs/evidencias/PYP-014/html-inicial/desarrollo/monitoreo-energetico-sin-barra.html"
+    ],
+    [
+      "docs/evidencias/PYP-015/contacto-1440.png",
+      "docs/evidencias/PYP-016/contacto-1440.png",
+      "docs/evidencias/PYP-017/contacto-1440.png"
+    ],
+    [
+      "docs/evidencias/PYP-015/contacto-375.png",
+      "docs/evidencias/PYP-016/contacto-375.png",
+      "docs/evidencias/PYP-017/contacto-375.png"
+    ],
+    [
+      "docs/evidencias/PYP-015/npm-ls-comando.json",
+      "docs/evidencias/PYP-016/npm-ls-all-command.json",
+      "docs/evidencias/PYP-017/npm-ls-final-command.json"
+    ],
+    [
+      "docs/evidencias/PYP-016/browser-results.json",
+      "docs/evidencias/PYP-017/browser-results.json"
+    ],
+    [
+      "docs/evidencias/PYP-016/lock-resuelto-before-install.json",
+      "docs/evidencias/PYP-017/package-lock.json.before.json"
+    ],
+    [
+      "docs/evidencias/PYP-016/npm-audit-command.json",
+      "docs/evidencias/PYP-017/npm-audit-final-command.json",
+      "docs/evidencias/PYP-017/npm-audit-inicial-command.json"
+    ],
+    [
+      "docs/evidencias/PYP-016/npm-audit-produccion.json",
+      "docs/evidencias/PYP-017/npm-audit-produccion.json",
+      "docs/evidencias/PYP-018/npm-audit-produccion.json"
+    ],
+    [
+      "docs/evidencias/PYP-016/npm-audit-produccion.txt",
+      "docs/evidencias/PYP-017/npm-audit-produccion.txt"
+    ],
+    [
+      "docs/evidencias/PYP-016/npm-audit.json",
+      "docs/evidencias/PYP-017/npm-audit-inicial.json"
+    ],
+    [
+      "docs/evidencias/PYP-016/npm-audit.txt",
+      "docs/evidencias/PYP-017/npm-audit-inicial.txt"
+    ],
+    [
+      "docs/evidencias/PYP-016/visual-results.json",
+      "docs/evidencias/PYP-017/visual-results.json"
+    ],
+    [
+      "docs/evidencias/PYP-017/lock-revisado.json",
+      "package-lock.json"
+    ],
+    [
+      "docs/evidencias/PYP-017/npm-ls-vite-final-command.json",
+      "docs/evidencias/PYP-017/npm-ls-vite-inicial-command.json"
+    ]
+  ],
+  "risks": [],
+  "contactsReviewed": [
+    {
+      "path": "docs/evidencias/PYP-008/App.jsx.before.txt",
+      "resolution": "Contacto comercial público o placeholder del formulario, igual al snapshot histórico; no es secreto ni dato privado añadido."
+    },
+    {
+      "path": "src/App.jsx",
+      "resolution": "Contacto comercial público o placeholder del formulario, igual al snapshot histórico; no es secreto ni dato privado añadido."
+    }
+  ],
+  "pngMetadata": [],
+  "initialCounts": {
+    "Configuración": 4,
+    "Históricos": 2,
+    "Documentación": 4,
+    "Evidencias": 297,
+    "Prompts": 19,
+    "Dependencias": 2,
+    "Recursos públicos": 2,
+    "Código fuente": 11
+  },
+  "initialBytes": 12060629,
+  "initialCount": 341,
+  "largest": [
+    {
+      "path": "public/og-pyp.png",
+      "category": "Recursos públicos",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 1355270
+    },
+    {
+      "path": "docs/evidencias/PYP-018/estado-inicial.json",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 332129
+    },
+    {
+      "path": "docs/evidencias/PYP-006/navbar-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 293806
+    },
+    {
+      "path": "docs/evidencias/PYP-007/corporate-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 287309
+    },
+    {
+      "path": "docs/evidencias/PYP-012/antes-monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 283435
+    },
+    {
+      "path": "docs/evidencias/PYP-012/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 283435
+    },
+    {
+      "path": "docs/evidencias/PYP-015/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 283435
+    },
+    {
+      "path": "docs/evidencias/PYP-016/estable-monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 283435
+    },
+    {
+      "path": "docs/evidencias/PYP-017/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 283435
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estable-monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 283435
+    },
+    {
+      "path": "docs/evidencias/PYP-007/monitoreo-1440.png",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 274540
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estado-inicial.json",
+      "category": "Evidencias",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 272579
+    }
+  ],
+  "over1MiB": [
+    {
+      "path": "public/og-pyp.png",
+      "category": "Recursos públicos",
+      "exists": true,
+      "insideProject": true,
+      "bytes": 1355270
+    }
+  ],
+  "files": [
+    {
+      "path": ".gitignore",
+      "category": "Configuración",
+      "bytes": 278,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "01_ESTADO_Y_BITACORA.md",
+      "category": "Históricos",
+      "bytes": 2510,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "04_BITACORA_001_RESULTADO.md",
+      "category": "Históricos",
+      "bytes": 2020,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "AGENTS.md",
+      "category": "Documentación",
+      "bytes": 1627,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/.gitignore",
+      "category": "Configuración",
+      "bytes": 53,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/.vitepress/config.mjs",
+      "category": "Configuración",
+      "bytes": 1210,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/BITACORA_DESARROLLO.md",
+      "category": "Documentación",
+      "bytes": 58056,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/arquitectura/index.md",
+      "category": "Documentación",
+      "bytes": 7068,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-004/IoTIndustrialLoRaWAN.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 14036,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-004/MonitoreoEnergetico.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 54827,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-004/Navbar.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 1054,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-004/protected-hashes.json",
+      "category": "Evidencias",
+      "bytes": 4855,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-004/resultado.md",
+      "category": "Evidencias",
+      "bytes": 1875,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-005B/package-lock.before.json",
+      "category": "Evidencias",
+      "bytes": 112764,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-005B/package.before.json",
+      "category": "Evidencias",
+      "bytes": 601,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-005B/protected-hashes.json",
+      "category": "Evidencias",
+      "bytes": 5793,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-005B/resultado.md",
+      "category": "Evidencias",
+      "bytes": 3627,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/.gitignore",
+      "category": "Evidencias",
+      "bytes": 17,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/AutomatizacionEdge.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 12878,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/IoTIndustrialLoRaWAN.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 13097,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/MonitoreoEnergetico.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 53686,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/Navbar.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 1089,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/browser-check.cjs",
+      "category": "Evidencias",
+      "bytes": 8737,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/browser-first-attempt.json",
+      "category": "Evidencias",
+      "bytes": 245,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 11005,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/browser-second-attempt.json",
+      "category": "Evidencias",
+      "bytes": 540,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/navbar-1440.png",
+      "category": "Evidencias",
+      "bytes": 293806,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/navbar-320.png",
+      "category": "Evidencias",
+      "bytes": 108098,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/protected-hashes.json",
+      "category": "Evidencias",
+      "bytes": 4738,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-006/resultado.md",
+      "category": "Evidencias",
+      "bytes": 4974,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/.gitignore",
+      "category": "Evidencias",
+      "bytes": 17,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/AutomatizacionEdge.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 12831,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/IoTIndustrialLoRaWAN.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 12926,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/MonitoreoEnergetico.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 53203,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/Navbar.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 6948,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/browser-corporate-check.cjs",
+      "category": "Evidencias",
+      "bytes": 8918,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/browser-local-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10398,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/corporate-1440.png",
+      "category": "Evidencias",
+      "bytes": 287309,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/corporate-320.png",
+      "category": "Evidencias",
+      "bytes": 109238,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/corporate-first-attempt.json",
+      "category": "Evidencias",
+      "bytes": 427,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/corporate-results.json",
+      "category": "Evidencias",
+      "bytes": 11005,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/documentation-restoration-retries.json",
+      "category": "Evidencias",
+      "bytes": 101,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/documentation-restoration.json",
+      "category": "Evidencias",
+      "bytes": 1144,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/edge-1440.png",
+      "category": "Evidencias",
+      "bytes": 246054,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/edge-320.png",
+      "category": "Evidencias",
+      "bytes": 100574,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/iot-1440.png",
+      "category": "Evidencias",
+      "bytes": 116980,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/iot-320.png",
+      "category": "Evidencias",
+      "bytes": 19823,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/keyboard-overflow-before.json",
+      "category": "Evidencias",
+      "bytes": 246,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/local-first-attempt.json",
+      "category": "Evidencias",
+      "bytes": 1062,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/local-results.json",
+      "category": "Evidencias",
+      "bytes": 14057,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 274540,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/monitoreo-320.png",
+      "category": "Evidencias",
+      "bytes": 99958,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/protected-hashes.json",
+      "category": "Evidencias",
+      "bytes": 13505,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-007/resultado.md",
+      "category": "Evidencias",
+      "bytes": 7169,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/.gitignore",
+      "category": "Evidencias",
+      "bytes": 17,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/App.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 32292,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/browser-home-check.cjs",
+      "category": "Evidencias",
+      "bytes": 11932,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/home-1440.png",
+      "category": "Evidencias",
+      "bytes": 54094,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/home-320.png",
+      "category": "Evidencias",
+      "bytes": 20634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/home-results.json",
+      "category": "Evidencias",
+      "bytes": 8605,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/protected-hashes.json",
+      "category": "Evidencias",
+      "bytes": 14056,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-008/resultado.md",
+      "category": "Evidencias",
+      "bytes": 5242,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/.gitignore",
+      "category": "Evidencias",
+      "bytes": 17,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/browser-audit.cjs",
+      "category": "Evidencias",
+      "bytes": 8563,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/browser-audit.json",
+      "category": "Evidencias",
+      "bytes": 12109,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/commit-documentacion.txt",
+      "category": "Evidencias",
+      "bytes": 4016,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/commit-web.txt",
+      "category": "Evidencias",
+      "bytes": 235,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/edge-375.png",
+      "category": "Evidencias",
+      "bytes": 127141,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/enlaces-documentacion.json",
+      "category": "Evidencias",
+      "bytes": 4295,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/formulario-netlify.json",
+      "category": "Evidencias",
+      "bytes": 325,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/generados-no-incluir.txt",
+      "category": "Evidencias",
+      "bytes": 32896,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/git-final.json",
+      "category": "Evidencias",
+      "bytes": 1558,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/git-inicial.json",
+      "category": "Evidencias",
+      "bytes": 30730,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/informe.md",
+      "category": "Evidencias",
+      "bytes": 16831,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 54947,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 23689,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/inventario.json",
+      "category": "Evidencias",
+      "bytes": 33433,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/iot-375.png",
+      "category": "Evidencias",
+      "bytes": 23875,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 135702,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/npm-audit-produccion.json",
+      "category": "Evidencias",
+      "bytes": 1800,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/npm-audit.json",
+      "category": "Evidencias",
+      "bytes": 15010,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/npm-outdated.json",
+      "category": "Evidencias",
+      "bytes": 920,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/propuesta-commit.md",
+      "category": "Evidencias",
+      "bytes": 5183,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/protected-hashes.json",
+      "category": "Evidencias",
+      "bytes": 14496,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/seo-esperado.json",
+      "category": "Evidencias",
+      "bytes": 1119,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/seo-html-inicial.json",
+      "category": "Evidencias",
+      "bytes": 2666,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-009/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 747,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-010/archivos-propuestos.txt",
+      "category": "Evidencias",
+      "bytes": 4461,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-010/estado-inicial.base64",
+      "category": "Evidencias",
+      "bytes": 30128,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-010/informe.md",
+      "category": "Evidencias",
+      "bytes": 6533,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-010/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 1721,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/browser-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10277,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 3839,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/contacto-1440.png",
+      "category": "Evidencias",
+      "bytes": 43085,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/contacto-375.png",
+      "category": "Evidencias",
+      "bytes": 22130,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 94592,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/index.html.before.txt",
+      "category": "Evidencias",
+      "bytes": 3965,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/resultado.md",
+      "category": "Evidencias",
+      "bytes": 7832,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-011/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 4865,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/Navbar.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 5785,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/antes-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50283,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/antes-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 21784,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/antes-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 283435,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/antes-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137047,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/browser-check.cjs",
+      "category": "Evidencias",
+      "bytes": 12262,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 10059,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/despues-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/despues-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 22084,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 283435,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/despues-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137068,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/diagnostico-inicial.md",
+      "category": "Evidencias",
+      "bytes": 831,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 98257,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/resultado.md",
+      "category": "Evidencias",
+      "bytes": 8892,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/scrollToSection.js.before.txt",
+      "category": "Evidencias",
+      "bytes": 1432,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 3887,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/visual-before.json",
+      "category": "Evidencias",
+      "bytes": 1836,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/visual-states-failure.json",
+      "category": "Evidencias",
+      "bytes": 147,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/visual-states-first-attempt.json",
+      "category": "Evidencias",
+      "bytes": 218,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/visual-states-second-attempt.json",
+      "category": "Evidencias",
+      "bytes": 147,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/visual-states.cjs",
+      "category": "Evidencias",
+      "bytes": 6150,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-012/visual-states.json",
+      "category": "Evidencias",
+      "bytes": 2750,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/Seo.jsx.before.txt",
+      "category": "Evidencias",
+      "bytes": 2281,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/browser-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10465,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/browser-failure.json",
+      "category": "Evidencias",
+      "bytes": 277,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 22370,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 128122,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/generar-seo.mjs.before.txt",
+      "category": "Evidencias",
+      "bytes": 1924,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/generator-check.mjs",
+      "category": "Evidencias",
+      "bytes": 3536,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/generator-results.json",
+      "category": "Evidencias",
+      "bytes": 6364,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/index.html.before.txt",
+      "category": "Evidencias",
+      "bytes": 4119,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/metadatos-esperados.json",
+      "category": "Evidencias",
+      "bytes": 2168,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/resultado.md",
+      "category": "Evidencias",
+      "bytes": 12050,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/sitemap.xml.before.txt",
+      "category": "Evidencias",
+      "bytes": 170,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/static-server.cjs",
+      "category": "Evidencias",
+      "bytes": 1428,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 2034,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-013/vite-preview-first-attempt.json",
+      "category": "Evidencias",
+      "bytes": 277,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/artefacto-verificado.json",
+      "category": "Evidencias",
+      "bytes": 2637,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/browser-check.cjs",
+      "category": "Evidencias",
+      "bytes": 11347,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/causa-vite-preview.json",
+      "category": "Evidencias",
+      "bytes": 3328,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/comparacion-entornos.json",
+      "category": "Evidencias",
+      "bytes": 71703,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 159619,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/automatizacion-edge-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4522,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/automatizacion-edge-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4522,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/inicio.html",
+      "category": "Evidencias",
+      "bytes": 4526,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/iot-industrial-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4544,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/iot-industrial-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4544,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/monitoreo-energetico-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4530,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/artefacto/monitoreo-energetico-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4530,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/automatizacion-edge-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/automatizacion-edge-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/inicio.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/iot-industrial-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/iot-industrial-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/monitoreo-energetico-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/desarrollo/monitoreo-energetico-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4763,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/automatizacion-edge-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4522,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/automatizacion-edge-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4526,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/inicio.html",
+      "category": "Evidencias",
+      "bytes": 4526,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/iot-industrial-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4544,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/iot-industrial-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4526,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/monitoreo-energetico-con-barra.html",
+      "category": "Evidencias",
+      "bytes": 4530,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/html-inicial/preview/monitoreo-energetico-sin-barra.html",
+      "category": "Evidencias",
+      "bytes": 4526,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/incidencias-prueba.md",
+      "category": "Evidencias",
+      "bytes": 296,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/resultado.md",
+      "category": "Evidencias",
+      "bytes": 12417,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/serve-environments.mjs",
+      "category": "Evidencias",
+      "bytes": 1000,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/servidores-locales.json",
+      "category": "Evidencias",
+      "bytes": 221,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/static-server.cjs",
+      "category": "Evidencias",
+      "bytes": 1428,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-014/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 2991,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 10059,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/clasificacion.json",
+      "category": "Evidencias",
+      "bytes": 25183,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/compatibilidad-candidatas.json",
+      "category": "Evidencias",
+      "bytes": 6277,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/contacto-1440.png",
+      "category": "Evidencias",
+      "bytes": 43394,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/contacto-375.png",
+      "category": "Evidencias",
+      "bytes": 22424,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/despues-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/despues-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 22084,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 283435,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/despues-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137047,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 198249,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/form-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10276,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/form-results.json",
+      "category": "Evidencias",
+      "bytes": 3839,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/inventario.json",
+      "category": "Evidencias",
+      "bytes": 94486,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/metadatos-esperados.json",
+      "category": "Evidencias",
+      "bytes": 2168,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/navigation-check.cjs",
+      "category": "Evidencias",
+      "bytes": 12262,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-audit-comando.json",
+      "category": "Evidencias",
+      "bytes": 65,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-audit-produccion-comando.json",
+      "category": "Evidencias",
+      "bytes": 76,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-audit-produccion.json",
+      "category": "Evidencias",
+      "bytes": 2301,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-audit.json",
+      "category": "Evidencias",
+      "bytes": 23236,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-ls-comando.json",
+      "category": "Evidencias",
+      "bytes": 68,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-ls.json",
+      "category": "Evidencias",
+      "bytes": 98877,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-outdated-comando.json",
+      "category": "Evidencias",
+      "bytes": 68,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/npm-outdated.json",
+      "category": "Evidencias",
+      "bytes": 1570,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/registro-versiones.json",
+      "category": "Evidencias",
+      "bytes": 27609,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/resultado.md",
+      "category": "Evidencias",
+      "bytes": 16669,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/seo-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10461,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/seo-results.json",
+      "category": "Evidencias",
+      "bytes": 22370,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/static-server.cjs",
+      "category": "Evidencias",
+      "bytes": 1428,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-015/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 4127,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 10370,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/comparacion-dependencias.json",
+      "category": "Evidencias",
+      "bytes": 4931,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/comparacion-seguridad.json",
+      "category": "Evidencias",
+      "bytes": 590,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/contacto-1440.png",
+      "category": "Evidencias",
+      "bytes": 43394,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/contacto-375.png",
+      "category": "Evidencias",
+      "bytes": 22424,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/despues-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/despues-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 22084,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 261399,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/despues-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137047,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/estable-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/estable-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 22084,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/estable-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 283435,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/estable-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137047,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 234671,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/form-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10276,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/form-results.json",
+      "category": "Evidencias",
+      "bytes": 3839,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/instaladas-inicial.json",
+      "category": "Evidencias",
+      "bytes": 23705,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/lock-resuelto-before-install.json",
+      "category": "Evidencias",
+      "bytes": 179329,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/metadatos-esperados.json",
+      "category": "Evidencias",
+      "bytes": 2168,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/navigation-check.cjs",
+      "category": "Evidencias",
+      "bytes": 13194,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-audit-command.json",
+      "category": "Evidencias",
+      "bytes": 58,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-audit-produccion-command.json",
+      "category": "Evidencias",
+      "bytes": 69,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-audit-produccion.json",
+      "category": "Evidencias",
+      "bytes": 364,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-audit-produccion.txt",
+      "category": "Evidencias",
+      "bytes": 24,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-audit.json",
+      "category": "Evidencias",
+      "bytes": 21301,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-audit.txt",
+      "category": "Evidencias",
+      "bytes": 5626,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-ls-all-command.json",
+      "category": "Evidencias",
+      "bytes": 68,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-ls-all.json",
+      "category": "Evidencias",
+      "bytes": 99087,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-ls-router-command.json",
+      "category": "Evidencias",
+      "bytes": 92,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/npm-ls-router.json",
+      "category": "Evidencias",
+      "bytes": 472,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/package-lock.json.before.json",
+      "category": "Evidencias",
+      "bytes": 178821,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/package.json.before.json",
+      "category": "Evidencias",
+      "bytes": 806,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/resolucion-limitada.json",
+      "category": "Evidencias",
+      "bytes": 5186,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/resultado.md",
+      "category": "Evidencias",
+      "bytes": 10381,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/seo-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10461,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/seo-results.json",
+      "category": "Evidencias",
+      "bytes": 22370,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/static-server.cjs",
+      "category": "Evidencias",
+      "bytes": 1428,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 4331,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/visual-check.cjs",
+      "category": "Evidencias",
+      "bytes": 5647,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-016/visual-results.json",
+      "category": "Evidencias",
+      "bytes": 2889,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/browser-results.json",
+      "category": "Evidencias",
+      "bytes": 10370,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/comparacion-artefactos.json",
+      "category": "Evidencias",
+      "bytes": 4177,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/comparacion-seguridad.json",
+      "category": "Evidencias",
+      "bytes": 693,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/compatibilidad-objetivo.json",
+      "category": "Evidencias",
+      "bytes": 674,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/contacto-1440.png",
+      "category": "Evidencias",
+      "bytes": 43394,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/contacto-375.png",
+      "category": "Evidencias",
+      "bytes": 22424,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/despues-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/despues-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 22084,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/despues-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 283435,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/despues-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137047,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estable-inicio-1440.png",
+      "category": "Evidencias",
+      "bytes": 50634,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estable-inicio-375.png",
+      "category": "Evidencias",
+      "bytes": 22084,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estable-monitoreo-1440.png",
+      "category": "Evidencias",
+      "bytes": 283435,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estable-monitoreo-375.png",
+      "category": "Evidencias",
+      "bytes": 137047,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 272579,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/form-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10276,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/form-results.json",
+      "category": "Evidencias",
+      "bytes": 3839,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/instaladas-inicial.json",
+      "category": "Evidencias",
+      "bytes": 23775,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/lock-revisado.json",
+      "category": "Evidencias",
+      "bytes": 179328,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/metadatos-esperados.json",
+      "category": "Evidencias",
+      "bytes": 2168,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/navigation-check.cjs",
+      "category": "Evidencias",
+      "bytes": 13194,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-final-command.json",
+      "category": "Evidencias",
+      "bytes": 58,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-final.json",
+      "category": "Evidencias",
+      "bytes": 20770,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-final.txt",
+      "category": "Evidencias",
+      "bytes": 5606,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-inicial-command.json",
+      "category": "Evidencias",
+      "bytes": 58,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-inicial.json",
+      "category": "Evidencias",
+      "bytes": 21301,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-inicial.txt",
+      "category": "Evidencias",
+      "bytes": 5626,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-produccion-command.json",
+      "category": "Evidencias",
+      "bytes": 76,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-produccion.json",
+      "category": "Evidencias",
+      "bytes": 364,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-audit-produccion.txt",
+      "category": "Evidencias",
+      "bytes": 24,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-ls-final-command.json",
+      "category": "Evidencias",
+      "bytes": 68,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-ls-final.json",
+      "category": "Evidencias",
+      "bytes": 99087,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-ls-vite-final-command.json",
+      "category": "Evidencias",
+      "bytes": 67,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-ls-vite-final.json",
+      "category": "Evidencias",
+      "bytes": 1148,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-ls-vite-inicial-command.json",
+      "category": "Evidencias",
+      "bytes": 67,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/npm-ls-vite-inicial.json",
+      "category": "Evidencias",
+      "bytes": 1148,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/package-lock.json.before.json",
+      "category": "Evidencias",
+      "bytes": 179329,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/package.json.before.json",
+      "category": "Evidencias",
+      "bytes": 805,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/preview-check.mjs",
+      "category": "Evidencias",
+      "bytes": 1129,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/resolucion-limitada.json",
+      "category": "Evidencias",
+      "bytes": 5260,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/resultado.md",
+      "category": "Evidencias",
+      "bytes": 10163,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/seo-check.cjs",
+      "category": "Evidencias",
+      "bytes": 10461,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/seo-results.json",
+      "category": "Evidencias",
+      "bytes": 22370,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/static-server.cjs",
+      "category": "Evidencias",
+      "bytes": 1428,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 2884,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/visual-check.cjs",
+      "category": "Evidencias",
+      "bytes": 5654,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/visual-results.json",
+      "category": "Evidencias",
+      "bytes": 2889,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/vite-objetivo-command.json",
+      "category": "Evidencias",
+      "bytes": 121,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/vite-objetivo.json",
+      "category": "Evidencias",
+      "bytes": 571,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-017/vite-preview-rutas.json",
+      "category": "Evidencias",
+      "bytes": 1713,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/build-docs.mjs",
+      "category": "Evidencias",
+      "bytes": 532,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/comprobaciones.json",
+      "category": "Evidencias",
+      "bytes": 9054,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/comprobar-artefacto.mjs",
+      "category": "Evidencias",
+      "bytes": 5359,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/estado-inicial.json",
+      "category": "Evidencias",
+      "bytes": 332129,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/inventario.json",
+      "category": "Evidencias",
+      "bytes": 114732,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/manifiesto-commit.txt",
+      "category": "Evidencias",
+      "bytes": 22264,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/npm-audit-produccion-command.json",
+      "category": "Evidencias",
+      "bytes": 75,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/npm-audit-produccion.json",
+      "category": "Evidencias",
+      "bytes": 364,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/resultado.md",
+      "category": "Evidencias",
+      "bytes": 14739,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/seleccion-commit.txt",
+      "category": "Evidencias",
+      "bytes": 15171,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/PYP-018/validacion-final.json",
+      "category": "Evidencias",
+      "bytes": 2967,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/evidencias/index.md",
+      "category": "Evidencias",
+      "bytes": 1054,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/index.md",
+      "category": "Documentación",
+      "bytes": 667,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-001.md",
+      "category": "Prompts",
+      "bytes": 2475,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-002.md",
+      "category": "Prompts",
+      "bytes": 2679,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-004.md",
+      "category": "Prompts",
+      "bytes": 2462,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-005.md",
+      "category": "Prompts",
+      "bytes": 1377,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-005B.md",
+      "category": "Prompts",
+      "bytes": 2637,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-006.md",
+      "category": "Prompts",
+      "bytes": 3431,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-007.md",
+      "category": "Prompts",
+      "bytes": 3893,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-008.md",
+      "category": "Prompts",
+      "bytes": 3033,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-009.md",
+      "category": "Prompts",
+      "bytes": 3224,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-010.md",
+      "category": "Prompts",
+      "bytes": 2724,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-011.md",
+      "category": "Prompts",
+      "bytes": 3452,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-012.md",
+      "category": "Prompts",
+      "bytes": 4777,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-013.md",
+      "category": "Prompts",
+      "bytes": 4440,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-014.md",
+      "category": "Prompts",
+      "bytes": 3731,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-015.md",
+      "category": "Prompts",
+      "bytes": 3208,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-016.md",
+      "category": "Prompts",
+      "bytes": 3603,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-017.md",
+      "category": "Prompts",
+      "bytes": 2892,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/PYP-018.md",
+      "category": "Prompts",
+      "bytes": 3785,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "docs/prompts/index.md",
+      "category": "Prompts",
+      "bytes": 1305,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "index.html",
+      "category": "Configuración",
+      "bytes": 4508,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "package-lock.json",
+      "category": "Dependencias",
+      "bytes": 179328,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "package.json",
+      "category": "Dependencias",
+      "bytes": 804,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "public/og-pyp.png",
+      "category": "Recursos públicos",
+      "bytes": 1355270,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "public/sitemap.xml",
+      "category": "Recursos públicos",
+      "bytes": 367,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "scripts/generar-seo.mjs",
+      "category": "Código fuente",
+      "bytes": 2688,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/App.jsx",
+      "category": "Código fuente",
+      "bytes": 29795,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/components/Navbar.jsx",
+      "category": "Código fuente",
+      "bytes": 5768,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/components/SectionNav.jsx",
+      "category": "Código fuente",
+      "bytes": 2011,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/components/Seo.jsx",
+      "category": "Código fuente",
+      "bytes": 1379,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/data/seo.js",
+      "category": "Código fuente",
+      "bytes": 1577,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/main.jsx",
+      "category": "Código fuente",
+      "bytes": 1408,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/pages/AutomatizacionEdge.jsx",
+      "category": "Código fuente",
+      "bytes": 12943,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/pages/IoTIndustrialLoRaWAN.jsx",
+      "category": "Código fuente",
+      "bytes": 13174,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/pages/MonitoreoEnergetico.jsx",
+      "category": "Código fuente",
+      "bytes": 53597,
+      "insideProject": true,
+      "exists": true
+    },
+    {
+      "path": "src/utils/scrollToSection.js",
+      "category": "Código fuente",
+      "bytes": 1609,
+      "insideProject": true,
+      "exists": true
+    }
+  ],
+  "scan": {
+    "scope": "341 rutas, texto, contenido gzip/base64 de PYP-010, nombres sensibles y chunks de metadatos PNG",
+    "secretsFound": 0,
+    "compressedEvidenceInspected": true,
+    "limitations": "Patrones estáticos; no auditoría del historial Git ni OCR/píxeles de capturas, ni garantía absoluta. Contactos comerciales públicos y placeholders conservados."
+  },
+  "finalSelection": {
+    "count": 355,
+    "categories": {
+      "Configuración": 4,
+      "Históricos": 2,
+      "Documentación": 4,
+      "Evidencias": 310,
+      "Prompts": 20,
+      "Dependencias": 2,
+      "Recursos públicos": 2,
+      "Código fuente": 11
+    },
+    "newPaths": [
+      "docs/evidencias/PYP-019/build-docs.mjs",
+      "docs/evidencias/PYP-019/comprobaciones.json",
+      "docs/evidencias/PYP-019/comprobar-artefacto.mjs",
+      "docs/evidencias/PYP-019/estado-inicial.json",
+      "docs/evidencias/PYP-019/main-previo.json",
+      "docs/evidencias/PYP-019/manifiesto-commit.txt",
+      "docs/evidencias/PYP-019/npm-audit-produccion-command.json",
+      "docs/evidencias/PYP-019/npm-audit-produccion.json",
+      "docs/evidencias/PYP-019/resultado.md",
+      "docs/evidencias/PYP-019/revision-manifiesto.json",
+      "docs/evidencias/PYP-019/seleccion-commit.txt",
+      "docs/evidencias/PYP-019/validacion-final.json",
+      "docs/evidencias/PYP-019/whitespace.json",
+      "docs/prompts/PYP-019.md"
+    ],
+    "excludedRaw": "docs/evidencias/PYP-019/main.jsx.before.txt"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-17",
+  "branch": "main",
+  "initialHead": "9b7751cd2e315dd87b28479c5182c05fdc6f9807",
+  "initialRemoteHead": "9b7751cd2e315dd87b28479c5182c05fdc6f9807",
+  "remote": "https://github.com/pyptec/web.git",
+  "manifestPath": "docs/evidencias/PYP-019/seleccion-commit.txt",
+  "manifestCount": 355,
+  "distHashes": {
+    "dist/assets/alkosto-corrientes-BOfkpDuW.png": "1cf3e5d79eb1592d0b7573860c4824dd152f8ece306565a78b227c6c41d44a57",
+    "dist/assets/alkosto-resumen-DpYwZI6t.png": "df375efb1a5aa50f5418d49bb40206fe479850891b24fffe6a4bac9a5620b1a5",
+    "dist/assets/can-j1939-dashboard-BfrJt0k0.png": "4c6a867cb7e132feb3a88870c9440d1623d1998e6eb085bd7ef94c1bbf44996d",
+    "dist/assets/clg-DhiTCHTU.jpeg": "35e8e30d460ada2cd3719c9d6b73f13e859858e328e06d7ba682ca93197164ab",
+    "dist/assets/index-B1swingV.js": "4be9e39be4dfa4a94c945a7b702b5332a7552d9fc6a38cec08806a41207af73a",
+    "dist/assets/index-DNMqQlni.css": "f70754df23f0d52cfcb034f3feba75affcbd25117dbb2c061da1365d3ec8ebc8",
+    "dist/assets/log_pyp-CfCiXRW3.webp": "a4f7f2bcd7522f2b28374a03059c61636a24e2607156e9f6dfbb825432abfcb8",
+    "dist/assets/lps-dKCpr1sb.webp": "0f15e9ae3d62b18cc80bfc40ec1ff9a9c17110da0e88cc01b6e2c1f7c5d0e847",
+    "dist/assets/lps-instalacion-samee200-bGen6_4O.webp": "dc19f12fb18fb381a23cca806dbe2eeab7ef3adf53f8ad0d1fc6a991a555680b",
+    "dist/assets/paneles-solares-C7pGWbxP.webp": "c878dfad79f002eff17a9406f784e8148b2d44de542d620aa324bbce6f082881",
+    "dist/assets/rpi-DDLAJPsT.jpg": "4ebf2637b97c02b92cdf16c66ab2864e2a0e7d5e950f93e6c5b0b4745624c928",
+    "dist/assets/samee200-5_kmpS0Y.jpeg": "6a37fa37376d3db366b3feb0e8a6e6975d150765609206947b00eb45a91394fd",
+    "dist/index.html": "4511a0523234e805c0e1e7a9c1116178080012a00bf2417b851801abaf6ac200",
+    "dist/monitoreo-energetico/index.html": "a1f862c70f746d97a8c930fca189389fa7f4e5c7d9521debd08c01aa64ea309d",
+    "dist/robots.txt": "48ce80506f216ca196edca7f09911134647b02d10f20fdeef7af449d40b16ba4",
+    "dist/sitemap.xml": "57e0c3ba12d5e9d477b3d719576c3cb679513e66af66f530d5023f24e223b6bd",
+    "dist/_redirects": "a65d67108636cedd251c40c1fe62a8af14b5a0f420659810ec6a0a9f601b2794"
+  },
+  "protectedChanges": [],
+  "missing": [],
+  "sensitive": [],
+  "mainMatchesReviewedHash": true,
+  "authorization": "Usuario PYP-020 autoriza staging, tres bajas --cached, un commit y push origin main; no modificaciones funcionales ni despliegue manual.",
+  "knownUntrackedExcluded": [
+    "02_PROMPT_001_AUDITORIA_NAVBAR.md",
+    "03_PROMPT_002_NAVBAR_EDGE.md",
+    "docs/evidencias/PYP-019/main.jsx.before.txt"
+  ],
+  "extraDocumentation": [
+    "docs/prompts/PYP-020.md",
+    "docs/evidencias/PYP-020/verificacion-previa.json",
+    "docs/evidencias/PYP-020/resultado.md"
+  ],
+  "securityLimitations": "Patrones estáticos y revisión previa PYP-019; sin garantía absoluta ni OCR de capturas o auditoría del historial Git.",
+  "documentationFormatting": {
+    "path": "docs/index.md",
+    "beforeSha256": "eada58fcbded108932daee977bac1f91ca0783118acdc3628ef7e80bfff69559",
+    "afterSha256": "69bb8515bdec273b22b60b0177d34d3a415c50e47755ad66c84593b015d4eda2",
+    "removedBytes": 1,
+    "onlyFinalBlankLine": true
+  },
+  "stagingReview": {
+    "included": 358,
+    "deletions": [
+      "dist/assets/clg-DhiTCHTU.jpeg",
+      "dist/assets/rpi-DDLAJPsT.jpg",
+      "dist/index.html"
+    ],
+    "totalPaths": 361,
+    "exactSelection": true,
+    "exactDeletes": true,
+    "diffCheck": {
+      "exit": 0,
+      "output": ""
+    },
+    "statSummary": " 361 files changed, 96362 insertions(+), 394 deletions(-)",
+    "distHashMismatches": [],
+    "trackedDist": "",
+    "unstagedTracked": "",
+    "untracked": [
+      "02_PROMPT_001_AUDITORIA_NAVBAR.md",
+      "03_PROMPT_002_NAVBAR_EDGE.md",
+      "docs/evidencias/PYP-019/main.jsx.before.txt"
+    ],
+    "nameStatusExit": 0,
+    "statusExit": 0,
+    "statExit": 0
+  },
+  "stagingReviewNote": "Verificado antes del commit. Se vuelven a comprobar paths/check tras preparar este cierre; no hay resultado de commit/push inventado."
+}

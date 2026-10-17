@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import {
   Mail, Phone, MapPin, Cpu, Gauge, Cloud, ShieldCheck, Network, Zap,
   Droplets, Factory, Activity, Radio, Database, BarChart3, Wind,
@@ -8,7 +8,8 @@ import {
 import clgImg from "./assets/proyectos/clg.jpeg";
 import lpsImg from "./assets/proyectos/lps.webp";
 import rpiImg from "./assets/proyectos/rpi.jpg";
-import logoPyp from "./assets/proyectos/log_pyp.webp";
+import Navbar from "./components/Navbar.jsx";
+import SectionNav from "./components/SectionNav.jsx";
 
 const COLORS = {
   energy: "#A6CE39",
@@ -19,17 +20,6 @@ const COLORS = {
   grayMid: "#6B7280",
   grayDark: "#1E1E1E",
 };
-
-const NavLink = ({ href, children, external }) => (
-  <a
-    href={href}
-    target={external ? "_blank" : "_self"}
-    rel={external ? "noopener noreferrer" : undefined}
-    className="text-gray-600 transition-colors duration-200 hover:text-[#416D13] focus-visible:text-[#416D13] active:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#416D13]"
-  >
-    {children}
-  </a>
-);
 
 const Section = ({ id, title, subtitle, children, white = false }) => (
   <section id={id} className={`py-20 scroll-mt-20 ${white ? "bg-white" : ""}`}>
@@ -75,60 +65,19 @@ const Step = ({ icon, title, text }) => (
 export default function App() {
   const [year] = useState(new Date().getFullYear());
 
-  useEffect(() => {
-    const handleClick = (e) => {
-      const link = e.currentTarget;
-      const targetId = link.getAttribute("href");
-      if (targetId && targetId.startsWith("#")) {
-        const target = document.querySelector(targetId);
-        if (target) {
-          e.preventDefault();
-          target.scrollIntoView({ behavior: "smooth" });
-        }
-      }
-    };
-
-    const links = document.querySelectorAll('a[href^="#"]');
-    links.forEach((link) => link.addEventListener("click", handleClick));
-    return () => links.forEach((link) => link.removeEventListener("click", handleClick));
-  }, []);
-
   return (
     <div className="min-h-screen w-full" style={{ backgroundColor: COLORS.grayLight }}>
       {/* NAVBAR */}
-      <header className="sticky top-0 z-50 bg-white/90 backdrop-blur border-b" style={{ borderColor: "#E5E7EB" }}>
-        <div className="max-w-7xl mx-auto px-6 py-3 flex items-center justify-between gap-6">
-          <a href="#inicio" className="flex items-center gap-3">
-            <img
-              src={logoPyp}
-              alt="PYP Tecnología Electrónica SAS"
-              width="600"
-              height="450"
-              className="h-14 md:h-16 w-auto object-contain"
-            />
-            <div>
-              <p className="font-bold text-base" style={{ color: COLORS.grayDark }}>PYP Tecnología Electrónica SAS</p>
-              <p className="text-xs text-gray-700">IoT Industrial · Edge · Energía · Automatización</p>
-            </div>
-          </a>
-
-          <nav aria-label="Navegación principal" className="hidden lg:flex items-center gap-5 text-sm">
-            <NavLink href="#soluciones">Soluciones</NavLink>
-            <NavLink href="#arquitectura">Arquitectura</NavLink>
-            <NavLink href="#proyectos">Casos</NavLink>
-            <NavLink href="#tecnologia">Tecnología</NavLink>
-            <NavLink href="/monitoreo-energetico">Monitoreo energético</NavLink>
-            <NavLink href="/iot-industrial">IoT y LoRaWAN</NavLink>
-            <NavLink href="#sectores">Sectores</NavLink>
-            <NavLink href="https://iotrack.com.co" external>Plataforma</NavLink>
-            <NavLink href="#contacto">Contacto</NavLink>
-          </nav>
-
-          <a href="#contacto" className="rounded-xl px-5 py-2.5 font-semibold bg-[#A6CE39] text-[#1E1E1E] hover:bg-[#416D13] hover:text-white transition-colors duration-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">
-            Hablemos
-          </a>
-        </div>
-      </header>
+      <Navbar>
+        <SectionNav
+          links={[
+            { href: "#soluciones", label: "Áreas de solución" },
+            { href: "#arquitectura", label: "Arquitectura" },
+            { href: "#rpi-mdfr", label: "RPI-MDFR" },
+            { href: "#sectores", label: "Sectores" },
+          ]}
+        />
+      </Navbar>
 
       <main id="contenido-principal">
       {/* HERO */}

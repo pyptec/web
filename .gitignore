@@ -1,3 +1,14 @@
 node_modules/
 dist/
 src/Appcopia.jsx
+
+# Ejecuciones temporales; conservar informes, capturas y snapshots.
+/docs/evidencias/**/build-temporal/
+/docs/evidencias/**/browser-profile/
+
+# Metadatos del sistema e intercambios del editor.
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo

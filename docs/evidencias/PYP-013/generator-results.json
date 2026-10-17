@@ -1,0 +1,103 @@
+{
+  "checks": 14,
+  "results": [
+    "Generated body/form/React entry unchanged: /",
+    "Organization/WebSite JSON-LD preserved: /",
+    "Generated body/form/React entry unchanged: /iot-industrial",
+    "Organization/WebSite JSON-LD preserved: /iot-industrial",
+    "Generated body/form/React entry unchanged: /monitoreo-energetico",
+    "Organization/WebSite JSON-LD preserved: /monitoreo-energetico",
+    "Generated body/form/React entry unchanged: /automatizacion-edge",
+    "Organization/WebSite JSON-LD preserved: /automatizacion-edge",
+    "All approved titles/descriptions preserved verbatim",
+    "Source HTML body and Netlify template byte preserved",
+    "Social image is exact official PNG copy in source and artifact",
+    "SEO generation is idempotent in newly created temporal output",
+    "Invalid template fails before writing routes: missing-description",
+    "Invalid template fails before writing routes: duplicate-canonical"
+  ],
+  "snapshots": [
+    {
+      "route": "/",
+      "file": "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-013\\build-temporal\\comercial\\dist\\index.html",
+      "hash": "2c08d43b5da6100e2ac928ac30857b641479d91fcea9b5c5536fff8c3adc0deb"
+    },
+    {
+      "route": "/iot-industrial",
+      "file": "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-013\\build-temporal\\comercial\\dist\\iot-industrial\\index.html",
+      "hash": "bd7e5aa07777c6be2590808ff61b4405c1818cedb46e6904dc07419d7a47763b"
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "file": "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-013\\build-temporal\\comercial\\dist\\monitoreo-energetico\\index.html",
+      "hash": "14aec81c9d4176aa3850cddf31ff49670bba2def755cd7d0432f25ab0aa010b0"
+    },
+    {
+      "route": "/automatizacion-edge",
+      "file": "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-013\\build-temporal\\comercial\\dist\\automatizacion-edge\\index.html",
+      "hash": "6750dba9966517c9fa7977d3fe4327e9b05639772d03bc19329ca4f342973058"
+    }
+  ],
+  "negativeTests": [
+    {
+      "name": "missing-description",
+      "exit": 1,
+      "error": "file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:22\r\n    throw new Error(\"Se esperaba exactamente una etiqueta SEO: \" + label);\r\n          ^\r\n\r\nError: Se esperaba exactamente una etiqueta SEO: description\r\n    at replaceOne (file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:22:11)\r\n    at meta (file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:32:16)\r\n    at renderHead (file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:35:3)\r\n    at file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:52:38\r\n    at String.replace (<anonymous>)\r\n    at file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:52:18\r\n    at Array.map (<anonymous>)\r\n    at file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:49:38\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)\r\n\r\nNode.js v22.15.1\r\n"
+    },
+    {
+      "name": "duplicate-canonical",
+      "exit": 1,
+      "error": "file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:22\r\n    throw new Error(\"Se esperaba exactamente una etiqueta SEO: \" + label);\r\n          ^\r\n\r\nError: Se esperaba exactamente una etiqueta SEO: canonical\r\n    at replaceOne (file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:22:11)\r\n    at renderHead (file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:44:10)\r\n    at file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:52:38\r\n    at String.replace (<anonymous>)\r\n    at file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:52:18\r\n    at Array.map (<anonymous>)\r\n    at file:///D:/promate/web/pyp-web/scripts/generar-seo.mjs:49:38\r\n    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)\r\n    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)\r\n    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)\r\n\r\nNode.js v22.15.1\r\n"
+    }
+  ],
+  "metadata": {
+    "/": {
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "canonical": "https://pyptecnologia.com/",
+      "image": {
+        "url": "https://pyptecnologia.com/og-pyp.png",
+        "type": "image/png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    },
+    "/iot-industrial": {
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial",
+      "image": {
+        "url": "https://pyptecnologia.com/og-pyp.png",
+        "type": "image/png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    },
+    "/monitoreo-energetico": {
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+      "image": {
+        "url": "https://pyptecnologia.com/og-pyp.png",
+        "type": "image/png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    },
+    "/automatizacion-edge": {
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge",
+      "image": {
+        "url": "https://pyptecnologia.com/og-pyp.png",
+        "type": "image/png",
+        "width": 1448,
+        "height": 1086,
+        "alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  }
+}

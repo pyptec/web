@@ -1,0 +1,14 @@
+{
+  "checksPassed": 8,
+  "results": [
+    "320 /monitoreo-energetico: one header",
+    "320 /monitoreo-energetico: no horizontal overflow",
+    "320 /monitoreo-energetico: Hablemos visible",
+    "320 /monitoreo-energetico: mouse opens menu",
+    "320 /monitoreo-energetico: correct active solution",
+    "320 /monitoreo-energetico: dropdown fits viewport",
+    "320 /monitoreo-energetico: three existing solutions",
+    "320 /monitoreo-energetico: Escape closes and restores focus"
+  ],
+  "error": "320 /monitoreo-energetico: Enter opens"
+}

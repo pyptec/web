@@ -1,0 +1,5 @@
+{
+  "command": "npm outdated --json",
+  "exit": 1,
+  "stderr": ""
+}

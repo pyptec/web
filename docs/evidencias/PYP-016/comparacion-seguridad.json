@@ -1,0 +1,40 @@
+{
+  "before": {
+    "info": 0,
+    "low": 1,
+    "moderate": 6,
+    "high": 12,
+    "critical": 0,
+    "total": 19
+  },
+  "after": {
+    "info": 0,
+    "low": 1,
+    "moderate": 4,
+    "high": 12,
+    "critical": 0,
+    "total": 17
+  },
+  "productionBefore": {
+    "info": 0,
+    "low": 0,
+    "moderate": 2,
+    "high": 0,
+    "critical": 0,
+    "total": 2
+  },
+  "productionAfter": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "removed": [
+    "react-router",
+    "react-router-dom"
+  ],
+  "added": [],
+  "newAdvisories": []
+}

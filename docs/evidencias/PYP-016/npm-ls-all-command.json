@@ -1,0 +1,5 @@
+{
+  "command": "npm ls --all --json",
+  "exit": 0,
+  "stderr": ""
+}

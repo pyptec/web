@@ -1,0 +1,43 @@
+{
+  "version": "1.0.0",
+  "name": "pyp-web",
+  "dependencies": {
+    "@vitejs/plugin-react": {
+      "version": "5.0.4",
+      "resolved": "https://registry.npmjs.org/@vitejs/plugin-react/-/plugin-react-5.0.4.tgz",
+      "overridden": false,
+      "dependencies": {
+        "vite": {
+          "version": "6.4.1"
+        }
+      }
+    },
+    "vite": {
+      "version": "6.4.1",
+      "resolved": "https://registry.npmjs.org/vite/-/vite-6.4.1.tgz",
+      "overridden": false
+    },
+    "vitepress": {
+      "version": "1.6.4",
+      "resolved": "https://registry.npmjs.org/vitepress/-/vitepress-1.6.4.tgz",
+      "overridden": false,
+      "dependencies": {
+        "@vitejs/plugin-vue": {
+          "version": "5.2.4",
+          "resolved": "https://registry.npmjs.org/@vitejs/plugin-vue/-/plugin-vue-5.2.4.tgz",
+          "overridden": false,
+          "dependencies": {
+            "vite": {
+              "version": "6.4.1"
+            }
+          }
+        },
+        "vite": {
+          "version": "5.4.21",
+          "resolved": "https://registry.npmjs.org/vite/-/vite-5.4.21.tgz",
+          "overridden": false
+        }
+      }
+    }
+  }
+}

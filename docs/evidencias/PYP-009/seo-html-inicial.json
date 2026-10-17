@@ -1,0 +1,46 @@
+[
+  {
+    "route": "/",
+    "ownHtml": true,
+    "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+    "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+    "canonical": "https://pyptecnologia.com/",
+    "ogTitle": "IoT Industrial y Monitoreo Energético | PYP Tecnología",
+    "ogDescription": "Ingeniería IoT industrial, eficiencia energética, producción OEE, telemetría de agua, LoRaWAN y automatización.",
+    "ogUrl": "https://pyptecnologia.com/",
+    "inSitemap": true
+  },
+  {
+    "route": "/monitoreo-energetico",
+    "ownHtml": true,
+    "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+    "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+    "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+    "ogTitle": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+    "ogDescription": "Monitoreo energético industrial y solar con SAMEE100 y SAMEE200. Proyectos LPS y Alkosto, dashboards, indicadores y gestión energética.",
+    "ogUrl": "https://pyptecnologia.com/monitoreo-energetico",
+    "inSitemap": false
+  },
+  {
+    "route": "/iot-industrial",
+    "ownHtml": false,
+    "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+    "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+    "canonical": "https://pyptecnologia.com/",
+    "ogTitle": "IoT Industrial y Monitoreo Energético | PYP Tecnología",
+    "ogDescription": "Ingeniería IoT industrial, eficiencia energética, producción OEE, telemetría de agua, LoRaWAN y automatización.",
+    "ogUrl": "https://pyptecnologia.com/",
+    "inSitemap": false
+  },
+  {
+    "route": "/automatizacion-edge",
+    "ownHtml": false,
+    "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+    "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+    "canonical": "https://pyptecnologia.com/",
+    "ogTitle": "IoT Industrial y Monitoreo Energético | PYP Tecnología",
+    "ogDescription": "Ingeniería IoT industrial, eficiencia energética, producción OEE, telemetría de agua, LoRaWAN y automatización.",
+    "ogUrl": "https://pyptecnologia.com/",
+    "inSitemap": false
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-17",
+  "baselineFiles": 2271,
+  "missing": [],
+  "changed": [
+    "docs/BITACORA_DESARROLLO.md",
+    "docs/prompts/index.md",
+    "src/main.jsx"
+  ],
+  "unexpectedChanges": [],
+  "distCount": 17,
+  "distUnchanged": true,
+  "oldGeneratedCount": 1890,
+  "oldGeneratedUnchanged": true,
+  "indexUnchanged": true,
+  "mainOnlyExpectedChange": true,
+  "manifestCount": 355,
+  "manifestSameSet": true,
+  "noDuplicatePaths": true,
+  "missingSelected": [],
+  "outsideProject": [],
+  "ignoredSelected": [],
+  "selectionWhitespace": [],
+  "sensitiveHits": [],
+  "globalDiffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? public/og-pyp.png\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/data/\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+  "untrackedCount": 346,
+  "stagedChanges": "",
+  "docsHtmlExists": true,
+  "untrackedCountAfterRecord": 347,
+  "commercialBuild": {
+    "exit": 0,
+    "seconds": 19.18,
+    "modules": 1609
+  },
+  "vitepressBuild": {
+    "exit": 0,
+    "seconds": 34.7
+  },
+  "regressionChecks": 81,
+  "productionAudit": {
+    "exit": 0,
+    "vulnerabilities": 0
+  }
+}

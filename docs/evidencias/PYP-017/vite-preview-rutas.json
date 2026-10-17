@@ -1,0 +1,55 @@
+{
+  "vite": "6.4.4",
+  "results": [
+    {
+      "route": "/",
+      "status": 200,
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/",
+      "location": null
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "status": 200,
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/",
+      "location": null
+    },
+    {
+      "route": "/monitoreo-energetico/",
+      "status": 200,
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+      "location": null
+    },
+    {
+      "route": "/iot-industrial",
+      "status": 200,
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/",
+      "location": null
+    },
+    {
+      "route": "/iot-industrial/",
+      "status": 200,
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/iot-industrial",
+      "location": null
+    },
+    {
+      "route": "/automatizacion-edge",
+      "status": 200,
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/",
+      "location": null
+    },
+    {
+      "route": "/automatizacion-edge/",
+      "status": 200,
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge",
+      "location": null
+    }
+  ],
+  "note": "Local preview only; not Netlify CDN."
+}

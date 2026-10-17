@@ -1,0 +1,3910 @@
+{
+  "lockfileVersion": 3,
+  "direct": [
+    {
+      "name": "lucide-react",
+      "range": "^0.471.2",
+      "installed": "0.471.2",
+      "dev": false
+    },
+    {
+      "name": "react",
+      "range": "^18.3.1",
+      "installed": "18.3.1",
+      "dev": false
+    },
+    {
+      "name": "react-dom",
+      "range": "^18.3.1",
+      "installed": "18.3.1",
+      "dev": false
+    },
+    {
+      "name": "react-router-dom",
+      "range": "^6.30.6",
+      "installed": "6.30.6",
+      "dev": false
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "range": "^5.0.4",
+      "installed": "5.0.4",
+      "dev": true
+    },
+    {
+      "name": "autoprefixer",
+      "range": "^10.4.21",
+      "installed": "10.4.21",
+      "dev": true
+    },
+    {
+      "name": "postcss",
+      "range": "^8.5.6",
+      "installed": "8.5.30",
+      "dev": true
+    },
+    {
+      "name": "tailwindcss",
+      "range": "^3.4.18",
+      "installed": "3.4.18",
+      "dev": true
+    },
+    {
+      "name": "vite",
+      "range": "^6.0.0",
+      "installed": "6.4.1",
+      "dev": true
+    },
+    {
+      "name": "vitepress",
+      "range": "1.6.4",
+      "installed": "1.6.4",
+      "dev": true
+    }
+  ],
+  "packages": [
+    {
+      "location": "node_modules/@algolia/abtesting",
+      "name": "@algolia/abtesting",
+      "version": "1.26.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/autocomplete-core",
+      "name": "@algolia/autocomplete-core",
+      "version": "1.17.7",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@algolia/autocomplete-plugin-algolia-insights": "1.17.7",
+        "@algolia/autocomplete-shared": "1.17.7"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/autocomplete-plugin-algolia-insights",
+      "name": "@algolia/autocomplete-plugin-algolia-insights",
+      "version": "1.17.7",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@algolia/autocomplete-shared": "1.17.7"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/autocomplete-preset-algolia",
+      "name": "@algolia/autocomplete-preset-algolia",
+      "version": "1.17.7",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@algolia/autocomplete-shared": "1.17.7"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/autocomplete-shared",
+      "name": "@algolia/autocomplete-shared",
+      "version": "1.17.7",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@algolia/client-abtesting",
+      "name": "@algolia/client-abtesting",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/client-analytics",
+      "name": "@algolia/client-analytics",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/client-common",
+      "name": "@algolia/client-common",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/client-insights",
+      "name": "@algolia/client-insights",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/client-personalization",
+      "name": "@algolia/client-personalization",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/client-query-suggestions",
+      "name": "@algolia/client-query-suggestions",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/client-search",
+      "name": "@algolia/client-search",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/ingestion",
+      "name": "@algolia/ingestion",
+      "version": "1.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/monitoring",
+      "name": "@algolia/monitoring",
+      "version": "1.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/recommend",
+      "name": "@algolia/recommend",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/requester-browser-xhr",
+      "name": "@algolia/requester-browser-xhr",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/requester-fetch",
+      "name": "@algolia/requester-fetch",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@algolia/requester-node-http",
+      "name": "@algolia/requester-node-http",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/client-common": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/@alloc/quick-lru",
+      "name": "@alloc/quick-lru",
+      "version": "5.2.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=10"
+      }
+    },
+    {
+      "location": "node_modules/@babel/code-frame",
+      "name": "@babel/code-frame",
+      "version": "7.27.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/helper-validator-identifier": "^7.27.1",
+        "js-tokens": "^4.0.0",
+        "picocolors": "^1.1.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/compat-data",
+      "name": "@babel/compat-data",
+      "version": "7.28.4",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/@babel/core",
+      "name": "@babel/core",
+      "version": "7.28.4",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/code-frame": "^7.27.1",
+        "@babel/generator": "^7.28.3",
+        "@babel/helper-compilation-targets": "^7.27.2",
+        "@babel/helper-module-transforms": "^7.28.3",
+        "@babel/helpers": "^7.28.4",
+        "@babel/parser": "^7.28.4",
+        "@babel/template": "^7.27.2",
+        "@babel/traverse": "^7.28.4",
+        "@babel/types": "^7.28.4",
+        "@jridgewell/remapping": "^2.3.5",
+        "convert-source-map": "^2.0.0",
+        "debug": "^4.1.0",
+        "gensync": "^1.0.0-beta.2",
+        "json5": "^2.2.3",
+        "semver": "^6.3.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/generator",
+      "name": "@babel/generator",
+      "version": "7.28.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/parser": "^7.28.3",
+        "@babel/types": "^7.28.2",
+        "@jridgewell/gen-mapping": "^0.3.12",
+        "@jridgewell/trace-mapping": "^0.3.28",
+        "jsesc": "^3.0.2"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-compilation-targets",
+      "name": "@babel/helper-compilation-targets",
+      "version": "7.27.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/compat-data": "^7.27.2",
+        "@babel/helper-validator-option": "^7.27.1",
+        "browserslist": "^4.24.0",
+        "lru-cache": "^5.1.1",
+        "semver": "^6.3.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-compilation-targets/node_modules/lru-cache",
+      "name": "lru-cache",
+      "version": "5.1.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "yallist": "^3.0.2"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-globals",
+      "name": "@babel/helper-globals",
+      "version": "7.28.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-module-imports",
+      "name": "@babel/helper-module-imports",
+      "version": "7.27.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/traverse": "^7.27.1",
+        "@babel/types": "^7.27.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-module-transforms",
+      "name": "@babel/helper-module-transforms",
+      "version": "7.28.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/helper-module-imports": "^7.27.1",
+        "@babel/helper-validator-identifier": "^7.27.1",
+        "@babel/traverse": "^7.28.3"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-plugin-utils",
+      "name": "@babel/helper-plugin-utils",
+      "version": "7.27.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-string-parser",
+      "name": "@babel/helper-string-parser",
+      "version": "7.29.7",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-validator-identifier",
+      "name": "@babel/helper-validator-identifier",
+      "version": "7.29.7",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helper-validator-option",
+      "name": "@babel/helper-validator-option",
+      "version": "7.27.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/@babel/helpers",
+      "name": "@babel/helpers",
+      "version": "7.28.4",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/template": "^7.27.2",
+        "@babel/types": "^7.28.4"
+      }
+    },
+    {
+      "location": "node_modules/@babel/parser",
+      "name": "@babel/parser",
+      "version": "7.29.9",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.0.0"
+      },
+      "dependencies": {
+        "@babel/types": "^7.29.8"
+      }
+    },
+    {
+      "location": "node_modules/@babel/plugin-transform-react-jsx-self",
+      "name": "@babel/plugin-transform-react-jsx-self",
+      "version": "7.27.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/helper-plugin-utils": "^7.27.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/plugin-transform-react-jsx-source",
+      "name": "@babel/plugin-transform-react-jsx-source",
+      "version": "7.27.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/helper-plugin-utils": "^7.27.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/template",
+      "name": "@babel/template",
+      "version": "7.27.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/code-frame": "^7.27.1",
+        "@babel/parser": "^7.27.2",
+        "@babel/types": "^7.27.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/traverse",
+      "name": "@babel/traverse",
+      "version": "7.28.4",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/code-frame": "^7.27.1",
+        "@babel/generator": "^7.28.3",
+        "@babel/helper-globals": "^7.28.0",
+        "@babel/parser": "^7.28.4",
+        "@babel/template": "^7.27.2",
+        "@babel/types": "^7.28.4",
+        "debug": "^4.3.1"
+      }
+    },
+    {
+      "location": "node_modules/@babel/types",
+      "name": "@babel/types",
+      "version": "7.29.8",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      },
+      "dependencies": {
+        "@babel/helper-string-parser": "^7.29.7",
+        "@babel/helper-validator-identifier": "^7.29.7"
+      }
+    },
+    {
+      "location": "node_modules/@docsearch/css",
+      "name": "@docsearch/css",
+      "version": "3.8.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@docsearch/js",
+      "name": "@docsearch/js",
+      "version": "3.8.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@docsearch/react": "3.8.2",
+        "preact": "^10.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@docsearch/react",
+      "name": "@docsearch/react",
+      "version": "3.8.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@algolia/autocomplete-core": "1.17.7",
+        "@algolia/autocomplete-preset-algolia": "1.17.7",
+        "@docsearch/css": "3.8.2",
+        "algoliasearch": "^5.14.2"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/aix-ppc64",
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/android-arm",
+      "name": "@esbuild/android-arm",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/android-arm64",
+      "name": "@esbuild/android-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/android-x64",
+      "name": "@esbuild/android-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/darwin-arm64",
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/darwin-x64",
+      "name": "@esbuild/darwin-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/freebsd-arm64",
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/freebsd-x64",
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-arm",
+      "name": "@esbuild/linux-arm",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-arm64",
+      "name": "@esbuild/linux-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-ia32",
+      "name": "@esbuild/linux-ia32",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-loong64",
+      "name": "@esbuild/linux-loong64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-mips64el",
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-ppc64",
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-riscv64",
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-s390x",
+      "name": "@esbuild/linux-s390x",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/linux-x64",
+      "name": "@esbuild/linux-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/netbsd-arm64",
+      "name": "@esbuild/netbsd-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/netbsd-x64",
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/openbsd-arm64",
+      "name": "@esbuild/openbsd-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/openbsd-x64",
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/openharmony-arm64",
+      "name": "@esbuild/openharmony-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/sunos-x64",
+      "name": "@esbuild/sunos-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/win32-arm64",
+      "name": "@esbuild/win32-arm64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/win32-ia32",
+      "name": "@esbuild/win32-ia32",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@esbuild/win32-x64",
+      "name": "@esbuild/win32-x64",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/@iconify-json/simple-icons",
+      "name": "@iconify-json/simple-icons",
+      "version": "1.2.100",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@iconify/types": "*"
+      }
+    },
+    {
+      "location": "node_modules/@iconify/types",
+      "name": "@iconify/types",
+      "version": "2.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@isaacs/cliui",
+      "name": "@isaacs/cliui",
+      "version": "8.0.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      },
+      "dependencies": {
+        "string-width": "^5.1.2",
+        "string-width-cjs": "npm:string-width@^4.2.0",
+        "strip-ansi": "^7.0.1",
+        "strip-ansi-cjs": "npm:strip-ansi@^6.0.1",
+        "wrap-ansi": "^8.1.0",
+        "wrap-ansi-cjs": "npm:wrap-ansi@^7.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@jridgewell/gen-mapping",
+      "name": "@jridgewell/gen-mapping",
+      "version": "0.3.13",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@jridgewell/sourcemap-codec": "^1.5.0",
+        "@jridgewell/trace-mapping": "^0.3.24"
+      }
+    },
+    {
+      "location": "node_modules/@jridgewell/remapping",
+      "name": "@jridgewell/remapping",
+      "version": "2.3.5",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@jridgewell/gen-mapping": "^0.3.5",
+        "@jridgewell/trace-mapping": "^0.3.24"
+      }
+    },
+    {
+      "location": "node_modules/@jridgewell/resolve-uri",
+      "name": "@jridgewell/resolve-uri",
+      "version": "3.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@jridgewell/sourcemap-codec",
+      "name": "@jridgewell/sourcemap-codec",
+      "version": "1.5.5",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@jridgewell/trace-mapping",
+      "name": "@jridgewell/trace-mapping",
+      "version": "0.3.31",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@jridgewell/resolve-uri": "^3.1.0",
+        "@jridgewell/sourcemap-codec": "^1.4.14"
+      }
+    },
+    {
+      "location": "node_modules/@nodelib/fs.scandir",
+      "name": "@nodelib/fs.scandir",
+      "version": "2.1.5",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      },
+      "dependencies": {
+        "@nodelib/fs.stat": "2.0.5",
+        "run-parallel": "^1.1.9"
+      }
+    },
+    {
+      "location": "node_modules/@nodelib/fs.stat",
+      "name": "@nodelib/fs.stat",
+      "version": "2.0.5",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    {
+      "location": "node_modules/@nodelib/fs.walk",
+      "name": "@nodelib/fs.walk",
+      "version": "1.2.8",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      },
+      "dependencies": {
+        "@nodelib/fs.scandir": "2.1.5",
+        "fastq": "^1.6.0"
+      }
+    },
+    {
+      "location": "node_modules/@pkgjs/parseargs",
+      "name": "@pkgjs/parseargs",
+      "version": "0.11.0",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=14"
+      }
+    },
+    {
+      "location": "node_modules/@remix-run/router",
+      "name": "@remix-run/router",
+      "version": "1.23.4",
+      "dev": false,
+      "optional": false,
+      "engines": {
+        "node": ">=14.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@rolldown/pluginutils",
+      "name": "@rolldown/pluginutils",
+      "version": "1.0.0-beta.38",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@rollup/rollup-android-arm-eabi",
+      "name": "@rollup/rollup-android-arm-eabi",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-android-arm64",
+      "name": "@rollup/rollup-android-arm64",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-darwin-arm64",
+      "name": "@rollup/rollup-darwin-arm64",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-darwin-x64",
+      "name": "@rollup/rollup-darwin-x64",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-freebsd-arm64",
+      "name": "@rollup/rollup-freebsd-arm64",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-freebsd-x64",
+      "name": "@rollup/rollup-freebsd-x64",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-arm-gnueabihf",
+      "name": "@rollup/rollup-linux-arm-gnueabihf",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-arm-musleabihf",
+      "name": "@rollup/rollup-linux-arm-musleabihf",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-arm64-gnu",
+      "name": "@rollup/rollup-linux-arm64-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-arm64-musl",
+      "name": "@rollup/rollup-linux-arm64-musl",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-loong64-gnu",
+      "name": "@rollup/rollup-linux-loong64-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-ppc64-gnu",
+      "name": "@rollup/rollup-linux-ppc64-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-riscv64-gnu",
+      "name": "@rollup/rollup-linux-riscv64-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-riscv64-musl",
+      "name": "@rollup/rollup-linux-riscv64-musl",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-s390x-gnu",
+      "name": "@rollup/rollup-linux-s390x-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-x64-gnu",
+      "name": "@rollup/rollup-linux-x64-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-linux-x64-musl",
+      "name": "@rollup/rollup-linux-x64-musl",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-openharmony-arm64",
+      "name": "@rollup/rollup-openharmony-arm64",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-win32-arm64-msvc",
+      "name": "@rollup/rollup-win32-arm64-msvc",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-win32-ia32-msvc",
+      "name": "@rollup/rollup-win32-ia32-msvc",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-win32-x64-gnu",
+      "name": "@rollup/rollup-win32-x64-gnu",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@rollup/rollup-win32-x64-msvc",
+      "name": "@rollup/rollup-win32-x64-msvc",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": true
+    },
+    {
+      "location": "node_modules/@shikijs/core",
+      "name": "@shikijs/core",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/engine-javascript": "2.5.0",
+        "@shikijs/engine-oniguruma": "2.5.0",
+        "@shikijs/types": "2.5.0",
+        "@shikijs/vscode-textmate": "^10.0.2",
+        "@types/hast": "^3.0.4",
+        "hast-util-to-html": "^9.0.4"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/engine-javascript",
+      "name": "@shikijs/engine-javascript",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/types": "2.5.0",
+        "@shikijs/vscode-textmate": "^10.0.2",
+        "oniguruma-to-es": "^3.1.0"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/engine-oniguruma",
+      "name": "@shikijs/engine-oniguruma",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/types": "2.5.0",
+        "@shikijs/vscode-textmate": "^10.0.2"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/langs",
+      "name": "@shikijs/langs",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/types": "2.5.0"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/themes",
+      "name": "@shikijs/themes",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/types": "2.5.0"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/transformers",
+      "name": "@shikijs/transformers",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/core": "2.5.0",
+        "@shikijs/types": "2.5.0"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/types",
+      "name": "@shikijs/types",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/vscode-textmate": "^10.0.2",
+        "@types/hast": "^3.0.4"
+      }
+    },
+    {
+      "location": "node_modules/@shikijs/vscode-textmate",
+      "name": "@shikijs/vscode-textmate",
+      "version": "10.0.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@types/babel__core",
+      "name": "@types/babel__core",
+      "version": "7.20.5",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@babel/parser": "^7.20.7",
+        "@babel/types": "^7.20.7",
+        "@types/babel__generator": "*",
+        "@types/babel__template": "*",
+        "@types/babel__traverse": "*"
+      }
+    },
+    {
+      "location": "node_modules/@types/babel__generator",
+      "name": "@types/babel__generator",
+      "version": "7.27.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@babel/types": "^7.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@types/babel__template",
+      "name": "@types/babel__template",
+      "version": "7.4.4",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@babel/parser": "^7.1.0",
+        "@babel/types": "^7.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@types/babel__traverse",
+      "name": "@types/babel__traverse",
+      "version": "7.28.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@babel/types": "^7.28.2"
+      }
+    },
+    {
+      "location": "node_modules/@types/estree",
+      "name": "@types/estree",
+      "version": "1.0.8",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@types/hast",
+      "name": "@types/hast",
+      "version": "3.0.5",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "*"
+      }
+    },
+    {
+      "location": "node_modules/@types/linkify-it",
+      "name": "@types/linkify-it",
+      "version": "5.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@types/markdown-it",
+      "name": "@types/markdown-it",
+      "version": "14.2.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/linkify-it": "^5",
+        "@types/mdurl": "^2"
+      }
+    },
+    {
+      "location": "node_modules/@types/mdast",
+      "name": "@types/mdast",
+      "version": "4.0.4",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "*"
+      }
+    },
+    {
+      "location": "node_modules/@types/mdurl",
+      "name": "@types/mdurl",
+      "version": "2.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@types/unist",
+      "name": "@types/unist",
+      "version": "3.0.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@types/web-bluetooth",
+      "name": "@types/web-bluetooth",
+      "version": "0.0.21",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@ungap/structured-clone",
+      "name": "@ungap/structured-clone",
+      "version": "1.4.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@vitejs/plugin-react",
+      "name": "@vitejs/plugin-react",
+      "version": "5.0.4",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^20.19.0 || >=22.12.0"
+      },
+      "dependencies": {
+        "@babel/core": "^7.28.4",
+        "@babel/plugin-transform-react-jsx-self": "^7.27.1",
+        "@babel/plugin-transform-react-jsx-source": "^7.27.1",
+        "@rolldown/pluginutils": "1.0.0-beta.38",
+        "@types/babel__core": "^7.20.5",
+        "react-refresh": "^0.17.0"
+      }
+    },
+    {
+      "location": "node_modules/@vitejs/plugin-vue",
+      "name": "@vitejs/plugin-vue",
+      "version": "5.2.4",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^18.0.0 || >=20.0.0"
+      }
+    },
+    {
+      "location": "node_modules/@vue/compiler-core",
+      "name": "@vue/compiler-core",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@babel/parser": "^7.29.9",
+        "@vue/shared": "3.5.44",
+        "entities": "^7.0.1",
+        "estree-walker": "^2.0.2",
+        "source-map-js": "^1.2.2"
+      }
+    },
+    {
+      "location": "node_modules/@vue/compiler-dom",
+      "name": "@vue/compiler-dom",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/compiler-core": "3.5.44",
+        "@vue/shared": "3.5.44"
+      }
+    },
+    {
+      "location": "node_modules/@vue/compiler-sfc",
+      "name": "@vue/compiler-sfc",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@babel/parser": "^7.29.9",
+        "@vue/compiler-core": "3.5.44",
+        "@vue/compiler-dom": "3.5.44",
+        "@vue/compiler-ssr": "3.5.44",
+        "@vue/shared": "3.5.44",
+        "estree-walker": "^2.0.2",
+        "magic-string": "^0.30.21",
+        "postcss": "^8.5.29",
+        "source-map-js": "^1.2.2"
+      }
+    },
+    {
+      "location": "node_modules/@vue/compiler-ssr",
+      "name": "@vue/compiler-ssr",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/compiler-dom": "3.5.44",
+        "@vue/shared": "3.5.44"
+      }
+    },
+    {
+      "location": "node_modules/@vue/devtools-api",
+      "name": "@vue/devtools-api",
+      "version": "7.7.10",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/devtools-kit": "^7.7.10"
+      }
+    },
+    {
+      "location": "node_modules/@vue/devtools-kit",
+      "name": "@vue/devtools-kit",
+      "version": "7.7.10",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/devtools-shared": "^7.7.10",
+        "birpc": "^2.3.0",
+        "hookable": "^5.5.3",
+        "mitt": "^3.0.1",
+        "perfect-debounce": "^1.0.0",
+        "speakingurl": "^14.0.1",
+        "superjson": "^2.2.2"
+      }
+    },
+    {
+      "location": "node_modules/@vue/devtools-shared",
+      "name": "@vue/devtools-shared",
+      "version": "7.7.10",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "rfdc": "^1.4.1"
+      }
+    },
+    {
+      "location": "node_modules/@vue/reactivity",
+      "name": "@vue/reactivity",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/shared": "3.5.44"
+      }
+    },
+    {
+      "location": "node_modules/@vue/runtime-core",
+      "name": "@vue/runtime-core",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/reactivity": "3.5.44",
+        "@vue/shared": "3.5.44"
+      }
+    },
+    {
+      "location": "node_modules/@vue/runtime-dom",
+      "name": "@vue/runtime-dom",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/reactivity": "3.5.44",
+        "@vue/runtime-core": "3.5.44",
+        "@vue/shared": "3.5.44",
+        "csstype": "^3.2.3"
+      }
+    },
+    {
+      "location": "node_modules/@vue/server-renderer",
+      "name": "@vue/server-renderer",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/compiler-ssr": "3.5.44",
+        "@vue/runtime-dom": "3.5.44",
+        "@vue/shared": "3.5.44"
+      }
+    },
+    {
+      "location": "node_modules/@vue/shared",
+      "name": "@vue/shared",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@vueuse/core",
+      "name": "@vueuse/core",
+      "version": "12.8.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/web-bluetooth": "^0.0.21",
+        "@vueuse/metadata": "12.8.2",
+        "@vueuse/shared": "12.8.2",
+        "vue": "^3.5.13"
+      }
+    },
+    {
+      "location": "node_modules/@vueuse/integrations",
+      "name": "@vueuse/integrations",
+      "version": "12.8.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vueuse/core": "12.8.2",
+        "@vueuse/shared": "12.8.2",
+        "vue": "^3.5.13"
+      }
+    },
+    {
+      "location": "node_modules/@vueuse/metadata",
+      "name": "@vueuse/metadata",
+      "version": "12.8.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/@vueuse/shared",
+      "name": "@vueuse/shared",
+      "version": "12.8.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "vue": "^3.5.13"
+      }
+    },
+    {
+      "location": "node_modules/algoliasearch",
+      "name": "algoliasearch",
+      "version": "5.60.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 14.0.0"
+      },
+      "dependencies": {
+        "@algolia/abtesting": "1.26.0",
+        "@algolia/client-abtesting": "5.60.0",
+        "@algolia/client-analytics": "5.60.0",
+        "@algolia/client-common": "5.60.0",
+        "@algolia/client-insights": "5.60.0",
+        "@algolia/client-personalization": "5.60.0",
+        "@algolia/client-query-suggestions": "5.60.0",
+        "@algolia/client-search": "5.60.0",
+        "@algolia/ingestion": "1.60.0",
+        "@algolia/monitoring": "1.60.0",
+        "@algolia/recommend": "5.60.0",
+        "@algolia/requester-browser-xhr": "5.60.0",
+        "@algolia/requester-fetch": "5.60.0",
+        "@algolia/requester-node-http": "5.60.0"
+      }
+    },
+    {
+      "location": "node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "6.2.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/ansi-styles",
+      "name": "ansi-styles",
+      "version": "6.2.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/any-promise",
+      "name": "any-promise",
+      "version": "1.3.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/anymatch",
+      "name": "anymatch",
+      "version": "3.1.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      },
+      "dependencies": {
+        "normalize-path": "^3.0.0",
+        "picomatch": "^2.0.4"
+      }
+    },
+    {
+      "location": "node_modules/arg",
+      "name": "arg",
+      "version": "5.0.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/autoprefixer",
+      "name": "autoprefixer",
+      "version": "10.4.21",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      },
+      "dependencies": {
+        "browserslist": "^4.24.4",
+        "caniuse-lite": "^1.0.30001702",
+        "fraction.js": "^4.3.7",
+        "normalize-range": "^0.1.2",
+        "picocolors": "^1.1.1",
+        "postcss-value-parser": "^4.2.0"
+      }
+    },
+    {
+      "location": "node_modules/balanced-match",
+      "name": "balanced-match",
+      "version": "1.0.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/baseline-browser-mapping",
+      "name": "baseline-browser-mapping",
+      "version": "2.8.18",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/binary-extensions",
+      "name": "binary-extensions",
+      "version": "2.3.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/birpc",
+      "name": "birpc",
+      "version": "2.9.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/brace-expansion",
+      "name": "brace-expansion",
+      "version": "2.0.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "balanced-match": "^1.0.0"
+      }
+    },
+    {
+      "location": "node_modules/braces",
+      "name": "braces",
+      "version": "3.0.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "fill-range": "^7.1.1"
+      }
+    },
+    {
+      "location": "node_modules/browserslist",
+      "name": "browserslist",
+      "version": "4.26.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7"
+      },
+      "dependencies": {
+        "baseline-browser-mapping": "^2.8.9",
+        "caniuse-lite": "^1.0.30001746",
+        "electron-to-chromium": "^1.5.227",
+        "node-releases": "^2.0.21",
+        "update-browserslist-db": "^1.1.3"
+      }
+    },
+    {
+      "location": "node_modules/camelcase-css",
+      "name": "camelcase-css",
+      "version": "2.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    {
+      "location": "node_modules/caniuse-lite",
+      "name": "caniuse-lite",
+      "version": "1.0.30001751",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/ccount",
+      "name": "ccount",
+      "version": "2.0.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/character-entities-html4",
+      "name": "character-entities-html4",
+      "version": "2.1.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/character-entities-legacy",
+      "name": "character-entities-legacy",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/chokidar",
+      "name": "chokidar",
+      "version": "3.6.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8.10.0"
+      },
+      "dependencies": {
+        "anymatch": "~3.1.2",
+        "braces": "~3.0.2",
+        "glob-parent": "~5.1.2",
+        "is-binary-path": "~2.1.0",
+        "is-glob": "~4.0.1",
+        "normalize-path": "~3.0.0",
+        "readdirp": "~3.6.0"
+      }
+    },
+    {
+      "location": "node_modules/chokidar/node_modules/glob-parent",
+      "name": "glob-parent",
+      "version": "5.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 6"
+      },
+      "dependencies": {
+        "is-glob": "^4.0.1"
+      }
+    },
+    {
+      "location": "node_modules/color-convert",
+      "name": "color-convert",
+      "version": "2.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=7.0.0"
+      },
+      "dependencies": {
+        "color-name": "~1.1.4"
+      }
+    },
+    {
+      "location": "node_modules/color-name",
+      "name": "color-name",
+      "version": "1.1.4",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/comma-separated-tokens",
+      "name": "comma-separated-tokens",
+      "version": "2.0.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/commander",
+      "name": "commander",
+      "version": "4.1.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    {
+      "location": "node_modules/convert-source-map",
+      "name": "convert-source-map",
+      "version": "2.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/copy-anything",
+      "name": "copy-anything",
+      "version": "4.1.5",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/cross-spawn",
+      "name": "cross-spawn",
+      "version": "7.0.6",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      },
+      "dependencies": {
+        "path-key": "^3.1.0",
+        "shebang-command": "^2.0.0",
+        "which": "^2.0.1"
+      }
+    },
+    {
+      "location": "node_modules/cssesc",
+      "name": "cssesc",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=4"
+      }
+    },
+    {
+      "location": "node_modules/csstype",
+      "name": "csstype",
+      "version": "3.2.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/debug",
+      "name": "debug",
+      "version": "4.4.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.0"
+      },
+      "dependencies": {
+        "ms": "^2.1.3"
+      }
+    },
+    {
+      "location": "node_modules/dequal",
+      "name": "dequal",
+      "version": "2.0.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    {
+      "location": "node_modules/devlop",
+      "name": "devlop",
+      "version": "1.1.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "dequal": "^2.0.0"
+      }
+    },
+    {
+      "location": "node_modules/didyoumean",
+      "name": "didyoumean",
+      "version": "1.2.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/dlv",
+      "name": "dlv",
+      "version": "1.1.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/eastasianwidth",
+      "name": "eastasianwidth",
+      "version": "0.2.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/electron-to-chromium",
+      "name": "electron-to-chromium",
+      "version": "1.5.237",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/emoji-regex",
+      "name": "emoji-regex",
+      "version": "9.2.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/emoji-regex-xs",
+      "name": "emoji-regex-xs",
+      "version": "1.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/entities",
+      "name": "entities",
+      "version": "7.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.12"
+      }
+    },
+    {
+      "location": "node_modules/esbuild",
+      "name": "esbuild",
+      "version": "0.25.11",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=18"
+      }
+    },
+    {
+      "location": "node_modules/escalade",
+      "name": "escalade",
+      "version": "3.2.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    {
+      "location": "node_modules/estree-walker",
+      "name": "estree-walker",
+      "version": "2.0.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/fast-glob",
+      "name": "fast-glob",
+      "version": "3.3.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8.6.0"
+      },
+      "dependencies": {
+        "@nodelib/fs.stat": "^2.0.2",
+        "@nodelib/fs.walk": "^1.2.3",
+        "glob-parent": "^5.1.2",
+        "merge2": "^1.3.0",
+        "micromatch": "^4.0.8"
+      }
+    },
+    {
+      "location": "node_modules/fast-glob/node_modules/glob-parent",
+      "name": "glob-parent",
+      "version": "5.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 6"
+      },
+      "dependencies": {
+        "is-glob": "^4.0.1"
+      }
+    },
+    {
+      "location": "node_modules/fastq",
+      "name": "fastq",
+      "version": "1.19.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "reusify": "^1.0.4"
+      }
+    },
+    {
+      "location": "node_modules/fill-range",
+      "name": "fill-range",
+      "version": "7.1.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "to-regex-range": "^5.0.1"
+      }
+    },
+    {
+      "location": "node_modules/focus-trap",
+      "name": "focus-trap",
+      "version": "7.8.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "tabbable": "^6.4.0"
+      }
+    },
+    {
+      "location": "node_modules/foreground-child",
+      "name": "foreground-child",
+      "version": "3.3.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=14"
+      },
+      "dependencies": {
+        "cross-spawn": "^7.0.6",
+        "signal-exit": "^4.0.1"
+      }
+    },
+    {
+      "location": "node_modules/fraction.js",
+      "name": "fraction.js",
+      "version": "4.3.7",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "*"
+      }
+    },
+    {
+      "location": "node_modules/fsevents",
+      "name": "fsevents",
+      "version": "2.3.3",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": "^8.16.0 || ^10.6.0 || >=11.0.0"
+      }
+    },
+    {
+      "location": "node_modules/function-bind",
+      "name": "function-bind",
+      "version": "1.1.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/gensync",
+      "name": "gensync",
+      "version": "1.0.0-beta.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6.9.0"
+      }
+    },
+    {
+      "location": "node_modules/glob",
+      "name": "glob",
+      "version": "10.4.5",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "foreground-child": "^3.1.0",
+        "jackspeak": "^3.1.2",
+        "minimatch": "^9.0.4",
+        "minipass": "^7.1.2",
+        "package-json-from-dist": "^1.0.0",
+        "path-scurry": "^1.11.1"
+      }
+    },
+    {
+      "location": "node_modules/glob-parent",
+      "name": "glob-parent",
+      "version": "6.0.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=10.13.0"
+      },
+      "dependencies": {
+        "is-glob": "^4.0.3"
+      }
+    },
+    {
+      "location": "node_modules/hasown",
+      "name": "hasown",
+      "version": "2.0.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "dependencies": {
+        "function-bind": "^1.1.2"
+      }
+    },
+    {
+      "location": "node_modules/hast-util-to-html",
+      "name": "hast-util-to-html",
+      "version": "9.0.5",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/hast": "^3.0.0",
+        "@types/unist": "^3.0.0",
+        "ccount": "^2.0.0",
+        "comma-separated-tokens": "^2.0.0",
+        "hast-util-whitespace": "^3.0.0",
+        "html-void-elements": "^3.0.0",
+        "mdast-util-to-hast": "^13.0.0",
+        "property-information": "^7.0.0",
+        "space-separated-tokens": "^2.0.0",
+        "stringify-entities": "^4.0.0",
+        "zwitch": "^2.0.4"
+      }
+    },
+    {
+      "location": "node_modules/hast-util-whitespace",
+      "name": "hast-util-whitespace",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/hast": "^3.0.0"
+      }
+    },
+    {
+      "location": "node_modules/hookable",
+      "name": "hookable",
+      "version": "5.5.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/html-void-elements",
+      "name": "html-void-elements",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/is-binary-path",
+      "name": "is-binary-path",
+      "version": "2.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "binary-extensions": "^2.0.0"
+      }
+    },
+    {
+      "location": "node_modules/is-core-module",
+      "name": "is-core-module",
+      "version": "2.16.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "dependencies": {
+        "hasown": "^2.0.2"
+      }
+    },
+    {
+      "location": "node_modules/is-extglob",
+      "name": "is-extglob",
+      "version": "2.1.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/is-fullwidth-code-point",
+      "name": "is-fullwidth-code-point",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/is-glob",
+      "name": "is-glob",
+      "version": "4.0.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "dependencies": {
+        "is-extglob": "^2.1.1"
+      }
+    },
+    {
+      "location": "node_modules/is-number",
+      "name": "is-number",
+      "version": "7.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.12.0"
+      }
+    },
+    {
+      "location": "node_modules/isexe",
+      "name": "isexe",
+      "version": "2.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/jackspeak",
+      "name": "jackspeak",
+      "version": "3.4.3",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@isaacs/cliui": "^8.0.2"
+      }
+    },
+    {
+      "location": "node_modules/jiti",
+      "name": "jiti",
+      "version": "1.21.7",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/js-tokens",
+      "name": "js-tokens",
+      "version": "4.0.0",
+      "dev": false,
+      "optional": false
+    },
+    {
+      "location": "node_modules/jsesc",
+      "name": "jsesc",
+      "version": "3.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    {
+      "location": "node_modules/json5",
+      "name": "json5",
+      "version": "2.2.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=6"
+      }
+    },
+    {
+      "location": "node_modules/lilconfig",
+      "name": "lilconfig",
+      "version": "3.1.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=14"
+      }
+    },
+    {
+      "location": "node_modules/lines-and-columns",
+      "name": "lines-and-columns",
+      "version": "1.2.4",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/loose-envify",
+      "name": "loose-envify",
+      "version": "1.4.0",
+      "dev": false,
+      "optional": false,
+      "dependencies": {
+        "js-tokens": "^3.0.0 || ^4.0.0"
+      }
+    },
+    {
+      "location": "node_modules/lru-cache",
+      "name": "lru-cache",
+      "version": "10.4.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/lucide-react",
+      "name": "lucide-react",
+      "version": "0.471.2",
+      "dev": false,
+      "optional": false
+    },
+    {
+      "location": "node_modules/magic-string",
+      "name": "magic-string",
+      "version": "0.30.21",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@jridgewell/sourcemap-codec": "^1.5.5"
+      }
+    },
+    {
+      "location": "node_modules/mark.js",
+      "name": "mark.js",
+      "version": "8.11.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/mdast-util-to-hast",
+      "name": "mdast-util-to-hast",
+      "version": "13.2.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/hast": "^3.0.0",
+        "@types/mdast": "^4.0.0",
+        "@ungap/structured-clone": "^1.0.0",
+        "devlop": "^1.0.0",
+        "micromark-util-sanitize-uri": "^2.0.0",
+        "trim-lines": "^3.0.0",
+        "unist-util-position": "^5.0.0",
+        "unist-util-visit": "^5.0.0",
+        "vfile": "^6.0.0"
+      }
+    },
+    {
+      "location": "node_modules/merge2",
+      "name": "merge2",
+      "version": "1.4.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      }
+    },
+    {
+      "location": "node_modules/micromark-util-character",
+      "name": "micromark-util-character",
+      "version": "2.1.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "micromark-util-symbol": "^2.0.0",
+        "micromark-util-types": "^2.0.0"
+      }
+    },
+    {
+      "location": "node_modules/micromark-util-encode",
+      "name": "micromark-util-encode",
+      "version": "2.0.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/micromark-util-sanitize-uri",
+      "name": "micromark-util-sanitize-uri",
+      "version": "2.0.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "micromark-util-character": "^2.0.0",
+        "micromark-util-encode": "^2.0.0",
+        "micromark-util-symbol": "^2.0.0"
+      }
+    },
+    {
+      "location": "node_modules/micromark-util-symbol",
+      "name": "micromark-util-symbol",
+      "version": "2.0.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/micromark-util-types",
+      "name": "micromark-util-types",
+      "version": "2.0.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/micromatch",
+      "name": "micromatch",
+      "version": "4.0.8",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8.6"
+      },
+      "dependencies": {
+        "braces": "^3.0.3",
+        "picomatch": "^2.3.1"
+      }
+    },
+    {
+      "location": "node_modules/minimatch",
+      "name": "minimatch",
+      "version": "9.0.5",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      },
+      "dependencies": {
+        "brace-expansion": "^2.0.1"
+      }
+    },
+    {
+      "location": "node_modules/minipass",
+      "name": "minipass",
+      "version": "7.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      }
+    },
+    {
+      "location": "node_modules/minisearch",
+      "name": "minisearch",
+      "version": "7.2.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/mitt",
+      "name": "mitt",
+      "version": "3.0.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/ms",
+      "name": "ms",
+      "version": "2.1.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/mz",
+      "name": "mz",
+      "version": "2.7.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "any-promise": "^1.0.0",
+        "object-assign": "^4.0.1",
+        "thenify-all": "^1.0.0"
+      }
+    },
+    {
+      "location": "node_modules/nanoid",
+      "name": "nanoid",
+      "version": "3.3.20",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^10 || ^12 || ^13.7 || ^14 || >=15.0.1"
+      }
+    },
+    {
+      "location": "node_modules/node-releases",
+      "name": "node-releases",
+      "version": "2.0.25",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/normalize-path",
+      "name": "normalize-path",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/normalize-range",
+      "name": "normalize-range",
+      "version": "0.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/object-assign",
+      "name": "object-assign",
+      "version": "4.1.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/object-hash",
+      "name": "object-hash",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    {
+      "location": "node_modules/oniguruma-to-es",
+      "name": "oniguruma-to-es",
+      "version": "3.1.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "emoji-regex-xs": "^1.0.0",
+        "regex": "^6.0.1",
+        "regex-recursion": "^6.0.2"
+      }
+    },
+    {
+      "location": "node_modules/package-json-from-dist",
+      "name": "package-json-from-dist",
+      "version": "1.0.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/path-key",
+      "name": "path-key",
+      "version": "3.1.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/path-parse",
+      "name": "path-parse",
+      "version": "1.0.7",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/path-scurry",
+      "name": "path-scurry",
+      "version": "1.11.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=16 || 14 >=14.18"
+      },
+      "dependencies": {
+        "lru-cache": "^10.2.0",
+        "minipass": "^5.0.0 || ^6.0.2 || ^7.0.0"
+      }
+    },
+    {
+      "location": "node_modules/perfect-debounce",
+      "name": "perfect-debounce",
+      "version": "1.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/picocolors",
+      "name": "picocolors",
+      "version": "1.1.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/picomatch",
+      "name": "picomatch",
+      "version": "2.3.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8.6"
+      }
+    },
+    {
+      "location": "node_modules/pify",
+      "name": "pify",
+      "version": "2.3.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/pirates",
+      "name": "pirates",
+      "version": "4.0.7",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 6"
+      }
+    },
+    {
+      "location": "node_modules/postcss",
+      "name": "postcss",
+      "version": "8.5.30",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^10 || ^12 || >=14"
+      },
+      "dependencies": {
+        "nanoid": "^3.3.20",
+        "picocolors": "^1.1.1",
+        "source-map-js": "^1.2.2"
+      }
+    },
+    {
+      "location": "node_modules/postcss-import",
+      "name": "postcss-import",
+      "version": "15.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=14.0.0"
+      },
+      "dependencies": {
+        "postcss-value-parser": "^4.0.0",
+        "read-cache": "^1.0.0",
+        "resolve": "^1.1.7"
+      }
+    },
+    {
+      "location": "node_modules/postcss-js",
+      "name": "postcss-js",
+      "version": "4.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^12 || ^14 || >= 16"
+      },
+      "dependencies": {
+        "camelcase-css": "^2.0.1"
+      }
+    },
+    {
+      "location": "node_modules/postcss-load-config",
+      "name": "postcss-load-config",
+      "version": "6.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 18"
+      },
+      "dependencies": {
+        "lilconfig": "^3.1.1"
+      }
+    },
+    {
+      "location": "node_modules/postcss-nested",
+      "name": "postcss-nested",
+      "version": "6.2.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12.0"
+      },
+      "dependencies": {
+        "postcss-selector-parser": "^6.1.1"
+      }
+    },
+    {
+      "location": "node_modules/postcss-selector-parser",
+      "name": "postcss-selector-parser",
+      "version": "6.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=4"
+      },
+      "dependencies": {
+        "cssesc": "^3.0.0",
+        "util-deprecate": "^1.0.2"
+      }
+    },
+    {
+      "location": "node_modules/postcss-value-parser",
+      "name": "postcss-value-parser",
+      "version": "4.2.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/preact",
+      "name": "preact",
+      "version": "10.29.8",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/property-information",
+      "name": "property-information",
+      "version": "7.2.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/queue-microtask",
+      "name": "queue-microtask",
+      "version": "1.2.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/react",
+      "name": "react",
+      "version": "18.3.1",
+      "dev": false,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      },
+      "dependencies": {
+        "loose-envify": "^1.1.0"
+      }
+    },
+    {
+      "location": "node_modules/react-dom",
+      "name": "react-dom",
+      "version": "18.3.1",
+      "dev": false,
+      "optional": false,
+      "dependencies": {
+        "loose-envify": "^1.1.0",
+        "scheduler": "^0.23.2"
+      }
+    },
+    {
+      "location": "node_modules/react-refresh",
+      "name": "react-refresh",
+      "version": "0.17.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/react-router",
+      "name": "react-router",
+      "version": "6.30.6",
+      "dev": false,
+      "optional": false,
+      "engines": {
+        "node": ">=14.0.0"
+      },
+      "dependencies": {
+        "@remix-run/router": "1.23.4"
+      }
+    },
+    {
+      "location": "node_modules/react-router-dom",
+      "name": "react-router-dom",
+      "version": "6.30.6",
+      "dev": false,
+      "optional": false,
+      "engines": {
+        "node": ">=14.0.0"
+      },
+      "dependencies": {
+        "@remix-run/router": "1.23.4",
+        "react-router": "6.30.6"
+      }
+    },
+    {
+      "location": "node_modules/read-cache",
+      "name": "read-cache",
+      "version": "1.0.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "pify": "^2.3.0"
+      }
+    },
+    {
+      "location": "node_modules/readdirp",
+      "name": "readdirp",
+      "version": "3.6.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8.10.0"
+      },
+      "dependencies": {
+        "picomatch": "^2.2.1"
+      }
+    },
+    {
+      "location": "node_modules/regex",
+      "name": "regex",
+      "version": "6.1.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "regex-utilities": "^2.3.0"
+      }
+    },
+    {
+      "location": "node_modules/regex-recursion",
+      "name": "regex-recursion",
+      "version": "6.0.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "regex-utilities": "^2.3.0"
+      }
+    },
+    {
+      "location": "node_modules/regex-utilities",
+      "name": "regex-utilities",
+      "version": "2.3.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/resolve",
+      "name": "resolve",
+      "version": "1.22.10",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 0.4"
+      },
+      "dependencies": {
+        "is-core-module": "^2.16.0",
+        "path-parse": "^1.0.7",
+        "supports-preserve-symlinks-flag": "^1.0.0"
+      }
+    },
+    {
+      "location": "node_modules/reusify",
+      "name": "reusify",
+      "version": "1.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "iojs": ">=1.0.0",
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/rfdc",
+      "name": "rfdc",
+      "version": "1.4.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/rollup",
+      "name": "rollup",
+      "version": "4.52.5",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=8.0.0"
+      },
+      "dependencies": {
+        "@types/estree": "1.0.8"
+      }
+    },
+    {
+      "location": "node_modules/run-parallel",
+      "name": "run-parallel",
+      "version": "1.2.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "queue-microtask": "^1.2.2"
+      }
+    },
+    {
+      "location": "node_modules/scheduler",
+      "name": "scheduler",
+      "version": "0.23.2",
+      "dev": false,
+      "optional": false,
+      "dependencies": {
+        "loose-envify": "^1.1.0"
+      }
+    },
+    {
+      "location": "node_modules/search-insights",
+      "name": "search-insights",
+      "version": "2.17.3",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/semver",
+      "name": "semver",
+      "version": "6.3.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/shebang-command",
+      "name": "shebang-command",
+      "version": "2.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "shebang-regex": "^3.0.0"
+      }
+    },
+    {
+      "location": "node_modules/shebang-regex",
+      "name": "shebang-regex",
+      "version": "3.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/shiki",
+      "name": "shiki",
+      "version": "2.5.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@shikijs/core": "2.5.0",
+        "@shikijs/engine-javascript": "2.5.0",
+        "@shikijs/engine-oniguruma": "2.5.0",
+        "@shikijs/langs": "2.5.0",
+        "@shikijs/themes": "2.5.0",
+        "@shikijs/types": "2.5.0",
+        "@shikijs/vscode-textmate": "^10.0.2",
+        "@types/hast": "^3.0.4"
+      }
+    },
+    {
+      "location": "node_modules/signal-exit",
+      "name": "signal-exit",
+      "version": "4.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=14"
+      }
+    },
+    {
+      "location": "node_modules/source-map-js",
+      "name": "source-map-js",
+      "version": "1.2.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/space-separated-tokens",
+      "name": "space-separated-tokens",
+      "version": "2.0.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/speakingurl",
+      "name": "speakingurl",
+      "version": "14.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.10.0"
+      }
+    },
+    {
+      "location": "node_modules/string-width",
+      "name": "string-width",
+      "version": "5.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      },
+      "dependencies": {
+        "eastasianwidth": "^0.2.0",
+        "emoji-regex": "^9.2.2",
+        "strip-ansi": "^7.0.1"
+      }
+    },
+    {
+      "location": "node_modules/string-width-cjs",
+      "name": "string-width",
+      "version": "4.2.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "emoji-regex": "^8.0.0",
+        "is-fullwidth-code-point": "^3.0.0",
+        "strip-ansi": "^6.0.1"
+      }
+    },
+    {
+      "location": "node_modules/string-width-cjs/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/string-width-cjs/node_modules/emoji-regex",
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/string-width-cjs/node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "ansi-regex": "^5.0.1"
+      }
+    },
+    {
+      "location": "node_modules/stringify-entities",
+      "name": "stringify-entities",
+      "version": "4.0.4",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "character-entities-html4": "^2.0.0",
+        "character-entities-legacy": "^3.0.0"
+      }
+    },
+    {
+      "location": "node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "7.1.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      },
+      "dependencies": {
+        "ansi-regex": "^6.0.1"
+      }
+    },
+    {
+      "location": "node_modules/strip-ansi-cjs",
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "ansi-regex": "^5.0.1"
+      }
+    },
+    {
+      "location": "node_modules/strip-ansi-cjs/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/sucrase",
+      "name": "sucrase",
+      "version": "3.35.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=16 || 14 >=14.17"
+      },
+      "dependencies": {
+        "@jridgewell/gen-mapping": "^0.3.2",
+        "commander": "^4.0.0",
+        "glob": "^10.3.10",
+        "lines-and-columns": "^1.1.6",
+        "mz": "^2.7.0",
+        "pirates": "^4.0.1",
+        "ts-interface-checker": "^0.1.9"
+      }
+    },
+    {
+      "location": "node_modules/superjson",
+      "name": "superjson",
+      "version": "2.2.6",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=16"
+      },
+      "dependencies": {
+        "copy-anything": "^4"
+      }
+    },
+    {
+      "location": "node_modules/supports-preserve-symlinks-flag",
+      "name": "supports-preserve-symlinks-flag",
+      "version": "1.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 0.4"
+      }
+    },
+    {
+      "location": "node_modules/tabbable",
+      "name": "tabbable",
+      "version": "6.5.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/tailwindcss",
+      "name": "tailwindcss",
+      "version": "3.4.18",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=14.0.0"
+      },
+      "dependencies": {
+        "@alloc/quick-lru": "^5.2.0",
+        "arg": "^5.0.2",
+        "chokidar": "^3.6.0",
+        "didyoumean": "^1.2.2",
+        "dlv": "^1.1.3",
+        "fast-glob": "^3.3.2",
+        "glob-parent": "^6.0.2",
+        "is-glob": "^4.0.3",
+        "jiti": "^1.21.7",
+        "lilconfig": "^3.1.3",
+        "micromatch": "^4.0.8",
+        "normalize-path": "^3.0.0",
+        "object-hash": "^3.0.0",
+        "picocolors": "^1.1.1",
+        "postcss": "^8.4.47",
+        "postcss-import": "^15.1.0",
+        "postcss-js": "^4.0.1",
+        "postcss-load-config": "^4.0.2 || ^5.0 || ^6.0",
+        "postcss-nested": "^6.2.0",
+        "postcss-selector-parser": "^6.1.2",
+        "resolve": "^1.22.8",
+        "sucrase": "^3.35.0"
+      }
+    },
+    {
+      "location": "node_modules/thenify",
+      "name": "thenify",
+      "version": "3.3.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "any-promise": "^1.0.0"
+      }
+    },
+    {
+      "location": "node_modules/thenify-all",
+      "name": "thenify-all",
+      "version": "1.6.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=0.8"
+      },
+      "dependencies": {
+        "thenify": ">= 3.1.0 < 4"
+      }
+    },
+    {
+      "location": "node_modules/tinyglobby",
+      "name": "tinyglobby",
+      "version": "0.2.15",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12.0.0"
+      },
+      "dependencies": {
+        "fdir": "^6.5.0",
+        "picomatch": "^4.0.3"
+      }
+    },
+    {
+      "location": "node_modules/tinyglobby/node_modules/fdir",
+      "name": "fdir",
+      "version": "6.5.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12.0.0"
+      }
+    },
+    {
+      "location": "node_modules/tinyglobby/node_modules/picomatch",
+      "name": "picomatch",
+      "version": "4.0.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/to-regex-range",
+      "name": "to-regex-range",
+      "version": "5.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8.0"
+      },
+      "dependencies": {
+        "is-number": "^7.0.0"
+      }
+    },
+    {
+      "location": "node_modules/trim-lines",
+      "name": "trim-lines",
+      "version": "3.0.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/ts-interface-checker",
+      "name": "ts-interface-checker",
+      "version": "0.1.13",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/unist-util-is",
+      "name": "unist-util-is",
+      "version": "6.0.1",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0"
+      }
+    },
+    {
+      "location": "node_modules/unist-util-position",
+      "name": "unist-util-position",
+      "version": "5.0.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0"
+      }
+    },
+    {
+      "location": "node_modules/unist-util-stringify-position",
+      "name": "unist-util-stringify-position",
+      "version": "4.0.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0"
+      }
+    },
+    {
+      "location": "node_modules/unist-util-visit",
+      "name": "unist-util-visit",
+      "version": "5.1.0",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0",
+        "unist-util-is": "^6.0.0",
+        "unist-util-visit-parents": "^6.0.0"
+      }
+    },
+    {
+      "location": "node_modules/unist-util-visit-parents",
+      "name": "unist-util-visit-parents",
+      "version": "6.0.2",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0",
+        "unist-util-is": "^6.0.0"
+      }
+    },
+    {
+      "location": "node_modules/update-browserslist-db",
+      "name": "update-browserslist-db",
+      "version": "1.1.3",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "escalade": "^3.2.0",
+        "picocolors": "^1.1.1"
+      }
+    },
+    {
+      "location": "node_modules/util-deprecate",
+      "name": "util-deprecate",
+      "version": "1.0.2",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/vfile",
+      "name": "vfile",
+      "version": "6.0.3",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0",
+        "vfile-message": "^4.0.0"
+      }
+    },
+    {
+      "location": "node_modules/vfile-message",
+      "name": "vfile-message",
+      "version": "4.0.3",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@types/unist": "^3.0.0",
+        "unist-util-stringify-position": "^4.0.0"
+      }
+    },
+    {
+      "location": "node_modules/vite",
+      "name": "vite",
+      "version": "6.4.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
+      },
+      "dependencies": {
+        "esbuild": "^0.25.0",
+        "fdir": "^6.4.4",
+        "picomatch": "^4.0.2",
+        "postcss": "^8.5.3",
+        "rollup": "^4.34.9",
+        "tinyglobby": "^0.2.13"
+      }
+    },
+    {
+      "location": "node_modules/vite/node_modules/fdir",
+      "name": "fdir",
+      "version": "6.5.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12.0.0"
+      }
+    },
+    {
+      "location": "node_modules/vite/node_modules/picomatch",
+      "name": "picomatch",
+      "version": "4.0.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress",
+      "name": "vitepress",
+      "version": "1.6.4",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@docsearch/css": "3.8.2",
+        "@docsearch/js": "3.8.2",
+        "@iconify-json/simple-icons": "^1.2.21",
+        "@shikijs/core": "^2.1.0",
+        "@shikijs/transformers": "^2.1.0",
+        "@shikijs/types": "^2.1.0",
+        "@types/markdown-it": "^14.1.2",
+        "@vitejs/plugin-vue": "^5.2.1",
+        "@vue/devtools-api": "^7.7.0",
+        "@vue/shared": "^3.5.13",
+        "@vueuse/core": "^12.4.0",
+        "@vueuse/integrations": "^12.4.0",
+        "focus-trap": "^7.6.4",
+        "mark.js": "8.11.1",
+        "minisearch": "^7.1.1",
+        "shiki": "^2.1.0",
+        "vite": "^5.4.14",
+        "vue": "^3.5.13"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/aix-ppc64",
+      "name": "@esbuild/aix-ppc64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/android-arm",
+      "name": "@esbuild/android-arm",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/android-arm64",
+      "name": "@esbuild/android-arm64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/android-x64",
+      "name": "@esbuild/android-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/darwin-arm64",
+      "name": "@esbuild/darwin-arm64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/darwin-x64",
+      "name": "@esbuild/darwin-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/freebsd-arm64",
+      "name": "@esbuild/freebsd-arm64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/freebsd-x64",
+      "name": "@esbuild/freebsd-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-arm",
+      "name": "@esbuild/linux-arm",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-arm64",
+      "name": "@esbuild/linux-arm64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-ia32",
+      "name": "@esbuild/linux-ia32",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-loong64",
+      "name": "@esbuild/linux-loong64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-mips64el",
+      "name": "@esbuild/linux-mips64el",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-ppc64",
+      "name": "@esbuild/linux-ppc64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-riscv64",
+      "name": "@esbuild/linux-riscv64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-s390x",
+      "name": "@esbuild/linux-s390x",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/linux-x64",
+      "name": "@esbuild/linux-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/netbsd-x64",
+      "name": "@esbuild/netbsd-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/openbsd-x64",
+      "name": "@esbuild/openbsd-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/sunos-x64",
+      "name": "@esbuild/sunos-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/win32-arm64",
+      "name": "@esbuild/win32-arm64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/win32-ia32",
+      "name": "@esbuild/win32-ia32",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/@esbuild/win32-x64",
+      "name": "@esbuild/win32-x64",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": true,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/esbuild",
+      "name": "esbuild",
+      "version": "0.21.5",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      }
+    },
+    {
+      "location": "node_modules/vitepress/node_modules/vite",
+      "name": "vite",
+      "version": "5.4.21",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": "^18.0.0 || >=20.0.0"
+      },
+      "dependencies": {
+        "esbuild": "^0.21.3",
+        "postcss": "^8.4.43",
+        "rollup": "^4.20.0"
+      }
+    },
+    {
+      "location": "node_modules/vue",
+      "name": "vue",
+      "version": "3.5.44",
+      "dev": true,
+      "optional": false,
+      "dependencies": {
+        "@vue/compiler-dom": "3.5.44",
+        "@vue/compiler-sfc": "3.5.44",
+        "@vue/runtime-dom": "3.5.44",
+        "@vue/server-renderer": "3.5.44",
+        "@vue/shared": "3.5.44"
+      }
+    },
+    {
+      "location": "node_modules/which",
+      "name": "which",
+      "version": "2.0.2",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">= 8"
+      },
+      "dependencies": {
+        "isexe": "^2.0.0"
+      }
+    },
+    {
+      "location": "node_modules/wrap-ansi",
+      "name": "wrap-ansi",
+      "version": "8.1.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=12"
+      },
+      "dependencies": {
+        "ansi-styles": "^6.1.0",
+        "string-width": "^5.0.1",
+        "strip-ansi": "^7.0.1"
+      }
+    },
+    {
+      "location": "node_modules/wrap-ansi-cjs",
+      "name": "wrap-ansi",
+      "version": "7.0.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=10"
+      },
+      "dependencies": {
+        "ansi-styles": "^4.0.0",
+        "string-width": "^4.1.0",
+        "strip-ansi": "^6.0.0"
+      }
+    },
+    {
+      "location": "node_modules/wrap-ansi-cjs/node_modules/ansi-regex",
+      "name": "ansi-regex",
+      "version": "5.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      }
+    },
+    {
+      "location": "node_modules/wrap-ansi-cjs/node_modules/ansi-styles",
+      "name": "ansi-styles",
+      "version": "4.3.0",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "color-convert": "^2.0.1"
+      }
+    },
+    {
+      "location": "node_modules/wrap-ansi-cjs/node_modules/emoji-regex",
+      "name": "emoji-regex",
+      "version": "8.0.0",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/wrap-ansi-cjs/node_modules/string-width",
+      "name": "string-width",
+      "version": "4.2.3",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "emoji-regex": "^8.0.0",
+        "is-fullwidth-code-point": "^3.0.0",
+        "strip-ansi": "^6.0.1"
+      }
+    },
+    {
+      "location": "node_modules/wrap-ansi-cjs/node_modules/strip-ansi",
+      "name": "strip-ansi",
+      "version": "6.0.1",
+      "dev": true,
+      "optional": false,
+      "engines": {
+        "node": ">=8"
+      },
+      "dependencies": {
+        "ansi-regex": "^5.0.1"
+      }
+    },
+    {
+      "location": "node_modules/yallist",
+      "name": "yallist",
+      "version": "3.1.1",
+      "dev": true,
+      "optional": false
+    },
+    {
+      "location": "node_modules/zwitch",
+      "name": "zwitch",
+      "version": "2.0.4",
+      "dev": true,
+      "optional": false
+    }
+  ]
+}

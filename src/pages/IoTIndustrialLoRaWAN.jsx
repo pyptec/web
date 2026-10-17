@@ -1,7 +1,8 @@
 import React from "react";
-import logoPyp from "../assets/proyectos/log_pyp.webp";
+import Navbar from "../components/Navbar.jsx";
+import SectionNav from "../components/SectionNav.jsx";
 import {
-  ArrowLeft, ArrowRight, RadioTower, Cpu, Cable, Cloud, Database,
+  ArrowRight, RadioTower, Cpu, Cable, Cloud, Database,
   WifiOff, ShieldCheck, Activity, Gauge, Thermometer, Network,
   Server, Bell, Phone, Mail, CheckCircle2, Radio, Layers3,
   Settings2, HardDrive, Smartphone, Zap
@@ -62,18 +63,14 @@ export default function IoTIndustrialLoRaWAN() {
   const year = new Date().getFullYear();
   return (
     <div className="min-h-screen bg-[#F5F5F5] text-[#1E1E1E]">
-      <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4 px-6 py-4">
-          <a href="/" className="flex items-center gap-3 font-extrabold text-gray-900" aria-label="PYP Tecnología Electrónica, volver al inicio">
-            <img src={logoPyp} alt="Logo de PYP Tecnología Electrónica" width="600" height="450" className="h-14 w-auto object-contain md:h-16" />
-            <span><span className="block text-sm sm:text-base">PYP Tecnología Electrónica SAS</span><span className="block text-xs font-normal text-gray-600">IoT industrial · Energía · Automatización</span></span>
-          </a>
-          <nav aria-label="Navegación de IoT industrial" className="flex items-center gap-4">
-            <a href="/" className="inline-flex items-center gap-2 text-sm font-semibold text-gray-700 hover:text-[#416D13]"><ArrowLeft size={17} aria-hidden="true"/> Inicio</a>
-            <Button href="#contacto">Hablemos</Button>
-          </nav>
-        </div>
-      </header>
+      <Navbar>
+        <SectionNav
+          links={[
+            { href: "#soluciones", label: "Soluciones IoT" },
+            { href: "#contacto", label: "Contacto" },
+          ]}
+        />
+      </Navbar>
 
       <main>
         <section className="overflow-hidden bg-white">

@@ -2,7 +2,6 @@
 
 import {
 
-  ArrowLeft,
 
   ArrowRight,
 
@@ -45,7 +44,8 @@ import lpsInstalacion from "../assets/proyectos/lps-instalacion-samee200.webp";
 
 import solarImg from "../assets/proyectos/paneles-solares.webp";
 
-import logoPyp from "../assets/proyectos/log_pyp.webp";
+import Navbar from "../components/Navbar.jsx";
+import SectionNav from "../components/SectionNav.jsx";
 
 import sameeImg from "../assets/proyectos/samee200.jpeg";
 import alkostoCorrientes from "../assets/proyectos/alkosto-corrientes.png";
@@ -353,81 +353,17 @@ export default function MonitoreoEnergetico() {
 
       {/* ENCABEZADO */}
 
-      <header className="sticky top-0 z-50 bg-white/95 backdrop-blur border-b border-gray-200">
-
-        <div className="max-w-7xl mx-auto px-6 py-3 flex flex-wrap items-center justify-between gap-4">
-
-          <a href="/" className="flex items-center gap-3">
-
-            <img
-
-              src={logoPyp}
-
-              alt="Logo PYP Tecnología Electrónica SAS"
-
-              className="h-14 md:h-16 w-auto object-contain"
-
-            />
-
-
-
-            <div>
-
-              <p className="font-bold text-sm md:text-base text-gray-900">
-
-                PYP Tecnología Electrónica SAS
-
-              </p>
-
-
-
-              <p className="text-xs text-gray-500">
-
-                IoT Industrial · Energía · Automatización
-
-              </p>
-
-            </div>
-
-          </a>
-
-
-
-          <nav aria-label="Navegación de monitoreo energético" className="flex items-center gap-5">
-
-            <a
-
-              href="/"
-
-              className="inline-flex items-center gap-2 text-sm font-semibold text-gray-600 hover:text-[#6BA425]"
-
-            >
-
-              <ArrowLeft size={18} />
-
-              Inicio
-
-            </a>
-
-
-
-            <a
-
-              href="#contacto"
-
-              className="rounded-xl px-5 py-2.5 font-semibold bg-[#A6CE39] text-[#1E1E1E] hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] transition-colors duration-200"
-
-            >
-
-              Hablemos
-
-            </a>
-
-          </nav>
-
-        </div>
-
-      </header>
+      <Navbar>
+        <SectionNav
+          links={[
+            { href: "#proyectos", label: "Proyectos" },
+            { href: "#lps", label: "LPS" },
+            { href: "#alkosto", label: "Alkosto" },
+            { href: "#can-j1939", label: "CAN/J1939" },
+            { href: "#contacto", label: "Contacto" },
+          ]}
+        />
+      </Navbar>
 
 
 

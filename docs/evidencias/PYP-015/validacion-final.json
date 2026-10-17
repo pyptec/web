@@ -1,0 +1,116 @@
+{
+  "protectedFiles": 1302,
+  "deleted": [],
+  "unexpectedChanges": [],
+  "packageUnchanged": true,
+  "lockUnchanged": true,
+  "distFilesVerified": 17,
+  "previousGeneratedVerified": 1057,
+  "indexUnchanged": true,
+  "directInstalledVersions": [
+    {
+      "name": "lucide-react",
+      "version": "0.471.2",
+      "unchanged": true
+    },
+    {
+      "name": "react",
+      "version": "18.3.1",
+      "unchanged": true
+    },
+    {
+      "name": "react-dom",
+      "version": "18.3.1",
+      "unchanged": true
+    },
+    {
+      "name": "react-router-dom",
+      "version": "6.30.6",
+      "unchanged": true
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "version": "5.0.4",
+      "unchanged": true
+    },
+    {
+      "name": "autoprefixer",
+      "version": "10.4.21",
+      "unchanged": true
+    },
+    {
+      "name": "postcss",
+      "version": "8.5.30",
+      "unchanged": true
+    },
+    {
+      "name": "tailwindcss",
+      "version": "3.4.18",
+      "unchanged": true
+    },
+    {
+      "name": "vite",
+      "version": "6.4.1",
+      "unchanged": true
+    },
+    {
+      "name": "vitepress",
+      "version": "1.6.4",
+      "unchanged": true
+    }
+  ],
+  "whitespace": [],
+  "brokenLinks": [],
+  "documentationReportBuilt": true,
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "globalDiffCheck": {
+    "exit": 2,
+    "stdout": "src/main.jsx:45: trailing whitespace.\n+        \n",
+    "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status": {
+    "exit": 0,
+    "stdout": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? public/og-pyp.png\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/data/\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+    "stderr": ""
+  },
+  "untrackedBeforeFinal": 225,
+  "untrackedFinal": 226,
+  "builds": {
+    "commercial": {
+      "exit": 0,
+      "modules": 1601,
+      "seconds": 16.4
+    },
+    "seo": {
+      "exit": 0,
+      "pages": 4
+    },
+    "vitepress": {
+      "exit": 0,
+      "seconds": 27.28,
+      "initialRunBeforeReportSeconds": 24.96,
+      "isolatedOutputCacheAndSsr": true
+    }
+  },
+  "audit": {
+    "exit": 1,
+    "high": 12,
+    "moderate": 6,
+    "low": 1,
+    "critical": 0,
+    "total": 19,
+    "productionModerate": 2
+  },
+  "referenceChecks": {
+    "navigation": 177,
+    "form": 34,
+    "seo": 59,
+    "total": 270
+  },
+  "installOrUpdateExecuted": false,
+  "serverStopped": true
+}

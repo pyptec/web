@@ -1,0 +1,171 @@
+{
+  "phase": "Initial build before removing new audit attachment hyperlinks",
+  "pages": 21,
+  "valid": 712,
+  "missing": [
+    {
+      "page": "evidencias\\PYP-006\\resultado.html",
+      "href": "./browser-results.json"
+    },
+    {
+      "page": "evidencias\\PYP-006\\resultado.html",
+      "href": "./navbar-1440.png"
+    },
+    {
+      "page": "evidencias\\PYP-006\\resultado.html",
+      "href": "./navbar-320.png"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./local-results.json"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./corporate-results.json"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./monitoreo-320.png"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./monitoreo-1440.png"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./iot-320.png"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./iot-1440.png"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./edge-320.png"
+    },
+    {
+      "page": "evidencias\\PYP-007\\resultado.html",
+      "href": "./edge-1440.png"
+    },
+    {
+      "page": "evidencias\\PYP-008\\resultado.html",
+      "href": "./home-results.json"
+    },
+    {
+      "page": "evidencias\\PYP-008\\resultado.html",
+      "href": "./home-320.png"
+    },
+    {
+      "page": "evidencias\\PYP-008\\resultado.html",
+      "href": "./home-1440.png"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./inventario.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./git-inicial.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./generados-no-incluir.txt"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./browser-audit.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./npm-audit.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./npm-audit-produccion.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./npm-outdated.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./seo-html-inicial.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./formulario-netlify.json"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./commit-web.txt"
+    },
+    {
+      "page": "evidencias\\PYP-009\\informe.html",
+      "href": "./commit-documentacion.txt"
+    }
+  ],
+  "priorEntries": 14,
+  "final": {
+    "pages": 22,
+    "valid": 746,
+    "missing": [
+      {
+        "page": "evidencias\\PYP-006\\resultado.html",
+        "href": "./browser-results.json"
+      },
+      {
+        "page": "evidencias\\PYP-006\\resultado.html",
+        "href": "./navbar-1440.png"
+      },
+      {
+        "page": "evidencias\\PYP-006\\resultado.html",
+        "href": "./navbar-320.png"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./local-results.json"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./corporate-results.json"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./monitoreo-320.png"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./monitoreo-1440.png"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./iot-320.png"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./iot-1440.png"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./edge-320.png"
+      },
+      {
+        "page": "evidencias\\PYP-007\\resultado.html",
+        "href": "./edge-1440.png"
+      },
+      {
+        "page": "evidencias\\PYP-008\\resultado.html",
+        "href": "./home-results.json"
+      },
+      {
+        "page": "evidencias\\PYP-008\\resultado.html",
+        "href": "./home-320.png"
+      },
+      {
+        "page": "evidencias\\PYP-008\\resultado.html",
+        "href": "./home-1440.png"
+      }
+    ],
+    "newAuditMissing": 0
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "command": "npm audit --omit=dev",
+  "exit": 0,
+  "stderr": ""
+}

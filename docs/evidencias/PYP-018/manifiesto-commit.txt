@@ -1,0 +1,439 @@
+# PYP-018 — Manifiesto exacto propuesto. 2026-10-17. NO ejecutado.
+# INCLUIR: las rutas sin prefijo #. Lista pura equivalente: seleccion-commit.txt.
+# Categorías A-F; cada archivo figura una vez. Aprobación de commit pendiente.
+
+# B configuración/dependencias
+.gitignore
+package-lock.json
+package.json
+
+# E documentación y evidencias
+01_ESTADO_Y_BITACORA.md
+04_BITACORA_001_RESULTADO.md
+AGENTS.md
+docs/.gitignore
+docs/.vitepress/config.mjs
+docs/BITACORA_DESARROLLO.md
+docs/arquitectura/index.md
+docs/evidencias/PYP-004/IoTIndustrialLoRaWAN.jsx.before.txt
+docs/evidencias/PYP-004/MonitoreoEnergetico.jsx.before.txt
+docs/evidencias/PYP-004/Navbar.jsx.before.txt
+docs/evidencias/PYP-004/protected-hashes.json
+docs/evidencias/PYP-004/resultado.md
+docs/evidencias/PYP-005B/package-lock.before.json
+docs/evidencias/PYP-005B/package.before.json
+docs/evidencias/PYP-005B/protected-hashes.json
+docs/evidencias/PYP-005B/resultado.md
+docs/evidencias/PYP-006/.gitignore
+docs/evidencias/PYP-006/AutomatizacionEdge.jsx.before.txt
+docs/evidencias/PYP-006/IoTIndustrialLoRaWAN.jsx.before.txt
+docs/evidencias/PYP-006/MonitoreoEnergetico.jsx.before.txt
+docs/evidencias/PYP-006/Navbar.jsx.before.txt
+docs/evidencias/PYP-006/browser-check.cjs
+docs/evidencias/PYP-006/browser-first-attempt.json
+docs/evidencias/PYP-006/browser-results.json
+docs/evidencias/PYP-006/browser-second-attempt.json
+docs/evidencias/PYP-006/navbar-1440.png
+docs/evidencias/PYP-006/navbar-320.png
+docs/evidencias/PYP-006/protected-hashes.json
+docs/evidencias/PYP-006/resultado.md
+docs/evidencias/PYP-007/.gitignore
+docs/evidencias/PYP-007/AutomatizacionEdge.jsx.before.txt
+docs/evidencias/PYP-007/IoTIndustrialLoRaWAN.jsx.before.txt
+docs/evidencias/PYP-007/MonitoreoEnergetico.jsx.before.txt
+docs/evidencias/PYP-007/Navbar.jsx.before.txt
+docs/evidencias/PYP-007/browser-corporate-check.cjs
+docs/evidencias/PYP-007/browser-local-check.cjs
+docs/evidencias/PYP-007/corporate-1440.png
+docs/evidencias/PYP-007/corporate-320.png
+docs/evidencias/PYP-007/corporate-first-attempt.json
+docs/evidencias/PYP-007/corporate-results.json
+docs/evidencias/PYP-007/documentation-restoration-retries.json
+docs/evidencias/PYP-007/documentation-restoration.json
+docs/evidencias/PYP-007/edge-1440.png
+docs/evidencias/PYP-007/edge-320.png
+docs/evidencias/PYP-007/iot-1440.png
+docs/evidencias/PYP-007/iot-320.png
+docs/evidencias/PYP-007/keyboard-overflow-before.json
+docs/evidencias/PYP-007/local-first-attempt.json
+docs/evidencias/PYP-007/local-results.json
+docs/evidencias/PYP-007/monitoreo-1440.png
+docs/evidencias/PYP-007/monitoreo-320.png
+docs/evidencias/PYP-007/protected-hashes.json
+docs/evidencias/PYP-007/resultado.md
+docs/evidencias/PYP-008/.gitignore
+docs/evidencias/PYP-008/App.jsx.before.txt
+docs/evidencias/PYP-008/browser-home-check.cjs
+docs/evidencias/PYP-008/home-1440.png
+docs/evidencias/PYP-008/home-320.png
+docs/evidencias/PYP-008/home-results.json
+docs/evidencias/PYP-008/protected-hashes.json
+docs/evidencias/PYP-008/resultado.md
+docs/evidencias/PYP-009/.gitignore
+docs/evidencias/PYP-009/browser-audit.cjs
+docs/evidencias/PYP-009/browser-audit.json
+docs/evidencias/PYP-009/commit-documentacion.txt
+docs/evidencias/PYP-009/commit-web.txt
+docs/evidencias/PYP-009/edge-375.png
+docs/evidencias/PYP-009/enlaces-documentacion.json
+docs/evidencias/PYP-009/formulario-netlify.json
+docs/evidencias/PYP-009/generados-no-incluir.txt
+docs/evidencias/PYP-009/git-final.json
+docs/evidencias/PYP-009/git-inicial.json
+docs/evidencias/PYP-009/informe.md
+docs/evidencias/PYP-009/inicio-1440.png
+docs/evidencias/PYP-009/inicio-375.png
+docs/evidencias/PYP-009/inventario.json
+docs/evidencias/PYP-009/iot-375.png
+docs/evidencias/PYP-009/monitoreo-375.png
+docs/evidencias/PYP-009/npm-audit-produccion.json
+docs/evidencias/PYP-009/npm-audit.json
+docs/evidencias/PYP-009/npm-outdated.json
+docs/evidencias/PYP-009/propuesta-commit.md
+docs/evidencias/PYP-009/protected-hashes.json
+docs/evidencias/PYP-009/seo-esperado.json
+docs/evidencias/PYP-009/seo-html-inicial.json
+docs/evidencias/PYP-009/validacion-final.json
+docs/evidencias/PYP-010/archivos-propuestos.txt
+docs/evidencias/PYP-010/estado-inicial.base64
+docs/evidencias/PYP-010/informe.md
+docs/evidencias/PYP-010/validacion-final.json
+docs/evidencias/PYP-011/browser-check.cjs
+docs/evidencias/PYP-011/browser-results.json
+docs/evidencias/PYP-011/contacto-1440.png
+docs/evidencias/PYP-011/contacto-375.png
+docs/evidencias/PYP-011/estado-inicial.json
+docs/evidencias/PYP-011/index.html.before.txt
+docs/evidencias/PYP-011/resultado.md
+docs/evidencias/PYP-011/validacion-final.json
+docs/evidencias/PYP-012/Navbar.jsx.before.txt
+docs/evidencias/PYP-012/antes-inicio-1440.png
+docs/evidencias/PYP-012/antes-inicio-375.png
+docs/evidencias/PYP-012/antes-monitoreo-1440.png
+docs/evidencias/PYP-012/antes-monitoreo-375.png
+docs/evidencias/PYP-012/browser-check.cjs
+docs/evidencias/PYP-012/browser-results.json
+docs/evidencias/PYP-012/build-docs.mjs
+docs/evidencias/PYP-012/despues-inicio-1440.png
+docs/evidencias/PYP-012/despues-inicio-375.png
+docs/evidencias/PYP-012/despues-monitoreo-1440.png
+docs/evidencias/PYP-012/despues-monitoreo-375.png
+docs/evidencias/PYP-012/diagnostico-inicial.md
+docs/evidencias/PYP-012/estado-inicial.json
+docs/evidencias/PYP-012/resultado.md
+docs/evidencias/PYP-012/scrollToSection.js.before.txt
+docs/evidencias/PYP-012/validacion-final.json
+docs/evidencias/PYP-012/visual-before.json
+docs/evidencias/PYP-012/visual-states-failure.json
+docs/evidencias/PYP-012/visual-states-first-attempt.json
+docs/evidencias/PYP-012/visual-states-second-attempt.json
+docs/evidencias/PYP-012/visual-states.cjs
+docs/evidencias/PYP-012/visual-states.json
+docs/evidencias/PYP-013/Seo.jsx.before.txt
+docs/evidencias/PYP-013/browser-check.cjs
+docs/evidencias/PYP-013/browser-failure.json
+docs/evidencias/PYP-013/browser-results.json
+docs/evidencias/PYP-013/build-docs.mjs
+docs/evidencias/PYP-013/estado-inicial.json
+docs/evidencias/PYP-013/generar-seo.mjs.before.txt
+docs/evidencias/PYP-013/generator-check.mjs
+docs/evidencias/PYP-013/generator-results.json
+docs/evidencias/PYP-013/index.html.before.txt
+docs/evidencias/PYP-013/metadatos-esperados.json
+docs/evidencias/PYP-013/resultado.md
+docs/evidencias/PYP-013/sitemap.xml.before.txt
+docs/evidencias/PYP-013/static-server.cjs
+docs/evidencias/PYP-013/validacion-final.json
+docs/evidencias/PYP-013/vite-preview-first-attempt.json
+docs/evidencias/PYP-014/artefacto-verificado.json
+docs/evidencias/PYP-014/browser-check.cjs
+docs/evidencias/PYP-014/build-docs.mjs
+docs/evidencias/PYP-014/causa-vite-preview.json
+docs/evidencias/PYP-014/comparacion-entornos.json
+docs/evidencias/PYP-014/estado-inicial.json
+docs/evidencias/PYP-014/html-inicial/artefacto/automatizacion-edge-con-barra.html
+docs/evidencias/PYP-014/html-inicial/artefacto/automatizacion-edge-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/artefacto/inicio.html
+docs/evidencias/PYP-014/html-inicial/artefacto/iot-industrial-con-barra.html
+docs/evidencias/PYP-014/html-inicial/artefacto/iot-industrial-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/artefacto/monitoreo-energetico-con-barra.html
+docs/evidencias/PYP-014/html-inicial/artefacto/monitoreo-energetico-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/automatizacion-edge-con-barra.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/automatizacion-edge-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/inicio.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/iot-industrial-con-barra.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/iot-industrial-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/monitoreo-energetico-con-barra.html
+docs/evidencias/PYP-014/html-inicial/desarrollo/monitoreo-energetico-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/preview/automatizacion-edge-con-barra.html
+docs/evidencias/PYP-014/html-inicial/preview/automatizacion-edge-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/preview/inicio.html
+docs/evidencias/PYP-014/html-inicial/preview/iot-industrial-con-barra.html
+docs/evidencias/PYP-014/html-inicial/preview/iot-industrial-sin-barra.html
+docs/evidencias/PYP-014/html-inicial/preview/monitoreo-energetico-con-barra.html
+docs/evidencias/PYP-014/html-inicial/preview/monitoreo-energetico-sin-barra.html
+docs/evidencias/PYP-014/incidencias-prueba.md
+docs/evidencias/PYP-014/resultado.md
+docs/evidencias/PYP-014/serve-environments.mjs
+docs/evidencias/PYP-014/servidores-locales.json
+docs/evidencias/PYP-014/static-server.cjs
+docs/evidencias/PYP-014/validacion-final.json
+docs/evidencias/PYP-015/browser-results.json
+docs/evidencias/PYP-015/build-docs.mjs
+docs/evidencias/PYP-015/clasificacion.json
+docs/evidencias/PYP-015/compatibilidad-candidatas.json
+docs/evidencias/PYP-015/contacto-1440.png
+docs/evidencias/PYP-015/contacto-375.png
+docs/evidencias/PYP-015/despues-inicio-1440.png
+docs/evidencias/PYP-015/despues-inicio-375.png
+docs/evidencias/PYP-015/despues-monitoreo-1440.png
+docs/evidencias/PYP-015/despues-monitoreo-375.png
+docs/evidencias/PYP-015/estado-inicial.json
+docs/evidencias/PYP-015/form-check.cjs
+docs/evidencias/PYP-015/form-results.json
+docs/evidencias/PYP-015/inventario.json
+docs/evidencias/PYP-015/metadatos-esperados.json
+docs/evidencias/PYP-015/navigation-check.cjs
+docs/evidencias/PYP-015/npm-audit-comando.json
+docs/evidencias/PYP-015/npm-audit-produccion-comando.json
+docs/evidencias/PYP-015/npm-audit-produccion.json
+docs/evidencias/PYP-015/npm-audit.json
+docs/evidencias/PYP-015/npm-ls-comando.json
+docs/evidencias/PYP-015/npm-ls.json
+docs/evidencias/PYP-015/npm-outdated-comando.json
+docs/evidencias/PYP-015/npm-outdated.json
+docs/evidencias/PYP-015/registro-versiones.json
+docs/evidencias/PYP-015/resultado.md
+docs/evidencias/PYP-015/seo-check.cjs
+docs/evidencias/PYP-015/seo-results.json
+docs/evidencias/PYP-015/static-server.cjs
+docs/evidencias/PYP-015/validacion-final.json
+docs/evidencias/PYP-016/browser-results.json
+docs/evidencias/PYP-016/build-docs.mjs
+docs/evidencias/PYP-016/comparacion-dependencias.json
+docs/evidencias/PYP-016/comparacion-seguridad.json
+docs/evidencias/PYP-016/contacto-1440.png
+docs/evidencias/PYP-016/contacto-375.png
+docs/evidencias/PYP-016/despues-inicio-1440.png
+docs/evidencias/PYP-016/despues-inicio-375.png
+docs/evidencias/PYP-016/despues-monitoreo-1440.png
+docs/evidencias/PYP-016/despues-monitoreo-375.png
+docs/evidencias/PYP-016/estable-inicio-1440.png
+docs/evidencias/PYP-016/estable-inicio-375.png
+docs/evidencias/PYP-016/estable-monitoreo-1440.png
+docs/evidencias/PYP-016/estable-monitoreo-375.png
+docs/evidencias/PYP-016/estado-inicial.json
+docs/evidencias/PYP-016/form-check.cjs
+docs/evidencias/PYP-016/form-results.json
+docs/evidencias/PYP-016/instaladas-inicial.json
+docs/evidencias/PYP-016/lock-resuelto-before-install.json
+docs/evidencias/PYP-016/metadatos-esperados.json
+docs/evidencias/PYP-016/navigation-check.cjs
+docs/evidencias/PYP-016/npm-audit-command.json
+docs/evidencias/PYP-016/npm-audit-produccion-command.json
+docs/evidencias/PYP-016/npm-audit-produccion.json
+docs/evidencias/PYP-016/npm-audit-produccion.txt
+docs/evidencias/PYP-016/npm-audit.json
+docs/evidencias/PYP-016/npm-audit.txt
+docs/evidencias/PYP-016/npm-ls-all-command.json
+docs/evidencias/PYP-016/npm-ls-all.json
+docs/evidencias/PYP-016/npm-ls-router-command.json
+docs/evidencias/PYP-016/npm-ls-router.json
+docs/evidencias/PYP-016/package-lock.json.before.json
+docs/evidencias/PYP-016/package.json.before.json
+docs/evidencias/PYP-016/resolucion-limitada.json
+docs/evidencias/PYP-016/resultado.md
+docs/evidencias/PYP-016/seo-check.cjs
+docs/evidencias/PYP-016/seo-results.json
+docs/evidencias/PYP-016/static-server.cjs
+docs/evidencias/PYP-016/validacion-final.json
+docs/evidencias/PYP-016/visual-check.cjs
+docs/evidencias/PYP-016/visual-results.json
+docs/evidencias/PYP-017/browser-results.json
+docs/evidencias/PYP-017/build-docs.mjs
+docs/evidencias/PYP-017/comparacion-artefactos.json
+docs/evidencias/PYP-017/comparacion-seguridad.json
+docs/evidencias/PYP-017/compatibilidad-objetivo.json
+docs/evidencias/PYP-017/contacto-1440.png
+docs/evidencias/PYP-017/contacto-375.png
+docs/evidencias/PYP-017/despues-inicio-1440.png
+docs/evidencias/PYP-017/despues-inicio-375.png
+docs/evidencias/PYP-017/despues-monitoreo-1440.png
+docs/evidencias/PYP-017/despues-monitoreo-375.png
+docs/evidencias/PYP-017/estable-inicio-1440.png
+docs/evidencias/PYP-017/estable-inicio-375.png
+docs/evidencias/PYP-017/estable-monitoreo-1440.png
+docs/evidencias/PYP-017/estable-monitoreo-375.png
+docs/evidencias/PYP-017/estado-inicial.json
+docs/evidencias/PYP-017/form-check.cjs
+docs/evidencias/PYP-017/form-results.json
+docs/evidencias/PYP-017/instaladas-inicial.json
+docs/evidencias/PYP-017/lock-revisado.json
+docs/evidencias/PYP-017/metadatos-esperados.json
+docs/evidencias/PYP-017/navigation-check.cjs
+docs/evidencias/PYP-017/npm-audit-final-command.json
+docs/evidencias/PYP-017/npm-audit-final.json
+docs/evidencias/PYP-017/npm-audit-final.txt
+docs/evidencias/PYP-017/npm-audit-inicial-command.json
+docs/evidencias/PYP-017/npm-audit-inicial.json
+docs/evidencias/PYP-017/npm-audit-inicial.txt
+docs/evidencias/PYP-017/npm-audit-produccion-command.json
+docs/evidencias/PYP-017/npm-audit-produccion.json
+docs/evidencias/PYP-017/npm-audit-produccion.txt
+docs/evidencias/PYP-017/npm-ls-final-command.json
+docs/evidencias/PYP-017/npm-ls-final.json
+docs/evidencias/PYP-017/npm-ls-vite-final-command.json
+docs/evidencias/PYP-017/npm-ls-vite-final.json
+docs/evidencias/PYP-017/npm-ls-vite-inicial-command.json
+docs/evidencias/PYP-017/npm-ls-vite-inicial.json
+docs/evidencias/PYP-017/package-lock.json.before.json
+docs/evidencias/PYP-017/package.json.before.json
+docs/evidencias/PYP-017/preview-check.mjs
+docs/evidencias/PYP-017/resolucion-limitada.json
+docs/evidencias/PYP-017/resultado.md
+docs/evidencias/PYP-017/seo-check.cjs
+docs/evidencias/PYP-017/seo-results.json
+docs/evidencias/PYP-017/static-server.cjs
+docs/evidencias/PYP-017/validacion-final.json
+docs/evidencias/PYP-017/visual-check.cjs
+docs/evidencias/PYP-017/visual-results.json
+docs/evidencias/PYP-017/vite-objetivo-command.json
+docs/evidencias/PYP-017/vite-objetivo.json
+docs/evidencias/PYP-017/vite-preview-rutas.json
+docs/evidencias/PYP-018/build-docs.mjs
+docs/evidencias/PYP-018/comprobaciones.json
+docs/evidencias/PYP-018/comprobar-artefacto.mjs
+docs/evidencias/PYP-018/estado-inicial.json
+docs/evidencias/PYP-018/inventario.json
+docs/evidencias/PYP-018/manifiesto-commit.txt
+docs/evidencias/PYP-018/npm-audit-produccion-command.json
+docs/evidencias/PYP-018/npm-audit-produccion.json
+docs/evidencias/PYP-018/resultado.md
+docs/evidencias/PYP-018/seleccion-commit.txt
+docs/evidencias/PYP-018/validacion-final.json
+docs/evidencias/index.md
+docs/index.md
+docs/prompts/PYP-001.md
+docs/prompts/PYP-002.md
+docs/prompts/PYP-004.md
+docs/prompts/PYP-005.md
+docs/prompts/PYP-005B.md
+docs/prompts/PYP-006.md
+docs/prompts/PYP-007.md
+docs/prompts/PYP-008.md
+docs/prompts/PYP-009.md
+docs/prompts/PYP-010.md
+docs/prompts/PYP-011.md
+docs/prompts/PYP-012.md
+docs/prompts/PYP-013.md
+docs/prompts/PYP-014.md
+docs/prompts/PYP-015.md
+docs/prompts/PYP-016.md
+docs/prompts/PYP-017.md
+docs/prompts/PYP-018.md
+docs/prompts/index.md
+
+# D plantilla Netlify y SEO
+index.html
+
+# F recurso OG
+public/og-pyp.png
+
+# C SEO
+public/sitemap.xml
+scripts/generar-seo.mjs
+src/data/seo.js
+
+# A fuentes React
+src/App.jsx
+src/components/Navbar.jsx
+src/components/SectionNav.jsx
+src/components/Seo.jsx
+src/main.jsx
+src/pages/AutomatizacionEdge.jsx
+src/pages/IoTIndustrialLoRaWAN.jsx
+src/pages/MonitoreoEnergetico.jsx
+src/utils/scrollToSection.js
+
+# G EXCLUIR (no borrar del disco):
+# EXCLUIR 02_PROMPT_001_AUDITORIA_NAVBAR.md — copia literal del prompt oficial en docs/prompts.
+# EXCLUIR 03_PROMPT_002_NAVBAR_EDGE.md — copia literal del prompt oficial en docs/prompts.
+# EXCLUIR dist/assets/alkosto-corrientes-BOfkpDuW.png — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/alkosto-resumen-DpYwZI6t.png — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/can-j1939-dashboard-BfrJt0k0.png — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/clg-DhiTCHTU.jpeg — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/index-B1swingV.js — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/index-DNMqQlni.css — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/log_pyp-CfCiXRW3.webp — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/lps-dKCpr1sb.webp — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/lps-instalacion-samee200-bGen6_4O.webp — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/paneles-solares-C7pGWbxP.webp — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/rpi-DDLAJPsT.jpg — artefacto comercial generado, no fuente.
+# EXCLUIR dist/assets/samee200-5_kmpS0Y.jpeg — artefacto comercial generado, no fuente.
+# EXCLUIR dist/index.html — artefacto comercial generado, no fuente.
+# EXCLUIR dist/monitoreo-energetico/index.html — artefacto comercial generado, no fuente.
+# EXCLUIR dist/robots.txt — artefacto comercial generado, no fuente.
+# EXCLUIR dist/sitemap.xml — artefacto comercial generado, no fuente.
+# EXCLUIR dist/_redirects — artefacto comercial generado, no fuente.
+# EXCLUIR docs/.vitepress/.temp/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/.vitepress/cache/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/.vitepress/dist/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-004/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-005B/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-006/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-006/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-007/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-007/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-008/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-008/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-009/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-009/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-011/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-011/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-012/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-012/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-013/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-013/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-014/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-014/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-015/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-015/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-016/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-016/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-017/browser-profile/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-017/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR docs/evidencias/PYP-018/build-temporal/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR node_modules/ — caché/perfil/build temporal/respaldo según .gitignore.
+# EXCLUIR src/Appcopia.jsx — caché/perfil/build temporal/respaldo según .gitignore.
+
+# H AUTORIZACIÓN ADICIONAL:
+# BAJA OPCIONAL --cached dist/assets/clg-DhiTCHTU.jpeg — requiere autorización, no incluida en la lista de altas/modificaciones.
+# BAJA OPCIONAL --cached dist/assets/rpi-DDLAJPsT.jpg — requiere autorización, no incluida en la lista de altas/modificaciones.
+# BAJA OPCIONAL --cached dist/index.html — requiere autorización, no incluida en la lista de altas/modificaciones.
+# src/main.jsx:45 — corrección de whitespace fuera de esta auditoría; no se modifica ni omite la ruta Edge.
+
+# PRERREQUISITOS YA VERSIONADOS (NO necesitan staging porque no cambiaron):
+# YA SEGUIDO jsconfig.json
+# YA SEGUIDO postcss.config.js
+# YA SEGUIDO public/_redirects
+# YA SEGUIDO public/robots.txt
+# YA SEGUIDO src/assets/proyectos/alkosto-corrientes.png
+# YA SEGUIDO src/assets/proyectos/alkosto-resumen.png
+# YA SEGUIDO src/assets/proyectos/aoki.webp
+# YA SEGUIDO src/assets/proyectos/can-j1939-dashboard.png
+# YA SEGUIDO src/assets/proyectos/clg.jpeg
+# YA SEGUIDO src/assets/proyectos/log_pyp.png
+# YA SEGUIDO src/assets/proyectos/log_pyp.webp
+# YA SEGUIDO src/assets/proyectos/lps-instalacion-samee200.webp
+# YA SEGUIDO src/assets/proyectos/lps.jpg
+# YA SEGUIDO src/assets/proyectos/lps.webp
+# YA SEGUIDO src/assets/proyectos/paneles-solares.jpg
+# YA SEGUIDO src/assets/proyectos/paneles-solares.webp
+# YA SEGUIDO src/assets/proyectos/rpi.jpg
+# YA SEGUIDO src/assets/proyectos/samee200.jpeg
+# YA SEGUIDO src/index.css
+# YA SEGUIDO tailwind.config.js
+# YA SEGUIDO vite.config.js
+
+# Evidencias: conservar snapshots, capturas, intentos documentados y scripts de reproducción; excluir perfiles/cachés/builds, no las evidencias oficiales.
+# Ninguna operación Git de escritura fue ejecutada. Regenerar si cambia el árbol antes de autorizar el commit.

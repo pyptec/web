@@ -1,0 +1,20 @@
+{
+  "protectedFiles": 642,
+  "deleted": [],
+  "unexpectedChanges": [],
+  "distFilesVerified": 17,
+  "temporaryExpected": 379,
+  "temporaryIgnored": 379,
+  "missingVisible": [],
+  "rules": ".gitignore:1:node_modules/\tnode_modules/example\ndocs/.gitignore:1:.vitepress/cache/\tdocs/.vitepress/cache/example\ndocs/.gitignore:2:.vitepress/dist/\tdocs/.vitepress/dist/example\ndocs/.gitignore:3:.vitepress/.temp/\tdocs/.vitepress/.temp/example\n.gitignore:7:/docs/evidencias/**/browser-profile/\tdocs/evidencias/PYP-010/browser-profile/example\n.gitignore:6:/docs/evidencias/**/build-temporal/\tdocs/evidencias/PYP-010/build-temporal/example\n.gitignore:10:.DS_Store\t.DS_Store\n.gitignore:11:Thumbs.db\tThumbs.db\n.gitignore:12:Desktop.ini\tDesktop.ini\n.gitignore:13:*.swp\texample.swp\n.gitignore:14:*.swo\texample.swo\n",
+  "diffCheck": 0,
+  "whitespace": [],
+  "globalDiffCheck": 2,
+  "globalOutput": "src/main.jsx:45: trailing whitespace.\n+        \n",
+  "indexUnchanged": true,
+  "untrackedFinal": 109,
+  "manifestCount": 115,
+  "manifestMissing": [],
+  "status": " M .gitignore\n M dist/index.html\n M package-lock.json\n M package.json\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+  "snapshotScope": "Inventario recursivo excluyendo .git, node_modules, browser-profile y cache; incluye dist, compilaciones temporales, fuentes y documentación."
+}

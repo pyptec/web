@@ -1,0 +1,11 @@
+{
+  "width": 320,
+  "page": "monitoreo",
+  "active": "#contacto",
+  "linkLeft": 261,
+  "linkRight": 345,
+  "listLeft": 114,
+  "listRight": 300,
+  "scrollLeft": 186,
+  "issue": "Focused last link extended 45 px beyond local navigation viewport."
+}

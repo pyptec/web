@@ -1,0 +1,5 @@
+{
+  "command": "npm ls react-router react-router-dom --json",
+  "exit": 0,
+  "stderr": ""
+}

@@ -1,0 +1,46 @@
+{
+  "command": "npm outdated --json",
+  "exitCode": 1,
+  "packages": {
+    "@vitejs/plugin-react": {
+      "current": "5.0.4",
+      "wanted": "5.2.0",
+      "latest": "6.1.2"
+    },
+    "autoprefixer": {
+      "current": "10.4.21",
+      "wanted": "10.6.1",
+      "latest": "10.6.1"
+    },
+    "lucide-react": {
+      "current": "0.471.2",
+      "wanted": "0.471.2",
+      "latest": "1.59.0"
+    },
+    "react": {
+      "current": "18.3.1",
+      "wanted": "18.3.1",
+      "latest": "19.3.1"
+    },
+    "react-dom": {
+      "current": "18.3.1",
+      "wanted": "18.3.1",
+      "latest": "19.3.1"
+    },
+    "react-router-dom": {
+      "current": "6.30.6",
+      "wanted": "6.30.6",
+      "latest": "7.18.4"
+    },
+    "tailwindcss": {
+      "current": "3.4.18",
+      "wanted": "3.4.19",
+      "latest": "4.3.3"
+    },
+    "vite": {
+      "current": "6.4.1",
+      "wanted": "6.4.4",
+      "latest": "8.3.4"
+    }
+  }
+}

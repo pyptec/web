@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-17",
+  "protectedFiles": 862,
+  "deleted": [],
+  "unexpectedChanges": [],
+  "distFilesUnchanged": 17,
+  "previousGeneratedUnchanged": 670,
+  "indexUnchanged": true,
+  "visualComponentsNavigationRoutesAndDependenciesUnchanged": true,
+  "sourceHtmlBodyAndFormUnchanged": true,
+  "robotsAndRedirectsUnchanged": true,
+  "generatorChecks": 14,
+  "browserChecks": 59,
+  "builds": {
+    "vite": {
+      "exit": 0,
+      "modules": 1601,
+      "seconds": 15.77
+    },
+    "seoGenerator": {
+      "exit": 0,
+      "pages": 4,
+      "explicitTemporalOutput": true
+    },
+    "vitepress": {
+      "exit": 0,
+      "seconds": 24.46,
+      "isolatedOutputCacheAndSsr": true
+    }
+  },
+  "affectedFilesDiffCheck": 0,
+  "additionalWhitespaceIssues": [],
+  "brokenMarkdownLinks": [],
+  "globalDiffCheck": {
+    "exit": 2,
+    "existingIssue": "src/main.jsx:45: trailing whitespace"
+  },
+  "trackedModifiedFinal": 12,
+  "untrackedFinal": 161,
+  "limitations": [
+    "Local static server is not Netlify CDN; vite preview falls back to root for directory paths without trailing slash.",
+    "Netlify deployment, detection/reception and social crawler production previews not tested.",
+    "No screenshot-based visual test: component files and body preserved by hash/equality; browser layout checked.",
+    "Existing .git/node_modules/browser-profile/cache excluded from file inventory."
+  ],
+  "localTestServersStopped": true,
+  "gitStatus": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? public/og-pyp.png\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/data/\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n"
+}

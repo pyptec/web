@@ -1,0 +1,27 @@
+{
+  "version": "6.4.4",
+  "engines": {
+    "node": "^18.0.0 || ^20.0.0 || >=22.0.0"
+  },
+  "dependencies": {
+    "fdir": "^6.4.4",
+    "rollup": "^4.34.9",
+    "esbuild": "^0.25.0",
+    "postcss": "^8.5.3",
+    "picomatch": "^4.0.2",
+    "tinyglobby": "^0.2.13"
+  },
+  "peerDependencies": {
+    "tsx": "^4.8.1",
+    "jiti": ">=1.21.0",
+    "less": "*",
+    "sass": "*",
+    "yaml": "^2.4.2",
+    "stylus": "*",
+    "terser": "^5.16.0",
+    "sugarss": "*",
+    "@types/node": "^18.0.0 || ^20.0.0 || >=22.0.0",
+    "lightningcss": "^1.21.0",
+    "sass-embedded": "*"
+  }
+}

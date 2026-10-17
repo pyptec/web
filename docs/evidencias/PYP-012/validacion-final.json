@@ -1,0 +1,106 @@
+{
+  "protectedFiles": 673,
+  "missing": [],
+  "unexpectedChanges": [],
+  "distFiles": 17,
+  "previousGeneratedVerified": 505,
+  "indexUnchanged": true,
+  "appUnchanged": true,
+  "htmlUnchanged": true,
+  "mainUnchanged": true,
+  "seoUnchanged": true,
+  "browserChecks": 177,
+  "visualChecks": 12,
+  "contrast": [
+    {
+      "route": "/",
+      "width": 375,
+      "contrast": 8.89716444853941
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "width": 375,
+      "contrast": 8.987713172557276
+    },
+    {
+      "route": "/",
+      "width": 1440,
+      "contrast": 8.89716444853941
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "width": 1440,
+      "contrast": 8.987713172557276
+    }
+  ],
+  "documentationImages": [
+    {
+      "src": "/assets/antes-inicio-1440.L8RsBe6Z.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/despues-inicio-1440.Cz-PUb-d.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/antes-monitoreo-1440.hh6G6EZp.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/antes-monitoreo-1440.hh6G6EZp.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/antes-inicio-375.BTAnd_rx.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/despues-inicio-375.BJgHrH_W.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/antes-monitoreo-375.BBjywko7.png",
+      "exists": true
+    },
+    {
+      "src": "/assets/despues-monitoreo-375.CFJyaQfm.png",
+      "exists": true
+    }
+  ],
+  "whitespace": [],
+  "brokenLinks": [],
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "globalDiffCheck": {
+    "exit": 2,
+    "stdout": "src/main.jsx:45: trailing whitespace.\n+        \n",
+    "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status": {
+    "exit": 0,
+    "stdout": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+    "stderr": ""
+  },
+  "untrackedBeforeValidation": 141,
+  "untrackedFinal": 142,
+  "snapshotScope": "Archivos existentes excluyendo .git, node_modules, browser-profile y carpetas cache.",
+  "builds": {
+    "commercial": {
+      "exit": 0,
+      "modules": 1600,
+      "seconds": 13.55
+    },
+    "seoGenerator": {
+      "exit": 0,
+      "cwd": "docs/evidencias/PYP-012/build-temporal/comercial"
+    },
+    "vitepress": {
+      "exit": 0,
+      "seconds": 24.81,
+      "isolatedOutputCacheAndSsr": true
+    }
+  }
+}

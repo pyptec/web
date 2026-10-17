@@ -1,0 +1,78 @@
+{
+  "browser": "Edge headless",
+  "mode": "Compiled local artifact; POST intercepted and simulated via CDP, never sent to Netlify",
+  "checks": 34,
+  "results": [
+    "static/React fields/name/method/honeypot match 375",
+    "static detection contract 375",
+    "labels, hidden honeypot, single visible form, mobile layout 375",
+    "required fields preserved 375",
+    "Spanish text preserved 375",
+    "empty form blocked before submission 375",
+    "required name focused 375",
+    "invalid email blocked 375",
+    "invalid email produced no POST 375",
+    "required message blocked 375",
+    "keyboard name to company 375",
+    "keyboard company to email 375",
+    "keyboard selects solution 375",
+    "one native POST intercepted locally 375",
+    "native same-origin POST 375",
+    "all seven fields encoded correctly 375",
+    "native response navigation preserved 200",
+    "static/React fields/name/method/honeypot match 1440",
+    "static detection contract 1440",
+    "labels, hidden honeypot, single visible form, mobile layout 1440",
+    "required fields preserved 1440",
+    "Spanish text preserved 1440",
+    "empty form blocked before submission 1440",
+    "required name focused 1440",
+    "invalid email blocked 1440",
+    "invalid email produced no POST 1440",
+    "required message blocked 1440",
+    "keyboard name to company 1440",
+    "keyboard company to email 1440",
+    "keyboard selects solution 1440",
+    "one native POST intercepted locally 1440",
+    "native same-origin POST 1440",
+    "all seven fields encoded correctly 1440",
+    "native response navigation preserved 500"
+  ],
+  "submissions": [
+    {
+      "url": "http://127.0.0.1:5197/",
+      "method": "POST",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Origin": "http://127.0.0.1:5197",
+        "Referer": "http://127.0.0.1:5197/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "body": "form-name=contacto-pyp&bot-field=&nombre=Jos%C3%A9+%26+PYP+%2B+prueba&empresa=Compa%C3%B1%C3%ADa+%C3%91&correo=prueba%40example.invalid&solucion=energia&mensaje=Energ%C3%ADa%2C+acci%C3%B3n+%26+%2B+%3D+%2F",
+      "responseCode": 200
+    },
+    {
+      "url": "http://127.0.0.1:5197/",
+      "method": "POST",
+      "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
+        "Content-Type": "application/x-www-form-urlencoded",
+        "Origin": "http://127.0.0.1:5197",
+        "Referer": "http://127.0.0.1:5197/",
+        "Upgrade-Insecure-Requests": "1",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/155.0.0.0 Safari/537.36 Edg/155.0.0.0",
+        "sec-ch-ua": "\"Microsoft Edge\";v=\"155\", \"Chromium\";v=\"155\", \"Not(A:Brand\";v=\"24\"",
+        "sec-ch-ua-mobile": "?0",
+        "sec-ch-ua-platform": "\"Windows\""
+      },
+      "body": "form-name=contacto-pyp&bot-field=&nombre=Jos%C3%A9+%26+PYP+%2B+prueba&empresa=Compa%C3%B1%C3%ADa+%C3%91&correo=prueba%40example.invalid&solucion=energia&mensaje=Energ%C3%ADa%2C+acci%C3%B3n+%26+%2B+%3D+%2F",
+      "responseCode": 500
+    }
+  ],
+  "limitations": "Synthetic 200/500 do not validate Netlify reception, spam filtering or production error/success pages."
+}

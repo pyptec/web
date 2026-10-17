@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-17",
+  "baselineFiles": 1775,
+  "missing": [],
+  "changed": [
+    "docs/arquitectura/index.md",
+    "docs/BITACORA_DESARROLLO.md",
+    "docs/prompts/index.md",
+    "package-lock.json",
+    "package.json"
+  ],
+  "unexpectedChanges": [],
+  "rootDistFiles": 17,
+  "rootDistUnchanged": true,
+  "oldGeneratedFiles": 1457,
+  "oldGeneratedUnchanged": true,
+  "gitIndexUnchanged": true,
+  "scopedDiffCheck": {
+    "exit": 0,
+    "output": "warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "globalDiffCheck": {
+    "exit": 2,
+    "output": "src/main.jsx:45: trailing whitespace.\n+        \nwarning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? public/og-pyp.png\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/data/\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+  "untrackedCount": 319,
+  "docsHtmlExists": true,
+  "vitepressBuild": {
+    "exit": 0,
+    "seconds": 26.41
+  },
+  "untrackedCountAfterRecord": 320
+}

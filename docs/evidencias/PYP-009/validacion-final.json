@@ -1,0 +1,39 @@
+{
+  "commercialBuild": {
+    "exitCode": 0,
+    "modules": 1600,
+    "seconds": 14.54
+  },
+  "seoGenerator": {
+    "exitCode": 0,
+    "isolatedCwd": true
+  },
+  "vitepressBuild": {
+    "exitCode": 0,
+    "seconds": 22.08,
+    "temporaryOutput": true,
+    "finalSeconds": 19.37
+  },
+  "protectedFiles": 121,
+  "protectedChanged": [],
+  "gitDiffCheck": {
+    "exitCode": 2,
+    "output": "src/main.jsx:45: trailing whitespace.\n+        \n"
+  },
+  "browserChecks": 88,
+  "browserFindings": 4,
+  "documentLinks": {
+    "initialMissing": 25,
+    "priorEntriesMissing": 14,
+    "final": {
+      "pages": 22,
+      "valid": 746,
+      "missing": 14,
+      "newAuditMissing": 0
+    }
+  },
+  "proposedFiles": {
+    "web": 9,
+    "documentation": 100
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "command": "npm view vite@6.4.4 version engines dependencies peerDependencies --json",
+  "exit": 0,
+  "stderr": ""
+}

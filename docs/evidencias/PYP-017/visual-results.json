@@ -1,0 +1,96 @@
+{
+  "checks": 16,
+  "results": [
+    "official logo decoded and visible / 375",
+    "stable layout no horizontal overflow / 375",
+    "official logo decoded and visible /monitoreo-energetico 375",
+    "stable layout no horizontal overflow /monitoreo-energetico 375",
+    "official logo decoded and visible /iot-industrial 375",
+    "stable layout no horizontal overflow /iot-industrial 375",
+    "official logo decoded and visible /automatizacion-edge 375",
+    "stable layout no horizontal overflow /automatizacion-edge 375",
+    "official logo decoded and visible / 1440",
+    "stable layout no horizontal overflow / 1440",
+    "official logo decoded and visible /monitoreo-energetico 1440",
+    "stable layout no horizontal overflow /monitoreo-energetico 1440",
+    "official logo decoded and visible /iot-industrial 1440",
+    "stable layout no horizontal overflow /iot-industrial 1440",
+    "official logo decoded and visible /automatizacion-edge 1440",
+    "stable layout no horizontal overflow /automatizacion-edge 1440"
+  ],
+  "states": [
+    {
+      "route": "/",
+      "width": 74.65625,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 56,
+      "overflow": false
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "width": 74.65625,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 56,
+      "overflow": false
+    },
+    {
+      "route": "/iot-industrial",
+      "width": 74.65625,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 56,
+      "overflow": false
+    },
+    {
+      "route": "/automatizacion-edge",
+      "width": 74.65625,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 56,
+      "overflow": false
+    },
+    {
+      "route": "/",
+      "width": 85.328125,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 64,
+      "overflow": false
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "width": 85.328125,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 64,
+      "overflow": false
+    },
+    {
+      "route": "/iot-industrial",
+      "width": 85.328125,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 64,
+      "overflow": false
+    },
+    {
+      "route": "/automatizacion-edge",
+      "width": 85.328125,
+      "src": "/assets/log_pyp-CfCiXRW3.webp",
+      "complete": true,
+      "naturalWidth": 600,
+      "height": 64,
+      "overflow": false
+    }
+  ],
+  "note": "Supplementary verification after waiting for logo decode and fonts; earlier screenshots can be captured before image load."
+}

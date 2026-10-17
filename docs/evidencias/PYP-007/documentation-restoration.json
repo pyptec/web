@@ -1,0 +1,24 @@
+{
+  "originalFiles": 65,
+  "mismatches": [
+    "docs\\.vitepress\\dist\\404.html",
+    "docs\\.vitepress\\dist\\arquitectura\\index.html",
+    "docs\\.vitepress\\dist\\assets\\app.CoTGVQYY.js",
+    "docs\\.vitepress\\dist\\assets\\chunks\\@localSearchIndexroot.KT4Ih3XR.js",
+    "docs\\.vitepress\\dist\\assets\\chunks\\theme.TXAR2CGS.js",
+    "docs\\.vitepress\\dist\\assets\\chunks\\VPLocalSearchBox.CCdo38yM.js",
+    "docs\\.vitepress\\dist\\BITACORA_DESARROLLO.html",
+    "docs\\.vitepress\\dist\\evidencias\\index.html",
+    "docs\\.vitepress\\dist\\evidencias\\PYP-004\\resultado.html",
+    "docs\\.vitepress\\dist\\evidencias\\PYP-005B\\resultado.html",
+    "docs\\.vitepress\\dist\\evidencias\\PYP-006\\resultado.html",
+    "docs\\.vitepress\\dist\\index.html",
+    "docs\\.vitepress\\dist\\prompts\\index.html",
+    "docs\\.vitepress\\dist\\prompts\\PYP-001.html",
+    "docs\\.vitepress\\dist\\prompts\\PYP-002.html",
+    "docs\\.vitepress\\dist\\prompts\\PYP-004.html",
+    "docs\\.vitepress\\dist\\prompts\\PYP-005.html",
+    "docs\\.vitepress\\dist\\prompts\\PYP-005B.html",
+    "docs\\.vitepress\\dist\\prompts\\PYP-006.html"
+  ]
+}

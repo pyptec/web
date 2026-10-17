@@ -1,0 +1,286 @@
+[
+  {
+    "name": "react-router-dom",
+    "candidates": [
+      {
+        "version": "7.18.4",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "root",
+            "range": "^6.30.6",
+            "accepts": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "react-router",
+    "candidates": [
+      {
+        "version": "7.18.4",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/react-router-dom",
+            "range": "6.30.6",
+            "accepts": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "vite",
+    "candidates": [
+      {
+        "version": "6.4.4",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/vitepress",
+            "range": "^5.4.14",
+            "accepts": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "@babel/core",
+    "candidates": [
+      {
+        "version": "7.29.7",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/@vitejs/plugin-react",
+            "range": "^7.28.4",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "baseline-browser-mapping",
+    "candidates": [
+      {
+        "version": "2.11.29",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/browserslist",
+            "range": "^2.8.9",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "brace-expansion",
+    "candidates": [
+      {
+        "version": "2.1.7",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/minimatch",
+            "range": "^2.0.1",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "browserslist",
+    "candidates": [
+      {
+        "version": "4.29.3",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/@babel/helper-compilation-targets",
+            "range": "^4.24.0",
+            "accepts": true
+          },
+          {
+            "parent": "node_modules/autoprefixer",
+            "range": "^4.24.4",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "glob",
+    "candidates": [
+      {
+        "version": "10.5.0",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/sucrase",
+            "range": "^10.3.10",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "minimatch",
+    "candidates": [
+      {
+        "version": "9.0.9",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/glob",
+            "range": "^9.0.4",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "picomatch",
+    "candidates": [
+      {
+        "version": "2.3.2",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/anymatch",
+            "range": "^2.0.4",
+            "accepts": true
+          },
+          {
+            "parent": "node_modules/micromatch",
+            "range": "^2.3.1",
+            "accepts": true
+          },
+          {
+            "parent": "node_modules/readdirp",
+            "range": "^2.2.1",
+            "accepts": true
+          },
+          {
+            "parent": "node_modules/tinyglobby",
+            "range": "^4.0.3",
+            "accepts": false
+          },
+          {
+            "parent": "node_modules/vite",
+            "range": "^4.0.2",
+            "accepts": false
+          }
+        ]
+      },
+      {
+        "version": "4.0.7",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/anymatch",
+            "range": "^2.0.4",
+            "accepts": false
+          },
+          {
+            "parent": "node_modules/micromatch",
+            "range": "^2.3.1",
+            "accepts": false
+          },
+          {
+            "parent": "node_modules/readdirp",
+            "range": "^2.2.1",
+            "accepts": false
+          },
+          {
+            "parent": "node_modules/tinyglobby",
+            "range": "^4.0.3",
+            "accepts": true
+          },
+          {
+            "parent": "node_modules/vite",
+            "range": "^4.0.2",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "rollup",
+    "candidates": [
+      {
+        "version": "4.64.9",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/vite",
+            "range": "^4.34.9",
+            "accepts": true
+          },
+          {
+            "parent": "node_modules/vitepress/node_modules/vite",
+            "range": "^4.20.0",
+            "accepts": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "postcss-selector-parser",
+    "candidates": [
+      {
+        "version": "7.1.6",
+        "exists": true,
+        "nodeCompatible": true,
+        "outsideCurrentAdvisoryRanges": true,
+        "parents": [
+          {
+            "parent": "node_modules/postcss-nested",
+            "range": "^6.1.1",
+            "accepts": false
+          },
+          {
+            "parent": "node_modules/tailwindcss",
+            "range": "^6.1.2",
+            "accepts": false
+          }
+        ]
+      }
+    ]
+  }
+]

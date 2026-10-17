@@ -1,0 +1,24 @@
+{
+  "checksPassed": 18,
+  "results": [
+    "one corporate header: 320 monitoreo",
+    "one local nav: 320 monitoreo",
+    "exact existing anchors: 320 monitoreo",
+    "no page horizontal overflow: 320 monitoreo",
+    "compact single row: 320 monitoreo",
+    "click anchor heading visible: 320 monitoreo #proyectos",
+    "header remains accessible: 320 monitoreo #proyectos",
+    "click anchor heading visible: 320 monitoreo #lps",
+    "header remains accessible: 320 monitoreo #lps",
+    "click anchor heading visible: 320 monitoreo #alkosto",
+    "header remains accessible: 320 monitoreo #alkosto",
+    "click anchor heading visible: 320 monitoreo #can-j1939",
+    "header remains accessible: 320 monitoreo #can-j1939",
+    "click anchor heading visible: 320 monitoreo #contacto",
+    "header remains accessible: 320 monitoreo #contacto",
+    "Tab reaches second local link: 320 monitoreo",
+    "keyboard focus visible: 320 monitoreo",
+    "Enter anchor heading visible: 320 monitoreo"
+  ],
+  "error": "last link reachable horizontally by Tab: 320 monitoreo"
+}

@@ -1,0 +1,50 @@
+{
+  "/": {
+    "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+    "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+    "canonical": "https://pyptecnologia.com/",
+    "image": {
+      "url": "https://pyptecnologia.com/og-pyp.png",
+      "type": "image/png",
+      "width": 1448,
+      "height": 1086,
+      "alt": "Logotipo PYP Tecnología Electrónica SAS"
+    }
+  },
+  "/iot-industrial": {
+    "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+    "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+    "canonical": "https://pyptecnologia.com/iot-industrial",
+    "image": {
+      "url": "https://pyptecnologia.com/og-pyp.png",
+      "type": "image/png",
+      "width": 1448,
+      "height": 1086,
+      "alt": "Logotipo PYP Tecnología Electrónica SAS"
+    }
+  },
+  "/monitoreo-energetico": {
+    "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+    "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+    "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+    "image": {
+      "url": "https://pyptecnologia.com/og-pyp.png",
+      "type": "image/png",
+      "width": 1448,
+      "height": 1086,
+      "alt": "Logotipo PYP Tecnología Electrónica SAS"
+    }
+  },
+  "/automatizacion-edge": {
+    "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+    "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+    "canonical": "https://pyptecnologia.com/automatizacion-edge",
+    "image": {
+      "url": "https://pyptecnologia.com/og-pyp.png",
+      "type": "image/png",
+      "width": 1448,
+      "height": 1086,
+      "alt": "Logotipo PYP Tecnología Electrónica SAS"
+    }
+  }
+}

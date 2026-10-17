@@ -1,0 +1,28 @@
+{
+  "target": true,
+  "node": true,
+  "reactPluginPeer": true,
+  "vuePluginPeer": true,
+  "ownAdvisories": [
+    {
+      "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+      "range": "<=6.4.1",
+      "targetOutsideRange": true
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
+      "range": ">=6.0.0 <=6.4.1",
+      "targetOutsideRange": true
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-v6wh-96g9-6wx3",
+      "range": "<=6.4.2",
+      "targetOutsideRange": true
+    },
+    {
+      "url": "https://github.com/advisories/GHSA-fx2h-pf6j-xcff",
+      "range": "<=6.4.2",
+      "targetOutsideRange": true
+    }
+  ]
+}

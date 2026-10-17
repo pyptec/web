@@ -1,0 +1,498 @@
+{
+  "command": "npm audit --json",
+  "exitCode": 1,
+  "metadata": {
+    "vulnerabilities": {
+      "info": 0,
+      "low": 1,
+      "moderate": 6,
+      "high": 12,
+      "critical": 0,
+      "total": 19
+    },
+    "dependencies": {
+      "prod": 10,
+      "dev": 349,
+      "optional": 73,
+      "peer": 1,
+      "peerOptional": 0,
+      "total": 358
+    }
+  },
+  "vulnerabilities": {
+    "@babel/core": {
+      "severity": "low",
+      "isDirect": false,
+      "range": "<=7.29.0",
+      "scope": "development",
+      "nodes": [
+        "node_modules/@babel/core"
+      ],
+      "via": [
+        {
+          "name": "@babel/core",
+          "title": "@babel/core: Arbitrary File Read via sourceMappingURL Comment",
+          "url": "https://github.com/advisories/GHSA-4x5r-pxfx-6jf8",
+          "severity": "low",
+          "range": "<=7.29.0"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "baseline-browser-mapping": {
+      "severity": "moderate",
+      "isDirect": false,
+      "range": ">=2.0.0 <2.11.0",
+      "scope": "development",
+      "nodes": [
+        "node_modules/baseline-browser-mapping"
+      ],
+      "via": [
+        {
+          "name": "baseline-browser-mapping",
+          "title": "baseline-browser-mapping process termination on invalid input causes denial of service",
+          "url": "https://github.com/advisories/GHSA-w5vr-8v7q-w6rv",
+          "severity": "moderate",
+          "range": ">=2.0.0 <2.11.0"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "brace-expansion": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "2.0.0 - 2.1.6",
+      "scope": "development",
+      "nodes": [
+        "node_modules/brace-expansion"
+      ],
+      "via": [
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: Zero-step sequence causes process hang and memory exhaustion",
+          "url": "https://github.com/advisories/GHSA-f886-m6hf-6m8v",
+          "severity": "moderate",
+          "range": ">=2.0.0 <2.0.3"
+        },
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: DoS via exponential-time expansion of consecutive non-expanding {} groups",
+          "url": "https://github.com/advisories/GHSA-3jxr-9vmj-r5cp",
+          "severity": "high",
+          "range": ">=2.0.0 <2.1.2"
+        },
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: DoS via unbounded expansion length causing an out-of-memory process crash",
+          "url": "https://github.com/advisories/GHSA-mh99-v99m-4gvg",
+          "severity": "high",
+          "range": ">=2.0.0 <2.1.3"
+        },
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: DoS via unbounded intermediate arrays, bypassing the CVE-2026-14257 mitigation",
+          "url": "https://github.com/advisories/GHSA-rgw5-rvv9-x895",
+          "severity": "high",
+          "range": ">=2.0.0 <2.1.4"
+        },
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: Quadratic-time expansion of the `{a},b}` rewrite causes CPU denial of service",
+          "url": "https://github.com/advisories/GHSA-q2hr-2g5m-vwhr",
+          "severity": "moderate",
+          "range": ">=2.0.0 <2.1.7"
+        },
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: DoS via uncontrolled recursion on nested brace groups causing stack exhaustion",
+          "url": "https://github.com/advisories/GHSA-qhr7-859c-m2p7",
+          "severity": "high",
+          "range": ">=2.0.0 <2.1.6"
+        },
+        {
+          "name": "brace-expansion",
+          "title": "brace-expansion: DoS via uncontrolled recursion in parseCommaParts causing stack exhaustion",
+          "url": "https://github.com/advisories/GHSA-6j4f-fj2g-mc7p",
+          "severity": "high",
+          "range": ">=2.0.0 <2.1.5"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "braces": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "*",
+      "scope": "development",
+      "nodes": [
+        "node_modules/braces"
+      ],
+      "via": [
+        {
+          "name": "braces",
+          "title": "braces vulnerable to stack-exhaustion denial of service through deeply nested patterns",
+          "url": "https://github.com/advisories/GHSA-vfj7-8cjw-p6xm",
+          "severity": "high",
+          "range": "<=3.0.3"
+        }
+      ],
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    "browserslist": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "<=4.28.6",
+      "scope": "development",
+      "nodes": [
+        "node_modules/browserslist"
+      ],
+      "via": [
+        {
+          "name": "browserslist",
+          "title": "Browserslist: Unbounded memory growth (no cache eviction) via distinct query results, leading to eventual OOM",
+          "url": "https://github.com/advisories/GHSA-c83g-rgw3-j3cx",
+          "severity": "high",
+          "range": "<=4.28.6"
+        },
+        {
+          "name": "browserslist",
+          "title": "Browserslist: Uncaught crash / prototype write via untrusted browserslist-stats.json custom stats (normalizeStats)",
+          "url": "https://github.com/advisories/GHSA-73wf-gq98-2v4g",
+          "severity": "high",
+          "range": "<=4.28.6"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "chokidar": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "2.0.0 - 3.6.0",
+      "scope": "development",
+      "nodes": [
+        "node_modules/chokidar"
+      ],
+      "via": [
+        "braces"
+      ],
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    "esbuild": {
+      "severity": "moderate",
+      "isDirect": false,
+      "range": "<=0.24.2",
+      "scope": "development",
+      "nodes": [
+        "node_modules/vitepress/node_modules/esbuild"
+      ],
+      "via": [
+        {
+          "name": "esbuild",
+          "title": "esbuild enables any website to send any requests to the development server and read the response",
+          "url": "https://github.com/advisories/GHSA-67mh-4wv8-2f99",
+          "severity": "moderate",
+          "range": "<=0.24.2"
+        }
+      ],
+      "fixAvailable": false
+    },
+    "fast-glob": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "*",
+      "scope": "development",
+      "nodes": [
+        "node_modules/fast-glob"
+      ],
+      "via": [
+        "micromatch"
+      ],
+      "fixAvailable": true
+    },
+    "glob": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "10.2.0 - 10.4.5",
+      "scope": "development",
+      "nodes": [
+        "node_modules/glob"
+      ],
+      "via": [
+        {
+          "name": "glob",
+          "title": "glob CLI: Command injection via -c/--cmd executes matches with shell:true",
+          "url": "https://github.com/advisories/GHSA-5j98-mcp5-4vw2",
+          "severity": "high",
+          "range": ">=10.2.0 <10.5.0"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "micromatch": {
+      "severity": "high",
+      "isDirect": false,
+      "range": ">=0.2.0",
+      "scope": "development",
+      "nodes": [
+        "node_modules/micromatch"
+      ],
+      "via": [
+        "braces"
+      ],
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    "minimatch": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "9.0.0 - 9.0.6",
+      "scope": "development",
+      "nodes": [
+        "node_modules/minimatch"
+      ],
+      "via": [
+        {
+          "name": "minimatch",
+          "title": "minimatch has a ReDoS via repeated wildcards with non-matching literal in pattern",
+          "url": "https://github.com/advisories/GHSA-3ppc-4f35-3m26",
+          "severity": "high",
+          "range": ">=9.0.0 <9.0.6"
+        },
+        {
+          "name": "minimatch",
+          "title": "minimatch has ReDoS: matchOne() combinatorial backtracking via multiple non-adjacent GLOBSTAR segments",
+          "url": "https://github.com/advisories/GHSA-7r86-cg39-jmmj",
+          "severity": "high",
+          "range": ">=9.0.0 <9.0.7"
+        },
+        {
+          "name": "minimatch",
+          "title": "minimatch ReDoS: nested *() extglobs generate catastrophically backtracking regular expressions",
+          "url": "https://github.com/advisories/GHSA-23c5-xmqv-rm74",
+          "severity": "high",
+          "range": ">=9.0.0 <9.0.7"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "picomatch": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "<=2.3.1 || 4.0.0 - 4.0.3",
+      "scope": "development",
+      "nodes": [
+        "node_modules/picomatch",
+        "node_modules/tinyglobby/node_modules/picomatch",
+        "node_modules/vite/node_modules/picomatch"
+      ],
+      "via": [
+        {
+          "name": "picomatch",
+          "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+          "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+          "severity": "moderate",
+          "range": "<2.3.2"
+        },
+        {
+          "name": "picomatch",
+          "title": "Picomatch: Method Injection in POSIX Character Classes causes incorrect Glob Matching",
+          "url": "https://github.com/advisories/GHSA-3v7f-55p6-f55p",
+          "severity": "moderate",
+          "range": ">=4.0.0 <4.0.4"
+        },
+        {
+          "name": "picomatch",
+          "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+          "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+          "severity": "high",
+          "range": "<2.3.2"
+        },
+        {
+          "name": "picomatch",
+          "title": "Picomatch has a ReDoS vulnerability via extglob quantifiers",
+          "url": "https://github.com/advisories/GHSA-c2c7-rcm5-vvqj",
+          "severity": "high",
+          "range": ">=4.0.0 <4.0.4"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "postcss-selector-parser": {
+      "severity": "moderate",
+      "isDirect": false,
+      "range": "<=7.1.5",
+      "scope": "development",
+      "nodes": [
+        "node_modules/postcss-selector-parser"
+      ],
+      "via": [
+        {
+          "name": "postcss-selector-parser",
+          "title": "postcss-selector-parser allows denial of service through uncontrolled AST recursion",
+          "url": "https://github.com/advisories/GHSA-w9m9-85wc-3x92",
+          "severity": "low",
+          "range": ">=6.1.0 <6.1.3"
+        },
+        {
+          "name": "postcss-selector-parser",
+          "title": "PostCSS: Quadratic complexity in flat selector parsing allows CPU exhaustion",
+          "url": "https://github.com/advisories/GHSA-rj75-hqrm-r3gf",
+          "severity": "moderate",
+          "range": "<7.1.6"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "react-router": {
+      "severity": "moderate",
+      "isDirect": false,
+      "range": "6.0.0 - 7.17.0",
+      "scope": "production-or-mixed",
+      "nodes": [
+        "node_modules/react-router"
+      ],
+      "via": [
+        {
+          "name": "react-router",
+          "title": "React Router: Open redirect via backslash in <Link> and useNavigate (CVE-2025-68470 bypass)",
+          "url": "https://github.com/advisories/GHSA-wrjc-x8rr-h8h6",
+          "severity": "moderate",
+          "range": ">=6.0.0 <7.18.0"
+        },
+        {
+          "name": "react-router",
+          "title": "React Router: Arbitrary Constructor Injection via deserializeErrors() in React Router SSR Hydration",
+          "url": "https://github.com/advisories/GHSA-337j-9hxr-rhxg",
+          "severity": "moderate",
+          "range": ">=6.4.0 <7.18.0"
+        }
+      ],
+      "fixAvailable": {
+        "name": "react-router-dom",
+        "version": "7.18.4",
+        "isSemVerMajor": true
+      }
+    },
+    "react-router-dom": {
+      "severity": "moderate",
+      "isDirect": true,
+      "range": "6.0.0-alpha.0 - 7.17.0",
+      "scope": "production-or-mixed",
+      "nodes": [
+        "node_modules/react-router-dom"
+      ],
+      "via": [
+        "react-router"
+      ],
+      "fixAvailable": {
+        "name": "react-router-dom",
+        "version": "7.18.4",
+        "isSemVerMajor": true
+      }
+    },
+    "rollup": {
+      "severity": "high",
+      "isDirect": false,
+      "range": "4.0.0 - 4.58.0",
+      "scope": "development",
+      "nodes": [
+        "node_modules/rollup"
+      ],
+      "via": [
+        {
+          "name": "rollup",
+          "title": "Rollup 4 has Arbitrary File Write via Path Traversal",
+          "url": "https://github.com/advisories/GHSA-mw96-cpmx-2vgc",
+          "severity": "high",
+          "range": ">=4.0.0 <4.59.0"
+        }
+      ],
+      "fixAvailable": true
+    },
+    "tailwindcss": {
+      "severity": "high",
+      "isDirect": true,
+      "range": "<=0.0.0-oxide-insiders.ff2c25f || 2.1.0-canary.1 - 3.4.19",
+      "scope": "development",
+      "nodes": [
+        "node_modules/tailwindcss"
+      ],
+      "via": [
+        "chokidar",
+        "fast-glob",
+        "micromatch"
+      ],
+      "fixAvailable": {
+        "name": "tailwindcss",
+        "version": "4.3.3",
+        "isSemVerMajor": true
+      }
+    },
+    "vite": {
+      "severity": "high",
+      "isDirect": true,
+      "range": "<=6.4.2",
+      "scope": "development",
+      "nodes": [
+        "node_modules/vite",
+        "node_modules/vitepress/node_modules/vite"
+      ],
+      "via": [
+        {
+          "name": "vite",
+          "title": "Vite Vulnerable to Path Traversal in Optimized Deps `.map` Handling",
+          "url": "https://github.com/advisories/GHSA-4w7w-66w2-5vf9",
+          "severity": "moderate",
+          "range": "<=6.4.1"
+        },
+        {
+          "name": "vite",
+          "title": "Vite Vulnerable to Arbitrary File Read via Vite Dev Server WebSocket",
+          "url": "https://github.com/advisories/GHSA-p9ff-h696-f583",
+          "severity": "high",
+          "range": ">=6.0.0 <=6.4.1"
+        },
+        {
+          "name": "vite",
+          "title": "launch-editor: NTLMv2 hash disclosure via UNC path handling on Windows",
+          "url": "https://github.com/advisories/GHSA-v6wh-96g9-6wx3",
+          "severity": "moderate",
+          "range": "<=6.4.2"
+        },
+        {
+          "name": "vite",
+          "title": "vite: `server.fs.deny` bypass on Windows alternate paths",
+          "url": "https://github.com/advisories/GHSA-fx2h-pf6j-xcff",
+          "severity": "high",
+          "range": "<=6.4.2"
+        },
+        "esbuild"
+      ],
+      "fixAvailable": false
+    },
+    "vitepress": {
+      "severity": "moderate",
+      "isDirect": true,
+      "range": "<=1.6.4",
+      "scope": "development",
+      "nodes": [
+        "node_modules/vitepress"
+      ],
+      "via": [
+        "vite"
+      ],
+      "fixAvailable": false
+    }
+  }
+}

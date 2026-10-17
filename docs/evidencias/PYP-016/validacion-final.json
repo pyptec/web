@@ -1,0 +1,110 @@
+{
+  "protectedFiles": 1529,
+  "deleted": [],
+  "unexpectedChanges": [],
+  "distFilesUnchanged": 17,
+  "previousGeneratedUnchanged": 1253,
+  "indexUnchanged": true,
+  "lockChanges": [
+    "",
+    "node_modules/@remix-run/router",
+    "node_modules/react-router",
+    "node_modules/react-router-dom",
+    "node_modules/cookie",
+    "node_modules/set-cookie-parser"
+  ],
+  "installedChanges": [
+    {
+      "location": "node_modules/@remix-run/router",
+      "version": "1.23.4",
+      "status": "removed"
+    },
+    {
+      "location": "node_modules/react-router",
+      "version": "6.30.6",
+      "after": "7.18.4"
+    },
+    {
+      "location": "node_modules/react-router-dom",
+      "version": "6.30.6",
+      "after": "7.18.4"
+    }
+  ],
+  "lockMatchesReviewed": true,
+  "whitespace": [],
+  "brokenLinks": [],
+  "documentationReportBuilt": true,
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "globalDiffCheck": {
+    "exit": 2,
+    "stdout": "src/main.jsx:45: trailing whitespace.\n+        \n",
+    "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status": {
+    "exit": 0,
+    "stdout": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? public/og-pyp.png\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/data/\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+    "stderr": ""
+  },
+  "untrackedBeforeFinal": 267,
+  "untrackedFinal": 268,
+  "versions": {
+    "before": {
+      "dom": "6.30.6",
+      "router": "6.30.6"
+    },
+    "after": {
+      "dom": "7.18.4",
+      "router": "7.18.4",
+      "cookie": "1.1.1",
+      "setCookieParser": "2.7.2"
+    },
+    "node": "22.15.1",
+    "react": "18.3.1"
+  },
+  "builds": {
+    "commercial": {
+      "exit": 0,
+      "modules": 1609,
+      "seconds": 15.17
+    },
+    "seo": {
+      "exit": 0,
+      "pages": 4
+    },
+    "vitepress": {
+      "exit": 0,
+      "seconds": 24.94,
+      "isolatedOutputCacheAndSsr": true
+    }
+  },
+  "checks": {
+    "navigationAndExternalLinks": 183,
+    "form": 34,
+    "seo": 59,
+    "visualLogoAndLayout": 16,
+    "total": 292
+  },
+  "audit": {
+    "before": {
+      "total": 19,
+      "high": 12,
+      "moderate": 6,
+      "low": 1,
+      "prodModerate": 2
+    },
+    "after": {
+      "total": 17,
+      "high": 12,
+      "moderate": 4,
+      "low": 1,
+      "prodTotal": 0
+    },
+    "newVulnerablePackages": [],
+    "newAdvisories": []
+  },
+  "serverStopped": true
+}

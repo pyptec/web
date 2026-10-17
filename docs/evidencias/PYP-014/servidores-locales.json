@@ -1,0 +1,7 @@
+{
+  "pid": 9812,
+  "dev": "http://127.0.0.1:5190",
+  "preview": "http://127.0.0.1:5191",
+  "staticArtifact": "http://127.0.0.1:5192",
+  "limitations": "Static server is an explicit local model, not Netlify CDN or CLI."
+}

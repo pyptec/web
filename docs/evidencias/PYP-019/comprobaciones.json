@@ -1,0 +1,401 @@
+{
+  "date": "2026-10-17",
+  "checks": 81,
+  "failures": [],
+  "results": [
+    {
+      "label": "Campos estáticos y React iguales",
+      "passed": true
+    },
+    {
+      "label": "Formulario name=\"contacto-pyp\"",
+      "passed": true
+    },
+    {
+      "label": "Formulario method=\"POST\"",
+      "passed": true
+    },
+    {
+      "label": "Formulario data-netlify=\"true\"",
+      "passed": true
+    },
+    {
+      "label": "Formulario netlify-honeypot=\"bot-field\"",
+      "passed": true
+    },
+    {
+      "label": "Formulario value=\"contacto-pyp\"",
+      "passed": true
+    },
+    {
+      "label": "Requerido nombre",
+      "passed": true
+    },
+    {
+      "label": "Requerido correo",
+      "passed": true
+    },
+    {
+      "label": "Requerido mensaje",
+      "passed": true
+    },
+    {
+      "label": "/ title",
+      "passed": true
+    },
+    {
+      "label": "/ description",
+      "passed": true
+    },
+    {
+      "label": "/ canonical",
+      "passed": true
+    },
+    {
+      "label": "/ og:title",
+      "passed": true
+    },
+    {
+      "label": "/ og:description",
+      "passed": true
+    },
+    {
+      "label": "/ og:url",
+      "passed": true
+    },
+    {
+      "label": "/ og:image",
+      "passed": true
+    },
+    {
+      "label": "/ formulario idéntico",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/index-BOudA17U.js",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/index-hrzmi9gy.css",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial title",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial description",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial canonical",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial og:title",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial og:description",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial og:url",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial og:image",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial formulario idéntico",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial recurso /assets/index-BOudA17U.js",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial recurso /assets/index-hrzmi9gy.css",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico title",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico description",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico canonical",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico og:title",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico og:description",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico og:url",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico og:image",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico formulario idéntico",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/index-BOudA17U.js",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/index-hrzmi9gy.css",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge title",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge description",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge canonical",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge og:title",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge og:description",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge og:url",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge og:image",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge formulario idéntico",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge recurso /assets/index-BOudA17U.js",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge recurso /assets/index-hrzmi9gy.css",
+      "passed": true
+    },
+    {
+      "label": "src/App.jsx Navbar única",
+      "passed": true
+    },
+    {
+      "label": "src/App.jsx ancla soluciones",
+      "passed": true
+    },
+    {
+      "label": "src/App.jsx ancla arquitectura",
+      "passed": true
+    },
+    {
+      "label": "src/App.jsx ancla rpi-mdfr",
+      "passed": true
+    },
+    {
+      "label": "src/App.jsx ancla sectores",
+      "passed": true
+    },
+    {
+      "label": "src/pages/MonitoreoEnergetico.jsx Navbar única",
+      "passed": true
+    },
+    {
+      "label": "src/pages/MonitoreoEnergetico.jsx ancla proyectos",
+      "passed": true
+    },
+    {
+      "label": "src/pages/MonitoreoEnergetico.jsx ancla lps",
+      "passed": true
+    },
+    {
+      "label": "src/pages/MonitoreoEnergetico.jsx ancla alkosto",
+      "passed": true
+    },
+    {
+      "label": "src/pages/MonitoreoEnergetico.jsx ancla can-j1939",
+      "passed": true
+    },
+    {
+      "label": "src/pages/MonitoreoEnergetico.jsx ancla contacto",
+      "passed": true
+    },
+    {
+      "label": "src/pages/IoTIndustrialLoRaWAN.jsx Navbar única",
+      "passed": true
+    },
+    {
+      "label": "src/pages/IoTIndustrialLoRaWAN.jsx ancla soluciones",
+      "passed": true
+    },
+    {
+      "label": "src/pages/IoTIndustrialLoRaWAN.jsx ancla contacto",
+      "passed": true
+    },
+    {
+      "label": "src/pages/AutomatizacionEdge.jsx Navbar única",
+      "passed": true
+    },
+    {
+      "label": "src/pages/AutomatizacionEdge.jsx ancla capacidades",
+      "passed": true
+    },
+    {
+      "label": "src/pages/AutomatizacionEdge.jsx ancla hardware",
+      "passed": true
+    },
+    {
+      "label": "src/pages/AutomatizacionEdge.jsx ancla j1939",
+      "passed": true
+    },
+    {
+      "label": "src/pages/AutomatizacionEdge.jsx ancla aplicaciones",
+      "passed": true
+    },
+    {
+      "label": "src/pages/AutomatizacionEdge.jsx ancla contacto",
+      "passed": true
+    },
+    {
+      "label": "Sitemap cuatro canonical exactos",
+      "passed": true
+    },
+    {
+      "label": "Robots referencia sitemap",
+      "passed": true
+    },
+    {
+      "label": "Fallback SPA intacto",
+      "passed": true
+    },
+    {
+      "label": "Imagen OG existente",
+      "passed": true
+    },
+    {
+      "label": "20 archivos idénticos a PYP-018",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /iot-industrial",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /iot-industrial/",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /monitoreo-energetico",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /monitoreo-energetico/",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /automatizacion-edge",
+      "passed": true
+    },
+    {
+      "label": "HTTP modelo /automatizacion-edge/",
+      "passed": true
+    }
+  ],
+  "fields": [
+    "bot-field",
+    "correo",
+    "empresa",
+    "form-name",
+    "mensaje",
+    "nombre",
+    "solucion"
+  ],
+  "responses": [
+    {
+      "url": "/",
+      "status": 200,
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología"
+    },
+    {
+      "url": "/iot-industrial",
+      "status": 200,
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología"
+    },
+    {
+      "url": "/iot-industrial/",
+      "status": 200,
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología"
+    },
+    {
+      "url": "/monitoreo-energetico",
+      "status": 200,
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología"
+    },
+    {
+      "url": "/monitoreo-energetico/",
+      "status": 200,
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología"
+    },
+    {
+      "url": "/automatizacion-edge",
+      "status": 200,
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología"
+    },
+    {
+      "url": "/automatizacion-edge/",
+      "status": 200,
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología"
+    }
+  ],
+  "artifactFiles": [
+    "_redirects",
+    "assets/alkosto-corrientes-BOfkpDuW.png",
+    "assets/alkosto-resumen-DpYwZI6t.png",
+    "assets/can-j1939-dashboard-BfrJt0k0.png",
+    "assets/clg-DhiTCHTU.jpeg",
+    "assets/index-BOudA17U.js",
+    "assets/index-hrzmi9gy.css",
+    "assets/log_pyp-CfCiXRW3.webp",
+    "assets/lps-dKCpr1sb.webp",
+    "assets/lps-instalacion-samee200-bGen6_4O.webp",
+    "assets/paneles-solares-C7pGWbxP.webp",
+    "assets/rpi-DDLAJPsT.jpg",
+    "assets/samee200-5_kmpS0Y.jpeg",
+    "automatizacion-edge/index.html",
+    "index.html",
+    "iot-industrial/index.html",
+    "monitoreo-energetico/index.html",
+    "og-pyp.png",
+    "robots.txt",
+    "sitemap.xml"
+  ],
+  "differences": [],
+  "limitations": "Modelo local de archivos/directorios antes del fallback. No reproduce el CDN Netlify. No ejecuta React ni pruebas visuales, teclado o recepción de formularios."
+}

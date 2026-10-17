@@ -1,0 +1,5 @@
+{
+  "command": "npm ls vite --json",
+  "exit": 0,
+  "stderr": ""
+}

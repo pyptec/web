@@ -1,0 +1,84 @@
+{
+  "checks": 12,
+  "results": [
+    "hover green background and text / 375 {\"background\":\"rgba(166, 206, 57, 0.2)\",\"color\":\"rgb(65, 109, 19)\"}",
+    "keyboard visible outline / 375",
+    "text contrast at least 4.5:1 / 375",
+    "hover green background and text /monitoreo-energetico 375 {\"background\":\"rgba(166, 206, 57, 0.2)\",\"color\":\"rgb(65, 109, 19)\"}",
+    "keyboard visible outline /monitoreo-energetico 375",
+    "text contrast at least 4.5:1 /monitoreo-energetico 375",
+    "hover green background and text / 1440 {\"background\":\"rgba(166, 206, 57, 0.2)\",\"color\":\"rgb(65, 109, 19)\"}",
+    "keyboard visible outline / 1440",
+    "text contrast at least 4.5:1 / 1440",
+    "hover green background and text /monitoreo-energetico 1440 {\"background\":\"rgba(166, 206, 57, 0.2)\",\"color\":\"rgb(65, 109, 19)\"}",
+    "keyboard visible outline /monitoreo-energetico 1440",
+    "text contrast at least 4.5:1 /monitoreo-energetico 1440"
+  ],
+  "states": [
+    {
+      "width": 375,
+      "route": "/",
+      "hover": {
+        "background": "rgba(166, 206, 57, 0.2)",
+        "color": "rgb(65, 109, 19)"
+      },
+      "focus": {
+        "visible": true,
+        "outlineStyle": "auto",
+        "outlineWidth": "3px",
+        "color": "rgb(56, 68, 76)",
+        "background": "rgba(166, 206, 57, 0.2)"
+      },
+      "contrast": 8.89716444853941
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "hover": {
+        "background": "rgba(166, 206, 57, 0.2)",
+        "color": "rgb(65, 109, 19)"
+      },
+      "focus": {
+        "visible": true,
+        "outlineStyle": "auto",
+        "outlineWidth": "3px",
+        "color": "rgb(55, 67, 79)",
+        "background": "rgba(166, 206, 57, 0.2)"
+      },
+      "contrast": 8.987713172557276
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "hover": {
+        "background": "rgba(166, 206, 57, 0.2)",
+        "color": "rgb(65, 109, 19)"
+      },
+      "focus": {
+        "visible": true,
+        "outlineStyle": "auto",
+        "outlineWidth": "3px",
+        "color": "rgb(56, 68, 76)",
+        "background": "rgba(166, 206, 57, 0.2)"
+      },
+      "contrast": 8.89716444853941
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "hover": {
+        "background": "rgba(166, 206, 57, 0.2)",
+        "color": "rgb(65, 109, 19)"
+      },
+      "focus": {
+        "visible": true,
+        "outlineStyle": "auto",
+        "outlineWidth": "3px",
+        "color": "rgb(55, 67, 79)",
+        "background": "rgba(166, 206, 57, 0.2)"
+      },
+      "contrast": 8.987713172557276
+    }
+  ],
+  "note": "Contrast computed against corporate green at 20% composited on white; supplemental local check, not WCAG certification."
+}

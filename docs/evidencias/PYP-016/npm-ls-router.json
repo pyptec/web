@@ -1,0 +1,18 @@
+{
+  "version": "1.0.0",
+  "name": "pyp-web",
+  "dependencies": {
+    "react-router-dom": {
+      "version": "7.18.4",
+      "resolved": "https://registry.npmjs.org/react-router-dom/-/react-router-dom-7.18.4.tgz",
+      "overridden": false,
+      "dependencies": {
+        "react-router": {
+          "version": "7.18.4",
+          "resolved": "https://registry.npmjs.org/react-router/-/react-router-7.18.4.tgz",
+          "overridden": false
+        }
+      }
+    }
+  }
+}

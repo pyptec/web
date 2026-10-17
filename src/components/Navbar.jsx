@@ -1,0 +1,110 @@
+import { useEffect, useId, useRef, useState } from "react";
+import { useLocation, useNavigate } from "react-router-dom";
+import { scrollToSection } from "../utils/scrollToSection.js";
+import logoPyp from "../assets/proyectos/log_pyp.webp";
+
+const SOLUTIONS = [
+  { href: "/monitoreo-energetico", label: "Monitoreo Energético" },
+  { href: "/iot-industrial", label: "IoT Industrial y LoRaWAN" },
+  { href: "/automatizacion-edge", label: "Automatización y Edge" },
+];
+
+const linkClass = "rounded-lg px-2 py-2 text-gray-700 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]";
+
+export default function Navbar({ children, ariaLabel = "Navegación corporativa" }) {
+  const [solutionsOpen, setSolutionsOpen] = useState(false);
+  const disclosureRef = useRef(null);
+  const triggerRef = useRef(null);
+  const solutionsId = useId();
+  const { pathname } = useLocation();
+  const navigate = useNavigate();
+  const normalizedPathname = pathname.replace(/\/+$/, "") || "/";
+
+  useEffect(() => {
+    if (!solutionsOpen) return;
+    const closeOutside = (event) => {
+      if (!disclosureRef.current?.contains(event.target)) setSolutionsOpen(false);
+    };
+    document.addEventListener("pointerdown", closeOutside);
+    return () => document.removeEventListener("pointerdown", closeOutside);
+  }, [solutionsOpen]);
+
+  const handleNavigation = (event) => {
+    setSolutionsOpen(false);
+    const href = event.currentTarget.getAttribute("href");
+    if (!(href?.startsWith("/#") || href?.startsWith("#")) || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+
+    event.preventDefault();
+    navigate(href);
+    scrollToSection(href);
+  };
+
+  return (
+    <header className="sticky top-0 z-50 border-b border-gray-200 bg-white/95 backdrop-blur">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-3 px-5 py-3 md:px-6">
+        <a href="/" className="flex min-w-0 items-center gap-3 rounded-lg focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" aria-label="Ir al inicio de PYP Tecnología">
+          <img src={logoPyp} alt="Logotipo PYP Tecnología Electrónica" className="h-14 w-auto shrink-0 object-contain md:h-16" />
+          <span className="hidden text-sm font-bold text-[#1E1E1E] sm:block">PYP Tecnología Electrónica SAS</span>
+        </a>
+        <nav aria-label={ariaLabel} className="order-3 grid w-full grid-cols-2 items-start gap-2 text-sm font-medium sm:flex sm:flex-wrap sm:items-center sm:gap-4 xl:order-none xl:w-auto">
+          <a className={linkClass} href="/" onClick={handleNavigation}>Inicio</a>
+          <div
+            ref={disclosureRef}
+            className="relative min-w-0"
+            onBlur={(event) => {
+              if (!event.currentTarget.contains(event.relatedTarget)) setSolutionsOpen(false);
+            }}
+            onKeyDown={(event) => {
+              if (event.key === "Escape" && solutionsOpen) {
+                event.preventDefault();
+                setSolutionsOpen(false);
+                triggerRef.current?.focus();
+              }
+              if (event.key === "ArrowDown" && event.target === triggerRef.current) {
+                event.preventDefault();
+                setSolutionsOpen(true);
+                window.requestAnimationFrame(() => disclosureRef.current?.querySelector("ul a")?.focus());
+              }
+            }}
+          >
+            <button
+              ref={triggerRef}
+              type="button"
+              aria-expanded={solutionsOpen}
+              aria-controls={solutionsId}
+              onClick={() => setSolutionsOpen((open) => !open)}
+              className={linkClass + " flex w-full items-center justify-between gap-2 font-semibold bg-[#A6CE39]/20 text-[#416D13]"}
+            >
+              Soluciones <span aria-hidden="true">{solutionsOpen ? "▴" : "▾"}</span>
+            </button>
+            <ul
+              id={solutionsId}
+              hidden={!solutionsOpen}
+              className="absolute right-0 top-full z-50 mt-2 max-h-[60vh] w-[min(18rem,calc(100vw-2.5rem))] overflow-y-auto rounded-xl border border-gray-200 bg-white p-2 shadow-lg sm:left-0 sm:right-auto"
+            >
+              {SOLUTIONS.map(({ href, label }) => (
+                <li key={href}>
+                  <a
+                    href={href}
+                    aria-current={normalizedPathname === href ? "page" : undefined}
+                    onClick={handleNavigation}
+                    className={"block rounded-lg border-l-4 px-3 py-3 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] " + (normalizedPathname === href ? "border-[#6BA425] bg-[#A6CE39]/20 font-bold text-[#416D13]" : "border-transparent text-gray-700 hover:bg-gray-50 hover:text-[#416D13]")}
+                  >
+                    {label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <a className={linkClass} href="/#proyectos" onClick={handleNavigation}>Proyectos</a>
+          <a className={linkClass} href="/#tecnologia" onClick={handleNavigation}>Tecnología</a>
+          <a className={linkClass} href="https://iotrack.com.co" target="_blank" rel="noopener noreferrer">Plataforma<span className="sr-only"> (abre en una pestaña nueva)</span></a>
+        </nav>
+        <a href="/#contacto" onClick={handleNavigation} className="shrink-0 rounded-xl bg-[#A6CE39] px-4 py-2.5 font-semibold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">
+          Hablemos
+        </a>
+      </div>
+      {children}
+    </header>
+  );
+}

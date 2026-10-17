@@ -1,0 +1,8 @@
+{
+  "line": 45,
+  "removedBytes": 8,
+  "beforeSha256": "6c5d35e738e9626c91fbdbe7db20485698985de244021080422e9533925b36d6",
+  "afterSha256": "4f7bcf7ce203b7825775a576191278cf016bfa5555ffb8cf49021fce00aaf0bc",
+  "onlyRequestedLineChanged": true,
+  "nonWhitespaceIdentical": true
+}

@@ -1,0 +1,45 @@
+{
+  "browser": "Edge headless",
+  "mode": "Before: PYP-011 compiled artifact",
+  "checks": 0,
+  "results": [],
+  "snapshots": [
+    {
+      "width": 375,
+      "path": "/",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "class": "rounded-lg px-2 py-2 text-gray-700 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] flex w-full items-center justify-between gap-2 font-semibold ",
+      "headers": 1,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "path": "/monitoreo-energetico",
+      "background": "rgba(166, 206, 57, 0.2)",
+      "color": "rgb(55, 65, 81)",
+      "class": "rounded-lg px-2 py-2 text-gray-700 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] flex w-full items-center justify-between gap-2 font-semibold bg-[#A6CE39]/20 text-[#416D13]",
+      "headers": 1,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "background": "rgba(0, 0, 0, 0)",
+      "color": "rgb(55, 65, 81)",
+      "class": "rounded-lg px-2 py-2 text-gray-700 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] flex w-full items-center justify-between gap-2 font-semibold ",
+      "headers": 1,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "path": "/monitoreo-energetico",
+      "background": "rgba(166, 206, 57, 0.2)",
+      "color": "rgb(55, 65, 81)",
+      "class": "rounded-lg px-2 py-2 text-gray-700 hover:text-[#416D13] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13] flex w-full items-center justify-between gap-2 font-semibold bg-[#A6CE39]/20 text-[#416D13]",
+      "headers": 1,
+      "overflow": false
+    }
+  ],
+  "errors": []
+}

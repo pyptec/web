@@ -1,0 +1,54 @@
+{
+  "checks": 10,
+  "results": [
+    "HTTP artifact is exact generated HTML /",
+    "HTTP artifact is exact generated HTML /monitoreo-energetico",
+    "HTTP artifact is exact generated HTML /monitoreo-energetico/",
+    "HTTP artifact is exact generated HTML /iot-industrial",
+    "HTTP artifact is exact generated HTML /iot-industrial/",
+    "HTTP artifact is exact generated HTML /automatizacion-edge",
+    "HTTP artifact is exact generated HTML /automatizacion-edge/",
+    "Existing SPA fallback is unforced and unchanged in source",
+    "Redirect file copied verbatim to artifact",
+    "Installed Vite source proves separate directory and clean-html lookup paths"
+  ],
+  "mappings": [
+    {
+      "url": "/",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\index.html",
+      "sha256": "2c08d43b5da6100e2ac928ac30857b641479d91fcea9b5c5536fff8c3adc0deb"
+    },
+    {
+      "url": "/monitoreo-energetico",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\monitoreo-energetico\\index.html",
+      "sha256": "14aec81c9d4176aa3850cddf31ff49670bba2def755cd7d0432f25ab0aa010b0"
+    },
+    {
+      "url": "/monitoreo-energetico/",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\monitoreo-energetico\\index.html",
+      "sha256": "14aec81c9d4176aa3850cddf31ff49670bba2def755cd7d0432f25ab0aa010b0"
+    },
+    {
+      "url": "/iot-industrial",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\iot-industrial\\index.html",
+      "sha256": "bd7e5aa07777c6be2590808ff61b4405c1818cedb46e6904dc07419d7a47763b"
+    },
+    {
+      "url": "/iot-industrial/",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\iot-industrial\\index.html",
+      "sha256": "bd7e5aa07777c6be2590808ff61b4405c1818cedb46e6904dc07419d7a47763b"
+    },
+    {
+      "url": "/automatizacion-edge",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\automatizacion-edge\\index.html",
+      "sha256": "6750dba9966517c9fa7977d3fe4327e9b05639772d03bc19329ca4f342973058"
+    },
+    {
+      "url": "/automatizacion-edge/",
+      "artifact": "docs\\evidencias\\PYP-014\\build-temporal\\comercial\\dist\\automatizacion-edge\\index.html",
+      "sha256": "6750dba9966517c9fa7977d3fe4327e9b05639772d03bc19329ca4f342973058"
+    }
+  ],
+  "correctionsRequired": false,
+  "conclusion": "No generated-artifact or React defect demonstrated. Dev/preview differences are measured local serving behavior, not evidence of Netlify CDN failure. Production compatibility remains conditional on deployment configuration."
+}

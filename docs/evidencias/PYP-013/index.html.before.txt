@@ -1,0 +1,136 @@
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- SEO principal -->
+    <title>IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología</title>
+
+    <meta
+      name="description"
+      content="Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia."
+    />
+
+    <meta name="robots" content="index, follow" />
+
+    <link
+      rel="canonical"
+      href="https://pyptecnologia.com/"
+    />
+
+    <!-- Identidad corporativa -->
+    <meta name="theme-color" content="#A6CE39" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Compartir en redes sociales -->
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="es_CO" />
+
+    <meta
+      property="og:site_name"
+      content="PYP Tecnología Electrónica SAS"
+    />
+
+    <meta
+      property="og:title"
+      content="IoT Industrial y Monitoreo Energético | PYP Tecnología"
+    />
+
+    <meta
+      property="og:description"
+      content="Ingeniería IoT industrial, eficiencia energética, producción OEE, telemetría de agua, LoRaWAN y automatización."
+    />
+
+    <meta
+      property="og:url"
+      content="https://pyptecnologia.com/"
+    />
+
+    <!-- Datos estructurados: empresa -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "@id": "https://pyptecnologia.com/#organization",
+      "name": "PYP Tecnología Electrónica SAS",
+      "legalName": "PYP Tecnología Electrónica S.A.S.",
+      "url": "https://pyptecnologia.com/",
+      "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+      "email": "jaime.pedraza@pyptecnologia.com",
+      "telephone": "+57 320 492 9150",
+      "areaServed": {
+        "@type": "Country",
+        "name": "Colombia"
+      },
+      "knowsAbout": [
+        "Internet industrial de las cosas (IIoT)",
+        "Monitoreo energético industrial",
+        "Eficiencia energética",
+        "ISO 50001",
+        "Automatización industrial",
+        "Edge Computing",
+        "LoRaWAN",
+        "Modbus",
+        "MQTT",
+        "Medición de energía eléctrica",
+        "Sistemas de adquisición de datos"
+      ],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Información comercial y proyectos",
+        "telephone": "+57 320 492 9150",
+        "email": "jaime.pedraza@pyptecnologia.com",
+        "availableLanguage": "Spanish",
+        "areaServed": "CO"
+      }
+    }
+    </script>
+
+    <!-- Datos estructurados: sitio web -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://pyptecnologia.com/#website",
+      "name": "PYP Tecnología",
+      "url": "https://pyptecnologia.com/",
+      "inLanguage": "es-CO",
+      "publisher": {
+        "@id": "https://pyptecnologia.com/#organization"
+      }
+    }
+    </script>
+
+    <!-- Fuente principal -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-gray-50 text-gray-900">
+
+    <!-- Formulario Netlify: conservar -->
+    <form
+      name="contacto-pyp"
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="hidden" name="form-name" value="contacto-pyp" />
+      <input type="text" name="nombre" />
+      <input type="email" name="correo" />
+      <input type="text" name="empresa" />
+      <select name="solucion"><option value=""></option></select>
+      <input type="text" name="bot-field" />
+      <textarea name="mensaje"></textarea>
+    </form>
+
+    <div id="root"></div>
+
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+{
+  "protectedCount": 647,
+  "missing": [],
+  "unexpectedChanges": [],
+  "appUnchanged": true,
+  "onlyThreeStaticLinesChanged": true,
+  "dist": [
+    {
+      "file": "dist/assets/alkosto-corrientes-BOfkpDuW.png",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/alkosto-resumen-DpYwZI6t.png",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/clg-DhiTCHTU.jpeg",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/index-B1swingV.js",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/index-DNMqQlni.css",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/log_pyp-CfCiXRW3.webp",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/lps-dKCpr1sb.webp",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/paneles-solares-C7pGWbxP.webp",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/rpi-DDLAJPsT.jpg",
+      "unchanged": true
+    },
+    {
+      "file": "dist/assets/samee200-5_kmpS0Y.jpeg",
+      "unchanged": true
+    },
+    {
+      "file": "dist/index.html",
+      "unchanged": true
+    },
+    {
+      "file": "dist/monitoreo-energetico/index.html",
+      "unchanged": true
+    },
+    {
+      "file": "dist/robots.txt",
+      "unchanged": true
+    },
+    {
+      "file": "dist/sitemap.xml",
+      "unchanged": true
+    },
+    {
+      "file": "dist/_redirects",
+      "unchanged": true
+    }
+  ],
+  "indexUnchanged": true,
+  "generatedForms": [
+    {
+      "file": "index.html",
+      "fields": [
+        "bot-field",
+        "correo",
+        "empresa",
+        "form-name",
+        "mensaje",
+        "nombre",
+        "solucion"
+      ],
+      "name": true,
+      "method": true,
+      "netlify": true,
+      "honeypot": true,
+      "hidden": true,
+      "utf8": true
+    },
+    {
+      "file": "monitoreo-energetico/index.html",
+      "fields": [
+        "bot-field",
+        "correo",
+        "empresa",
+        "form-name",
+        "mensaje",
+        "nombre",
+        "solucion"
+      ],
+      "name": true,
+      "method": true,
+      "netlify": true,
+      "honeypot": true,
+      "hidden": true,
+      "utf8": true
+    }
+  ],
+  "browserChecks": 34,
+  "whitespace": [],
+  "brokenLinks": [],
+  "ignored": {
+    "exit": 0,
+    "stdout": ".gitignore:6:/docs/evidencias/**/build-temporal/\tdocs/evidencias/PYP-011/build-temporal/comercial/dist/index.html\n.gitignore:7:/docs/evidencias/**/browser-profile/\tdocs/evidencias/PYP-011/browser-profile/Default/Preferences\n",
+    "stderr": ""
+  },
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "globalDiffCheck": {
+    "exit": 2,
+    "stdout": "src/main.jsx:45: trailing whitespace.\n+        \n",
+    "stderr": "warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'dist/index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'index.html', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package-lock.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'package.json', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it\n"
+  },
+  "status": {
+    "exit": 0,
+    "stdout": " M .gitignore\n M dist/index.html\n M index.html\n M package-lock.json\n M package.json\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n",
+    "stderr": ""
+  },
+  "untrackedBeforeFinalEvidence": 117,
+  "untrackedFinal": 118,
+  "scope": "Hashes de archivos existentes excluyendo .git, node_modules, browser-profile y cache."
+}

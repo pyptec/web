@@ -1,0 +1,5 @@
+{
+  "command": "npm audit",
+  "exit": 1,
+  "stderr": ""
+}

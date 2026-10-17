@@ -1,0 +1,32 @@
+[
+  {
+    "command": "git status --short",
+    "exitCode": 0,
+    "output": " M dist/index.html\n M package-lock.json\n M package.json\n M src/App.jsx\n M src/components/Seo.jsx\n M src/main.jsx\n M src/pages/IoTIndustrialLoRaWAN.jsx\n M src/pages/MonitoreoEnergetico.jsx\n?? 01_ESTADO_Y_BITACORA.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? 04_BITACORA_001_RESULTADO.md\n?? AGENTS.md\n?? docs/\n?? src/components/Navbar.jsx\n?? src/components/SectionNav.jsx\n?? src/pages/AutomatizacionEdge.jsx\n?? src/utils/\n"
+  },
+  {
+    "command": "git diff --stat",
+    "exitCode": 0,
+    "output": " dist/index.html                    |   65 +-\n package-lock.json                  | 2094 ++++++++++++++++++++++++++++++++++--\n package.json                       |    8 +-\n src/App.jsx                        |   77 +-\n src/components/Seo.jsx             |    5 +\n src/main.jsx                       |   11 +\n src/pages/IoTIndustrialLoRaWAN.jsx |   25 +-\n src/pages/MonitoreoEnergetico.jsx  |   90 +-\n 8 files changed, 2143 insertions(+), 232 deletions(-)\n"
+  },
+  {
+    "command": "git diff --check",
+    "exitCode": 2,
+    "output": "src/main.jsx:45: trailing whitespace.\n+        \n"
+  },
+  {
+    "command": "git ls-files dist",
+    "exitCode": 0,
+    "output": "dist/assets/clg-DhiTCHTU.jpeg\ndist/assets/rpi-DDLAJPsT.jpg\ndist/index.html\n"
+  },
+  {
+    "command": "git ls-files docs",
+    "exitCode": 0,
+    "output": ""
+  },
+  {
+    "command": "git diff --cached --name-only",
+    "exitCode": 0,
+    "output": ""
+  }
+]

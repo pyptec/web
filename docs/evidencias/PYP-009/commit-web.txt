@@ -1,0 +1,9 @@
+src/App.jsx
+src/components/Navbar.jsx
+src/components/SectionNav.jsx
+src/components/Seo.jsx
+src/main.jsx
+src/pages/AutomatizacionEdge.jsx
+src/pages/IoTIndustrialLoRaWAN.jsx
+src/pages/MonitoreoEnergetico.jsx
+src/utils/scrollToSection.js

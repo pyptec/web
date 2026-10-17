@@ -1,0 +1,8 @@
+{
+  "checksPassed": 2,
+  "results": [
+    "320 /monitoreo-energetico: one header",
+    "320 /monitoreo-energetico: no horizontal overflow"
+  ],
+  "error": "Uncaught SyntaxError: Private field '#contacto' must be declared in an enclosing class"
+}
