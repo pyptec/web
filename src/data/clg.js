@@ -15,6 +15,9 @@ export const CLG_PHOTOS = {
 };
 
 export const CLG_FAQS = [
+  { question: "¿Puede CLG integrarse con equipos Modbus?", answer: "Modbus RTU y Modbus TCP son vías de integración para asociar registros o estados con mensajes audibles. La compatibilidad, configuración y desarrollo necesario se revisan y validan por proyecto; no se afirma que estén activos en las 47 unidades." },
+  { question: "¿Qué ventajas ofrece el procesamiento local?", answer: "CLG evalúa eventos y ejecuta las funciones configuradas en el establecimiento, sin depender permanentemente de Internet. Necesita alimentación y configuración; la administración remota requiere conectividad." },
+  { question: "¿Puede CLG activar relés además de reproducir audio?", answer: "Dispone de 4 salidas de relé. Una regla puede asociar un evento con un mensaje y una o varias salidas, según configuración y pruebas de la aplicación. Las condiciones eléctricas se revisan antes de conectar equipos externos." },
   {
     question: "¿Qué es un sistema de publicidad programable por audio?",
     answer: "Es una solución que reproduce mensajes comerciales según una programación o una señal externa. CLG combina el equipo de reproducción, hardware desarrollado por PYP y administración de contenidos para comunicar promociones y avisos en establecimientos.",

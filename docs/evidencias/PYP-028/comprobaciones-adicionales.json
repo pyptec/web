@@ -1,0 +1,53 @@
+{
+  "checks": [
+    {
+      "name": "Hardware 4/4/4",
+      "passed": true
+    },
+    {
+      "name": "Caso clientes y cantidad",
+      "passed": true
+    },
+    {
+      "name": "Enlaces contextuales",
+      "passed": true
+    },
+    {
+      "name": "MQTT condicionado",
+      "passed": true
+    },
+    {
+      "name": "Sin divulgación de plataforma en HTML CLG",
+      "passed": true
+    },
+    {
+      "name": "Sin divulgación de plataforma en fuentes CLG",
+      "passed": true
+    },
+    {
+      "name": "Archivo intacto index.html",
+      "passed": true
+    },
+    {
+      "name": "Archivo intacto package.json",
+      "passed": true
+    },
+    {
+      "name": "Archivo intacto package-lock.json",
+      "passed": true
+    },
+    {
+      "name": "Archivo intacto src/pages/AutomatizacionEdge.jsx",
+      "passed": true
+    },
+    {
+      "name": "Archivo intacto src/pages/MonitoreoEnergetico.jsx",
+      "passed": true
+    },
+    {
+      "name": "17 archivos dist sin cambios",
+      "passed": true
+    }
+  ],
+  "failures": []
+}

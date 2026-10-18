@@ -5,5 +5,5 @@ export const CLG_HERO = {
   alt: "Equipo CLG de PYP con conector de audio y puerto serie, fotografiado sobre una mesa",
 };
 
-export const CLG_TITLE = "Publicidad Programable y Audio Comercial | CLG PYP";
-export const CLG_DESCRIPTION = "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.";
+export const CLG_TITLE = "CLG | Audio Inteligente y Automatización IoT | PYP";
+export const CLG_DESCRIPTION = "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.";

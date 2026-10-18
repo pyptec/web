@@ -505,3 +505,57 @@ Cierre PYP-026: VitePress temporal salida 0; diff --check salida 0; SHA-256 de l
 - Estado al preparar commit: verificaciones remotas posteriores pendientes, SHA/push/despliegue se registrarán tras ejecución. [Informe](./evidencias/PYP-027/resultado.md). Search Console/indexación, recepción Forms y SHA del panel Netlify pendientes de evidencia real.
 
 Cierre previo PYP-027: 180 pruebas aprobadas, infografía 1440/390 correcta, cero vulnerabilidades, VitePress sobre índice selectivo salida 0 (28,92 s). Dist y fuentes conservadas. Manifiesto revisado; commit/push autorizados sujetos a nueva comprobación de origin/main. Resultados posteriores se documentarán localmente sin un segundo commit administrativo.
+
+### Cierre público PYP-027 — 2026-10-18
+
+Commit 1aef3de6de7264696e1fc6f3904ce1ab007ded75; push a main salida 0 y remoto verificado con el mismo SHA. CLG ya se entrega en producción; cinco rutas/endpoints públicos y 19 recursos (27 GET) responden 200. SEO/HTML inicial/JSON-LD/robots/sitemap/favicon correctos. JS, CSS e imágenes coinciden por SHA con build del índice selectivo: la diferencia inicial procedía de clases Tailwind del Appcopia.jsx local ignorado, preservado y excluido. Edge: 18 estados correctos, navegación dirigida 1440/390 aprobada, infografía/galería/formulario sin envíos; sin errores de consola/recursos. Timeout de una transición adicional resuelto en repetición con esperas explícitas, sin cambios funcionales. Los 17 hashes dist siguen intactos. [Informe y evidencia pública](./evidencias/PYP-027/resultado.md). SHA/Published desde panel Netlify, Forms recepción y Search Console/indexación no confirmados. Cierre y evidencias posteriores quedan locales sin segundo commit; archivos ajenos y PYP-024 preservados, sin staging adicional ni despliegue manual.
+
+## PYP-028 — CLG: auditoría preliminar; prompt incompleto
+
+- Fecha real: 2026-10-18 (America/Bogota).
+- Objetivo: preparar la mejora comercial, técnica y SEO de CLG.
+- Prompt: [texto completo disponible](prompts/PYP-028.md); termina en «Antes de anunciar MQTT». No se inventa la continuación.
+- Estado inicial: HEAD 1aef3de6de7264696e1fc6f3904ce1ab007ded75; cambios previos y archivos no rastreados conservados, detallados en la evidencia.
+- Archivos modificados: este apéndice; nuevos docs/prompts/PYP-028.md y docs/evidencias/PYP-028/resultado.md.
+- Explicación técnica: lectura preliminar de página CLG, Inicio, datos, generador SEO, sitemap y prompts PYP-025 a PYP-027. Sin cambios comerciales.
+- Validaciones: git diff --check inicial correcto con advertencias LF/CRLF; build y navegador pendientes.
+- Evidencias: [resultado](evidencias/PYP-028/resultado.md).
+- Incidencias: adjunto truncado en apartado 6.7; Inicio no nombra los clientes indicados en el encargo.
+- Pendientes: recibir continuación, completar auditoría e implementar y validar el alcance completo.
+- Aprobación, commit y publicación: continuación solicitada; sin staging, commit, push ni despliegue.
+
+## PYP-028 — Implementación local de CLG Edge IoT
+
+- Fecha real: 2026-10-18 (America/Bogota).
+- Objetivo: presentar CLG como producto propio con audio inteligente, eventos, Edge Computing, hardware industrial y experiencia comercial.
+- Prompt: [PYP-028, dos entregas conservadas](prompts/PYP-028.md). Se continúa la auditoría previa.
+- Estado inicial: HEAD 1aef3de6de7264696e1fc6f3904ce1ab007ded75; cambios previos preservados; listado en evidencias/PYP-028/git-inicial.txt.
+- Archivos modificados: src/pages/CLG.jsx, src/App.jsx, src/data/clg.js, src/data/clg-meta.js, src/data/structuredData.js; prompt e índice, esta bitácora, arquitectura PYP-028 y evidencias PYP-028.
+- Explicación técnica: secciones 4/4/4, protocolos, flujo funcional HTML responsive, Edge, caso comercial y FAQ; metadatos compartidos y Product actualizados. Caso de Inicio con enlace recíproco, sin modificar formulario.
+- Validaciones y evidencias: [informe actualizado](evidencias/PYP-028/resultado.md), logs y JSON de esta carpeta. Build comercial temporal y prerender correctos; audit de producción sin vulnerabilidades. Resultados finales de navegador y documentación se registran en el informe.
+- Incidencias: no hay pruebas técnicas de protocolos CLG en el repositorio; no se convierten interfaces físicas en despliegues confirmados.
+- Pendientes: revisión visual del propietario y validación técnica de integraciones; indexación sin comprobar.
+- Aprobación, commit y publicación: cambios locales autorizados; sin staging, commit, push ni despliegue. Publicación requiere autorización expresa posterior.
+
+### PYP-028 — Cierre de validación local (2026-10-18)
+
+192 comprobaciones correctas, capturas 1440/390, consola y red sin errores, dist (17 archivos) y formulario conservados, audit de producción sin vulnerabilidades. Build comercial y prerender correctos. VitePress estricto falla por dos enlaces .log preexistentes de PYP-027; build temporal con solo esas dos excepciones correcto. Evidencias, incidencias y pendientes en [informe PYP-028](evidencias/PYP-028/resultado.md). Cambios locales listos para revisión del propietario; sin staging, commit, push ni publicación.
+
+## PYP-029 — Publicación CLG y estrategia SEO competitiva — 2026-10-18
+
+- Objetivo: publicar PYP-028 aprobado y preparar seguimiento SEO comercial/técnico.
+- Prompt: [PYP-029 completo](prompts/PYP-029.md).
+- Estado inicial: main, HEAD 1aef3de6de7264696e1fc6f3904ce1ab007ded75, índice vacío; cambios previos inventariados y preservados.
+- Archivos: implementación PYP-028 (CLG.jsx, App.jsx, datos CLG y Product), enlaces en App.jsx/IoTIndustrialLoRaWAN.jsx/AutomatizacionEdge.jsx; dos referencias y copias .txt de logs PYP-027; prompt, índice, esta bitácora, evidencias y seguimiento SEO PYP-029. Documentación PYP-027 posterior y PYP-028 conservada para staging selectivo. Manifiesto exacto en evidencias PYP-029 antes del commit.
+- Explicación técnica: reparar enlaces VitePress sin excepciones; conservar diseño y datos aprobados; enlaces internos descriptivos sin crear páginas ni alterar formulario.
+- Validaciones/evidencias: [informe](evidencias/PYP-029/resultado.md); resultados previos/posteriores al commit se añaden cronológicamente. Hashes de los 17 archivos dist guardados.
+- Incidencias/pendientes: protocolos no validados físicamente, indexación/Search Console y SHA Netlify pendientes hasta disponer de evidencia.
+- Aprobación: propietario autoriza publicación condicionada a validaciones críticas. Commit, push y despliegue todavía pendientes; sin force ni envíos.
+
+### PYP-029 — Validación previa a publicación — 2026-10-18
+
+Build comercial y VitePress estricto correctos; 193 controles de rutas/SEO/navegador/integridad aprobados, cero vulnerabilidades de producción. Enlaces PYP-027 corregidos con copias .txt de logs; sin excepciones. Capturas 1440/390 revisadas; dist y formulario conservados. Manifiesto selectivo y revisión de secretos sin hallazgos. Main/origin coinciden con el commit de producción conocido. Se procede a preparar el índice y validar su copia antes del commit autorizado; resultados posteriores en el informe PYP-029. Search Console e indexación sin comprobar.
+
+### PYP-029 — Índice validado antes del commit — 2026-10-18
+
+187 archivos, siete fuentes y 180 de documentación/evidencias. Build y prerender del índice correctos; VitePress estricto sobre la selección correcto. Prueba adicional del artefacto: 175 controles originales y cinco formularios verificados normalizando CRLF; sin fallos funcionales. Las fuentes seleccionadas coinciden con las compiladas. Corregidos auxiliares de puerto local y staging con finales de línea, sin modificar el sitio. Los 17 archivos dist y formulario siguen preservados. Se procede al commit/push expresamente autorizados; SHA y resultados públicos se registrarán después sin un segundo commit administrativo.

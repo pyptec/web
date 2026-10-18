@@ -1,0 +1,3 @@
+Error: Timeout location.pathname.replace(/\/$/,"")==="/automatizacion-edge"&&!!document.querySelector("main")
+    at until (file:///D:/promate/web/pyp-web/docs/evidencias/PYP-027/produccion-browser/navegador.mjs:26:98)
+    at async file:///D:/promate/web/pyp-web/docs/evidencias/PYP-027/produccion-browser/navegador.mjs:53:159

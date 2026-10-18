@@ -1,0 +1,30 @@
+vite v6.4.4 building for production...
+transforming...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+✓ 1620 modules transformed.
+rendering chunks...
+computing gzip size...
+docs/evidencias/PYP-027/build-temporal/comercial/.vite/manifest.json                                3.31 kB │ gzip:  0.66 kB
+docs/evidencias/PYP-027/build-temporal/comercial/index.html                                         4.75 kB │ gzip:  1.56 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/can-j1939-dashboard-BfrJt0k0.png           11.44 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/alkosto-resumen-DpYwZI6t.png               23.82 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/log_pyp-CfCiXRW3.webp                      26.61 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-dashboard-BK4XM9aN.png                 26.72 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-DhiTCHTU.jpeg                          39.98 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/samee200-5_kmpS0Y.jpeg                     46.24 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-conexiones-GnmPDNcd.jpg                79.92 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-frontal-JDCeYRuN.jpg                   85.15 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-ethernet-DOpafke1.jpg                  88.16 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/alkosto-corrientes-BOfkpDuW.png           122.56 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/rpi-DDLAJPsT.jpg                          151.29 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/paneles-solares-C7pGWbxP.webp             159.88 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-hat-Iht-aq6k.jpg                      175.47 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/lps-dKCpr1sb.webp                         188.27 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/lps-instalacion-samee200-bGen6_4O.webp    283.06 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/clg-infografia-BbWtLpoZ.png             1,896.84 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/index-CC0PfD1S.css                         24.35 kB │ gzip:  5.33 kB
+docs/evidencias/PYP-027/build-temporal/comercial/assets/index-CPtDmkS8.js                         316.75 kB │ gzip: 89.74 kB
+✓ built in 16.08s

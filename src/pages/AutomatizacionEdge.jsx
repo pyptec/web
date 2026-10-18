@@ -94,6 +94,7 @@ export default function AutomatizacionEdge() {
           <Feature icon={Thermometer} title="Control ambiental y agroindustrial">Integración de temperatura, humedad, gases y actuadores para procesos que requieren supervisión y reglas locales.</Feature>
           <Feature icon={Zap} title="Energía y generación">Supervisión de variables eléctricas, integración de medidores y diagnóstico de equipos de generación.</Feature>
         </div>
+        <p className="mt-8 max-w-3xl leading-relaxed text-gray-700">Para aplicaciones de comunicación audible por eventos, <a href="/proyectos/clg/" className="font-semibold text-[#416D13] underline underline-offset-4">CLG integra audio inteligente y automatización local</a>, con entradas y salidas y vías de integración industrial que se definen por proyecto.</p>
         <div className="mt-9 flex flex-wrap gap-3"><Btn href="/monitoreo-energetico" outline>Ver monitoreo energético</Btn><Btn href="/iot-industrial" outline>Ver IoT y LoRaWAN</Btn></div>
       </div></section>
       <section id="contacto" className="scroll-mt-28 bg-[#F7FAEF] py-20"><div className="mx-auto max-w-7xl px-6"><div className="rounded-3xl border border-[#DCE9BD] bg-white p-8 md:p-12">

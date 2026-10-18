@@ -200,7 +200,7 @@ export default function App() {
       <Section id="proyectos" title="Casos de aplicación" subtitle="Soluciones desarrolladas e integradas por PYP en retail, industria y agroindustria." white>
         <div className="grid gap-8">
           {/* CLG */}
-          <article className="group grid lg:grid-cols-[0.9fr_1.1fr] rounded-3xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#E5E7EB" }}>
+          <article id="caso-clg" className="group grid lg:grid-cols-[0.9fr_1.1fr] rounded-3xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#E5E7EB" }}>
             <div className="relative min-h-[260px] lg:min-h-[330px] overflow-hidden">
               <img src={clgImg} alt="Sistema CLG para gestión centralizada de audio publicitario" loading="lazy" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
               <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
@@ -209,9 +209,9 @@ export default function App() {
               </div>
             </div>
             <div className="p-7 md:p-9 flex flex-col justify-center">
-              <h3 className="text-2xl md:text-3xl font-bold text-gray-900">CLG — Control centralizado de campañas</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-gray-900">CLG — 47 dispositivos para audio comercial</h3>
               <p className="mt-3 text-gray-600 leading-relaxed">
-                Sistema para comunicar y administrar equipos instalados en múltiples sedes y ciudades desde un centro de control.
+                Producto propio de PYP para audio comercial y administración de contenidos distribuidos. El caso de éxito vinculado a Alkosto y Ktronix reúne 47 dispositivos CLG instalados.
                 Permite actualizar contenidos de audio, supervisar equipos y desplegar campañas sin intervención presencial en cada establecimiento.
               </p>
               <p className="mt-3 text-gray-600 leading-relaxed">
@@ -221,7 +221,7 @@ export default function App() {
               <div className="mt-4 flex flex-wrap gap-2">
                 <Pill>Multi-sede</Pill><Pill>Control central</Pill><Pill>Edge/Cloud</Pill><Pill>Gestión remota</Pill>
               </div>
-              <a href="/proyectos/clg/" className="mt-6 inline-flex min-h-11 w-fit items-center rounded-xl bg-[#A6CE39] px-5 py-3 font-semibold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">Conocer CLG →</a>
+              <a href="/proyectos/clg/" className="mt-6 inline-flex min-h-11 w-fit items-center rounded-xl bg-[#A6CE39] px-5 py-3 font-semibold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">Conocer CLG: audio inteligente y automatización →</a>
             </div>
           </article>
 

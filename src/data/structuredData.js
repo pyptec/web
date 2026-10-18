@@ -18,7 +18,7 @@ export function getPageStructuredData(pathname) {
       {
         "@type": "Product",
         "@id": page.canonical + "#producto",
-        name: "CLG — Cliente Ganador",
+        name: "CLG — Audio inteligente y automatización IoT",
         description: page.description,
         url: page.canonical,
         image: page.image.url,

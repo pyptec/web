@@ -1,0 +1,771 @@
+{
+  "date": "2026-10-18T17:14:15.387Z",
+  "mode": "post",
+  "checks": {
+    "allHTTP200": true,
+    "allSEO": true,
+    "allResourcesMatch": true,
+    "clgInfographic": true,
+    "clgProduct": true,
+    "sitemapFive": true,
+    "robotsAllows": true,
+    "internalCLG": true,
+    "staticForm": true,
+    "faviconSVG": true
+  },
+  "passed": true,
+  "records": [
+    {
+      "path": "/proyectos/clg/",
+      "status": 200,
+      "url": "https://pyptecnologia.com/proyectos/clg/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807D2XM07JHBB2B3SJX16M",
+      "sha256": "9d1b97cee761a1db0031b27d2d1d51c991364282c83e087d528eee0bfe8fa751",
+      "bytes": 43458,
+      "title": "Publicidad Programable y Audio Comercial | CLG PYP",
+      "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+      "canonical": "https://pyptecnologia.com/proyectos/clg/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Publicidad Programable y Audio Comercial | CLG PYP",
+        "og:description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+        "og:url": "https://pyptecnologia.com/proyectos/clg/",
+        "og:image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+        "og:image:type": "image/jpeg",
+        "og:image:width": "1599",
+        "og:image:height": "899",
+        "og:image:alt": "Equipo CLG de PYP con conector de audio y puerto serie, fotografiado sobre una mesa"
+      },
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "https://pyptecnologia.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Proyectos",
+                  "item": "https://pyptecnologia.com/#proyectos"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "CLG",
+                  "item": "https://pyptecnologia.com/proyectos/clg/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+              "name": "CLG — Cliente Ganador",
+              "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+              "url": "https://pyptecnologia.com/proyectos/clg/",
+              "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+              "brand": {
+                "@type": "Brand",
+                "name": "PYP"
+              },
+              "manufacturer": {
+                "@id": "https://pyptecnologia.com/#organization"
+              }
+            }
+          ]
+        }
+      ],
+      "h1s": [
+        "Publicidad programable y comunicación inteligente con CLG"
+      ],
+      "hasInitialContent": true,
+      "noindex": false,
+      "sameLocalBytes": false,
+      "expectedSEO": true
+    },
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://pyptecnologia.com/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807DB3KCHG5CN1Z6NTX2GQ",
+      "sha256": "bdbea593c16d9d00edd922936b277dec7747f2ddaeebf7a5a83274916e23edf2",
+      "bytes": 52019,
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "canonical": "https://pyptecnologia.com/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+        "og:url": "https://pyptecnologia.com/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ],
+      "h1s": [
+        "Datos industriales para mejorar energía, producción y procesos"
+      ],
+      "hasInitialContent": true,
+      "noindex": false,
+      "sameLocalBytes": false,
+      "expectedSEO": true
+    },
+    {
+      "path": "/iot-industrial/",
+      "status": 200,
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807DERYGJC2MVWGK7X11RQ",
+      "sha256": "dd36d3172b09bfa01052b8b1c7ad96eaa19cc69272201ed68f120a53566614c0",
+      "bytes": 37158,
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ],
+      "h1s": [
+        "Conectamos equipos, sensores y procesos con datos confiables"
+      ],
+      "hasInitialContent": true,
+      "noindex": false,
+      "sameLocalBytes": false,
+      "expectedSEO": true
+    },
+    {
+      "path": "/monitoreo-energetico/",
+      "status": 200,
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807DJ4M76HVPBBM4D6HN1R",
+      "sha256": "7e6518dc2f088f3c57085d3bf0d702b189c9f840d0f7b26b77fec03e1ba6d8fb",
+      "bytes": 61493,
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ],
+      "h1s": [
+        "Monitoreo energético industrial y solar"
+      ],
+      "hasInitialContent": true,
+      "noindex": false,
+      "sameLocalBytes": false,
+      "expectedSEO": true
+    },
+    {
+      "path": "/automatizacion-edge/",
+      "status": 200,
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "redirects": [],
+      "contentType": "text/html; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807DNGM9JBKZBPMZVVSGZB",
+      "sha256": "59fa171cffb5bb5a86d4840a21b2d7de04a5740bc71d9f80f906c015c8865d4c",
+      "bytes": 33985,
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ],
+      "h1s": [
+        "Automatización industrial y <span class=\"text-[#416D13]\">Edge Computing</span>"
+      ],
+      "hasInitialContent": true,
+      "noindex": false,
+      "sameLocalBytes": false,
+      "expectedSEO": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "https://pyptecnologia.com/sitemap.xml",
+      "redirects": [],
+      "contentType": "application/xml",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807DS0K95FV4W7Z2EMM04R",
+      "sha256": "7c4dc5d96c8a23c46d810d57b4f61e4344e2bb5812ed57d657181cade09e9e23",
+      "bytes": 435,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "url": "https://pyptecnologia.com/robots.txt",
+      "redirects": [],
+      "contentType": "text/plain; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807E4APTN4XPP99C8Y36J7",
+      "sha256": "1486bd94a13073ed44dd604e5bc1f6643d383b827fc47b70c08830750e39de9d",
+      "bytes": 71,
+      "sameLocalBytes": false
+    },
+    {
+      "path": "/favicon.svg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "redirects": [],
+      "contentType": "image/svg+xml",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807E7FH57CZXPGMHK8HB91",
+      "sha256": "f9659236bda433a9dab8eea042d3fe4927b9e3e44438f975c1c9e40648e25438",
+      "bytes": 539,
+      "sameLocalBytes": false
+    },
+    {
+      "path": "/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "redirects": [],
+      "contentType": "application/javascript; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807EDZ3XX441PR1QBH7ASN",
+      "sha256": "b870278f2f2f117418d997a2a1c85b0798ada00a54ffbf6693c5f7f697964404",
+      "bytes": 316747,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "redirects": [],
+      "contentType": "text/css; charset=UTF-8",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807ER5NVMQ9S905D7ZNBXJ",
+      "sha256": "5bfb00e724fdafd3cd12ae98581ee5ac56b5d4d8dcf8eb1a384cd8d1a80065ce",
+      "bytes": 24353,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/clg-audio-comercial.jpg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807EVJXGST2F4C28GTSFG2",
+      "sha256": "d6b530c21a59852605c4c3cef6541d446c7d06751bc907f18129bdf7e176cd59",
+      "bytes": 88145,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "redirects": [],
+      "contentType": "image/webp",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807F3676KTZSBXD8DYGZY5",
+      "sha256": "a4f7f2bcd7522f2b28374a03059c61636a24e2607156e9f6dfbb825432abfcb8",
+      "bytes": 26614,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-infografia-BbWtLpoZ.png",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-infografia-BbWtLpoZ.png",
+      "redirects": [],
+      "contentType": "image/png",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807F7N3VTAWC4G896QC27T",
+      "sha256": "c71f002ff886e9670047c445af5c8d61d2cb28220adad734d884d78b74f019c1",
+      "bytes": 1896839,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-dashboard-BK4XM9aN.png",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-dashboard-BK4XM9aN.png",
+      "redirects": [],
+      "contentType": "image/png",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807G2E190N1MHZ8ZKYKRGX",
+      "sha256": "a2f2ae5ee1a3c4aca32cacd9d5b99fd85879ed06517ba350a587f5d7f80e5bdc",
+      "bytes": 26715,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-hat-Iht-aq6k.jpg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-hat-Iht-aq6k.jpg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807G9HFDD6TFT3N06SRWGC",
+      "sha256": "81da4c9b1705ce1cf4b5320bd6d9c52c0d925d9454bf18424767a2bffa7ce6de",
+      "bytes": 175471,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-conexiones-GnmPDNcd.jpg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-conexiones-GnmPDNcd.jpg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807GDW5ZX3JAXCN262V36N",
+      "sha256": "c5af83d50ebce20bff3b202b1ce61c2f0d7490ba40e62ff4fcd531d767921019",
+      "bytes": 79923,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-frontal-JDCeYRuN.jpg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-frontal-JDCeYRuN.jpg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807GKNYV3YDXPTS3T1EAFQ",
+      "sha256": "925b6db7861663ae3905b5c38ccf82aabd21873be42d2a3591f228dedf76674e",
+      "bytes": 85146,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-ethernet-DOpafke1.jpg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-ethernet-DOpafke1.jpg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807GPWDHZCNPC00HETWVRE",
+      "sha256": "890cc648884563981559333cf9c515b0e03350c0c7e3e51ea2a94c71102b0e65",
+      "bytes": 88160,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807GTERWF3DAP5A4TKSW44",
+      "sha256": "35e8e30d460ada2cd3719c9d6b73f13e859858e328e06d7ba682ca93197164ab",
+      "bytes": 39977,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "redirects": [],
+      "contentType": "image/webp",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807GXWA57BV3RY8QJGRMZ4",
+      "sha256": "0f15e9ae3d62b18cc80bfc40ec1ff9a9c17110da0e88cc01b6e2c1f7c5d0e847",
+      "bytes": 188268,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/rpi-DDLAJPsT.jpg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/rpi-DDLAJPsT.jpg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807H3HX0FRXB1MPK2V8S82",
+      "sha256": "4ebf2637b97c02b92cdf16c66ab2864e2a0e7d5e950f93e6c5b0b4745624c928",
+      "bytes": 151286,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "redirects": [],
+      "contentType": "image/jpeg",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807H96AA0CWK0CRVNQC09N",
+      "sha256": "6a37fa37376d3db366b3feb0e8a6e6975d150765609206947b00eb45a91394fd",
+      "bytes": 46238,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "redirects": [],
+      "contentType": "image/webp",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807HD8PB8GC8K5Q0C2ETE7",
+      "sha256": "c878dfad79f002eff17a9406f784e8148b2d44de542d620aa324bbce6f082881",
+      "bytes": 159882,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "redirects": [],
+      "contentType": "image/webp",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807HH1BP9RQFBXFWBFDW0Y",
+      "sha256": "dc19f12fb18fb381a23cca806dbe2eeab7ef3adf53f8ad0d1fc6a991a555680b",
+      "bytes": 283056,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/alkosto-resumen-DpYwZI6t.png",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/alkosto-resumen-DpYwZI6t.png",
+      "redirects": [],
+      "contentType": "image/png",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807HPX9R08EP4B4GQ1Z7FV",
+      "sha256": "df375efb1a5aa50f5418d49bb40206fe479850891b24fffe6a4bac9a5620b1a5",
+      "bytes": 23824,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/alkosto-corrientes-BOfkpDuW.png",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/alkosto-corrientes-BOfkpDuW.png",
+      "redirects": [],
+      "contentType": "image/png",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807HSZN1ASTVF1XN6NNCKE",
+      "sha256": "1cf3e5d79eb1592d0b7573860c4824dd152f8ece306565a78b227c6c41d44a57",
+      "bytes": 122555,
+      "sameLocalBytes": true
+    },
+    {
+      "path": "/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "status": 200,
+      "url": "https://pyptecnologia.com/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "redirects": [],
+      "contentType": "image/png",
+      "xRobotsTag": null,
+      "server": "Netlify",
+      "requestId": "01M5807HXHZ825X664D85N104J",
+      "sha256": "4c6a867cb7e132feb3a88870c9440d1623d1998e6eb085bd7ef94c1bbf44996d",
+      "bytes": 11436,
+      "sameLocalBytes": true
+    }
+  ],
+  "shaNetlifyConfirmed": false,
+  "limitation": "HTTP y comparación de recursos no certifican por sí solos el SHA del panel Netlify; sin envíos ni indexación comprobada."
+}

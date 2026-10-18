@@ -44,3 +44,7 @@
 - [PYP-026 — Sustituir imagen principal de CLG por infografía](./PYP-026.md)
 
 - [PYP-027 — Publicación controlada de CLG en producción](./PYP-027.md)
+
+- [PYP-028 — CLG: audio inteligente, automatización IoT y caso de éxito](./PYP-028.md)
+
+- [PYP-029 — Publicación CLG y estrategia SEO competitiva](./PYP-029.md)

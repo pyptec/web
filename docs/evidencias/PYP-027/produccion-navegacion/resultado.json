@@ -1,0 +1,821 @@
+{
+  "date": "2026-10-18T17:15:54.015Z",
+  "results": [
+    {
+      "width": 1440,
+      "passed": true,
+      "transitions": [
+        {
+          "url": "https://pyptecnologia.com/monitoreo-energetico/",
+          "canonical": "https://pyptecnologia.com/monitoreo-energetico/"
+        },
+        {
+          "url": "https://pyptecnologia.com/iot-industrial/",
+          "canonical": "https://pyptecnologia.com/iot-industrial/"
+        },
+        {
+          "url": "https://pyptecnologia.com/automatizacion-edge/",
+          "canonical": "https://pyptecnologia.com/automatizacion-edge/"
+        }
+      ],
+      "infographic": {
+        "natural": [
+          1536,
+          1024
+        ],
+        "ratio": 1.5000188288457919,
+        "overflow": false,
+        "href": "https://pyptecnologia.com/assets/clg-infografia-BbWtLpoZ.png",
+        "target": "_blank",
+        "json": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "https://pyptecnologia.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Proyectos",
+                  "item": "https://pyptecnologia.com/#proyectos"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "CLG",
+                  "item": "https://pyptecnologia.com/proyectos/clg/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+              "name": "CLG — Cliente Ganador",
+              "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+              "url": "https://pyptecnologia.com/proyectos/clg/",
+              "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+              "brand": {
+                "@type": "Brand",
+                "name": "PYP"
+              },
+              "manufacturer": {
+                "@id": "https://pyptecnologia.com/#organization"
+              }
+            }
+          ]
+        }
+      },
+      "gallery": [
+        {
+          "src": "https://pyptecnologia.com/assets/clg-frontal-JDCeYRuN.jpg",
+          "naturalWidth": 721
+        },
+        {
+          "src": "https://pyptecnologia.com/assets/clg-ethernet-DOpafke1.jpg",
+          "naturalWidth": 1599
+        },
+        {
+          "src": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+          "naturalWidth": 1599
+        }
+      ],
+      "form": {
+        "forms": [
+          {
+            "hidden": true,
+            "fields": [
+              "form-name",
+              "nombre",
+              "correo",
+              "empresa",
+              "solucion",
+              "bot-field",
+              "mensaje"
+            ]
+          },
+          {
+            "hidden": false,
+            "fields": [
+              "form-name",
+              "bot-field",
+              "nombre",
+              "empresa",
+              "correo",
+              "solucion",
+              "mensaje"
+            ]
+          }
+        ],
+        "pageJsonRemoved": true
+      }
+    },
+    {
+      "width": 390,
+      "passed": true,
+      "transitions": [
+        {
+          "url": "https://pyptecnologia.com/monitoreo-energetico/",
+          "canonical": "https://pyptecnologia.com/monitoreo-energetico/"
+        },
+        {
+          "url": "https://pyptecnologia.com/iot-industrial/",
+          "canonical": "https://pyptecnologia.com/iot-industrial/"
+        },
+        {
+          "url": "https://pyptecnologia.com/automatizacion-edge/",
+          "canonical": "https://pyptecnologia.com/automatizacion-edge/"
+        }
+      ],
+      "infographic": {
+        "natural": [
+          1536,
+          1024
+        ],
+        "ratio": 1.5,
+        "overflow": false,
+        "href": "https://pyptecnologia.com/assets/clg-infografia-BbWtLpoZ.png",
+        "target": "_blank",
+        "json": {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "https://pyptecnologia.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Proyectos",
+                  "item": "https://pyptecnologia.com/#proyectos"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "CLG",
+                  "item": "https://pyptecnologia.com/proyectos/clg/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+              "name": "CLG — Cliente Ganador",
+              "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+              "url": "https://pyptecnologia.com/proyectos/clg/",
+              "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+              "brand": {
+                "@type": "Brand",
+                "name": "PYP"
+              },
+              "manufacturer": {
+                "@id": "https://pyptecnologia.com/#organization"
+              }
+            }
+          ]
+        }
+      },
+      "gallery": [
+        {
+          "src": "https://pyptecnologia.com/assets/clg-frontal-JDCeYRuN.jpg",
+          "naturalWidth": 721
+        },
+        {
+          "src": "https://pyptecnologia.com/assets/clg-ethernet-DOpafke1.jpg",
+          "naturalWidth": 1599
+        },
+        {
+          "src": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+          "naturalWidth": 1599
+        }
+      ],
+      "form": {
+        "forms": [
+          {
+            "hidden": true,
+            "fields": [
+              "form-name",
+              "nombre",
+              "correo",
+              "empresa",
+              "solucion",
+              "bot-field",
+              "mensaje"
+            ]
+          },
+          {
+            "hidden": false,
+            "fields": [
+              "form-name",
+              "bot-field",
+              "nombre",
+              "empresa",
+              "correo",
+              "solucion",
+              "mensaje"
+            ]
+          }
+        ],
+        "pageJsonRemoved": true
+      }
+    }
+  ],
+  "consoleEvents": [],
+  "network": [
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.gstatic.com/l/font?kit=UcCB3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfU5NJeWUdIOjBeTHFXZdND2M&skey=c491285d6722e4fa&v=v20",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/rpi-DDLAJPsT.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/proyectos/clg/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/clg-infografia-BbWtLpoZ.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/clg-ethernet-DOpafke1.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/clg-hat-Iht-aq6k.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/clg-frontal-JDCeYRuN.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "url": "https://pyptecnologia.com/assets/clg-conexiones-GnmPDNcd.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/rpi-DDLAJPsT.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/proyectos/clg/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/clg-infografia-BbWtLpoZ.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/clg-ethernet-DOpafke1.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CC0PfD1S.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/index-CPtDmkS8.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 390,
+      "url": "https://pyptecnologia.com/assets/clg-frontal-JDCeYRuN.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    }
+  ],
+  "failures": [],
+  "blocked": []
+}

@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-18T17:16:19.856Z",
+  "states": [
+    {
+      "width": 1440,
+      "route": "/",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg",
+      "passed": true
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/monitoreo-energetico",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/monitoreo-energetico/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/iot-industrial",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/iot-industrial/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/automatizacion-edge",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/automatizacion-edge/",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg",
+      "passed": true
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "passed": true
+    }
+  ],
+  "broadConsoleErrors": 0,
+  "broadNetworkFailures": 0,
+  "broadHTTPErrorCount": 0,
+  "focusedPassed": true,
+  "firstRunIssue": "Error: Timeout location.pathname.replace(/\\/$/,\"\")===\"/automatizacion-edge\"&&!!document.querySelector(\"main\")",
+  "notes": "18 estados de página correctos; timeout posterior en transición extra móvil. Repetición enfocada con esperas de carga/fuentes y menú abierto explícito satisfactoria, sin cambios en producto.",
+  "passed": true
+}

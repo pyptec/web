@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-18T21:07:36.416Z",
+  "command": "npm.cmd",
+  "args": [
+    "audit",
+    "--omit=dev",
+    "--json"
+  ],
+  "exitCode": 0,
+  "elapsedMs": 10718,
+  "stdout": "docs/evidencias/PYP-028/npm-audit-produccion-01.stdout.txt",
+  "stderr": "docs/evidencias/PYP-028/npm-audit-produccion-01.stderr.txt"
+}

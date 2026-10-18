@@ -1,0 +1,785 @@
+[
+  {
+    "url": "http://127.0.0.1:50671/proyectos/clg",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/proyectos/clg",
+    "metadata": {
+      "title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+      "description": "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.",
+      "canonical": "https://pyptecnologia.com/proyectos/clg/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+        "og:description": "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.",
+        "og:url": "https://pyptecnologia.com/proyectos/clg/",
+        "og:image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+        "og:image:type": "image/jpeg",
+        "og:image:width": "1599",
+        "og:image:height": "899",
+        "og:image:alt": "Equipo CLG de PYP con conector de audio y puerto serie, fotografiado sobre una mesa"
+      },
+      "h1s": [
+        "CLG — Audio inteligente y automatización IoT"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "https://pyptecnologia.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Proyectos",
+                  "item": "https://pyptecnologia.com/#proyectos"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "CLG",
+                  "item": "https://pyptecnologia.com/proyectos/clg/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+              "name": "CLG — Audio inteligente y automatización IoT",
+              "description": "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.",
+              "url": "https://pyptecnologia.com/proyectos/clg/",
+              "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+              "brand": {
+                "@type": "Brand",
+                "name": "PYP"
+              },
+              "manufacturer": {
+                "@id": "https://pyptecnologia.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/proyectos/clg/",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/proyectos/clg/",
+    "metadata": {
+      "title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+      "description": "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.",
+      "canonical": "https://pyptecnologia.com/proyectos/clg/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+        "og:description": "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.",
+        "og:url": "https://pyptecnologia.com/proyectos/clg/",
+        "og:image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+        "og:image:type": "image/jpeg",
+        "og:image:width": "1599",
+        "og:image:height": "899",
+        "og:image:alt": "Equipo CLG de PYP con conector de audio y puerto serie, fotografiado sobre una mesa"
+      },
+      "h1s": [
+        "CLG — Audio inteligente y automatización IoT"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "https://pyptecnologia.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Proyectos",
+                  "item": "https://pyptecnologia.com/#proyectos"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "CLG",
+                  "item": "https://pyptecnologia.com/proyectos/clg/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+              "name": "CLG — Audio inteligente y automatización IoT",
+              "description": "CLG de PYP: publicidad programable, audio inteligente y automatización por eventos con entradas digitales, relés y 47 dispositivos instalados.",
+              "url": "https://pyptecnologia.com/proyectos/clg/",
+              "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+              "brand": {
+                "@type": "Brand",
+                "name": "PYP"
+              },
+              "manufacturer": {
+                "@id": "https://pyptecnologia.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/",
+    "metadata": {
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "canonical": "https://pyptecnologia.com/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+        "og:url": "https://pyptecnologia.com/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Datos industriales para mejorar energía, producción y procesos"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/iot-industrial",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/iot-industrial",
+    "metadata": {
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Conectamos equipos, sensores y procesos con datos confiables"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/iot-industrial/",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/iot-industrial/",
+    "metadata": {
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Conectamos equipos, sensores y procesos con datos confiables"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/monitoreo-energetico",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/monitoreo-energetico",
+    "metadata": {
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Monitoreo energético industrial y solar"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/monitoreo-energetico/",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/monitoreo-energetico/",
+    "metadata": {
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Monitoreo energético industrial y solar"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/automatizacion-edge",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/automatizacion-edge",
+    "metadata": {
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Automatización industrial y <span class=\"text-[#416D13]\">Edge Computing</span>"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/automatizacion-edge/",
+    "status": 200,
+    "finalUrl": "http://127.0.0.1:50671/automatizacion-edge/",
+    "metadata": {
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Automatización industrial y <span class=\"text-[#416D13]\">Edge Computing</span>"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "url": "http://127.0.0.1:50671/robots.txt",
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8"
+  },
+  {
+    "url": "http://127.0.0.1:50671/sitemap.xml",
+    "status": 200,
+    "contentType": "application/xml"
+  },
+  {
+    "url": "http://127.0.0.1:50671/favicon.svg",
+    "status": 200,
+    "contentType": "image/svg+xml"
+  },
+  {
+    "url": "http://127.0.0.1:50671/clg-audio-comercial.jpg",
+    "status": 200,
+    "contentType": "image/jpeg"
+  }
+]

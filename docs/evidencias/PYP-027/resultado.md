@@ -2,6 +2,8 @@
 
 Fecha: 2026-10-18, America/Bogota. [Prompt completo](../../prompts/PYP-027.md).
 
+**Estado final:** CLG disponible en producción; commit 1aef3de6de7264696e1fc6f3904ce1ab007ded75 enviado correctamente. Confirmación del SHA en panel Netlify e indexación pendientes. Evidencias posteriores al push conservadas localmente.
+
 ## Alcance y autorización
 
 Propietario aprueba visualmente PYP-025/PYP-026 y autoriza staging selectivo, un commit y push seguro a main. No se alteran funcionalidades adicionales ni se realizan despliegues manuales o envíos. Base: 6bef36f0c052672e55c1b8a242e07290e5f07376; main y origin/main sin divergencia tras fetch.
@@ -49,3 +51,38 @@ Recepción/notificaciones Netlify Forms siguen sin validar: no se envían mensaj
 ## Cierre previo al commit
 
 VitePress sobre copia del índice selectivo: salida 0, 28,92 s. Se corrigió en el lanzador una ruta ESM de Windows mediante pathToFileURL; primer registro conservado. Los 17 hashes dist siguen idénticos; archivos fuente e imágenes no se modificaron durante PYP-027. Revisado el diff del índice, sin dependencias, formulario, archivos ajenos o temporales. Se procede al único commit y al push autorizado tras comprobar de nuevo origin/main. Los resultados posteriores actualizarán este informe y la bitácora localmente, sin crear un segundo commit solo para registrar el SHA del primero.
+
+## Publicación y verificación final de producción
+
+Estado final: **contenido CLG publicado y verificado por HTTP y navegador** en https://pyptecnologia.com/proyectos/clg/.
+
+- Commit: 1aef3de6de7264696e1fc6f3904ce1ab007ded75. Mensaje: feat(clg): publicar página comercial y SEO de CLG.
+- Push: salida 0; origin/main y main apuntan al mismo SHA, confirmado con ls-remote. Padre: 6bef36f0c052672e55c1b8a242e07290e5f07376. Un solo commit, sin force ni despliegue manual. [Registro](./push.json).
+- Archivos publicados: 211, exactamente los del [manifiesto](./manifiesto.json): 21 archivos de implementación/recursos y 190 de documentación/evidencias. Se excluyen PYP-024, bajas raíz, evidencias ajenas, dist, perfiles y builds.
+- Netlify: servidor HTTP identificado como Netlify. El contenido nuevo ya se entrega; las cinco páginas tienen contenido inicial y metadatos correctos. Los 19 recursos gráficos, JS y CSS coinciden por SHA-256 con la compilación limpia de los archivos seleccionados. No se ha consultado el panel/API autenticada de Netlify ni se puede confirmar formalmente su SHA asociado o el estado Published desde ese panel. GitHub devuelve listas vacías de statuses/check-runs/deployments; el state pending con statuses vacío no se interpreta como estado real del build. [Consulta final](./github-deployment-status-final.json).
+
+| Ruta pública | HTTP | Canonical HTML inicial |
+| --- | ---: | --- |
+| /proyectos/clg/ | 200 | https://pyptecnologia.com/proyectos/clg/ |
+| / | 200 | https://pyptecnologia.com/ |
+| /iot-industrial/ | 200 | https://pyptecnologia.com/iot-industrial/ |
+| /monitoreo-energetico/ | 200 | https://pyptecnologia.com/monitoreo-energetico/ |
+| /automatizacion-edge/ | 200 | https://pyptecnologia.com/automatizacion-edge/ |
+| /sitemap.xml | 200 | — |
+| /robots.txt | 200 | — |
+| /favicon.svg | 200 | — |
+
+[HTTP completo y hashes](./http-produccion-post.json). Sin redirecciones en estas ocho URLs con barra final. Sin errores HTTP en 27 solicitudes: cinco páginas, tres endpoints y 19 recursos. Títulos/descriptions/canonical/OG individuales correctos, sin noindex ni X-Robots-Tag restrictivo. JSON-LD corporativo intacto; CLG añade Product y BreadcrumbList sin ofertas/reviews/certificaciones. Sitemap: cinco canonical únicas, incluida CLG; robots permite rastreo y referencia el sitemap; favicon SVG válido. Inicio enlaza CLG y la canonical de CLG responde 200. Indexación: **pendiente hasta comprobar Search Console**; no se declara indexada.
+
+[Navegador de producción consolidado](./navegador-produccion-validacion.json): 18 estados (1440/390, variantes con y sin barra), navegación/menú/Escape/SectionNav/anclas y metadatos correctos, sin overflow de documento ni errores de consola/recursos. El primer recorrido tuvo timeout en una transición extra móvil después de completar los 18 estados; se repitió esa navegación con espera explícita de carga/fuentes y apertura del menú, y pasó sin cambiar código funcional. [Repetición dirigida](./produccion-navegacion/resultado.json). Incluye paso desde Inicio a CLG, tres fotos técnicas cargadas, infografía íntegra con enlace de ampliación y retorno al formulario de Inicio, sin envíos. [Captura escritorio pública](./produccion-navegacion/clg-infografia-1440.png), [captura móvil pública](./produccion-navegacion/clg-infografia-390.png).
+
+La primera comparación de JS/CSS con el build del workspace difería porque Tailwind examina el archivo local ignorado src/Appcopia.jsx. Sin modificarlo o publicarlo, se compiló la copia del índice selectivo: JS index-CPtDmkS8.js y CSS index-CC0PfD1S.css coinciden exactamente en nombre, bytes y SHA con producción. También coinciden todas las imágenes. [Build limpio](./build-comercial-staged.txt), [generación limpia](./generacion-staged.txt). Así se explica y resuelve la diferencia de comprobación; los primeros intentos HTTP se conservan. Netlify normaliza las comillas del formulario estático; se adapta únicamente el detector de evidencia para reconocer ambos tipos de comillas, sin alterar el formulario.
+
+Los 17 archivos locales de dist y todos los archivos iniciales ajenos a las dos actualizaciones documentales permanecen iguales por SHA. Sin cambios de dependencias, formulario, componentes adicionales o imágenes originales durante PYP-027. [Integridad final](./estado-final.json).
+
+### Pendientes y estado Git
+
+- Confirmación formal del SHA/estado/build logs en panel Netlify: no disponible desde esta sesión.
+- Reconocimiento en panel Netlify Forms y recepción/notificaciones: no comprobados; no se envían mensajes.
+- Search Console, indexación elegida por Google y métricas de campo: pendientes; instrucciones anteriores listas.
+- Las evidencias posteriores al push, esta actualización del informe y el cierre de bitácora permanecen locales, sin staging ni segundo commit administrativo. También siguen los cambios/documentos PYP-024 y los archivos ajenos excluidos. El árbol de trabajo no queda limpio por estas razones; índice sin cambios staged.

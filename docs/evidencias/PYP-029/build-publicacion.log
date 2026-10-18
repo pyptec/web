@@ -1,0 +1,18 @@
+node:internal/bootstrap/switches/does_own_process_state:128
+  rawMethods.chdir(directory);
+             ^
+
+Error: ENOENT: no such file or directory, chdir 'D:\promate\web\pyp-web' -> 'D:\promate\web\pyp-web\docs\evidencias\PYP-029\build-temporal\seleccion'
+    at process.wrappedChdir [as chdir] (node:internal/bootstrap/switches/does_own_process_state:128:14)
+    at file:///D:/promate/web/pyp-web/docs/evidencias/PYP-029/seleccion.mjs:32:126
+    at ModuleJob.run (node:internal/modules/esm/module_job:274:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:644:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5) {
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'chdir',
+  path: 'D:\\promate\\web\\pyp-web',
+  dest: 'D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-029\\build-temporal\\seleccion'
+}
+
+Node.js v22.15.1

@@ -1,0 +1,29 @@
+- building client + server bundles...
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Browserslist: browsers data (caniuse-lite) is 12 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+
+
+(!) Found dead link ./build-comercial-staged.log in file evidencias\PYP-027\resultado.md
+(!) Found dead link ./generacion-staged.log in file evidencias\PYP-027\resultado.md
+x Build failed in 9.34s
+[31m✖[0m building client + server bundles...
+node:internal/modules/run_main:122
+    triggerUncaughtException(
+    ^
+
+[vitepress] 2 dead link(s) found.
+    at Object.renderStart (file:///D:/promate/web/pyp-web/node_modules/vitepress/dist/node/chunk-D3CUZ4fa.js:45027:15)
+    at file:///D:/promate/web/pyp-web/node_modules/rollup/dist/es/shared/node-entry.js:22426:40
+    at async Promise.all (index 0)
+    at async PluginDriver.hookParallel (file:///D:/promate/web/pyp-web/node_modules/rollup/dist/es/shared/node-entry.js:22336:9)
+    at async Bundle.generate (file:///D:/promate/web/pyp-web/node_modules/rollup/dist/es/shared/node-entry.js:20534:13)
+    at async file:///D:/promate/web/pyp-web/node_modules/rollup/dist/es/shared/node-entry.js:23411:27
+    at async catchUnfinishedHookActions (file:///D:/promate/web/pyp-web/node_modules/rollup/dist/es/shared/node-entry.js:22780:16) {
+  code: 'PLUGIN_ERROR',
+  plugin: 'vitepress',
+  hook: 'renderStart'
+}
+
+Node.js v22.15.1
