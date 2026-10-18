@@ -1,0 +1,422 @@
+{
+  "states": [
+    {
+      "width": 1440,
+      "route": "/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "visible": true,
+          "focus": "soluciones"
+        },
+        {
+          "id": "arquitectura",
+          "visible": true,
+          "focus": "arquitectura"
+        },
+        {
+          "id": "rpi-mdfr",
+          "visible": true,
+          "focus": "rpi-mdfr"
+        },
+        {
+          "id": "sectores",
+          "visible": true,
+          "focus": "sectores"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "visible": true,
+          "focus": "proyectos"
+        },
+        {
+          "id": "lps",
+          "visible": true,
+          "focus": "lps"
+        },
+        {
+          "id": "alkosto",
+          "visible": true,
+          "focus": "alkosto"
+        },
+        {
+          "id": "can-j1939",
+          "visible": true,
+          "focus": "can-j1939"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "visible": true,
+          "focus": "proyectos"
+        },
+        {
+          "id": "lps",
+          "visible": true,
+          "focus": "lps"
+        },
+        {
+          "id": "alkosto",
+          "visible": true,
+          "focus": "alkosto"
+        },
+        {
+          "id": "can-j1939",
+          "visible": true,
+          "focus": "can-j1939"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "visible": true,
+          "focus": "soluciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "visible": true,
+          "focus": "soluciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "visible": true,
+          "focus": "capacidades"
+        },
+        {
+          "id": "hardware",
+          "visible": true,
+          "focus": "hardware"
+        },
+        {
+          "id": "j1939",
+          "visible": true,
+          "focus": "j1939"
+        },
+        {
+          "id": "aplicaciones",
+          "visible": true,
+          "focus": "aplicaciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "visible": true,
+          "focus": "capacidades"
+        },
+        {
+          "id": "hardware",
+          "visible": true,
+          "focus": "hardware"
+        },
+        {
+          "id": "j1939",
+          "visible": true,
+          "focus": "j1939"
+        },
+        {
+          "id": "aplicaciones",
+          "visible": true,
+          "focus": "aplicaciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "type": "navigation"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "visible": true,
+          "focus": "soluciones"
+        },
+        {
+          "id": "arquitectura",
+          "visible": true,
+          "focus": "arquitectura"
+        },
+        {
+          "id": "rpi-mdfr",
+          "visible": true,
+          "focus": "rpi-mdfr"
+        },
+        {
+          "id": "sectores",
+          "visible": true,
+          "focus": "sectores"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "visible": true,
+          "focus": "proyectos"
+        },
+        {
+          "id": "lps",
+          "visible": true,
+          "focus": "lps"
+        },
+        {
+          "id": "alkosto",
+          "visible": true,
+          "focus": "alkosto"
+        },
+        {
+          "id": "can-j1939",
+          "visible": true,
+          "focus": "can-j1939"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "visible": true,
+          "focus": "proyectos"
+        },
+        {
+          "id": "lps",
+          "visible": true,
+          "focus": "lps"
+        },
+        {
+          "id": "alkosto",
+          "visible": true,
+          "focus": "alkosto"
+        },
+        {
+          "id": "can-j1939",
+          "visible": true,
+          "focus": "can-j1939"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "visible": true,
+          "focus": "soluciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "visible": true,
+          "focus": "soluciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "visible": true,
+          "focus": "capacidades"
+        },
+        {
+          "id": "hardware",
+          "visible": true,
+          "focus": "hardware"
+        },
+        {
+          "id": "j1939",
+          "visible": true,
+          "focus": "j1939"
+        },
+        {
+          "id": "aplicaciones",
+          "visible": true,
+          "focus": "aplicaciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "overflow": false,
+      "menu": true,
+      "escape": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "visible": true,
+          "focus": "capacidades"
+        },
+        {
+          "id": "hardware",
+          "visible": true,
+          "focus": "hardware"
+        },
+        {
+          "id": "j1939",
+          "visible": true,
+          "focus": "j1939"
+        },
+        {
+          "id": "aplicaciones",
+          "visible": true,
+          "focus": "aplicaciones"
+        },
+        {
+          "id": "contacto",
+          "visible": true,
+          "focus": "contacto"
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "type": "navigation"
+    }
+  ],
+  "consoleEvents": [],
+  "failed": [],
+  "errors": [],
+  "blocked": []
+}

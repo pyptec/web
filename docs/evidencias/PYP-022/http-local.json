@@ -1,0 +1,191 @@
+[
+  {
+    "requested": "http://127.0.0.1:63506/",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/",
+    "metadata": {
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+        "og:url": "https://pyptecnologia.com/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/monitoreo-energetico",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/monitoreo-energetico",
+    "metadata": {
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico/",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/monitoreo-energetico/",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/monitoreo-energetico/",
+    "metadata": {
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico/",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/iot-industrial",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/iot-industrial",
+    "metadata": {
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/iot-industrial/",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/iot-industrial/",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/iot-industrial/",
+    "metadata": {
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/iot-industrial/",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/automatizacion-edge",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/automatizacion-edge",
+    "metadata": {
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge/",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/automatizacion-edge/",
+    "status": 200,
+    "url": "http://127.0.0.1:63506/automatizacion-edge/",
+    "metadata": {
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge/",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      }
+    }
+  },
+  {
+    "requested": "http://127.0.0.1:63506/favicon.svg",
+    "status": 200,
+    "contentType": "image/svg+xml",
+    "length": 539,
+    "sha256": "f9659236bda433a9dab8eea042d3fe4927b9e3e44438f975c1c9e40648e25438"
+  },
+  {
+    "requested": "http://127.0.0.1:63506/robots.txt",
+    "status": 200,
+    "contentType": "text/plain; charset=utf-8",
+    "length": 72,
+    "sha256": "48ce80506f216ca196edca7f09911134647b02d10f20fdeef7af449d40b16ba4"
+  },
+  {
+    "requested": "http://127.0.0.1:63506/sitemap.xml",
+    "status": 200,
+    "contentType": "application/xml",
+    "length": 370,
+    "sha256": "7d91ec53ede2e5a2f55f18d239025a7539fa641e4869d2e916e1fbac571aa0a3"
+  },
+  {
+    "requested": "http://127.0.0.1:63506/og-pyp.png",
+    "status": 200,
+    "contentType": "image/png",
+    "length": 1355270,
+    "sha256": "15038971c06a40e3a6a5714c3e07beade298c48d777e14c81a154dfe75a839c1"
+  }
+]

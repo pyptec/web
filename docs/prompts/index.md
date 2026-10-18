@@ -31,3 +31,9 @@
 - [PYP-019 — Revisión final del manifiesto y cierre de Git](./PYP-019.md)
 
 - [PYP-020 — Commit y push de cierre de jornada](./PYP-020.md)
+
+- [PYP-021 — Auditoría de publicación en Netlify](./PYP-021.md)
+
+- [PYP-022 — Corrección de favicon, SEO y validación de Netlify](./PYP-022.md)
+
+- [PYP-023 — Publicación de correcciones SEO y favicon](./PYP-023.md)

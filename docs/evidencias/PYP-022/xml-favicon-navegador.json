@@ -1,0 +1,14 @@
+{
+  "faviconXmlValid": true,
+  "svgNamespace": "http://www.w3.org/2000/svg",
+  "svgRoot": "svg",
+  "sitemapXmlValid": true,
+  "sitemapUrls": [
+    "https://pyptecnologia.com/",
+    "https://pyptecnologia.com/iot-industrial/",
+    "https://pyptecnologia.com/monitoreo-energetico/",
+    "https://pyptecnologia.com/automatizacion-edge/"
+  ],
+  "iconHref": "/favicon.svg",
+  "imageDecoded": true
+}

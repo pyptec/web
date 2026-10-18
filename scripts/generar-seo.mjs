@@ -56,3 +56,16 @@ for (const { route, destination, html } of pages) {
   fs.writeFileSync(destination, html, "utf8");
   console.log("SEO generado: " + route + " -> " + destination);
 }
+
+// Build the sitemap from the same canonical URLs used by React and the HTML heads.
+const sitemap = [
+  '<?xml version="1.0" encoding="UTF-8"?>',
+  '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+  ...Object.keys(SEO_PAGES).map((route) =>
+    "  <url><loc>" + escapeHtml(getSeoPage(route).canonical) + "</loc></url>"
+  ),
+  "</urlset>",
+  "",
+].join("\n");
+fs.writeFileSync(path.join(outputDir, "sitemap.xml"), sitemap, "utf8");
+console.log("Sitemap generado: " + path.join(outputDir, "sitemap.xml"));

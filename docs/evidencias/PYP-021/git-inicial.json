@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-18T14:34:15.456Z",
+  "branch": "main",
+  "head": "4f0a960377f3e3ea16e3c9a32f19847308be85cb",
+  "originMain": "4f0a960377f3e3ea16e3c9a32f19847308be85cb",
+  "remoteMain": "4f0a960377f3e3ea16e3c9a32f19847308be85cb\trefs/heads/main",
+  "status": "?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? docs/evidencias/PYP-019/main.jsx.before.txt\n?? docs/evidencias/PYP-021/\n?? docs/prompts/PYP-021.md",
+  "aheadBehind": "0\t0",
+  "netlifyConfig": {
+    "toml": false,
+    "localLink": false,
+    "cli": false,
+    "pluginSearch": "Netlify: sin resultados",
+    "remotePanel": "No disponible; no se inspeccionan credenciales"
+  }
+}

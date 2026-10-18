@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-18T14:41:48.946Z",
+  "clientDate": "2026-10-18 America/Bogota",
+  "protectedCount": 54,
+  "protectedChanges": [],
+  "distCount": 17,
+  "distUnchanged": true,
+  "indexUnchanged": true,
+  "head": {
+    "exit": 0,
+    "stdout": "4f0a960377f3e3ea16e3c9a32f19847308be85cb",
+    "stderr": ""
+  },
+  "remoteMain": {
+    "exit": 0,
+    "stdout": "4f0a960377f3e3ea16e3c9a32f19847308be85cb\trefs/heads/main",
+    "stderr": ""
+  },
+  "status": {
+    "exit": 0,
+    "stdout": "M docs/BITACORA_DESARROLLO.md\n M docs/prompts/index.md\n?? 02_PROMPT_001_AUDITORIA_NAVBAR.md\n?? 03_PROMPT_002_NAVBAR_EDGE.md\n?? docs/evidencias/PYP-019/main.jsx.before.txt\n?? docs/evidencias/PYP-021/\n?? docs/prompts/PYP-021.md",
+    "stderr": ""
+  },
+  "trackedDiff": {
+    "exit": 0,
+    "stdout": "docs/BITACORA_DESARROLLO.md\ndocs/prompts/index.md",
+    "stderr": "warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it"
+  },
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it"
+  },
+  "staged": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "links": [
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "../../prompts/PYP-021.md",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./git-inicial.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./http-rutas.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./http-rutas.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./validaciones.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./navegador.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./http-rutas.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./navegador.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./http-recursos.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./iotrack.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./npm-audit-produccion.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./npm-audit-comando.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./integridad-inicial.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./validacion-final.json",
+      "exists": true
+    },
+    {
+      "source": "docs/evidencias/PYP-021/resultado.md",
+      "target": "./validacion-final.json",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-001.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-002.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-004.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-005.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-005B.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-006.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-007.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-008.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-009.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-010.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-011.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-012.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-013.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-014.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-015.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-016.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-017.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-018.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-019.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-020.md",
+      "exists": true
+    },
+    {
+      "source": "docs/prompts/index.md",
+      "target": "./PYP-021.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-005.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/index.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-004.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-004/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-001.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-002.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-005B.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-005B/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-006.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-006/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-007.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-007/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-008.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-008/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-009.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-009/informe.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-010.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-010/informe.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-011.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-011/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-012.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-012/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-013.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-013/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-014.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-014/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-015.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-015/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-016.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-016/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-017.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-017/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-018.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-018/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-019.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-019/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-020.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-020/resultado.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./prompts/PYP-021.md",
+      "exists": true
+    },
+    {
+      "source": "docs/BITACORA_DESARROLLO.md",
+      "target": "./evidencias/PYP-021/resultado.md",
+      "exists": true
+    }
+  ],
+  "brokenLinks": [],
+  "whitespace": [],
+  "xmlSitemap": "Parseado con PowerShell [xml], cuatro URLs",
+  "builds": "No ejecutados; no modifica dist",
+  "npmAudit": {
+    "exitCode": 0,
+    "stderr": ""
+  },
+  "browserValidation": []
+}

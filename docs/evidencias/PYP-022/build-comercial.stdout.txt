@@ -1,0 +1,19 @@
+vite v6.4.4 building for production...
+transforming...
+✓ 1609 modules transformed.
+rendering chunks...
+computing gzip size...
+docs/evidencias/PYP-022/build-temporal/comercial/index.html                                       4.61 kB │ gzip:  1.55 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/can-j1939-dashboard-BfrJt0k0.png         11.44 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/alkosto-resumen-DpYwZI6t.png             23.82 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/log_pyp-CfCiXRW3.webp                    26.61 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/clg-DhiTCHTU.jpeg                        39.98 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/samee200-5_kmpS0Y.jpeg                   46.24 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/alkosto-corrientes-BOfkpDuW.png         122.56 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/rpi-DDLAJPsT.jpg                        151.29 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/paneles-solares-C7pGWbxP.webp           159.88 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/lps-dKCpr1sb.webp                       188.27 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/lps-instalacion-samee200-bGen6_4O.webp  283.06 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/index-hrzmi9gy.css                       23.72 kB │ gzip:  5.21 kB
+docs/evidencias/PYP-022/build-temporal/comercial/assets/index-UsmyxahY.js                       292.58 kB │ gzip: 84.21 kB
+✓ built in 4.09s

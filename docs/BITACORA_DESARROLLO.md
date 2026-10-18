@@ -414,3 +414,53 @@ La primera comprobación cached detectó una línea vacía extra al EOF de docs/
 ### Revisión del staging aprobada antes del commit
 
 Se ejecutaron diff --cached --name-status/stat/check y status --short. Sin heurística de renombres: 358 altas/modificaciones y tres bajas exactas, 361 rutas; conjunto igual al manifiesto PYP-019 más los tres documentos PYP-020. --check salida 0. Sin rutas ajenas, secretos detectados ni modificaciones tracked fuera del índice. Los 17 hashes de dist son idénticos y ls-files dist está vacío. Solo quedan fuera los dos prompts duplicados raíz y la copia cruda de main. Se procede al único commit y, tras verificar que origin/main no avanzó, al push autorizado. Hash/resultado reales quedan en el informe final de Codex, sin editar documentación versionada después del commit.
+
+
+## PYP-021 — Auditoría de publicación en Netlify — 2026-10-18
+
+- Objetivo: verificar publicación PYP-020 sin modificaciones funcionales. [Prompt completo](./prompts/PYP-021.md).
+- Inicial: AGENTS e informes 019/020 leídos; main sin cambios tracked ni staging y tres exclusiones previas sin seguimiento conservadas. HEAD, origin/main y consulta GitHub coinciden en 4f0a960377f3e3ea16e3c9a32f19847308be85cb; diferencia 0/0. Se registra SHA real PYP-020 sin reescribir su informe previo al commit.
+- Archivos: esta bitácora, docs/prompts/index.md; nuevo docs/prompts/PYP-021.md y docs/evidencias/PYP-021/ (informe, scripts, JSON/HTML HTTP, audit, integridad, robots/sitemap y ocho capturas). Sin código, configuración, dependencias o dist modificados.
+- Validaciones: siete rutas terminan 200, interiores sin barra 301 hacia barra final; SEO propio correcto. robots/sitemap/OG 200 y cuatro canonical. Edge escritorio/móvil emulado: 14 cargas, 56 anclas con foco/visibilidad, Soluciones/Escape y navegación corporativa correctos, sin overflow. iotrack 200; cero HTTP >=400, fallos de red o errores/warnings de consola entre 254 respuestas. No se prueban todos los CTA ni móvil físico.
+- Forms: siete campos estáticos/React; POST/data-netlify/honeypot/required conservados en React. Sin envíos; registro panel, recepción/notificaciones y antispam pendientes.
+- Seguridad: npm audit --omit=dev --json exit 0 y cero vulnerabilidades prod. Sin builds/actualizaciones. Integridad SHA y validación documental en validacion-final.json.
+- Incidencias: favicon.svg entrega HTML con 200; canonical/sitemap sin barra frente a redirect CDN con barra. Bundles de nombres distintos del artefacto temporal PYP-019, sin causa/equivalencia binaria probada. Generador documental inicial falló por sintaxis antes de escribir; corregido.
+- Netlify: cabeceras acreditan entrega Netlify; sin panel/CLI/vínculo local/plugin. NO comprobados último deploy, SHA, Published/Failed, configuración real o logs. Pendientes prioritarios: panel/API para vincular deploy/SHA; comprobar Forms y autorizar recepción aparte; corregir favicon/revisar barras en intervención funcional autorizada.
+- [Informe y evidencias](./evidencias/PYP-021/resultado.md). Aprobado diagnóstico/documentación; sin staging, commit, push, despliegue o envíos. HEAD/índice conservados; cambios exclusivamente documentales. Integridad y Git final en validacion-final.json.
+
+## PYP-022 — Corrección de favicon, SEO y validación de Netlify — 2026-10-18
+
+- Objetivo: corregir favicon y alinear canonical/og:url/sitemap con las URLs finales de producción. [Prompt completo](./prompts/PYP-022.md), copia literal del adjunto. Diagnóstico completado antes de editar.
+- Inicial: main, HEAD 4f0a960377f3e3ea16e3c9a32f19847308be85cb. Se preservan dos bajas locales previas (01_ESTADO_Y_BITACORA.md y 04_BITACORA_001_RESULTADO.md), cambios documentales PYP-021 y evidencias/prompts sin seguimiento. Índice sin staging; inventario de 541 archivos con SHA y hash separado del índice.
+- Diagnóstico: index.html apunta a favicon.svg inexistente; SEO HTML/React usa src/data/seo.js, sitemap era estático e interiores sin barra. Logo oficial raster inspeccionado y conservado.
+- Cambios: nuevo public/favicon.svg geométrico auxiliar con #A6CE39/#6BA425/#1E1E1E; src/data/seo.js normaliza entradas y canonical con barra; scripts/generar-seo.mjs genera también sitemap desde la misma fuente; public/sitemap.xml actualizado. Sin modificar Router, componentes, formularios, redirecciones, index.html o gráficos anteriores.
+- Documentación: esta bitácora, docs/prompts/index.md; nuevo docs/prompts/PYP-022.md y docs/evidencias/PYP-022/ (informe, scripts, inventarios/logs, validaciones HTTP/navegador, cuatro HTML, ocho PNG). Inventario exacto en archivos-PYP-022.json.
+- Validaciones: build comercial temporal Vite 6.4.4 exit 0, 1609 módulos, 4,09 s; generador cuatro HTML/sitemap exit 0, regeneración idempotente. 103 comprobaciones locales, cero fallos: siete HTTP, SEO inicial/React, sitemap/robots/SVG MIME y decodificación navegador. Edge escritorio/móvil emulado: 14 cargas, 56 anclas, menú/Escape/navegación correctos; 174 respuestas sin HTTP >=400, fallos o errores/warnings de consola. No equivale al CDN ni móvil físico.
+- Seguridad: npm audit --omit=dev --json exit 0, cero vulnerabilidades prod; sin actualizar dependencias. Datos Browserslist/baseline antiguos como advertencias. Un error de sintaxis del script de comprobación se corrigió antes de la ejecución aprobada.
+- VitePress: raíz docs, config docs/.vitepress, salida/SSR/cachés aislados; logs y resultado build-docs.json. Cierre documental, estado Git e integridad dist en validacion-final.json. No se utiliza dist comercial para validar.
+- Netlify: despliegue publicado y contacto-pyp reconocido, según confirmación manual del usuario en este prompt; no es consulta de Codex. SHA exacto remoto no confirmado. Correcciones únicamente locales, sin publicación. Para Forms pendientes recepción y notificaciones; no se enviaron mensajes.
+- Pendientes: futura publicación con autorización y verificación CDN/favicon/SEO/SHA; prueba Forms/notificaciones por separado. No se modifica producción ni se afirman nuevas validaciones remotas.
+- [Informe y evidencias](./evidencias/PYP-022/resultado.md). Aprobadas correcciones y pruebas locales; sin git add, commit, push, despliegue, cambios ajenos, eliminaciones o envíos.
+
+### Cierre PYP-022 — 2026-10-18
+
+VitePress terminó con salida 0 en 8,26 s (9,45 s de proceso); salida/SSR/cachés temporales y HTML del informe presentes. Advertencias Browserslist/baseline conservadas; sin actualizar dependencias. No se repite build tras este cierre administrativo. Las 103 comprobaciones y audit prod aprobaron. Integridad, hashes dist/índice, preservación de bajas y documentos previos, enlaces y Git final en validacion-final.json; lista exacta de cambios en archivos-PYP-022.json. Sin staging, commit, push, despliegue ni envíos.
+
+## PYP-023 — Publicación de correcciones SEO y favicon — 2026-10-18
+
+- [Prompt completo y autorización expresa](./prompts/PYP-023.md). Objetivo: único commit y push origin/main de PYP-022 más documentación pendiente PYP-021/022. Sin despliegue manual ni envíos Forms.
+- Inicial: AGENTS e informe/inventario PYP-022 leídos; main y origin/main iguales en 4f0a960377f3e3ea16e3c9a32f19847308be85cb tras fetch exit 0, divergencia 0/0, índice vacío. Se preservan dos eliminaciones previas de documentos raíz, copia PYP-019 excluida y demás cambios anteriores.
+- Selección autorizada: cuatro archivos de producto (favicon/sitemap/seo/generador), prompts PYP-021/022/023, bitácora/índice y archivos conservables de evidencias PYP-021/022. Excluidos builds, perfiles, cachés, los tres paths excluidos en PYP-020 y bajas de raíz. Nunca git add . ni -A.
+- Documentación de esta intervención: nuevo docs/prompts/PYP-023.md, esta entrada e índice de prompts. Evidencias nuevas en docs/evidencias/PYP-023/ conservadas localmente fuera del commit por no figurar esa carpeta en el alcance de staging; no se modifican informes históricos ni componentes/dependencias.
+- Validación prevista antes del único commit: build comercial y generador SEO temporales; cuatro páginas/con y sin barra, canonical/OG/sitemap/SVG, VitePress aislado, npm audit --omit=dev, diff --check e integridad dist. Resultados reales se incorporan antes del commit.
+- Publicación: push puede activar la integración automática Netlify, autorizado por PYP-023; no se ejecuta despliegue manual. Se comprobarán seis URLs HTTP después del push y se distinguirá entrega pública de SHA/estado panel no verificable.
+- Este registro se escribe antes del commit: no inventa SHA, resultado push o publicación futuros. Hash, push y HTTP finales quedarán en informe de Codex y evidencias locales PYP-023, sin segundo commit ni cambios tracked posteriores para registrar el resultado.
+- Forms: reconocimiento reportado manualmente por el usuario; recepción y notificaciones pendientes, sin envío autorizado.
+
+### Validación y selección PYP-023 antes del commit
+
+Build comercial temporal Vite 6.4.4 y generación SEO: salida 0; cuatro páginas, siete variantes HTTP y 69 comprobaciones aprobadas. Canonical/og:url con barra, sitemap consistente y favicon copiado correctamente. npm audit --omit=dev: salida 0, cero vulnerabilidades prod. Advertencias Browserslist/baseline antiguas conservadas, sin actualizaciones. No se repite navegador PYP-022, cuyas pruebas siguen como referencia.
+
+El parche histórico docs/evidencias/PYP-022/diff-producto.patch contiene un espacio final de contexto en línea 43. Se conserva intacto fuera del staging; nueva referencia diff-producto.json conserva texto literal y SHA-256 sin whitespace físico final. Es documentación dentro de la carpeta autorizada, sin cambios funcionales ni eliminación de evidencia. Se excluye la copia cruda al seleccionar archivos individuales.
+
+VitePress aislado: salida 0 (8,67 s de proceso); raíz docs y config docs/.vitepress. XML del favicon/sitemap parseado sin errores, cuatro URLs correctas. Dist se verificará por sus 17 hashes antes/después de staging y publicación. Advertencias LF/CRLF sin normalización masiva. Evidencias PYP-023 locales excluidas del commit por alcance; logs de compilación conservados, sin instalar dependencias. Se procede a revisión exacta del staging y al único commit autorizado si todos los controles pasan; hash y resultados posteriores solo en informe final/evidencias locales, sin segundo commit.

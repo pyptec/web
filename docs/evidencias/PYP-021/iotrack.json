@@ -1,0 +1,23 @@
+{
+  "hops": [
+    {
+      "url": "https://iotrack.com.co",
+      "status": 200,
+      "location": null,
+      "headers": {
+        "content-encoding": "br",
+        "content-type": "text/html; charset=utf-8",
+        "date": "Sun, 18 Oct 2026 14:36:32 GMT",
+        "server": "Kestrel",
+        "strict-transport-security": "max-age=2592000",
+        "transfer-encoding": "chunked",
+        "vary": "Accept-Encoding",
+        "x-powered-by": "ASP.NET"
+      }
+    }
+  ],
+  "url": "https://iotrack.com.co",
+  "status": 200,
+  "sha256": "6be90f5c54bfc271091a42debf8fe8260588652def6e7ea12c89f7c06ddf8af0",
+  "title": "IoT Collector"
+}

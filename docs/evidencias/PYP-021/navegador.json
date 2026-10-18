@@ -1,0 +1,5061 @@
+{
+  "date": "2026-10-18T14:36:51.304Z",
+  "mode": "Edge headless CDP, escritorio 1440x1000 y emulación móvil 375x1000; reduced-motion; sin envíos; no dispositivo físico",
+  "results": [
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/",
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "canonical": "https://pyptecnologia.com/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+        "og:url": "https://pyptecnologia.com/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Datos industriales para mejorar energía, producción y procesos",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Áreas de solución",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Arquitectura",
+          "href": "#arquitectura"
+        },
+        {
+          "text": "RPI-MDFR",
+          "href": "#rpi-mdfr"
+        },
+        {
+          "text": "Sectores",
+          "href": "#sectores"
+        },
+        {
+          "text": "Ver soluciones",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Casos de aplicación",
+          "href": "#proyectos"
+        },
+        {
+          "text": "Conocer SAMEE100 / SAMEE200",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Conocer soluciones IoT industrial y LoRaWAN →",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Ver proyecto y monitoreo energético →",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "jaime.pedraza@pyptecnologia.com",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "hidden": false,
+          "method": "post",
+          "netlify": "true",
+          "honeypot": "bot-field",
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": null,
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "hash": "#soluciones",
+          "exists": true,
+          "focus": "soluciones",
+          "scrollY": 1572,
+          "headingTop": 234,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "arquitectura",
+          "hash": "#arquitectura",
+          "exists": true,
+          "focus": "arquitectura",
+          "scrollY": 870,
+          "headingTop": 234,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "rpi-mdfr",
+          "hash": "#rpi-mdfr",
+          "exists": true,
+          "focus": "rpi-mdfr",
+          "scrollY": 4904,
+          "headingTop": 234.28125,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "sectores",
+          "hash": "#sectores",
+          "exists": true,
+          "focus": "sectores",
+          "scrollY": 6112,
+          "headingTop": 234.28125,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Monitoreo energético industrial y solar",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#can-j1939"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Conocer proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver proyecto LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Ver proyecto Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-resumen-DpYwZI6t.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-corrientes-BOfkpDuW.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/can-j1939-dashboard-BfrJt0k0.png"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Evaluaci%C3%B3n%20de%20monitoreo%20energ%C3%A9tico"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/monitoreo-energetico",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "hash": "#proyectos",
+          "exists": true,
+          "focus": "proyectos",
+          "scrollY": 3450,
+          "headingTop": 265.578125,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "lps",
+          "hash": "#lps",
+          "exists": true,
+          "focus": "lps",
+          "scrollY": 3687,
+          "headingTop": 238.828125,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "alkosto",
+          "hash": "#alkosto",
+          "exists": true,
+          "focus": "alkosto",
+          "scrollY": 6980,
+          "headingTop": 239.484375,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "can-j1939",
+          "hash": "#can-j1939",
+          "exists": true,
+          "focus": "can-j1939",
+          "scrollY": 9615,
+          "headingTop": 265.65625,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 10823,
+          "headingTop": 512.65625,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Monitoreo energético industrial y solar",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#can-j1939"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Conocer proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver proyecto LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Ver proyecto Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-resumen-DpYwZI6t.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-corrientes-BOfkpDuW.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/can-j1939-dashboard-BfrJt0k0.png"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Evaluaci%C3%B3n%20de%20monitoreo%20energ%C3%A9tico"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/monitoreo-energetico",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "hash": "#proyectos",
+          "exists": true,
+          "focus": "proyectos",
+          "scrollY": 3450,
+          "headingTop": 265.578125,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "lps",
+          "hash": "#lps",
+          "exists": true,
+          "focus": "lps",
+          "scrollY": 3687,
+          "headingTop": 238.828125,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "alkosto",
+          "hash": "#alkosto",
+          "exists": true,
+          "focus": "alkosto",
+          "scrollY": 6980,
+          "headingTop": 239.484375,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "can-j1939",
+          "hash": "#can-j1939",
+          "exists": true,
+          "focus": "can-j1939",
+          "scrollY": 9615,
+          "headingTop": 265.65625,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 10823,
+          "headingTop": 512.65625,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Conectamos equipos, sensores y procesos con datos confiables",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Soluciones IoT",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar soluciones",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver solución de monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20IoT%20industrial%20y%20LoRaWAN"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/iot-industrial",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "hash": "#soluciones",
+          "exists": true,
+          "focus": "soluciones",
+          "scrollY": 792,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 3926,
+          "headingTop": 545.25,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Conectamos equipos, sensores y procesos con datos confiables",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Soluciones IoT",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar soluciones",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver solución de monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20IoT%20industrial%20y%20LoRaWAN"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/iot-industrial",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "hash": "#soluciones",
+          "exists": true,
+          "focus": "soluciones",
+          "scrollY": 792,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 3926,
+          "headingTop": 545.25,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Automatización industrial y Edge Computing",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Hardware",
+          "href": "#hardware"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#j1939"
+        },
+        {
+          "text": "Aplicaciones",
+          "href": "#aplicaciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Consultar un proyecto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Ver IoT y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20automatizacion%20industrial"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        },
+        {
+          "text": "Volver al inicio",
+          "href": "/"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/automatizacion-edge",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "hash": "#capacidades",
+          "exists": true,
+          "focus": "capacidades",
+          "scrollY": 668,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "hardware",
+          "hash": "#hardware",
+          "exists": true,
+          "focus": "hardware",
+          "scrollY": 1621,
+          "headingTop": 265.5,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "j1939",
+          "hash": "#j1939",
+          "exists": true,
+          "focus": "j1939",
+          "scrollY": 2251,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "aplicaciones",
+          "hash": "#aplicaciones",
+          "exists": true,
+          "focus": "aplicaciones",
+          "scrollY": 2992,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 3460,
+          "headingTop": 511.5,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Automatización industrial y Edge Computing",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Hardware",
+          "href": "#hardware"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#j1939"
+        },
+        {
+          "text": "Aplicaciones",
+          "href": "#aplicaciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Consultar un proyecto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Ver IoT y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20automatizacion%20industrial"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        },
+        {
+          "text": "Volver al inicio",
+          "href": "/"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/automatizacion-edge",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "hash": "#capacidades",
+          "exists": true,
+          "focus": "capacidades",
+          "scrollY": 668,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "hardware",
+          "hash": "#hardware",
+          "exists": true,
+          "focus": "hardware",
+          "scrollY": 1621,
+          "headingTop": 265.5,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "j1939",
+          "hash": "#j1939",
+          "exists": true,
+          "focus": "j1939",
+          "scrollY": 2251,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "aplicaciones",
+          "hash": "#aplicaciones",
+          "exists": true,
+          "focus": "aplicaciones",
+          "scrollY": 2992,
+          "headingTop": 266,
+          "headerBottom": 138,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 3460,
+          "headingTop": 511.5,
+          "headerBottom": 138,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "type": "navigation",
+      "transitions": [
+        {
+          "url": "https://pyptecnologia.com/monitoreo-energetico/",
+          "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/monitoreo-energetico"
+        },
+        {
+          "url": "https://pyptecnologia.com/iot-industrial/",
+          "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/iot-industrial"
+        },
+        {
+          "url": "https://pyptecnologia.com/automatizacion-edge/",
+          "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/automatizacion-edge"
+        },
+        {
+          "url": "https://pyptecnologia.com/#contacto",
+          "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/",
+          "contactFocus": "contacto"
+        },
+        {
+          "url": "https://pyptecnologia.com/#proyectos",
+          "focus": "proyectos",
+          "scrollY": 2336
+        },
+        {
+          "url": "https://pyptecnologia.com/#tecnologia",
+          "focus": "tecnologia",
+          "scrollY": 5402
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/",
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "canonical": "https://pyptecnologia.com/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+        "og:url": "https://pyptecnologia.com/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Datos industriales para mejorar energía, producción y procesos",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Áreas de solución",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Arquitectura",
+          "href": "#arquitectura"
+        },
+        {
+          "text": "RPI-MDFR",
+          "href": "#rpi-mdfr"
+        },
+        {
+          "text": "Sectores",
+          "href": "#sectores"
+        },
+        {
+          "text": "Ver soluciones",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Casos de aplicación",
+          "href": "#proyectos"
+        },
+        {
+          "text": "Conocer SAMEE100 / SAMEE200",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Conocer soluciones IoT industrial y LoRaWAN →",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Ver proyecto y monitoreo energético →",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "jaime.pedraza@pyptecnologia.com",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        },
+        {
+          "hidden": false,
+          "method": "post",
+          "netlify": "true",
+          "honeypot": "bot-field",
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": true
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": true
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": true
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": null,
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "hash": "#soluciones",
+          "exists": true,
+          "focus": "soluciones",
+          "scrollY": 4202,
+          "headingTop": 362.46875,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "arquitectura",
+          "hash": "#arquitectura",
+          "exists": true,
+          "focus": "arquitectura",
+          "scrollY": 2226,
+          "headingTop": 362.46875,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "rpi-mdfr",
+          "hash": "#rpi-mdfr",
+          "exists": true,
+          "focus": "rpi-mdfr",
+          "scrollY": 10358,
+          "headingTop": 362.46875,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "sectores",
+          "hash": "#sectores",
+          "exists": true,
+          "focus": "sectores",
+          "scrollY": 13350,
+          "headingTop": 362.46875,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Monitoreo energético industrial y solar",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#can-j1939"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Conocer proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver proyecto LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Ver proyecto Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-resumen-DpYwZI6t.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-corrientes-BOfkpDuW.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/can-j1939-dashboard-BfrJt0k0.png"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Evaluaci%C3%B3n%20de%20monitoreo%20energ%C3%A9tico"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/monitoreo-energetico",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "hash": "#proyectos",
+          "exists": true,
+          "focus": "proyectos",
+          "scrollY": 7827,
+          "headingTop": 393.53125,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "lps",
+          "hash": "#lps",
+          "exists": true,
+          "focus": "lps",
+          "scrollY": 8190,
+          "headingTop": 651.28125,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "alkosto",
+          "hash": "#alkosto",
+          "exists": true,
+          "focus": "alkosto",
+          "scrollY": 15853,
+          "headingTop": 671.28125,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "can-j1939",
+          "hash": "#can-j1939",
+          "exists": true,
+          "focus": "can-j1939",
+          "scrollY": 22919,
+          "headingTop": 393.34375,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 25883,
+          "headingTop": 394.5,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Monitoreo energético industrial y solar",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#can-j1939"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Conocer proyectos",
+          "href": "#proyectos"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver proyecto LPS",
+          "href": "#lps"
+        },
+        {
+          "text": "Ver proyecto Alkosto",
+          "href": "#alkosto"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-resumen-DpYwZI6t.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/alkosto-corrientes-BOfkpDuW.png"
+        },
+        {
+          "text": "",
+          "href": "/assets/can-j1939-dashboard-BfrJt0k0.png"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Evaluaci%C3%B3n%20de%20monitoreo%20energ%C3%A9tico"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/monitoreo-energetico",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "proyectos",
+          "hash": "#proyectos",
+          "exists": true,
+          "focus": "proyectos",
+          "scrollY": 7827,
+          "headingTop": 393.53125,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "lps",
+          "hash": "#lps",
+          "exists": true,
+          "focus": "lps",
+          "scrollY": 8190,
+          "headingTop": 651.28125,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "alkosto",
+          "hash": "#alkosto",
+          "exists": true,
+          "focus": "alkosto",
+          "scrollY": 15853,
+          "headingTop": 671.28125,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "can-j1939",
+          "hash": "#can-j1939",
+          "exists": true,
+          "focus": "can-j1939",
+          "scrollY": 22919,
+          "headingTop": 393.34375,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 25883,
+          "headingTop": 394.5,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Conectamos equipos, sensores y procesos con datos confiables",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Soluciones IoT",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar soluciones",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver solución de monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20IoT%20industrial%20y%20LoRaWAN"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/iot-industrial",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "hash": "#soluciones",
+          "exists": true,
+          "focus": "soluciones",
+          "scrollY": 1680,
+          "headingTop": 393.5,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 9726,
+          "headingTop": 447.25,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Conectamos equipos, sensores y procesos con datos confiables",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Soluciones IoT",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar soluciones",
+          "href": "#soluciones"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver solución de monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20IoT%20industrial%20y%20LoRaWAN"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/iot-industrial",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "soluciones",
+          "hash": "#soluciones",
+          "exists": true,
+          "focus": "soluciones",
+          "scrollY": 1680,
+          "headingTop": 393.5,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 9726,
+          "headingTop": 447.25,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Automatización industrial y Edge Computing",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Hardware",
+          "href": "#hardware"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#j1939"
+        },
+        {
+          "text": "Aplicaciones",
+          "href": "#aplicaciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Consultar un proyecto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Ver IoT y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20automatizacion%20industrial"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        },
+        {
+          "text": "Volver al inicio",
+          "href": "/"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/automatizacion-edge",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "hash": "#capacidades",
+          "exists": true,
+          "focus": "capacidades",
+          "scrollY": 1609,
+          "headingTop": 394,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "hardware",
+          "hash": "#hardware",
+          "exists": true,
+          "focus": "hardware",
+          "scrollY": 4205,
+          "headingTop": 393.5,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "j1939",
+          "hash": "#j1939",
+          "exists": true,
+          "focus": "j1939",
+          "scrollY": 5741,
+          "headingTop": 413.75,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "aplicaciones",
+          "hash": "#aplicaciones",
+          "exists": true,
+          "focus": "aplicaciones",
+          "scrollY": 7507,
+          "headingTop": 394.25,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 9004,
+          "headingTop": 447.25,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "headers": 1,
+      "h1": "Automatización industrial y Edge Computing",
+      "overflow": false,
+      "external": [
+        {
+          "href": "https://iotrack.com.co/",
+          "target": "_blank",
+          "rel": "noopener noreferrer"
+        }
+      ],
+      "links": [
+        {
+          "text": "PYP Tecnología Electrónica SAS",
+          "href": "/"
+        },
+        {
+          "text": "Inicio",
+          "href": "/"
+        },
+        {
+          "text": "Monitoreo Energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "IoT Industrial y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Automatización y Edge",
+          "href": "/automatizacion-edge"
+        },
+        {
+          "text": "Proyectos",
+          "href": "/#proyectos"
+        },
+        {
+          "text": "Tecnología",
+          "href": "/#tecnologia"
+        },
+        {
+          "text": "Plataforma (abre en una pestaña nueva)",
+          "href": "https://iotrack.com.co"
+        },
+        {
+          "text": "Hablemos",
+          "href": "/#contacto"
+        },
+        {
+          "text": "Capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Hardware",
+          "href": "#hardware"
+        },
+        {
+          "text": "CAN/J1939",
+          "href": "#j1939"
+        },
+        {
+          "text": "Aplicaciones",
+          "href": "#aplicaciones"
+        },
+        {
+          "text": "Contacto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Explorar capacidades",
+          "href": "#capacidades"
+        },
+        {
+          "text": "Consultar un proyecto",
+          "href": "#contacto"
+        },
+        {
+          "text": "Ver monitoreo energético",
+          "href": "/monitoreo-energetico"
+        },
+        {
+          "text": "Ver IoT y LoRaWAN",
+          "href": "/iot-industrial"
+        },
+        {
+          "text": "Solicitar evaluación",
+          "href": "mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20automatizacion%20industrial"
+        },
+        {
+          "text": "+57 320 492 9150",
+          "href": "tel:+573204929150"
+        },
+        {
+          "text": "Volver al inicio",
+          "href": "/"
+        }
+      ],
+      "forms": [
+        {
+          "hidden": true,
+          "method": "post",
+          "netlify": null,
+          "honeypot": null,
+          "fields": [
+            {
+              "name": "form-name",
+              "type": "hidden",
+              "required": false,
+              "value": "contacto-pyp"
+            },
+            {
+              "name": "nombre",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "correo",
+              "type": "email",
+              "required": false
+            },
+            {
+              "name": "empresa",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "solucion",
+              "type": "select-one",
+              "required": false
+            },
+            {
+              "name": "bot-field",
+              "type": "text",
+              "required": false
+            },
+            {
+              "name": "mensaje",
+              "type": "textarea",
+              "required": false
+            }
+          ]
+        }
+      ],
+      "menuOpened": true,
+      "active": "/automatizacion-edge",
+      "escapeClosed": true,
+      "sections": [
+        {
+          "id": "capacidades",
+          "hash": "#capacidades",
+          "exists": true,
+          "focus": "capacidades",
+          "scrollY": 1609,
+          "headingTop": 394,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "hardware",
+          "hash": "#hardware",
+          "exists": true,
+          "focus": "hardware",
+          "scrollY": 4205,
+          "headingTop": 393.5,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "j1939",
+          "hash": "#j1939",
+          "exists": true,
+          "focus": "j1939",
+          "scrollY": 5741,
+          "headingTop": 413.75,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "aplicaciones",
+          "hash": "#aplicaciones",
+          "exists": true,
+          "focus": "aplicaciones",
+          "scrollY": 7507,
+          "headingTop": 394.25,
+          "headerBottom": 266,
+          "visible": true
+        },
+        {
+          "id": "contacto",
+          "hash": "#contacto",
+          "exists": true,
+          "focus": "contacto",
+          "scrollY": 9004,
+          "headingTop": 447.25,
+          "headerBottom": 266,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "type": "navigation",
+      "transitions": [
+        {
+          "url": "https://pyptecnologia.com/monitoreo-energetico/",
+          "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/monitoreo-energetico"
+        },
+        {
+          "url": "https://pyptecnologia.com/iot-industrial/",
+          "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/iot-industrial"
+        },
+        {
+          "url": "https://pyptecnologia.com/automatizacion-edge/",
+          "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/automatizacion-edge"
+        },
+        {
+          "url": "https://pyptecnologia.com/#contacto",
+          "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "canonical": "https://pyptecnologia.com/",
+          "contactFocus": "contacto"
+        },
+        {
+          "url": "https://pyptecnologia.com/#proyectos",
+          "focus": "proyectos",
+          "scrollY": 5948
+        },
+        {
+          "url": "https://pyptecnologia.com/#tecnologia",
+          "focus": "tecnologia",
+          "scrollY": 11548
+        }
+      ]
+    }
+  ],
+  "consoleEvents": [],
+  "network": [
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/rpi-DDLAJPsT.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/alkosto-corrientes-BOfkpDuW.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/alkosto-resumen-DpYwZI6t.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/alkosto-resumen-DpYwZI6t.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/alkosto-corrientes-BOfkpDuW.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/rpi-DDLAJPsT.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/alkosto-resumen-DpYwZI6t.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/alkosto-corrientes-BOfkpDuW.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/paneles-solares-C7pGWbxP.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/alkosto-resumen-DpYwZI6t.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/alkosto-corrientes-BOfkpDuW.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/monitoreo-energetico/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/iot-industrial/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "/automatizacion-edge/",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/monitoreo-energetico/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/samee200-5_kmpS0Y.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/iot-industrial/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/automatizacion-edge/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/clg-DhiTCHTU.jpeg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/assets/lps-dKCpr1sb.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 375,
+      "route": "navigation",
+      "url": "https://pyptecnologia.com/favicon.svg",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Other"
+    }
+  ],
+  "failures": [],
+  "blocked": []
+}

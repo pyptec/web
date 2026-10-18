@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-18T14:51:20.645Z",
+  "command": "npm.cmd",
+  "args": [
+    "audit",
+    "--omit=dev",
+    "--json"
+  ],
+  "exitCode": 0,
+  "elapsedMs": 1922
+}

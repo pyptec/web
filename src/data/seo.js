@@ -32,6 +32,8 @@ export const SHARE_IMAGE = {
 };
 
 export function getSeoPage(pathname) {
-  const route = Object.hasOwn(SEO_PAGES, pathname) ? pathname : "/";
-  return { ...SEO_PAGES[route], canonical: SITE_URL + route, image: SHARE_IMAGE };
+  const normalizedPathname = pathname.replace(/\/+$/, "") || "/";
+  const route = Object.hasOwn(SEO_PAGES, normalizedPathname) ? normalizedPathname : "/";
+  const canonical = SITE_URL + (route === "/" ? "/" : route + "/");
+  return { ...SEO_PAGES[route], canonical, image: SHARE_IMAGE };
 }

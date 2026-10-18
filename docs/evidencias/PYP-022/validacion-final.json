@@ -1,0 +1,139 @@
+{
+  "date": "2026-10-18T14:58:00.740Z",
+  "clientDate": "2026-10-18 America/Bogota",
+  "initialCount": 541,
+  "changed": [
+    "docs/BITACORA_DESARROLLO.md",
+    "docs/prompts/index.md",
+    "public/sitemap.xml",
+    "scripts/generar-seo.mjs",
+    "src/data/seo.js"
+  ],
+  "missing": [],
+  "unexpectedChanges": [],
+  "unexpectedCreated": [],
+  "priorDocPrefix": [
+    {
+      "path": "docs/BITACORA_DESARROLLO.md",
+      "unchanged": true
+    },
+    {
+      "path": "docs/prompts/index.md",
+      "unchanged": true
+    }
+  ],
+  "distCount": 17,
+  "distUnchanged": true,
+  "graphicalResourcesUnchanged": true,
+  "indexUnchanged": true,
+  "head": {
+    "exit": 0,
+    "stdout": "4f0a960377f3e3ea16e3c9a32f19847308be85cb",
+    "stderr": ""
+  },
+  "status": {
+    "exit": 0,
+    "stdout": "D 01_ESTADO_Y_BITACORA.md\n D 04_BITACORA_001_RESULTADO.md\n M docs/BITACORA_DESARROLLO.md\n M docs/prompts/index.md\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/data/seo.js\n?? docs/evidencias/PYP-019/main.jsx.before.txt\n?? docs/evidencias/PYP-021/\n?? docs/evidencias/PYP-022/\n?? docs/prompts/PYP-021.md\n?? docs/prompts/PYP-022.md\n?? public/favicon.svg",
+    "stderr": ""
+  },
+  "deleted": {
+    "exit": 0,
+    "stdout": "01_ESTADO_Y_BITACORA.md\n04_BITACORA_001_RESULTADO.md",
+    "stderr": ""
+  },
+  "priorDeletionsUnchanged": true,
+  "staged": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/data/seo.js', LF will be replaced by CRLF the next time Git touches it"
+  },
+  "promptMatchesAttachment": true,
+  "whitespace": [],
+  "brokenLinks": [],
+  "linksChecked": 86,
+  "builds": {
+    "commercial": {
+      "date": "2026-10-18T14:51:18.630Z",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "docs/evidencias/PYP-022/build-comercial.mjs"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 5996
+    },
+    "seo": {
+      "date": "2026-10-18T14:51:18.722Z",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "scripts/generar-seo.mjs",
+        "--outDir",
+        "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-022\\build-temporal\\comercial"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 88
+    },
+    "docs": {
+      "date": "2026-10-18T14:56:35.252Z",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "docs/evidencias/PYP-022/build-docs.mjs"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 9453
+    }
+  },
+  "checks": {
+    "count": 103,
+    "failures": []
+  },
+  "auditExit": 0,
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "screenshots": [
+    {
+      "file": "pagina-automatizacion-edge-1440.png",
+      "identicalToPyp021": false
+    },
+    {
+      "file": "pagina-automatizacion-edge-375.png",
+      "identicalToPyp021": true
+    },
+    {
+      "file": "pagina-inicio-1440.png",
+      "identicalToPyp021": true
+    },
+    {
+      "file": "pagina-inicio-375.png",
+      "identicalToPyp021": true
+    },
+    {
+      "file": "pagina-iot-industrial-1440.png",
+      "identicalToPyp021": true
+    },
+    {
+      "file": "pagina-iot-industrial-375.png",
+      "identicalToPyp021": false
+    },
+    {
+      "file": "pagina-monitoreo-energetico-1440.png",
+      "identicalToPyp021": false
+    },
+    {
+      "file": "pagina-monitoreo-energetico-375.png",
+      "identicalToPyp021": true
+    }
+  ],
+  "docsReportGenerated": true,
+  "limitations": "Capturas/servidor de artefacto locales, sin nuevo despliegue ni consulta panel Netlify; confirmación manual del usuario atribuida en informe."
+}

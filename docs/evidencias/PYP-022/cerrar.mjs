@@ -1,0 +1,36 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import crypto from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const base='docs/evidencias/PYP-022';
+const hashBytes=b=>crypto.createHash('sha256').update(b).digest('hex');
+const hash=p=>hashBytes(fs.readFileSync(p));
+const read=n=>JSON.parse(fs.readFileSync(base+'/'+n,'utf8'));
+const save=(n,v)=>fs.writeFileSync(base+'/'+n,JSON.stringify(v,null,2)+'\n');
+const initial=read('estado-inicial.json');
+const allowed=['src/data/seo.js','scripts/generar-seo.mjs','public/sitemap.xml','docs/BITACORA_DESARROLLO.md','docs/prompts/index.md'];
+const git=args=>{const r=spawnSync('git',args,{encoding:'utf8'});return {exit:r.status,stdout:r.stdout.trim(),stderr:r.stderr.trim()};};
+function walk(dir){return fs.readdirSync(dir,{withFileTypes:true}).flatMap(e=>{if(['.git','node_modules','browser-profile','build-temporal'].includes(e.name))return [];const p=path.join(dir,e.name);return e.isDirectory()?walk(p):p.replaceAll('\\','/');});}
+const missing=initial.files.filter(f=>!fs.existsSync(f.path)).map(f=>f.path);
+const changed=initial.files.filter(f=>fs.existsSync(f.path)&&hash(f.path)!==f.sha256).map(f=>f.path);
+const unexpectedChanges=changed.filter(p=>!allowed.includes(p));
+const initialPaths=new Set(initial.files.map(f=>f.path));
+const created=walk('.').filter(p=>!initialPaths.has(p)).sort();
+const unexpectedCreated=created.filter(p=>p!=='public/favicon.svg'&&p!=='docs/prompts/PYP-022.md'&&!p.startsWith(base+'/'));
+const priorDocPrefix=['docs/BITACORA_DESARROLLO.md','docs/prompts/index.md'].map(p=>{const content=fs.readFileSync(p,'utf8'),marker=p.includes('BITACORA')?'\n## PYP-022':'\n- [PYP-022';const position=content.lastIndexOf(marker);return {path:p,unchanged:position>=0&&hashBytes(content.slice(0,position))===initial.files.find(f=>f.path===p).sha256};});
+const dist=initial.files.filter(f=>f.path.startsWith('dist/'));
+const graphical=initial.files.filter(f=>/\.(png|jpe?g|webp|svg)$/i.test(f.path)&&!f.path.startsWith('docs/'));
+const screenshots=fs.readdirSync(base).filter(n=>/^pagina-.*\.png$/.test(n)).map(n=>({file:n,identicalToPyp021:hash(base+'/'+n)===hash('docs/evidencias/PYP-021/'+n)}));
+const filesToCheck=[...allowed,'public/favicon.svg',base+'/resultado.md','docs/prompts/PYP-022.md',...created.filter(p=>p.endsWith('.mjs'))];
+const whitespace=filesToCheck.flatMap(p=>fs.readFileSync(p,'utf8').split(/\r?\n/).flatMap((line,i)=>/[ \t]+$/.test(line)?[{file:p,line:i+1}]:[]));
+const links=[];
+for(const f of ['docs/BITACORA_DESARROLLO.md','docs/prompts/index.md',base+'/resultado.md','docs/prompts/PYP-022.md']){const content=fs.readFileSync(f,'utf8');for(const m of content.matchAll(/\]\(([^)]+)\)/g)){const target=m[1];if(!/^https?:/.test(target)&&!target.startsWith('#'))links.push({source:f,target,exists:fs.existsSync(path.resolve(path.dirname(f),target.split('#')[0]))});}}
+const builds={commercial:read('build-comercial.json'),seo:read('generacion-seo.json'),docs:read('build-docs.json')};
+const checks=read('comprobaciones.json');
+const final={date:new Date().toISOString(),clientDate:'2026-10-18 America/Bogota',initialCount:initial.files.length,changed,missing,unexpectedChanges,unexpectedCreated,priorDocPrefix,distCount:dist.length,distUnchanged:dist.every(f=>fs.existsSync(f.path)&&hash(f.path)===f.sha256),graphicalResourcesUnchanged:graphical.every(f=>hash(f.path)===f.sha256),indexUnchanged:hash('.git/index')===initial.indexSha256,head:git(['rev-parse','HEAD']),status:git(['status','--short']),deleted:git(['ls-files','--deleted']),priorDeletionsUnchanged:git(['ls-files','--deleted']).stdout===initial.trackedDeleted.stdout,staged:git(['diff','--cached','--name-only']),diffCheck:git(['diff','--check']),promptMatchesAttachment:hash('docs/prompts/PYP-022.md')===hash('C:/Users/PYP/.codex/attachments/e28e997a-da8a-488a-aa72-fa174ca1f083/Pasted text.txt'),whitespace,brokenLinks:links.filter(l=>!l.exists),linksChecked:links.length,builds,checks:{count:checks.checks,failures:checks.failures},auditExit:read('npm-audit-produccion.json').exitCode,audit:JSON.parse(fs.readFileSync(base+'/npm-audit-produccion.stdout.txt','utf8')).metadata.vulnerabilities,screenshots,docsReportGenerated:fs.existsSync(base+'/build-temporal/documentacion/evidencias/PYP-022/resultado.html'),limitations:'Capturas/servidor de artefacto locales, sin nuevo despliegue ni consulta panel Netlify; confirmación manual del usuario atribuida en informe.'};
+save('archivos-PYP-022.json',{date:final.date,modifiedByPyp022:changed,createdByPyp022:created,priorStatus:initial.status.stdout,priorDeletions:initial.trackedDeleted.stdout,excludedTemporaryDirectories:['docs/evidencias/PYP-022/build-temporal/','docs/evidencias/PYP-022/browser-profile/'],note:'Cambios de esta intervención frente a inventario inicial; preserva PYP-021 y bajas previas. No es un manifiesto de staging.'});
+save('validacion-final.json',final);
+fs.writeFileSync(base+'/diff-producto.patch',git(['diff','--','src/data/seo.js','scripts/generar-seo.mjs','public/sitemap.xml']).stdout+'\n');
+const ok=!missing.length&&!unexpectedChanges.length&&!unexpectedCreated.length&&final.priorDocPrefix.every(f=>f.unchanged)&&final.distUnchanged&&final.indexUnchanged&&final.graphicalResourcesUnchanged&&final.priorDeletionsUnchanged&&final.head.stdout===initial.head.stdout&&!final.staged.stdout&&final.diffCheck.exit===0&&final.promptMatchesAttachment&&!whitespace.length&&!final.brokenLinks.length&&!checks.failures.length&&Object.values(builds).every(b=>b.exitCode===0)&&final.audit.total===0&&final.docsReportGenerated;
+console.log(JSON.stringify({ok,changed,created:created.length,distCount:final.distCount,distUnchanged:final.distUnchanged,indexUnchanged:final.indexUnchanged,priorDocPrefix,screenshots,missing,unexpectedChanges,unexpectedCreated,whitespace,brokenLinks:final.brokenLinks,status:final.status.stdout,docsBuild:builds.docs.exitCode,docsReportGenerated:final.docsReportGenerated},null,2));
+if(!ok)process.exitCode=1;

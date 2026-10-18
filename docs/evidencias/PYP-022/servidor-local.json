@@ -1,0 +1,5 @@
+{
+  "origin": "http://127.0.0.1:63506",
+  "root": "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-022\\build-temporal\\comercial",
+  "limitations": "Servidor de archivos/directorios y fallback SPA. No emula Netlify ni sus 301; no admite envíos."
+}

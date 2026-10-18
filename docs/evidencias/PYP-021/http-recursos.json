@@ -1,0 +1,178 @@
+[
+  {
+    "hops": [
+      {
+        "url": "https://pyptecnologia.com/robots.txt",
+        "status": 200,
+        "location": null,
+        "headers": {
+          "accept-ranges": "bytes",
+          "age": "0",
+          "cache-control": "public,max-age=0,must-revalidate",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "content-length": "71",
+          "content-type": "text/plain; charset=UTF-8",
+          "date": "Sun, 18 Oct 2026 14:36:30 GMT",
+          "etag": "\"c260ba5c8406d14e148af18703d2627a-ssl\"",
+          "server": "Netlify",
+          "strict-transport-security": "max-age=31536000",
+          "x-nf-request-id": "01M57Q2NVVB8AAF09SWRRFBY6X"
+        }
+      }
+    ],
+    "url": "https://pyptecnologia.com/robots.txt",
+    "status": 200,
+    "sha256": "1486bd94a13073ed44dd604e5bc1f6643d383b827fc47b70c08830750e39de9d",
+    "resource": "/robots.txt",
+    "length": 71,
+    "localMatch": false,
+    "body": "User-agent: *\nAllow: /\n\nSitemap: https://pyptecnologia.com/sitemap.xml\n"
+  },
+  {
+    "hops": [
+      {
+        "url": "https://pyptecnologia.com/sitemap.xml",
+        "status": 200,
+        "location": null,
+        "headers": {
+          "accept-ranges": "bytes",
+          "age": "0",
+          "cache-control": "public,max-age=0,must-revalidate",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "content-length": "367",
+          "content-type": "application/xml",
+          "date": "Sun, 18 Oct 2026 14:36:30 GMT",
+          "etag": "\"007ca513ee6e5856d65afa5e58196590-ssl\"",
+          "server": "Netlify",
+          "strict-transport-security": "max-age=31536000",
+          "x-nf-request-id": "01M57Q2NYRWA8ERT7E7CWTE01K"
+        }
+      }
+    ],
+    "url": "https://pyptecnologia.com/sitemap.xml",
+    "status": 200,
+    "sha256": "7ad8cdcb115212e3bca0dbc5d6df0688d522d4f985b58827dc72a675bd3b39ce",
+    "resource": "/sitemap.xml",
+    "length": 367,
+    "localMatch": true,
+    "body": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<urlset xmlns=\"http://www.sitemaps.org/schemas/sitemap/0.9\">\n  <url><loc>https://pyptecnologia.com/</loc></url>\n  <url><loc>https://pyptecnologia.com/monitoreo-energetico</loc></url>\n  <url><loc>https://pyptecnologia.com/iot-industrial</loc></url>\n  <url><loc>https://pyptecnologia.com/automatizacion-edge</loc></url>\n</urlset>\n"
+  },
+  {
+    "hops": [
+      {
+        "url": "https://pyptecnologia.com/og-pyp.png",
+        "status": 200,
+        "location": null,
+        "headers": {
+          "accept-ranges": "bytes",
+          "age": "0",
+          "cache-control": "public,max-age=0,must-revalidate",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "content-length": "1355270",
+          "content-type": "image/png",
+          "date": "Sun, 18 Oct 2026 14:36:30 GMT",
+          "etag": "\"5f24eac8dd6f3e845f0a0c7b1fdb28ff-ssl\"",
+          "server": "Netlify",
+          "strict-transport-security": "max-age=31536000",
+          "x-nf-request-id": "01M57Q2P4JZD584HQ82Q451AP9"
+        }
+      }
+    ],
+    "url": "https://pyptecnologia.com/og-pyp.png",
+    "status": 200,
+    "sha256": "15038971c06a40e3a6a5714c3e07beade298c48d777e14c81a154dfe75a839c1",
+    "resource": "/og-pyp.png",
+    "length": 1355270,
+    "localMatch": true
+  },
+  {
+    "hops": [
+      {
+        "url": "https://pyptecnologia.com/favicon.svg",
+        "status": 200,
+        "location": null,
+        "headers": {
+          "accept-ranges": "bytes",
+          "age": "0",
+          "cache-control": "public,max-age=0,must-revalidate",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "content-encoding": "br",
+          "content-type": "text/html; charset=UTF-8",
+          "date": "Sun, 18 Oct 2026 14:36:31 GMT",
+          "etag": "\"dda97a817718d29a7c22c2ebae693ad6-ssl-df\"",
+          "server": "Netlify",
+          "strict-transport-security": "max-age=31536000",
+          "transfer-encoding": "chunked",
+          "vary": "Accept-Encoding",
+          "x-nf-request-id": "01M57Q2PY8DSVE0EDEPWRZ8QAB"
+        }
+      }
+    ],
+    "url": "https://pyptecnologia.com/favicon.svg",
+    "status": 200,
+    "sha256": "3250591fab89e979400640ae695e58dae74e03e8f1203dc560e3e419692c9176",
+    "resource": "/favicon.svg",
+    "length": 4442,
+    "localMatch": null
+  },
+  {
+    "hops": [
+      {
+        "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+        "status": 200,
+        "location": null,
+        "headers": {
+          "accept-ranges": "bytes",
+          "age": "0",
+          "cache-control": "public,max-age=0,must-revalidate",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "content-encoding": "br",
+          "content-type": "application/javascript; charset=UTF-8",
+          "date": "Sun, 18 Oct 2026 14:36:31 GMT",
+          "etag": "\"c50a5223a36d4290ef026941de903092-ssl-df\"",
+          "server": "Netlify",
+          "strict-transport-security": "max-age=31536000",
+          "transfer-encoding": "chunked",
+          "vary": "Accept-Encoding",
+          "x-nf-request-id": "01M57Q2Q1CTZYTWF1H1JZG5303"
+        }
+      }
+    ],
+    "url": "https://pyptecnologia.com/assets/index-Di7j3tgx.js",
+    "status": 200,
+    "sha256": "436c95e23bbd32e345d08a825f95657298e36c2f7c55290b53972aee1aaaf39d",
+    "resource": "/assets/index-Di7j3tgx.js",
+    "length": 292533,
+    "localMatch": null
+  },
+  {
+    "hops": [
+      {
+        "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+        "status": 200,
+        "location": null,
+        "headers": {
+          "accept-ranges": "bytes",
+          "age": "1",
+          "cache-control": "public,max-age=0,must-revalidate",
+          "cache-status": "\"Netlify Edge\"; fwd=miss; fwd-status=200; stored",
+          "content-encoding": "br",
+          "content-type": "text/css; charset=UTF-8",
+          "date": "Sun, 18 Oct 2026 14:36:32 GMT",
+          "etag": "\"70459aadebdcbb6cb696d0b9cb311a8e-ssl-df\"",
+          "server": "Netlify",
+          "strict-transport-security": "max-age=31536000",
+          "transfer-encoding": "chunked",
+          "vary": "Accept-Encoding",
+          "x-nf-request-id": "01M57Q2Q8C11FXGEAATNB7H253"
+        }
+      }
+    ],
+    "url": "https://pyptecnologia.com/assets/index-C-IWZACu.css",
+    "status": 200,
+    "sha256": "2edef0dc29f8d0d5d40f2ed3cebfb24dd7d34c0a908ecdbac3f5bf80877e7d37",
+    "resource": "/assets/index-C-IWZACu.css",
+    "length": 22682,
+    "localMatch": null
+  }
+]
