@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-18T17:09:08.310Z",
+  "exitCode": 0,
+  "seconds": 28.92,
+  "log": "docs/evidencias/PYP-027/build-docs-staged-02.log",
+  "scope": "Copia del índice selectivo, sin PYP-024 ni archivos ajenos",
+  "initialLauncherError": "ERR_UNSUPPORTED_ESM_URL_SCHEME de Windows; se usa pathToFileURL, sin modificar producto"
+}

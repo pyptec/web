@@ -1,0 +1,171 @@
+import React from "react";
+import infografia from "../assets/proyectos/clg/clg-infografia.png";
+import { ArrowRight, Clock, Volume2, Network, Cpu, Cable, CheckCircle2 } from "lucide-react";
+import Navbar from "../components/Navbar.jsx";
+import SectionNav from "../components/SectionNav.jsx";
+import { CLG_HERO, CLG_PHOTOS, CLG_FAQS, CLG_MODALITIES } from "../data/clg.js";
+
+const primary = "inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[#A6CE39] px-6 py-3 font-bold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#416D13]";
+const secondary = "inline-flex min-h-11 items-center justify-center gap-2 rounded-xl border border-gray-300 bg-white px-6 py-3 font-semibold text-[#1E1E1E] hover:bg-gray-50 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#416D13]";
+const links = [
+  { href: "#publicidad-clg", label: "Publicidad" },
+  { href: "#horarios-clg", label: "Horarios" },
+  { href: "#eventos-clg", label: "Eventos" },
+  { href: "#comunicaciones-clg", label: "Red" },
+  { href: "#hat-pyp", label: "Hardware" },
+  { href: "#modalidades-clg", label: "Modalidades" },
+  { href: "#imagenes-clg", label: "Imágenes" },
+  { href: "#preguntas-clg", label: "Preguntas" },
+  { href: "#contacto-clg", label: "Contacto" },
+];
+
+function Heading({ eyebrow, title, children }) {
+  return <div className="mb-9 max-w-3xl">
+    <p className="mb-3 border-l-4 border-[#A6CE39] pl-3 text-sm font-bold uppercase tracking-[0.14em] text-[#416D13]">{eyebrow}</p>
+    <h2 className="text-3xl font-extrabold tracking-tight text-[#1E1E1E] md:text-4xl">{title}</h2>
+    {children && <p className="mt-4 text-lg leading-relaxed text-gray-700">{children}</p>}
+  </div>;
+}
+
+function Photo({ photo, className = "" }) {
+  return <figure className={"min-w-0 overflow-hidden rounded-2xl border border-gray-200 bg-white " + className}>
+    <a href={photo.src} target="_blank" rel="noopener noreferrer" className="block rounded-t-2xl focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" aria-label={"Ampliar imagen: " + photo.alt + " (abre en una pestaña nueva)"}>
+      <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" decoding="async" className="h-auto max-h-[34rem] w-full object-contain" />
+    </a>
+    <figcaption className="border-t border-gray-100 px-5 py-4 text-sm leading-relaxed text-gray-600">{photo.caption}</figcaption>
+  </figure>;
+}
+
+export default function CLG() {
+  return <div className="min-h-screen bg-[#F5F5F5] text-[#1E1E1E]">
+    <Navbar><SectionNav links={links} /></Navbar>
+    <main id="contenido-principal">
+      <section id="clg-presentacion" className="border-b border-gray-200 bg-white">
+        <div className="mx-auto max-w-7xl px-6 pb-16 pt-6 md:pb-20">
+          <nav aria-label="Ruta de navegación" className="mb-10 flex flex-wrap items-center gap-2 text-sm text-gray-600">
+            <a href="/" className="rounded px-1 py-2 underline-offset-4 hover:underline">Inicio</a><span aria-hidden="true">/</span>
+            <a href="/#proyectos" className="rounded px-1 py-2 underline-offset-4 hover:underline">Proyectos</a><span aria-hidden="true">/</span>
+            <span aria-current="page" className="font-semibold text-[#416D13]">CLG</span>
+          </nav>
+          <div className="grid items-center gap-10 lg:grid-cols-[1fr_1.1fr]">
+            <div>
+              <p className="text-sm font-bold uppercase tracking-[0.18em] text-[#416D13]">Cliente Ganador · Tecnología PYP</p>
+              <h1 className="mt-4 text-4xl font-black leading-[1.04] tracking-tight sm:text-5xl lg:text-6xl">Publicidad programable y comunicación inteligente con CLG</h1>
+              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-gray-700">Música, mensajes comerciales y avisos para su establecimiento. CLG integra programación por horarios, contenidos administrados desde una red y hardware propio para recibir señales y conectar acciones externas.</p>
+              <div className="mt-8 flex flex-wrap gap-3"><a className={primary} href="/#contacto">Consultar mi proyecto <ArrowRight size={18} aria-hidden="true" /></a><a className={secondary} href="#modalidades-clg">Conocer modalidades</a></div>
+              <p className="mt-5 text-sm leading-relaxed text-gray-600">Programación local con RTC. Administración remota cuando hay conexión a Internet.</p>
+            </div>
+            <div className="min-w-0">
+              <figure className="overflow-hidden rounded-3xl border border-gray-200 bg-[#F5F5F5]">
+                <a href={infografia} target="_blank" rel="noopener noreferrer" className="block focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]" aria-label="Abrir infografía comercial de CLG a tamaño completo (abre en una pestaña nueva)">
+                    <img src={infografia} alt="Infografía comercial de CLG: equipo, hardware HAT, conexiones y arquitectura de administración y audio" width={1536} height={1024} loading="eager" fetchpriority="high" decoding="async" className="h-auto w-full object-contain" />
+                    <span className="block border-t border-gray-200 px-5 py-3 text-center text-sm font-semibold text-[#416D13] underline underline-offset-4">Ver infografía en tamaño completo ↗</span>
+                  </a>
+              </figure>
+              <div className="mt-4 flex items-center gap-4 rounded-2xl bg-[#1E1E1E] px-6 py-5 text-white">
+                <span className="text-5xl font-black text-[#A6CE39]">47</span><p className="text-sm leading-relaxed"><strong className="block text-base">unidades instaladas en Colombia</strong>Hardware y desarrollo PYP para equipos distribuidos.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="publicidad-clg" className="py-20"><div className="mx-auto max-w-7xl px-6">
+        <Heading eyebrow="Audio comercial" title="Publicidad y música para establecimientos comerciales">Publicidad sonora para supermercados, almacenes y otros espacios que necesitan comunicar promociones y avisos durante la jornada.</Heading>
+        <div className="grid gap-5 md:grid-cols-3">
+          {[
+            [Volume2, "Música y anuncios", "Combine música ambiental con mensajes publicitarios. CLG pausa la música para reproducir el anuncio y permite configurar los contenidos del establecimiento."],
+            [Clock, "Mensajes en su momento", "Organice mensajes de apertura, cierre y promociones con la programación horaria del equipo."],
+            [Network, "Contenidos desde una red", "Administre los archivos y la programación desde la red interna, con acceso remoto cuando exista conexión a Internet."],
+          ].map(([Icon, title, text]) => <article key={title} className="rounded-2xl border border-gray-200 bg-white p-7"><Icon size={28} color="#6BA425" aria-hidden="true" /><h3 className="mt-5 text-xl font-bold">{title}</h3><p className="mt-3 leading-relaxed text-gray-700">{text}</p></article>)}
+        </div>
+        <p className="mt-6 max-w-4xl leading-relaxed text-gray-700">Un sistema de perifoneo comercial automatizado ayuda a dar continuidad a la comunicación del almacén. El contenido, la frecuencia y los horarios se definen según su operación.</p>
+      </div></section>
+
+      <section id="horarios-clg" className="bg-white py-20"><div className="mx-auto grid max-w-7xl gap-10 px-6 lg:grid-cols-2">
+        <div><Heading eyebrow="Programación local" title="Mensajes automáticos programados por horario">Un reproductor de anuncios programados para acompañar la jornada del comercio.</Heading>
+          <p className="leading-relaxed text-gray-700">Por ejemplo, configure un mensaje de apertura y otro de cierre con los audios y horarios que necesita. El RTC, o reloj de tiempo real, permite ejecutar la programación configurada sin depender de Internet.</p>
+          <p className="mt-4 leading-relaxed text-gray-700">El equipo requiere alimentación y contenidos configurados. La programación local utiliza la red interna; las modificaciones desde fuera de esa red necesitan conectividad a Internet.</p>
+        </div>
+        <div className="rounded-3xl border border-gray-200 bg-[#F5F5F5] p-7 md:p-9">
+          <p className="text-sm font-bold uppercase tracking-widest text-[#416D13]">Ejemplo de uso</p>
+          <ol className="mt-6 space-y-6">{[
+            ["Preparar", "Definir los archivos de apertura, cierre y promociones."],
+            ["Programar", "Asignar los horarios desde la administración del equipo."],
+            ["Comunicar", "Ejecutar los mensajes configurados mediante el RTC local."],
+          ].map(([title, text], i) => <li key={title} className="flex gap-4"><span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-[#A6CE39] font-bold">{i + 1}</span><div><h3 className="font-bold">{title}</h3><p className="mt-1 text-gray-700">{text}</p></div></li>)}</ol>
+        </div>
+      </div></section>
+
+      <section id="eventos-clg" className="py-20"><div className="mx-auto max-w-7xl px-6">
+        <Heading eyebrow="Audio y automatización" title="Activación de anuncios mediante pulsadores y eventos">El hardware CLG recibe señales y pulsos mediante entradas digitales y dispone de salidas de relé para acciones externas.</Heading>
+        <div className="grid gap-4 md:grid-cols-3">{[
+          ["01 · Recibir", "Un pulsador o una señal externa puede aportar el evento de entrada."],
+          ["02 · Configurar", "PYP define y verifica la relación entre el evento, el mensaje y la acción requerida."],
+          ["03 · Actuar", "El alcance puede incluir avisos audibles y acciones mediante relés."],
+        ].map(([title, text]) => <article key={title} className="rounded-2xl border border-gray-200 bg-white p-7"><h3 className="text-lg font-bold text-[#416D13]">{title}</h3><p className="mt-3 leading-relaxed text-gray-700">{text}</p></article>)}</div>
+        <p className="mt-5 text-sm leading-relaxed text-gray-600">Es un flujo de integración propuesto. La lógica concreta de pulsadores, mensajes y relés se configura y prueba por proyecto; no se presupone una regla universal para las 47 unidades.</p>
+      </div></section>
+
+      <section id="comunicaciones-clg" className="bg-white py-20"><div className="mx-auto grid max-w-7xl items-start gap-10 px-6 lg:grid-cols-2">
+        <div><Heading eyebrow="Gestión de contenidos" title="Administración de campañas desde una red">CLG cuenta con una red propietaria de interconexión y administración de contenidos.</Heading>
+          <div className="space-y-5">{[
+            ["Red interna", "Programe y administre los contenidos mediante la red local del establecimiento."],
+            ["Acceso remoto", "Administre los equipos desde fuera de la sede cuando exista conexión a Internet."],
+            ["Varias ubicaciones", "Defina con PYP el alcance de las campañas y la configuración de cada equipo distribuido."],
+          ].map(([title, text]) => <div key={title} className="flex gap-3"><CheckCircle2 size={23} className="mt-1 shrink-0 text-[#416D13]" aria-hidden="true" /><div><h3 className="font-bold">{title}</h3><p className="mt-1 leading-relaxed text-gray-700">{text}</p></div></div>)}</div>
+        </div><Photo photo={CLG_PHOTOS.dashboard} />
+      </div></section>
+
+      <section id="hat-pyp" className="py-20"><div className="mx-auto max-w-7xl px-6">
+        <Heading eyebrow="Desarrollado por PYP" title="Hardware y conectividad del equipo CLG">Hardware HAT propio, interfaces industriales y conexión al sistema de sonido existente.</Heading>
+        <div className="grid gap-8 lg:grid-cols-[1fr_1.1fr]">
+          <div>
+            <div className="grid gap-4 sm:grid-cols-2">{[
+              [Cpu, "HAT PYP", "Hardware desarrollado por PYP para la integración del equipo."],
+              [Cable, "Interfaces", "Entradas digitales, señales y pulsos; interfaces Modbus, CAN y RS-232."],
+              [Volume2, "Audio y amplificador", "Conexión al amplificador del establecimiento, revisando la entrada y el cableado disponibles."],
+              [Network, "Acciones externas", "Capacidad de activar alarmas audibles y utilizar salidas de relé."],
+            ].map(([Icon, title, text]) => <article key={title} className="rounded-2xl border border-gray-200 bg-white p-6"><Icon size={27} color="#6BA425" aria-hidden="true" /><h3 className="mt-4 font-bold">{title}</h3><p className="mt-2 leading-relaxed text-gray-700">{text}</p></article>)}</div>
+            <p className="mt-5 text-sm leading-relaxed text-gray-600">La compatibilidad de interfaces, las condiciones eléctricas y las reglas de operación se revisan para cada instalación. No se atribuyen perfiles, velocidades o funciones de supervisión no verificados.</p>
+          </div>
+          <div className="grid grid-cols-2 gap-4"><Photo photo={CLG_PHOTOS.hat} /><Photo photo={CLG_PHOTOS.conexiones} /></div>
+        </div>
+      </div></section>
+
+      <section id="modalidades-clg" className="bg-white py-20"><div className="mx-auto max-w-7xl px-6">
+        <Heading eyebrow="Un producto, distintos alcances" title="Soluciones CLG Media, Alert y Safety IP">Tres modalidades comerciales para ordenar necesidades de publicidad, comunicación y automatización. Cada integración se define según el proyecto.</Heading>
+        <div className="grid gap-6 lg:grid-cols-3">{CLG_MODALITIES.map((mode, i) => <article id={mode.id} key={mode.id} className="flex flex-col rounded-3xl border border-gray-200 bg-[#F5F5F5] p-7">
+          <span className="text-sm font-bold text-[#416D13]">0{i + 1} / {mode.name}</span><h3 className="mt-4 text-2xl font-extrabold">{mode.title}</h3><p className="mt-4 leading-relaxed text-gray-700">{mode.text}</p><p className="mt-5 border-t border-gray-200 pt-4 text-sm leading-relaxed text-gray-600">{mode.scope}</p>
+        </article>)}</div>
+      </div></section>
+
+      <section id="imagenes-clg" className="py-20"><div className="mx-auto max-w-7xl px-6">
+        <Heading eyebrow="Imágenes del proyecto" title="El equipo CLG en detalle">Fotografías del equipo y su hardware. Estas imágenes muestran el producto; no se presentan como un inventario fotográfico de las 47 instalaciones.</Heading>
+        <div className="grid items-start gap-6 md:grid-cols-[0.7fr_1.3fr]"><Photo photo={CLG_PHOTOS.frontal} /><Photo photo={CLG_PHOTOS.ethernet} /><Photo photo={{ ...CLG_HERO, caption: "Equipo CLG fotografiado: conexión de audio y puerto serie." }} className="md:col-span-2" /></div>
+      </div></section>
+
+      <section id="aplicaciones-clg" className="bg-white py-20"><div className="mx-auto max-w-7xl px-6">
+        <Heading eyebrow="Usos comerciales" title="Aplicaciones en supermercados y comercios">Publicidad programable para almacenes y comunicación operativa adaptada al establecimiento.</Heading>
+        <div className="grid gap-5 md:grid-cols-3">{[
+          ["Supermercados", "Música ambiental, promociones y mensajes programados durante la jornada."],
+          ["Almacenes", "Avisos de apertura y cierre y reproducción de anuncios comerciales."],
+          ["Señales de operación", "Integración de un pulsador o evento externo con mensajes y acciones definidas por proyecto."],
+        ].map(([title, text]) => <article key={title} className="rounded-2xl border border-gray-200 p-7"><h3 className="text-xl font-bold">{title}</h3><p className="mt-3 leading-relaxed text-gray-700">{text}</p></article>)}</div>
+      </div></section>
+
+      <section id="preguntas-clg" className="py-20"><div className="mx-auto max-w-5xl px-6">
+        <Heading eyebrow="Antes de elegir" title="Preguntas frecuentes">Respuestas para definir el alcance de su sistema de audio comercial.</Heading>
+        <dl className="divide-y divide-gray-200 rounded-3xl border border-gray-200 bg-white px-6 md:px-9">{CLG_FAQS.map(faq => <div key={faq.question} className="py-7"><dt><h3 className="text-lg font-bold">{faq.question}</h3></dt><dd className="mt-3 leading-relaxed text-gray-700">{faq.answer}</dd></div>)}</dl>
+      </div></section>
+
+      <section id="contacto-clg" className="bg-white py-20"><div className="mx-auto max-w-7xl px-6"><div className="rounded-3xl bg-[#1E1E1E] p-8 text-white md:p-12">
+        <p className="text-sm font-bold uppercase tracking-widest text-[#A6CE39]">Definamos su proyecto</p><h2 className="mt-4 max-w-3xl text-3xl font-extrabold md:text-4xl">Conecte sus mensajes con la operación de su establecimiento</h2>
+        <p className="mt-5 max-w-3xl text-lg leading-relaxed text-gray-200">Cuéntenos cuántos equipos necesita, qué contenidos desea programar y qué señales o sistema de sonido quiere integrar.</p>
+        <div className="mt-8 flex flex-wrap items-center gap-5"><a href="/#contacto" className={primary}>Solicitar evaluación CLG <ArrowRight size={18} aria-hidden="true" /></a><a href="/#proyectos" className="inline-flex min-h-11 items-center rounded px-2 py-3 font-semibold text-[#A6CE39] underline-offset-4 hover:underline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#A6CE39]">Volver a Proyectos</a></div>
+        <p className="mt-5 text-sm text-gray-300">En el formulario de contacto puede seleccionar “Control multisede / CLG”.</p>
+      </div></div></section>
+    </main>
+    <footer className="border-t border-gray-200 bg-white px-6 py-8 text-center text-sm text-gray-600">© {new Date().getFullYear()} PYP Tecnología Electrónica SAS · Publicidad · Comunicación · Automatización</footer>
+  </div>;
+}

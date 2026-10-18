@@ -37,3 +37,10 @@
 - [PYP-022 — Corrección de favicon, SEO y validación de Netlify](./PYP-022.md)
 
 - [PYP-023 — Publicación de correcciones SEO y favicon](./PYP-023.md)
+
+
+- [PYP-025 — Implementación CLG y complemento SEO](./PYP-025.md) · [Confirmación de funciones](./PYP-025-confirmacion-funciones.md)
+
+- [PYP-026 — Sustituir imagen principal de CLG por infografía](./PYP-026.md)
+
+- [PYP-027 — Publicación controlada de CLG en producción](./PYP-027.md)

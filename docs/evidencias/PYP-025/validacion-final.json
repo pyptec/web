@@ -1,0 +1,230 @@
+{
+  "date": "2026-10-18T16:36:32.075Z",
+  "clientDate": "2026-10-18 America/Bogota",
+  "baselineCount": 657,
+  "changed": [
+    "docs/BITACORA_DESARROLLO.md",
+    "docs/prompts/index.md",
+    "public/sitemap.xml",
+    "scripts/generar-seo.mjs",
+    "src/App.jsx",
+    "src/components/Seo.jsx",
+    "src/data/seo.js",
+    "src/main.jsx",
+    "vite.config.js"
+  ],
+  "created": [
+    "docs/arquitectura/PYP-025-clg-seo.md",
+    "docs/evidencias/PYP-025/archivos-PYP-025.json",
+    "docs/evidencias/PYP-025/build-comercial-01.stderr.txt",
+    "docs/evidencias/PYP-025/build-comercial-01.stdout.txt",
+    "docs/evidencias/PYP-025/build-comercial.json",
+    "docs/evidencias/PYP-025/build-comercial.mjs",
+    "docs/evidencias/PYP-025/build-docs-01.stderr.txt",
+    "docs/evidencias/PYP-025/build-docs-01.stdout.txt",
+    "docs/evidencias/PYP-025/build-docs.json",
+    "docs/evidencias/PYP-025/build-docs.mjs",
+    "docs/evidencias/PYP-025/cerrar.mjs",
+    "docs/evidencias/PYP-025/clg-sin-javascript-375.png",
+    "docs/evidencias/PYP-025/comprobaciones.json",
+    "docs/evidencias/PYP-025/comprobar.mjs",
+    "docs/evidencias/PYP-025/ejecutar.mjs",
+    "docs/evidencias/PYP-025/estado-inicial.json",
+    "docs/evidencias/PYP-025/generacion-seo-01.stderr.txt",
+    "docs/evidencias/PYP-025/generacion-seo-01.stdout.txt",
+    "docs/evidencias/PYP-025/generacion-seo-02.stderr.txt",
+    "docs/evidencias/PYP-025/generacion-seo-02.stdout.txt",
+    "docs/evidencias/PYP-025/generacion-seo-03.stderr.txt",
+    "docs/evidencias/PYP-025/generacion-seo-03.stdout.txt",
+    "docs/evidencias/PYP-025/generacion-seo-04.stderr.txt",
+    "docs/evidencias/PYP-025/generacion-seo-04.stdout.txt",
+    "docs/evidencias/PYP-025/generacion-seo.json",
+    "docs/evidencias/PYP-025/html-0.html",
+    "docs/evidencias/PYP-025/html-1.html",
+    "docs/evidencias/PYP-025/html-2.html",
+    "docs/evidencias/PYP-025/html-3.html",
+    "docs/evidencias/PYP-025/html-4.html",
+    "docs/evidencias/PYP-025/http-local.json",
+    "docs/evidencias/PYP-025/idempotencia.json",
+    "docs/evidencias/PYP-025/interacciones-navegador.mjs",
+    "docs/evidencias/PYP-025/interacciones.json",
+    "docs/evidencias/PYP-025/interacciones.mjs",
+    "docs/evidencias/PYP-025/interacciones.stderr.txt",
+    "docs/evidencias/PYP-025/interacciones.stdout.txt",
+    "docs/evidencias/PYP-025/navegador-comando.json",
+    "docs/evidencias/PYP-025/navegador.json",
+    "docs/evidencias/PYP-025/navegador.mjs",
+    "docs/evidencias/PYP-025/navegador.stderr.txt",
+    "docs/evidencias/PYP-025/navegador.stdout.txt",
+    "docs/evidencias/PYP-025/npm-audit-produccion-01.stderr.txt",
+    "docs/evidencias/PYP-025/npm-audit-produccion-01.stdout.txt",
+    "docs/evidencias/PYP-025/npm-audit-produccion.json",
+    "docs/evidencias/PYP-025/pagina-automatizacion-edge-1440.png",
+    "docs/evidencias/PYP-025/pagina-automatizacion-edge-375.png",
+    "docs/evidencias/PYP-025/pagina-clg-768.png",
+    "docs/evidencias/PYP-025/pagina-inicio-1440.png",
+    "docs/evidencias/PYP-025/pagina-inicio-375.png",
+    "docs/evidencias/PYP-025/pagina-iot-industrial-1440.png",
+    "docs/evidencias/PYP-025/pagina-iot-industrial-375.png",
+    "docs/evidencias/PYP-025/pagina-monitoreo-energetico-1440.png",
+    "docs/evidencias/PYP-025/pagina-monitoreo-energetico-375.png",
+    "docs/evidencias/PYP-025/pagina-proyectos-clg-1440.png",
+    "docs/evidencias/PYP-025/pagina-proyectos-clg-375.png",
+    "docs/evidencias/PYP-025/preparar-navegador.mjs",
+    "docs/evidencias/PYP-025/primer-recorrido/clg-sin-javascript-375.png",
+    "docs/evidencias/PYP-025/primer-recorrido/comprobaciones.json",
+    "docs/evidencias/PYP-025/primer-recorrido/http-local.json",
+    "docs/evidencias/PYP-025/primer-recorrido/idempotencia.json",
+    "docs/evidencias/PYP-025/primer-recorrido/navegador-comando.json",
+    "docs/evidencias/PYP-025/primer-recorrido/navegador.json",
+    "docs/evidencias/PYP-025/primer-recorrido/navegador.mjs",
+    "docs/evidencias/PYP-025/primer-recorrido/navegador.stderr.txt",
+    "docs/evidencias/PYP-025/primer-recorrido/navegador.stdout.txt",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-automatizacion-edge-1440.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-automatizacion-edge-375.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-clg-768.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-inicio-1440.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-inicio-375.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-iot-industrial-1440.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-iot-industrial-375.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-monitoreo-energetico-1440.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-monitoreo-energetico-375.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-proyectos-clg-1440.png",
+    "docs/evidencias/PYP-025/primer-recorrido/pagina-proyectos-clg-375.png",
+    "docs/evidencias/PYP-025/primer-recorrido/servidor-local.json",
+    "docs/evidencias/PYP-025/primer-recorrido/sin-javascript.json",
+    "docs/evidencias/PYP-025/primer-recorrido/tablet.json",
+    "docs/evidencias/PYP-025/regeneracion.stderr.txt",
+    "docs/evidencias/PYP-025/regeneracion.stdout.txt",
+    "docs/evidencias/PYP-025/resultado.md",
+    "docs/evidencias/PYP-025/servidor-local.json",
+    "docs/evidencias/PYP-025/servidor.mjs",
+    "docs/evidencias/PYP-025/sin-javascript.json",
+    "docs/evidencias/PYP-025/tablet.json",
+    "docs/evidencias/PYP-025/validacion-final.json",
+    "docs/prompts/PYP-025-confirmacion-funciones.md",
+    "docs/prompts/PYP-025.md",
+    "public/clg-audio-comercial.jpg",
+    "src/SiteRoutes.jsx",
+    "src/data/clg-meta.js",
+    "src/data/clg.js",
+    "src/data/structuredData.js",
+    "src/entry-server.jsx",
+    "src/pages/CLG.jsx"
+  ],
+  "missing": [],
+  "unexpectedChanges": [],
+  "unexpectedCreated": [],
+  "prefixChecks": [
+    {
+      "path": "docs/BITACORA_DESARROLLO.md",
+      "preserved": true
+    },
+    {
+      "path": "docs/prompts/index.md",
+      "preserved": true
+    }
+  ],
+  "protectedCount": 648,
+  "protectedUnchanged": true,
+  "distCount": 17,
+  "distUnchanged": true,
+  "sourcePhotosUnchanged": true,
+  "dependenciesUnchanged": true,
+  "appOnlyClgLink": true,
+  "indexUnchanged": true,
+  "head": {
+    "exit": 0,
+    "stdout": "6bef36f0c052672e55c1b8a242e07290e5f07376",
+    "stderr": ""
+  },
+  "status": {
+    "exit": 0,
+    "stdout": "D 01_ESTADO_Y_BITACORA.md\n D 04_BITACORA_001_RESULTADO.md\n M docs/BITACORA_DESARROLLO.md\n M docs/prompts/index.md\n M public/sitemap.xml\n M scripts/generar-seo.mjs\n M src/App.jsx\n M src/components/Seo.jsx\n M src/data/seo.js\n M src/main.jsx\n M vite.config.js\n?? docs/arquitectura/PYP-024-clg.md\n?? docs/arquitectura/PYP-025-clg-seo.md\n?? docs/evidencias/PYP-019/main.jsx.before.txt\n?? docs/evidencias/PYP-022/diff-producto.patch\n?? docs/evidencias/PYP-023/\n?? docs/evidencias/PYP-024/\n?? docs/evidencias/PYP-025/\n?? docs/prompts/PYP-024.md\n?? docs/prompts/PYP-025-confirmacion-funciones.md\n?? docs/prompts/PYP-025.md\n?? public/clg-audio-comercial.jpg\n?? src/SiteRoutes.jsx\n?? src/assets/proyectos/clg/\n?? src/data/clg-meta.js\n?? src/data/clg.js\n?? src/data/structuredData.js\n?? src/entry-server.jsx\n?? src/pages/CLG.jsx",
+    "stderr": ""
+  },
+  "staged": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": ""
+  },
+  "deleted": {
+    "exit": 0,
+    "stdout": "01_ESTADO_Y_BITACORA.md\n04_BITACORA_001_RESULTADO.md",
+    "stderr": ""
+  },
+  "diffCheck": {
+    "exit": 0,
+    "stdout": "",
+    "stderr": "warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/data/seo.js', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it\nwarning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it"
+  },
+  "promptMatchesAttachment": true,
+  "linksChecked": 105,
+  "brokenLinks": [],
+  "whitespace": [],
+  "checks": {
+    "count": 177,
+    "failures": []
+  },
+  "artifactUnchangedSinceTests": true,
+  "finalGenerationChange": "HMR explícitamente desactivado; cinco HTML y sitemap idénticos por SHA-256 a los validados",
+  "builds": {
+    "commercial": {
+      "date": "2026-10-18T16:14:44.026Z",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "docs/evidencias/PYP-025/build-comercial.mjs"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 21763,
+      "stdout": "docs/evidencias/PYP-025/build-comercial-01.stdout.txt",
+      "stderr": "docs/evidencias/PYP-025/build-comercial-01.stderr.txt"
+    },
+    "seo": {
+      "date": "2026-10-18T16:33:56.491Z",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "scripts/generar-seo.mjs",
+        "--outDir",
+        "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-025\\build-temporal\\comercial"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 8637,
+      "stdout": "docs/evidencias/PYP-025/generacion-seo-04.stdout.txt",
+      "stderr": "docs/evidencias/PYP-025/generacion-seo-04.stderr.txt"
+    },
+    "docs": {
+      "date": "2026-10-18T16:32:41.272Z",
+      "command": "C:\\nvm4w\\nodejs\\node.exe",
+      "args": [
+        "docs/evidencias/PYP-025/build-docs.mjs"
+      ],
+      "exitCode": 0,
+      "elapsedMs": 55487,
+      "stdout": "docs/evidencias/PYP-025/build-docs-01.stdout.txt",
+      "stderr": "docs/evidencias/PYP-025/build-docs-01.stderr.txt"
+    }
+  },
+  "audit": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "interactions": {
+    "structuredDataRemoved": true,
+    "restored": true,
+    "unnamedLinks": 0,
+    "imagesWithAltAndDimensions": true,
+    "labVitals": {
+      "lcp": 1320,
+      "cls": 0.004904776608187135
+    }
+  },
+  "docsRendered": true,
+  "formsSent": false,
+  "searchConsoleAccessed": false,
+  "commitPushDeploy": false
+}

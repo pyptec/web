@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-18T16:54:07.520Z",
+  "command": "C:\\nvm4w\\nodejs\\node.exe",
+  "args": [
+    "docs/evidencias/PYP-026/build-docs.mjs"
+  ],
+  "exitCode": 0,
+  "elapsedMs": 28897,
+  "stdout": "docs/evidencias/PYP-026/build-docs-01.stdout.txt",
+  "stderr": "docs/evidencias/PYP-026/build-docs-01.stderr.txt"
+}

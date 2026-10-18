@@ -1,0 +1,11 @@
+warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'public/sitemap.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'scripts/generar-seo.mjs', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/App.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/components/Seo.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/seo.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'vite.config.js', LF will be replaced by CRLF the next time Git touches it
+
+exitCode: 0

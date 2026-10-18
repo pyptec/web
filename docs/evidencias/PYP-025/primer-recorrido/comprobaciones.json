@@ -1,0 +1,1126 @@
+{
+  "date": "2026-10-18T16:21:35.277Z",
+  "checks": 177,
+  "failures": [
+    {
+      "label": "1440 /proyectos/clg/ Navbar/anclas",
+      "passed": false
+    },
+    {
+      "label": "375 /proyectos/clg/ Navbar/anclas",
+      "passed": false
+    }
+  ],
+  "results": [
+    {
+      "label": "SEO anterior idéntico /",
+      "passed": true
+    },
+    {
+      "label": "SEO anterior idéntico /iot-industrial",
+      "passed": true
+    },
+    {
+      "label": "SEO anterior idéntico /monitoreo-energetico",
+      "passed": true
+    },
+    {
+      "label": "SEO anterior idéntico /automatizacion-edge",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg title/description",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg canonical/OG",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg H1 único inicial",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg contenido inicial e hidratación",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg formulario estático intacto",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg sin noindex o assets de desarrollo",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/index-q99khGqm.js",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/index-JIlSDp2c.css",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /clg-audio-comercial.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/log_pyp-CfCiXRW3.webp",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /clg-audio-comercial.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-dashboard-BK4XM9aN.png",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-dashboard-BK4XM9aN.png",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-hat-Iht-aq6k.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-hat-Iht-aq6k.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-conexiones-GnmPDNcd.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-conexiones-GnmPDNcd.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-frontal-JDCeYRuN.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-frontal-JDCeYRuN.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-ethernet-DOpafke1.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg recurso /assets/clg-ethernet-DOpafke1.jpg",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg Organization única",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg JSON-LD específico",
+      "passed": true
+    },
+    {
+      "label": "/proyectos/clg sin FAQPage/precios/reviews",
+      "passed": true
+    },
+    {
+      "label": "/ title/description",
+      "passed": true
+    },
+    {
+      "label": "/ canonical/OG",
+      "passed": true
+    },
+    {
+      "label": "/ H1 único inicial",
+      "passed": true
+    },
+    {
+      "label": "/ contenido inicial e hidratación",
+      "passed": true
+    },
+    {
+      "label": "/ formulario estático intacto",
+      "passed": true
+    },
+    {
+      "label": "/ sin noindex o assets de desarrollo",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/index-q99khGqm.js",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/index-JIlSDp2c.css",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/log_pyp-CfCiXRW3.webp",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/clg-DhiTCHTU.jpeg",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/lps-dKCpr1sb.webp",
+      "passed": true
+    },
+    {
+      "label": "/ recurso /assets/rpi-DDLAJPsT.jpg",
+      "passed": true
+    },
+    {
+      "label": "/ Organization única",
+      "passed": true
+    },
+    {
+      "label": "/ JSON-LD específico",
+      "passed": true
+    },
+    {
+      "label": "/ sin FAQPage/precios/reviews",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial title/description",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial canonical/OG",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial H1 único inicial",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial contenido inicial e hidratación",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial formulario estático intacto",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial sin noindex o assets de desarrollo",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial recurso /assets/index-q99khGqm.js",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial recurso /assets/index-JIlSDp2c.css",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial recurso /assets/log_pyp-CfCiXRW3.webp",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial Organization única",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial JSON-LD específico",
+      "passed": true
+    },
+    {
+      "label": "/iot-industrial sin FAQPage/precios/reviews",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico title/description",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico canonical/OG",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico H1 único inicial",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico contenido inicial e hidratación",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico formulario estático intacto",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico sin noindex o assets de desarrollo",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/index-q99khGqm.js",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/index-JIlSDp2c.css",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/log_pyp-CfCiXRW3.webp",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/samee200-5_kmpS0Y.jpeg",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/lps-dKCpr1sb.webp",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/samee200-5_kmpS0Y.jpeg",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/paneles-solares-C7pGWbxP.webp",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/samee200-5_kmpS0Y.jpeg",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/lps-dKCpr1sb.webp",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/paneles-solares-C7pGWbxP.webp",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/alkosto-resumen-DpYwZI6t.png",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/alkosto-resumen-DpYwZI6t.png",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/alkosto-corrientes-BOfkpDuW.png",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/alkosto-corrientes-BOfkpDuW.png",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/can-j1939-dashboard-BfrJt0k0.png",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico recurso /assets/can-j1939-dashboard-BfrJt0k0.png",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico Organization única",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico JSON-LD específico",
+      "passed": true
+    },
+    {
+      "label": "/monitoreo-energetico sin FAQPage/precios/reviews",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge title/description",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge canonical/OG",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge H1 único inicial",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge contenido inicial e hidratación",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge formulario estático intacto",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge sin noindex o assets de desarrollo",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge recurso /assets/index-q99khGqm.js",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge recurso /assets/index-JIlSDp2c.css",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge recurso /assets/log_pyp-CfCiXRW3.webp",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge Organization única",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge JSON-LD específico",
+      "passed": true
+    },
+    {
+      "label": "/automatizacion-edge sin FAQPage/precios/reviews",
+      "passed": true
+    },
+    {
+      "label": "H1 CLG exacto",
+      "passed": true
+    },
+    {
+      "label": "Siete FAQ visibles",
+      "passed": true
+    },
+    {
+      "label": "Enlace rastreable desde Inicio/Proyectos",
+      "passed": true
+    },
+    {
+      "label": "Foto OG real e idéntica",
+      "passed": true
+    },
+    {
+      "label": "Infografía no publicada como prueba",
+      "passed": true
+    },
+    {
+      "label": "Hero priorizado y con dimensiones",
+      "passed": true
+    },
+    {
+      "label": "Sitemap cinco canonical únicas",
+      "passed": true
+    },
+    {
+      "label": "Sitemap público igual al generado",
+      "passed": true
+    },
+    {
+      "label": "Robots permite rastreo",
+      "passed": true
+    },
+    {
+      "label": "Prerender idempotente",
+      "passed": true
+    },
+    {
+      "label": "HTTP /proyectos/clg",
+      "passed": true
+    },
+    {
+      "label": "HTTP /proyectos/clg/",
+      "passed": true
+    },
+    {
+      "label": "HTTP /",
+      "passed": true
+    },
+    {
+      "label": "HTTP /iot-industrial",
+      "passed": true
+    },
+    {
+      "label": "HTTP /iot-industrial/",
+      "passed": true
+    },
+    {
+      "label": "HTTP /monitoreo-energetico",
+      "passed": true
+    },
+    {
+      "label": "HTTP /monitoreo-energetico/",
+      "passed": true
+    },
+    {
+      "label": "HTTP /automatizacion-edge",
+      "passed": true
+    },
+    {
+      "label": "HTTP /automatizacion-edge/",
+      "passed": true
+    },
+    {
+      "label": "HTTP recurso /robots.txt",
+      "passed": true
+    },
+    {
+      "label": "HTTP recurso /sitemap.xml",
+      "passed": true
+    },
+    {
+      "label": "HTTP recurso /favicon.svg",
+      "passed": true
+    },
+    {
+      "label": "HTTP recurso /clg-audio-comercial.jpg",
+      "passed": true
+    },
+    {
+      "label": "Navegador completado",
+      "passed": true
+    },
+    {
+      "label": "18 estados escritorio/móvil",
+      "passed": true
+    },
+    {
+      "label": "1440 / hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 / Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 / H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /monitoreo-energetico hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /monitoreo-energetico Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /monitoreo-energetico H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /monitoreo-energetico/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /monitoreo-energetico/ Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /monitoreo-energetico/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /iot-industrial hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /iot-industrial Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /iot-industrial H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /iot-industrial/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /iot-industrial/ Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /iot-industrial/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /automatizacion-edge hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /automatizacion-edge Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /automatizacion-edge H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /automatizacion-edge/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /automatizacion-edge/ Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /automatizacion-edge/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /proyectos/clg hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /proyectos/clg Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "1440 /proyectos/clg H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "1440 /proyectos/clg/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "1440 /proyectos/clg/ Navbar/anclas",
+      "passed": false
+    },
+    {
+      "label": "1440 /proyectos/clg/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 / hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 / Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 / H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /monitoreo-energetico hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /monitoreo-energetico Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /monitoreo-energetico H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /monitoreo-energetico/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /monitoreo-energetico/ Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /monitoreo-energetico/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /iot-industrial hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /iot-industrial Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /iot-industrial H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /iot-industrial/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /iot-industrial/ Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /iot-industrial/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /automatizacion-edge hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /automatizacion-edge Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /automatizacion-edge H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /automatizacion-edge/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /automatizacion-edge/ Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /automatizacion-edge/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /proyectos/clg hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /proyectos/clg Navbar/anclas",
+      "passed": true
+    },
+    {
+      "label": "375 /proyectos/clg H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "375 /proyectos/clg/ hidratación/SEO",
+      "passed": true
+    },
+    {
+      "label": "375 /proyectos/clg/ Navbar/anclas",
+      "passed": false
+    },
+    {
+      "label": "375 /proyectos/clg/ H1/IDs",
+      "passed": true
+    },
+    {
+      "label": "Consola sin errores/warnings",
+      "passed": true
+    },
+    {
+      "label": "Red sin fallos ni HTTP>=400",
+      "passed": true
+    },
+    {
+      "label": "Sin intentos de envío",
+      "passed": true
+    },
+    {
+      "label": "CLG visible sin JavaScript",
+      "passed": true
+    },
+    {
+      "label": "Tablet sin overflow",
+      "passed": true
+    }
+  ],
+  "parsed": [
+    {
+      "route": "/proyectos/clg",
+      "title": "Publicidad Programable y Audio Comercial | CLG PYP",
+      "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+      "canonical": "https://pyptecnologia.com/proyectos/clg/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Publicidad Programable y Audio Comercial | CLG PYP",
+        "og:description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+        "og:url": "https://pyptecnologia.com/proyectos/clg/",
+        "og:image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+        "og:image:type": "image/jpeg",
+        "og:image:width": "1599",
+        "og:image:height": "899",
+        "og:image:alt": "Equipo CLG de PYP con conector de audio y puerto serie, fotografiado sobre una mesa"
+      },
+      "h1s": [
+        "Publicidad programable y comunicación inteligente con CLG"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Inicio",
+                  "item": "https://pyptecnologia.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Proyectos",
+                  "item": "https://pyptecnologia.com/#proyectos"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "CLG",
+                  "item": "https://pyptecnologia.com/proyectos/clg/"
+                }
+              ]
+            },
+            {
+              "@type": "Product",
+              "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+              "name": "CLG — Cliente Ganador",
+              "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+              "url": "https://pyptecnologia.com/proyectos/clg/",
+              "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+              "brand": {
+                "@type": "Brand",
+                "name": "PYP"
+              },
+              "manufacturer": {
+                "@id": "https://pyptecnologia.com/#organization"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/",
+      "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+      "canonical": "https://pyptecnologia.com/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industriales, monitoreo energético, automatización, OEE y telemetría LoRaWAN. Hardware, gateways Edge y software desarrollado en Colombia.",
+        "og:url": "https://pyptecnologia.com/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Datos industriales para mejorar energía, producción y procesos"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/iot-industrial",
+      "title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+      "description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "canonical": "https://pyptecnologia.com/iot-industrial/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+        "og:description": "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+        "og:url": "https://pyptecnologia.com/iot-industrial/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Conectamos equipos, sensores y procesos con datos confiables"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/monitoreo-energetico",
+      "title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+      "description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "canonical": "https://pyptecnologia.com/monitoreo-energetico/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+        "og:description": "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+        "og:url": "https://pyptecnologia.com/monitoreo-energetico/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Monitoreo energético industrial y solar"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    },
+    {
+      "route": "/automatizacion-edge",
+      "title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+      "description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "canonical": "https://pyptecnologia.com/automatizacion-edge/",
+      "og": {
+        "og:type": "website",
+        "og:locale": "es_CO",
+        "og:site_name": "PYP Tecnología Electrónica SAS",
+        "og:title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+        "og:description": "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+        "og:url": "https://pyptecnologia.com/automatizacion-edge/",
+        "og:image": "https://pyptecnologia.com/og-pyp.png",
+        "og:image:type": "image/png",
+        "og:image:width": "1448",
+        "og:image:height": "1086",
+        "og:image:alt": "Logotipo PYP Tecnología Electrónica SAS"
+      },
+      "h1s": [
+        "Automatización industrial y <span class=\"text-[#416D13]\">Edge Computing</span>"
+      ],
+      "json": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://pyptecnologia.com/#organization",
+          "name": "PYP Tecnología Electrónica SAS",
+          "legalName": "PYP Tecnología Electrónica S.A.S.",
+          "url": "https://pyptecnologia.com/",
+          "description": "Empresa colombiana de ingeniería electrónica especializada en IoT industrial, monitoreo energético, automatización, adquisición de datos, gateways Edge y comunicaciones industriales.",
+          "email": "jaime.pedraza@pyptecnologia.com",
+          "telephone": "+57 320 492 9150",
+          "areaServed": {
+            "@type": "Country",
+            "name": "Colombia"
+          },
+          "knowsAbout": [
+            "Internet industrial de las cosas (IIoT)",
+            "Monitoreo energético industrial",
+            "Eficiencia energética",
+            "ISO 50001",
+            "Automatización industrial",
+            "Edge Computing",
+            "LoRaWAN",
+            "Modbus",
+            "MQTT",
+            "Medición de energía eléctrica",
+            "Sistemas de adquisición de datos"
+          ],
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "Información comercial y proyectos",
+            "telephone": "+57 320 492 9150",
+            "email": "jaime.pedraza@pyptecnologia.com",
+            "availableLanguage": "Spanish",
+            "areaServed": "CO"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          "@id": "https://pyptecnologia.com/#website",
+          "name": "PYP Tecnología",
+          "url": "https://pyptecnologia.com/",
+          "inLanguage": "es-CO",
+          "publisher": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": "Pruebas locales; LCP/CLS laboratorio, sin INP/CrUX/indexación; sin publicación ni envíos."
+}

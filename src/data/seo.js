@@ -1,6 +1,13 @@
+import { CLG_HERO, CLG_TITLE, CLG_DESCRIPTION } from "./clg-meta.js";
+
 export const SITE_URL = "https://pyptecnologia.com";
 
 export const SEO_PAGES = {
+  "/proyectos/clg": {
+    title: CLG_TITLE,
+    description: CLG_DESCRIPTION,
+    image: { url: SITE_URL + CLG_HERO.src, type: "image/jpeg", width: CLG_HERO.width, height: CLG_HERO.height, alt: CLG_HERO.alt },
+  },
   "/": {
     title: "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
     description:
@@ -35,5 +42,5 @@ export function getSeoPage(pathname) {
   const normalizedPathname = pathname.replace(/\/+$/, "") || "/";
   const route = Object.hasOwn(SEO_PAGES, normalizedPathname) ? normalizedPathname : "/";
   const canonical = SITE_URL + (route === "/" ? "/" : route + "/");
-  return { ...SEO_PAGES[route], canonical, image: SHARE_IMAGE };
+  return { ...SEO_PAGES[route], canonical, image: SEO_PAGES[route].image ?? SHARE_IMAGE };
 }

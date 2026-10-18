@@ -2,6 +2,7 @@
 import { useEffect } from "react";
 
 import { getSeoPage } from "../data/seo.js";
+import { getPageStructuredData } from "../data/structuredData.js";
 
 function setMeta(attribute, key, content) {
   let element = document.head.querySelector(
@@ -43,6 +44,20 @@ export default function Seo({ path }) {
     }
 
     link.setAttribute("href", canonical);
+
+    const structuredData = getPageStructuredData(path);
+    let script = document.getElementById("page-structured-data");
+    if (structuredData) {
+      if (!script) {
+        script = document.createElement("script");
+        script.id = "page-structured-data";
+        script.type = "application/ld+json";
+        document.head.appendChild(script);
+      }
+      script.textContent = JSON.stringify(structuredData);
+    } else {
+      script?.remove();
+    }
   }, [path]);
 
   return null;

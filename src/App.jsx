@@ -221,6 +221,7 @@ export default function App() {
               <div className="mt-4 flex flex-wrap gap-2">
                 <Pill>Multi-sede</Pill><Pill>Control central</Pill><Pill>Edge/Cloud</Pill><Pill>Gestión remota</Pill>
               </div>
+              <a href="/proyectos/clg/" className="mt-6 inline-flex min-h-11 w-fit items-center rounded-xl bg-[#A6CE39] px-5 py-3 font-semibold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">Conocer CLG →</a>
             </div>
           </article>
 

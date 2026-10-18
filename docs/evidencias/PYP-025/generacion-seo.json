@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-18T16:33:56.491Z",
+  "command": "C:\\nvm4w\\nodejs\\node.exe",
+  "args": [
+    "scripts/generar-seo.mjs",
+    "--outDir",
+    "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-025\\build-temporal\\comercial"
+  ],
+  "exitCode": 0,
+  "elapsedMs": 8637,
+  "stdout": "docs/evidencias/PYP-025/generacion-seo-04.stdout.txt",
+  "stderr": "docs/evidencias/PYP-025/generacion-seo-04.stderr.txt"
+}

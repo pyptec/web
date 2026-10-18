@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-18T16:27:32.931Z",
+  "before": {
+    "url": "http://127.0.0.1:54186/proyectos/clg/",
+    "schema": {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://pyptecnologia.com/proyectos/clg/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Inicio",
+              "item": "https://pyptecnologia.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Proyectos",
+              "item": "https://pyptecnologia.com/#proyectos"
+            },
+            {
+              "@type": "ListItem",
+              "position": 3,
+              "name": "CLG",
+              "item": "https://pyptecnologia.com/proyectos/clg/"
+            }
+          ]
+        },
+        {
+          "@type": "Product",
+          "@id": "https://pyptecnologia.com/proyectos/clg/#producto",
+          "name": "CLG — Cliente Ganador",
+          "description": "Sistema CLG de PYP para publicidad programable, música y mensajes automáticos por horarios o eventos. 47 unidades instaladas en Colombia.",
+          "url": "https://pyptecnologia.com/proyectos/clg/",
+          "image": "https://pyptecnologia.com/clg-audio-comercial.jpg",
+          "brand": {
+            "@type": "Brand",
+            "name": "PYP"
+          },
+          "manufacturer": {
+            "@id": "https://pyptecnologia.com/#organization"
+          }
+        }
+      ]
+    },
+    "vitals": {
+      "lcp": 1320,
+      "cls": 0.004904776608187135
+    },
+    "images": [
+      {
+        "alt": "Equipo CLG de PYP con conector de audio y puerto serie, fotografiado sobre una mesa",
+        "width": "1599",
+        "height": "899",
+        "loading": "eager"
+      },
+      {
+        "alt": "Captura de Cliente Ganador con la interfaz de carga y listado de archivos de audio",
+        "width": "1110",
+        "height": "823",
+        "loading": "lazy"
+      },
+      {
+        "alt": "Hardware HAT de PYP montado dentro del gabinete CLG, con borneras y relés",
+        "width": "721",
+        "height": "1600",
+        "loading": "lazy"
+      },
+      {
+        "alt": "Vista del equipo CLG con conectores rotulados AUDIO y PWR y conector serie",
+        "width": "721",
+        "height": "1600",
+        "loading": "lazy"
+      },
+      {
+        "alt": "Frente del equipo CLG con pulsador rojo, indicador y conectores",
+        "width": "721",
+        "height": "1600",
+        "loading": "lazy"
+      },
+      {
+        "alt": "Equipo CLG con pulsador, indicador, puertos USB y conector Ethernet",
+        "width": "1599",
+        "height": "899",
+        "loading": "lazy"
+      }
+    ],
+    "headings": [
+      {
+        "level": "H1",
+        "text": "Publicidad programable y comunicación inteligente con CLG"
+      },
+      {
+        "level": "H2",
+        "text": "Publicidad y música para establecimientos comerciales"
+      },
+      {
+        "level": "H3",
+        "text": "Música y anuncios"
+      },
+      {
+        "level": "H3",
+        "text": "Mensajes en su momento"
+      },
+      {
+        "level": "H3",
+        "text": "Contenidos desde una red"
+      },
+      {
+        "level": "H2",
+        "text": "Mensajes automáticos programados por horario"
+      },
+      {
+        "level": "H3",
+        "text": "Preparar"
+      },
+      {
+        "level": "H3",
+        "text": "Programar"
+      },
+      {
+        "level": "H3",
+        "text": "Comunicar"
+      },
+      {
+        "level": "H2",
+        "text": "Activación de anuncios mediante pulsadores y eventos"
+      },
+      {
+        "level": "H3",
+        "text": "01 · Recibir"
+      },
+      {
+        "level": "H3",
+        "text": "02 · Configurar"
+      },
+      {
+        "level": "H3",
+        "text": "03 · Actuar"
+      },
+      {
+        "level": "H2",
+        "text": "Administración de campañas desde una red"
+      },
+      {
+        "level": "H3",
+        "text": "Red interna"
+      },
+      {
+        "level": "H3",
+        "text": "Acceso remoto"
+      },
+      {
+        "level": "H3",
+        "text": "Varias ubicaciones"
+      },
+      {
+        "level": "H2",
+        "text": "Hardware y conectividad del equipo CLG"
+      },
+      {
+        "level": "H3",
+        "text": "HAT PYP"
+      },
+      {
+        "level": "H3",
+        "text": "Interfaces"
+      },
+      {
+        "level": "H3",
+        "text": "Audio y amplificador"
+      },
+      {
+        "level": "H3",
+        "text": "Acciones externas"
+      },
+      {
+        "level": "H2",
+        "text": "Soluciones CLG Media, Alert y Safety IP"
+      },
+      {
+        "level": "H3",
+        "text": "Publicidad y música que acompañan su operación"
+      },
+      {
+        "level": "H3",
+        "text": "Avisos conectados a señales y eventos"
+      },
+      {
+        "level": "H3",
+        "text": "Integraciones de comunicación por IP"
+      },
+      {
+        "level": "H2",
+        "text": "El equipo CLG en detalle"
+      },
+      {
+        "level": "H2",
+        "text": "Aplicaciones en supermercados y comercios"
+      },
+      {
+        "level": "H3",
+        "text": "Supermercados"
+      },
+      {
+        "level": "H3",
+        "text": "Almacenes"
+      },
+      {
+        "level": "H3",
+        "text": "Señales de operación"
+      },
+      {
+        "level": "H2",
+        "text": "Preguntas frecuentes"
+      },
+      {
+        "level": "H3",
+        "text": "¿Qué es un sistema de publicidad programable por audio?"
+      },
+      {
+        "level": "H3",
+        "text": "¿Cómo se programan anuncios de audio en un supermercado?"
+      },
+      {
+        "level": "H3",
+        "text": "¿CLG puede funcionar sin conexión a Internet?"
+      },
+      {
+        "level": "H3",
+        "text": "¿Puede conectarse al amplificador de sonido existente?"
+      },
+      {
+        "level": "H3",
+        "text": "¿Puede reproducir un mensaje al presionar un botón?"
+      },
+      {
+        "level": "H3",
+        "text": "¿Puede administrar campañas en varias ubicaciones?"
+      },
+      {
+        "level": "H3",
+        "text": "¿Qué diferencia existe entre CLG Media y CLG Alert?"
+      },
+      {
+        "level": "H2",
+        "text": "Conecte sus mensajes con la operación de su establecimiento"
+      }
+    ],
+    "unnamedLinks": 0
+  },
+  "after": {
+    "url": "http://127.0.0.1:54186/#contacto",
+    "title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+    "schemaPresent": false,
+    "canonical": "https://pyptecnologia.com/"
+  },
+  "restored": {
+    "url": "http://127.0.0.1:54186/proyectos/clg/",
+    "canonical": "https://pyptecnologia.com/proyectos/clg/",
+    "graphCount": 1,
+    "product": 1
+  },
+  "consoleEvents": [],
+  "failures": [],
+  "networkErrors": [],
+  "blocked": [],
+  "limitations": "LCP/CLS locales de laboratorio en una visita, sin INP de campo ni auditoría WCAG completa."
+}

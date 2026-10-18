@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-18T17:01:59.357Z",
+  "command": "C:\\nvm4w\\nodejs\\node.exe",
+  "args": [
+    "docs/evidencias/PYP-027/build-comercial.mjs"
+  ],
+  "exitCode": 0,
+  "elapsedMs": 24069,
+  "stdout": "docs/evidencias/PYP-027/build-comercial-01.stdout.txt",
+  "stderr": "docs/evidencias/PYP-027/build-comercial-01.stderr.txt"
+}

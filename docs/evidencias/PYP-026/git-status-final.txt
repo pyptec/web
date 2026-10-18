@@ -1,0 +1,31 @@
+ D 01_ESTADO_Y_BITACORA.md
+ D 04_BITACORA_001_RESULTADO.md
+ M docs/BITACORA_DESARROLLO.md
+ M docs/prompts/index.md
+ M public/sitemap.xml
+ M scripts/generar-seo.mjs
+ M src/App.jsx
+ M src/components/Seo.jsx
+ M src/data/seo.js
+ M src/main.jsx
+ M vite.config.js
+?? docs/arquitectura/PYP-024-clg.md
+?? docs/arquitectura/PYP-025-clg-seo.md
+?? docs/evidencias/PYP-019/main.jsx.before.txt
+?? docs/evidencias/PYP-022/diff-producto.patch
+?? docs/evidencias/PYP-023/
+?? docs/evidencias/PYP-024/
+?? docs/evidencias/PYP-025/
+?? docs/evidencias/PYP-026/
+?? docs/prompts/PYP-024.md
+?? docs/prompts/PYP-025-confirmacion-funciones.md
+?? docs/prompts/PYP-025.md
+?? docs/prompts/PYP-026.md
+?? public/clg-audio-comercial.jpg
+?? src/SiteRoutes.jsx
+?? src/assets/proyectos/clg/
+?? src/data/clg-meta.js
+?? src/data/clg.js
+?? src/data/structuredData.js
+?? src/entry-server.jsx
+?? src/pages/CLG.jsx

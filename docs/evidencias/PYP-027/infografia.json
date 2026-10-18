@@ -1,0 +1,256 @@
+{
+  "date": "2026-10-18T17:05:05.863Z",
+  "results": [
+    {
+      "width": 1440,
+      "overflow": false,
+      "natural": [
+        1536,
+        1024
+      ],
+      "rendered": [
+        622.390625,
+        414.921875
+      ],
+      "objectFit": "contain",
+      "alt": "Infografía comercial de CLG: equipo, hardware HAT, conexiones y arquitectura de administración y audio",
+      "src": "http://127.0.0.1:59125/assets/clg-infografia-BbWtLpoZ.png",
+      "href": "http://127.0.0.1:59125/assets/clg-infografia-BbWtLpoZ.png",
+      "target": "_blank",
+      "priority": "high",
+      "loading": "eager",
+      "caption": null,
+      "technicalPhoto": true,
+      "galleryImages": 3,
+      "canonical": "https://pyptecnologia.com/proyectos/clg/",
+      "passed": true,
+      "fullImageHTTP": 200,
+      "fullImageBytes": 1896839,
+      "galleryLoaded": true
+    },
+    {
+      "width": 390,
+      "overflow": false,
+      "natural": [
+        1536,
+        1024
+      ],
+      "rendered": [
+        300,
+        200
+      ],
+      "objectFit": "contain",
+      "alt": "Infografía comercial de CLG: equipo, hardware HAT, conexiones y arquitectura de administración y audio",
+      "src": "http://127.0.0.1:59125/assets/clg-infografia-BbWtLpoZ.png",
+      "href": "http://127.0.0.1:59125/assets/clg-infografia-BbWtLpoZ.png",
+      "target": "_blank",
+      "priority": "high",
+      "loading": "eager",
+      "caption": null,
+      "technicalPhoto": true,
+      "galleryImages": 3,
+      "canonical": "https://pyptecnologia.com/proyectos/clg/",
+      "passed": true,
+      "fullImageHTTP": 200,
+      "fullImageBytes": 1896839,
+      "galleryLoaded": true
+    }
+  ],
+  "consoleEvents": [],
+  "network": [
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/proyectos/clg/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/index-ZRH8yTZa.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/clg-audio-comercial.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-infografia-BbWtLpoZ.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/index-BAl7ammu.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/favicon.svg",
+      "status": 200,
+      "mime": "image/svg+xml",
+      "type": "Other"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-hat-Iht-aq6k.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-frontal-JDCeYRuN.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-conexiones-GnmPDNcd.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 1440,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-ethernet-DOpafke1.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-dashboard-BK4XM9aN.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/proyectos/clg/",
+      "status": 200,
+      "mime": "text/html",
+      "type": "Document"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/index-ZRH8yTZa.css",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/clg-audio-comercial.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/log_pyp-CfCiXRW3.webp",
+      "status": 200,
+      "mime": "image/webp",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-infografia-BbWtLpoZ.png",
+      "status": 200,
+      "mime": "image/png",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap",
+      "status": 200,
+      "mime": "text/css",
+      "type": "Stylesheet"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "https://fonts.gstatic.com/s/inter/v20/UcC73FwrK3iLTeHuS_nVMrMxCp50SjIa1ZL7.woff2",
+      "status": 200,
+      "mime": "font/woff2",
+      "type": "Font"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/index-BAl7ammu.js",
+      "status": 200,
+      "mime": "application/javascript",
+      "type": "Script"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-frontal-JDCeYRuN.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    },
+    {
+      "width": 390,
+      "route": "/proyectos/clg/",
+      "url": "http://127.0.0.1:59125/assets/clg-ethernet-DOpafke1.jpg",
+      "status": 200,
+      "mime": "image/jpeg",
+      "type": "Image"
+    }
+  ],
+  "failures": [],
+  "blocked": []
+}
