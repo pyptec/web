@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+const base='docs/evidencias/PYP-031';
+const original=JSON.parse(fs.readFileSync(base+'/integridad-inicial.json','utf8'));
+const results=Object.entries(original).map(([file,hash])=>({file,ok:fs.existsSync(file)&&createHash('sha256').update(fs.readFileSync(file)).digest('hex')===hash}));
+const staged=execFileSync('git',['diff','--cached','--name-only'],{encoding:'utf8'}).trim();
+const result={date:'2026-10-19',checked:results.length,distFiles:results.filter(r=>r.file.startsWith('dist/')).length,failed:results.filter(r=>!r.ok),indexEmpty:staged==='',results};
+fs.writeFileSync(base+'/integridad-final.json',JSON.stringify(result,null,2)+'\n');
+fs.writeFileSync(base+'/git-final.txt',execFileSync('git',['status','--short'],{encoding:'utf8'}));
+console.log(JSON.stringify({checked:result.checked,distFiles:result.distFiles,failed:result.failed,indexEmpty:result.indexEmpty}));
+if(result.failed.length||!result.indexEmpty||result.distFiles!==17)process.exitCode=1;

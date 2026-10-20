@@ -1,8 +1,14 @@
+import { RPI_MDFR_HERO, RPI_MDFR_TITLE, RPI_MDFR_DESCRIPTION } from "./rpi-mdfr-meta.js";
 import { CLG_HERO, CLG_TITLE, CLG_DESCRIPTION } from "./clg-meta.js";
 
 export const SITE_URL = "https://pyptecnologia.com";
 
 export const SEO_PAGES = {
+  "/proyectos/rpi-mdfr": {
+    title: RPI_MDFR_TITLE,
+    description: RPI_MDFR_DESCRIPTION,
+    image: { url: SITE_URL + RPI_MDFR_HERO.src, type: "image/png", width: RPI_MDFR_HERO.width, height: RPI_MDFR_HERO.height, alt: RPI_MDFR_HERO.alt },
+  },
   "/proyectos/clg": {
     title: CLG_TITLE,
     description: CLG_DESCRIPTION,

@@ -1,0 +1,224 @@
+{
+  "date": "2026-10-19",
+  "results": [
+    {
+      "name": "Infografía se amplía en pestaña nueva",
+      "ok": true
+    },
+    {
+      "name": "Analytics RPI: una vista con canonical y título propios",
+      "ok": true
+    },
+    {
+      "name": "React StrictMode desarrollo: una inicialización/vista",
+      "ok": true
+    },
+    {
+      "name": "StrictMode cambio ruta: una vista adicional",
+      "ok": true
+    },
+    {
+      "name": "StrictMode listener contacto sin duplicados",
+      "ok": true
+    },
+    {
+      "name": "Sin excepciones JavaScript",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Nunca generate_lead ficticio",
+      "ok": true
+    },
+    {
+      "name": "ID correcto en todas las cargas interceptadas",
+      "ok": true
+    }
+  ],
+  "passed": 8,
+  "failed": 0,
+  "exceptions": [],
+  "commands": [
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "js",
+        "2026-10-19T16:41:08.109Z"
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "js",
+        "2026-10-19T16:41:16.506Z"
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "event",
+        "contact_cta_click",
+        {
+          "page_path": "/proyectos/clg/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "tagRequests": [
+    {
+      "phase": "rpi-zoom",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    },
+    {
+      "phase": "strictmode-dev",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    }
+  ],
+  "limitations": "Edge emulado local (390/1440); etiqueta Google sustituida, todos los externos interceptados, POST bloqueados. No confirma recepción ni configuración GA4 real, ni recepción Netlify."
+}

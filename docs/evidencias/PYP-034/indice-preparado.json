@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-19",
+  "files": 146,
+  "indexTree": "78573c88a5329bff0c1c13008adfb1906effacf3",
+  "partialFiles": [
+    "docs/BITACORA_DESARROLLO.md",
+    "docs/prompts/index.md"
+  ],
+  "commitExecuted": false,
+  "pushExecuted": false,
+  "condition": "Pendiente de configuración GA4 confirmada por el propietario; NO commit/push."
+}

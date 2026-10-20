@@ -1,0 +1,57 @@
+# PYP-034 — Preparación de publicación conjunta
+
+Fecha: 2026-10-19 (America/Bogota). [Prompt y aclaración](../../prompts/PYP-034.md).
+
+Estado inicial: main, HEAD 6dd7bbe5cafbfda5ed8605893f4bd78b619bae39. Cambios PYP-030/031/032 y documentación previa presentes; sin conflictos ni staging inicial. Inventario en git-inicial.txt; diff inicial e integridad por hashes conservados. RPI-MDFR aprobado visualmente por el propietario en PYP-034.
+
+**Condición de publicación pendiente:** el propietario confirmó que todavía están pendientes los ajustes críticos de GA4 G-WJ6METJRZD (Medición mejorada/historial/formularios y revisión de etiquetas/recopilación). La implementación manual usa send_page_view: false; eso no desactiva los eventos automáticos por historial configurados remotamente. No se puede garantizar ausencia de duplicados ni automatismos fuera de la lista de parámetros aprobada sin revisar esa configuración. No se publica bajo esa incertidumbre, conforme al apartado 2 y autorización condicionada del apartado 4 del prompt. No se solicitan nuevamente permisos de commit/push: la autorización existe; falta cumplir su condición.
+
+Se completan de forma independiente build, prerender, SEO, Analytics, navegación, documentación, selección de archivos, revisión de secretos y verificación pública de referencia. No se cambian diseño, funcionalidades, código comercial ni dependencias. Se prepara un índice selectivo revisable; commit y push quedan pendientes de validar GA4. Un push puede activar automáticamente Netlify, por lo que no se usa como paso inocuo mientras siga pendiente esta condición.
+
+## Validaciones locales ejecutadas
+
+- Build comercial y prerender temporal de seis rutas: código 0. Salida en build-temporal/comercial, sin usar dist. Logs build-comercial.txt y prerender.txt.
+- [SEO](./seo.json): 77 controles correctos, cero fallos. CLG y otras tres páginas interiores conservan su main anterior; en Inicio solo cambia la tarjeta/import RPI. Canonical/OG/sitemap, imágenes originales, WebPage/BreadcrumbList y ausencia de Product correctos. Formulario y otras tarjetas sin cambios.
+- [Analytics](./analytics-tests.txt): 14 pruebas correctas. ID G-WJ6METJRZD, consentimiento/rechazo/revocación, navegación manual, filtros de parámetros y no emisión ficticia de generate_lead.
+- [Navegación Edge](./navegador.json): 46 controles correctos en una ejecución completa. Seis rutas, 1440/390, ampliación real de infografía, galería, contacto, consentimiento y StrictMode. Etiqueta Google sustituida por stub y POST interceptados, sin envíos reales ni datos a la propiedad. Esto valida el código local; no garantiza los ajustes remotos GA4 pendientes.
+- [Manifiesto selectivo](./manifiesto.json) y [revisión de secretos](./revision-secretos.json): selección explícita de fuentes, imágenes, documentación y evidencias de PYP-030/031/032/034; sin hallazgos de patrones de credenciales conocidos. El ID de medición es público. Bajas raíz y cambios ajenos siguen fuera del alcance.
+
+[Integridad](./integridad-final.json): 162 archivos protegidos sin diferencias, incluidos los 17 dist, fuentes comerciales, formulario, dependencias y evidencias PYP-030/031/032. [VitePress estricto](./build-docs.txt): código 0, sin excepciones de enlaces. [git diff --check](./diff-check.txt): código 0, solo avisos LF/CRLF. No se modificó código comercial, dependencias ni diseño durante PYP-034. Sin envíos reales al formulario ni eventos de prueba a la propiedad GA4.
+
+## Ajustes que debe realizar el propietario
+
+En GA4 → Administrar → Flujos de datos → flujo web G-WJ6METJRZD → Medición mejorada, desactivar la medición mejorada para mantener solo los eventos manuales implementados; especialmente cambios de página por historial e interacción con formularios. Revisar etiquetas/destinos conectados, creación/modificación de eventos, Google Signals, personalización publicitaria y recopilación de datos proporcionados por usuarios; no habilitar estas últimas. Configurar la retención adecuada y completar la revisión del aviso de privacidad/tratamiento según lo ya documentado en PYP-031. Confirmar el estado resultante para repetir la verificación específica y continuar con el commit/push ya autorizado. No se modificó ninguna cuenta Google.
+
+Referencia técnica: [Google: vistas manuales y medición mejorada](https://developers.google.com/analytics/devguides/collection/ga4/views). [Arquitectura y pendientes de PYP-031](../../arquitectura/PYP-031-analytics.md). Vinculación Search Console/GA4, validación de indexación CLG tras retirar Product y nueva URL RPI pendientes de publicación real; no se crean propiedades nuevas ni conversiones ficticias. generate_lead continúa sin activar por falta de confirmación verificable del POST nativo Netlify.
+
+## GitHub y Netlify
+
+No hay SHA nuevo ni push de PYP-034 mientras no se supere la condición de GA4. No existe por tanto un despliegue correspondiente a un SHA nuevo que se pueda verificar. El agotamiento de créditos fue informado anteriormente por el propietario; no se afirma que siga vigente sin evidencia actual del panel. No se realizan pagos ni cambios de plan. Se verificará la entrega pública de referencia sin confundir HTTP 200 con publicación de este ajuste.
+
+## Evidencia pública y configuración GA4
+
+[HTTP de referencia](./http-publico-pre.json): 29 solicitudes GET, seis rutas consultadas. Las seis responden 200, pero ninguna coincide con los assets del nuevo build; CLG conserva el título anterior «Publicidad Programable y Audio Comercial | CLG PYP». /proyectos/rpi-mdfr/ devuelve el título y canonical de Inicio, no la nueva página; /rpi-mdfr-infografia.png devuelve text/html en vez de image/png. El sitemap público conserva cinco rutas. Esto es contenido anterior/fallback SPA, no publicación de RPI. No se ejecutó un formulario real ni se activó la etiqueta en producción.
+
+[Etiqueta GA4 pública](./ga4-etiqueta-publica.json): descarga estática HTTP 200 sin ejecutar JavaScript ni enviar eventos. Contiene indicadores vtp_enableHistoryEvents=true, vtp_enableForm=true, vtp_enableOutboundClick=true y vtp_enablePageView=true, entre otros. Son evidencia adicional compatible con los ajustes pendientes confirmados por el propietario; no sustituyen la revisión administrativa ni permiten garantizar la configuración efectiva por sí solos. Google documenta que send_page_view:false no desactiva Medición mejorada por historial. Por tanto se mantiene la condición crítica sin superar y no se dispara una publicación automática mediante push.
+
+Git remoto: fetch origin main correcto, main y origin/main sin divergencia (0/0), ls-remote confirma 6dd7bbe5cafbfda5ed8605893f4bd78b619bae39. No hay nuevo commit de PYP-034 ni push. Sin CLI/estado local Netlify disponible ni acceso autenticado al panel; no se confirma el estado de créditos ni una causa de bloqueo a partir del HTML. No se realizan pagos/cambios de plan.
+
+## Selección preparada para revisión
+
+Se prepara staging selectivo según manifiesto, sin commit. Bitácora e índice de prompts se incorporan parcialmente: solo los apéndices/listados PYP-030/031/032/034 sobre su versión HEAD; las secciones previas ajenas permanecen locales. No se incluyen las bajas raíz, PYP-024, cierre/evidencias pendientes de PYP-029 ni temporales/perfiles. La copia de la selección se compila y verifica por separado antes de considerar listo el commit; su resultado se conserva en las evidencias de selección. La autorización de commit/push permanece vigente y condicionada a superar los ajustes GA4, sin pedir otra autorización genérica.
+
+Incidencia de selección: git diff --cached --check detectó una línea vacía con un espacio en dos auxiliares de navegador y los espacios de contexto propios del diff bruto inicial. Se conserva íntegra la versión original PYP-032 en navegador-PYP-032-original.json (texto completo y hash); el auxiliar y su copia PYP-034 retiran únicamente el espacio de una línea vacía. No cambia su lógica. El diff bruto queda local y fuera del manifiesto. No se modifica lógica, producto ni dependencias. Detalle conservado en incidencia-indice.txt.
+
+Comprobación de selección: una primera comparación binaria de fuentes detectó únicamente CRLF/LF normalizados por Git. Se ajustó el auxiliar para comparar texto normalizando solo esos saltos, manteniendo comparación byte a byte de imágenes. Build/prerender/SEO/VitePress de esa copia ya habían terminado con código 0. La comprobación final de fuentes y formularios se repite sobre una nueva copia del índice. Integridad final distinguirá 161 archivos byteidénticos y un auxiliar documental con formato normalizado, cuyo original completo queda preservado; los 17 dist y todas las fuentes comerciales siguen byteidénticos.
+
+## Cierre de preparación — 2026-10-19
+
+[Selección validada](./seleccion-validada.json): árbol eb3bcefa5ab5e100d332f96e5788f3ef38f916c2, build comercial, prerender, 77 controles SEO y VitePress estricto de la copia seleccionada correctos. Las 20 fuentes/imágenes seleccionadas coinciden con el árbol local normalizando solo CRLF/LF en texto, y las imágenes coinciden byte a byte. Los seis formularios estáticos coinciden con index.html normalizando CRLF. Las fuentes no cambian durante el cierre documental. La última evidencia de selección sustituye el falso fallo binario de CRLF, sin ocultarlo en la cronología anterior.
+
+Índice preparado selectivamente con las fuentes PYP-030/031/032, documentación y evidencias correspondientes y esta auditoría PYP-034. Los 17 dist, código comercial, formulario y dependencias permanecen intactos. De los 162 archivos iniciales protegidos, 161 permanecen byteidénticos; el único cambio es retirar el espacio de una línea vacía del auxiliar documental PYP-032, con original íntegro preservado en navegador-PYP-032-original.json y verificado por hash. Se mantienen las secciones ajenas de bitácora/índice y demás archivos excluidos en el árbol de trabajo.
+
+**Commit y push no ejecutados. No hay SHA nuevo.** SHA actual de main y origin/main: 6dd7bbe5cafbfda5ed8605893f4bd78b619bae39. La autorización expresa de PYP-034 no se revoca ni se solicita de nuevo; se espera cumplir su condición crítica GA4 antes de usarla. Mensaje listo en commit-propuesto.txt. [Estado de publicación](./estado-publicacion.json). Las pruebas locales satisfactorias no certifican la privacidad de automatismos configurados en la cuenta remota.
+
+**Netlify:** no hay despliegue de un SHA nuevo de PYP-034, porque no se hizo push. La referencia pública entrega la versión anterior/fallback y no la nueva página RPI. El estado actual de créditos/cola/build no es verificable sin acceso autenticado al panel; el bloqueo por créditos permanece como antecedente informado por el propietario, no como diagnóstico actual confirmado. Sin pagos ni cambios de plan.
+
+**Acción pendiente del propietario:** desactivar Medición mejorada (incluidos historial, formularios y clics salientes automáticos) en G-WJ6METJRZD y revisar etiquetas conectadas, recopilación de datos de usuarios/Signals y privacidad/retención. Después se revalida ese punto y se continúa con el único commit/push ya autorizado, reconfirmando origin/main. Tras publicación real: verificar Netlify por SHA, seis rutas/imágenes/sitemap/canonical/JSON-LD/OG, consentimiento y eventos sin duplicados; validar Search Console CLG/RPI y vinculación con GA4. No se realizaron envíos de contacto reales ni se activó generate_lead.

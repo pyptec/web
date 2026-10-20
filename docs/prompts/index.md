@@ -48,3 +48,19 @@
 - [PYP-028 — CLG: audio inteligente, automatización IoT y caso de éxito](./PYP-028.md)
 
 - [PYP-029 — Publicación CLG y estrategia SEO competitiva](./PYP-029.md)
+
+- [PYP-030 — Corrección de datos estructurados de CLG](./PYP-030.md)
+
+- [PYP-031 — Integración profesional de Google Analytics 4](./PYP-031.md)
+
+- [PYP-032 — Infografía oficial y página RPI-MDFR](./PYP-032.md)
+
+- [PYP-034 — Publicación conjunta de PYP-030, PYP-031 y PYP-032](./PYP-034.md)
+
+- [PYP-035 — Corrección final GA4 y publicación conjunta](./PYP-035.md)
+
+- [PYP-035 — Confirmación de configuración GA4](./PYP-035-confirmacion-ga4.md)
+
+- [PYP-035 — Diagnóstico definitivo de discrepancia GA4](./PYP-035-diagnostico-ga4.md)
+
+- [PYP-035 — Verificación final GA4 y publicación](./PYP-035-verificacion-final-publicacion.md)

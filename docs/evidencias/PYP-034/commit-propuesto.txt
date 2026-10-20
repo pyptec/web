@@ -1,0 +1,7 @@
+feat: integrar GA4 y página RPI-MDFR con correcciones SEO
+
+Retirar Product de CLG, incorporar analítica con consentimiento y añadir RPI-MDFR con seis rutas prerenderizadas.
+
+Incluye documentación y evidencias PYP-030, PYP-031, PYP-032 y PYP-034.
+
+NO EJECUTADO: completar y verificar primero los ajustes críticos GA4 confirmados pendientes por el propietario.

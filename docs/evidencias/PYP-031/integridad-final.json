@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-19",
+  "checked": 72,
+  "distFiles": 17,
+  "failed": [],
+  "indexEmpty": true,
+  "results": [
+    {
+      "file": "dist/assets/alkosto-corrientes-BOfkpDuW.png",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/alkosto-resumen-DpYwZI6t.png",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/clg-DhiTCHTU.jpeg",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/index-B1swingV.js",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/index-DNMqQlni.css",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/log_pyp-CfCiXRW3.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/lps-dKCpr1sb.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/paneles-solares-C7pGWbxP.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/rpi-DDLAJPsT.jpg",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/samee200-5_kmpS0Y.jpeg",
+      "ok": true
+    },
+    {
+      "file": "dist/index.html",
+      "ok": true
+    },
+    {
+      "file": "dist/monitoreo-energetico/index.html",
+      "ok": true
+    },
+    {
+      "file": "dist/robots.txt",
+      "ok": true
+    },
+    {
+      "file": "dist/sitemap.xml",
+      "ok": true
+    },
+    {
+      "file": "dist/_redirects",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-comercial.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-docs.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/.vite/manifest.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/alkosto-corrientes-BOfkpDuW.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/alkosto-resumen-DpYwZI6t.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-conexiones-GnmPDNcd.jpg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-dashboard-BK4XM9aN.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-DhiTCHTU.jpeg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-ethernet-DOpafke1.jpg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-frontal-JDCeYRuN.jpg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-hat-Iht-aq6k.jpg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/clg-infografia-BbWtLpoZ.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/index-CMK6V_sr.js",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/index-Dwp5g4QS.css",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/log_pyp-CfCiXRW3.webp",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/lps-dKCpr1sb.webp",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/paneles-solares-C7pGWbxP.webp",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/rpi-DDLAJPsT.jpg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/assets/samee200-5_kmpS0Y.jpeg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/automatizacion-edge/index.html",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/clg-audio-comercial.jpg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/favicon.svg",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/index.html",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/iot-industrial/index.html",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/monitoreo-energetico/index.html",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/og-pyp.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/proyectos/clg/index.html",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/robots.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/sitemap.xml",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-temporal/comercial/_redirects",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/diff-check.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/git-inicial.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/prerender.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/resultado.md",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/seo.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/structuredData-antes.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/validar-seo.mjs",
+      "ok": true
+    },
+    {
+      "file": "docs/prompts/PYP-030.md",
+      "ok": true
+    },
+    {
+      "file": "src/data/structuredData.js",
+      "ok": true
+    },
+    {
+      "file": "src/App.jsx",
+      "ok": true
+    },
+    {
+      "file": "index.html",
+      "ok": true
+    },
+    {
+      "file": "package.json",
+      "ok": true
+    },
+    {
+      "file": "package-lock.json",
+      "ok": true
+    },
+    {
+      "file": "src/pages/AutomatizacionEdge.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/pages/CLG.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/pages/IoTIndustrialLoRaWAN.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/pages/MonitoreoEnergetico.jsx",
+      "ok": true
+    },
+    {
+      "file": "public/clg-audio-comercial.jpg",
+      "ok": true
+    },
+    {
+      "file": "public/favicon.svg",
+      "ok": true
+    },
+    {
+      "file": "public/og-pyp.png",
+      "ok": true
+    },
+    {
+      "file": "public/robots.txt",
+      "ok": true
+    },
+    {
+      "file": "public/sitemap.xml",
+      "ok": true
+    },
+    {
+      "file": "public/_redirects",
+      "ok": true
+    }
+  ]
+}

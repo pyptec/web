@@ -1,0 +1,166 @@
+import { SEO_PAGES, getSeoPage } from "../data/seo.js";
+
+export const MEASUREMENT_ID = "G-WJ6METJRZD";
+export const CONSENT_KEY = "pyp.analytics-consent.v1";
+const MAX_AGE = 180 * 24 * 60 * 60 * 1000;
+let consent = "unknown";
+let started = false;
+let status = "idle";
+let initialized = false;
+let currentPage = null;
+let lastPage = null;
+let campaign = null;
+let entryReferrer = "";
+const subscribers = new Set();
+const seenClicks = new WeakSet();
+const browser = () => typeof window !== "undefined" && typeof document !== "undefined";
+const disabledKey = "ga-disable-" + MEASUREMENT_ID;
+
+export function getConsent() { return consent; }
+export function subscribeConsent(listener) {
+  subscribers.add(listener);
+  return () => subscribers.delete(listener);
+}
+function notify() { for (const listener of subscribers) listener(consent); }
+function storedConsent() {
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(CONSENT_KEY));
+    if (["granted", "denied"].includes(saved?.value) && saved.expires > Date.now() && saved.expires <= Date.now() + MAX_AGE) return saved.value;
+  } catch { /* Storage is optional; default to no collection. */ }
+  return "unknown";
+}
+function safeReferrer() {
+  try {
+    const url = new URL(document.referrer);
+    return ["https:", "http:"].includes(url.protocol) && url.origin !== window.location.origin ? url.origin + "/" : "";
+  } catch { return ""; }
+}
+function clearAnalyticsCookies() {
+  try {
+    const host = window.location.hostname.split(".");
+    const domains = ["", ...host.map((_, i) => host.slice(i).join(".")).filter(d => d.includes("."))];
+    for (const cookie of document.cookie.split(";")) {
+      const name = cookie.trim().split("=")[0];
+      if (!/^_ga(?:_|$)/.test(name)) continue;
+      for (const domain of domains) document.cookie = name + "=; Max-Age=0; path=/" + (domain ? "; domain=" + domain : "");
+    }
+  } catch { /* Blocking cookies must not affect navigation or forms. */ }
+}
+function applyConsent(value) {
+  consent = value;
+  window[disabledKey] = value !== "granted";
+  if (value === "granted") loadTag();
+  else {
+    lastPage = null;
+    // Discard commands not yet consumed; never replay pre-consent activity.
+    if (Array.isArray(window.dataLayer)) window.dataLayer.length = 0;
+    clearAnalyticsCookies();
+  }
+  notify();
+}
+export function setConsent(value) {
+  if (!browser() || !["granted", "denied"].includes(value)) return;
+  try { window.localStorage.setItem(CONSENT_KEY, JSON.stringify({value, expires: Date.now() + MAX_AGE})); } catch { /* Choice remains valid in this tab. */ }
+  applyConsent(value);
+}
+export function startAnalytics() {
+  if (!browser() || started) return;
+  started = true;
+  entryReferrer = safeReferrer();
+  window.addEventListener("storage", event => {
+    if (event.key === CONSENT_KEY || event.key === null) applyConsent(storedConsent());
+  });
+  applyConsent(storedConsent());
+}
+function command(...args) {
+  try { window.gtag(...args); } catch { /* Analytics must never interrupt the site. */ }
+}
+function pageParameters() {
+  return {
+    page_location: currentPage.canonical,
+    page_title: currentPage.title,
+    page_path: new URL(currentPage.canonical).pathname,
+    page_referrer: lastPage || entryReferrer,
+  };
+}
+function initializeTag() {
+  if (consent !== "granted" || !currentPage || status !== "loaded") return;
+  if (!initialized) {
+    initialized = true;
+    command("js", new Date());
+    command("set", { ...pageParameters(), allow_google_signals: false, allow_ad_personalization_signals: false });
+    command("config", MEASUREMENT_ID, {
+      ...pageParameters(), ...campaign,
+      send_page_view: false,
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false,
+      cookie_expires: 395 * 24 * 60 * 60,
+      cookie_update: false,
+    });
+  }
+  sendCurrentPage();
+}
+function loadTag() {
+  if (status === "loaded") { initializeTag(); return; }
+  if (status === "loading") return;
+  status = "loading";
+  window.dataLayer = window.dataLayer || [];
+  window.gtag = window.gtag || function () { window.dataLayer.push(arguments); };
+  const script = document.createElement("script");
+  script.id = "pyp-ga4";
+  script.async = true;
+  script.referrerPolicy = "no-referrer";
+  script.src = "https://www.googletagmanager.com/gtag/js?id=" + MEASUREMENT_ID;
+  let timeout;
+  const fail = () => {
+    clearTimeout(timeout);
+    script.onload = script.onerror = null;
+    script.remove();
+    status = "failed";
+  };
+  script.onload = () => { clearTimeout(timeout); status = "loaded"; initializeTag(); };
+  script.onerror = fail;
+  timeout = setTimeout(fail, 10000);
+  try { document.head.appendChild(script); } catch { fail(); }
+}
+function readCampaign(search) {
+  const params = new URLSearchParams(search);
+  const values = {};
+  for (const [key, target] of Object.entries({utm_source: "campaign_source", utm_medium: "campaign_medium", utm_campaign: "campaign_name", utm_content: "campaign_content"})) {
+    const value = params.get(key);
+    // Only controlled campaign tokens: no emails, URLs, free text or long numbers.
+    if (value && /^[a-z][a-z0-9_-]{0,63}$/.test(value) && !/\d{7}/.test(value)) values[target] = value;
+  }
+  return values;
+}
+export function recordPage(pathname, search = "") {
+  if (!browser()) return;
+  const route = pathname.replace(/\/+$/, "") || "/";
+  if (!Object.hasOwn(SEO_PAGES, route)) { currentPage = null; return; }
+  if (campaign === null) campaign = readCampaign(search);
+  currentPage = getSeoPage(route);
+  if (status === "loaded") initializeTag();
+}
+function sendCurrentPage() {
+  if (consent !== "granted" || !initialized || !currentPage || currentPage.canonical === lastPage) return;
+  const params = pageParameters();
+  command("set", params);
+  command("event", "page_view", { ...params, send_to: MEASUREMENT_ID });
+  lastPage = currentPage.canonical;
+}
+export function recordContactClick(event) {
+  if (!browser() || consent !== "granted" || !initialized || !currentPage || (event.button != null && event.button !== 0) || seenClicks.has(event)) return;
+  const anchor = event.target?.closest?.("a[href]");
+  if (!anchor) return;
+  let url;
+  try { url = new URL(anchor.getAttribute("href"), window.location.href); } catch { return; }
+  const method = url.protocol === "mailto:" ? "email" : url.protocol === "tel:" ? "phone" : ["https:","http:"].includes(url.protocol) && ["wa.me", "api.whatsapp.com", "web.whatsapp.com"].includes(url.hostname) ? "whatsapp" : null;
+  const isCta = url.origin === window.location.origin && url.hash === "#contacto";
+  if (!method && !isCta) return;
+  seenClicks.add(event);
+  command("event", method ? "contact_click" : "contact_cta_click", {
+    ...(method ? {contact_method: method} : {}),
+    page_path: new URL(currentPage.canonical).pathname,
+    send_to: MEASUREMENT_ID,
+  });
+}

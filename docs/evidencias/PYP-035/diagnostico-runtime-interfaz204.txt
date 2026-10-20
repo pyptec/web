@@ -1,0 +1,10 @@
+{"run":"classified","name":"unknown-home","app":0,"network":0,"tagLoads":0,"markers":[]}
+{"run":"classified","name":"denied-home","app":0,"network":0,"tagLoads":0,"markers":[]}
+{"run":"classified","name":"accepted-home","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+{"run":"classified","name":"initial-home-saved-consent","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+{"run":"classified","name":"home-to-rpi-native-link","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+Error: SyntaxError: Private field '#proyectos' must be declared in an enclosing class
+    at ev (file:///D:/promate/web/pyp-web/docs/evidencias/PYP-035/diagnostico-runtime-ui.mjs:69:147)
+    at async file:///D:/promate/web/pyp-web/docs/evidencias/PYP-035/diagnostico-runtime-ui.mjs:91:50
+    at async step (file:///D:/promate/web/pyp-web/docs/evidencias/PYP-035/diagnostico-runtime-ui.mjs:75:3)
+    at async file:///D:/promate/web/pyp-web/docs/evidencias/PYP-035/diagnostico-runtime-ui.mjs:91:3

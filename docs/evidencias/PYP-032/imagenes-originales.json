@@ -1,0 +1,72 @@
+[
+  {
+    "name": "rpi-mdfr-dashboard.png",
+    "category": "dashboard",
+    "alt": "Dashboard original RPI-MDFR con mediciones, estados de puerta y persona atrapada y actuadores",
+    "caption": "Captura original del dashboard de supervisión. Muestra las lecturas y estados en el momento de la captura; no es un panel en vivo.",
+    "width": 1523,
+    "height": 790,
+    "bytes": 44534,
+    "sha256": "f753ac874859a60ac29b1268adec7a479724bf28b39d86e2c194c869165661b3"
+  },
+  {
+    "name": "rpi-mdfr-historico-co2.png",
+    "category": "sensores",
+    "alt": "Gráfica histórica original del sensor de CO₂ en la cámara de maduración",
+    "caption": "Registro histórico de CO₂ mostrado por el sistema.",
+    "width": 1272,
+    "height": 846,
+    "bytes": 174924,
+    "sha256": "7f56da19984fe592071436714847bf96b92b88fd18156fed590e8921ebe15f9f"
+  },
+  {
+    "name": "rpi-mdfr-historico-etileno.png",
+    "category": "sensores",
+    "alt": "Gráfica histórica original de etileno C₂H₄ en la cámara de maduración",
+    "caption": "Registro histórico de etileno C₂H₄ mostrado por el sistema.",
+    "width": 1341,
+    "height": 834,
+    "bytes": 97202,
+    "sha256": "4d465fca9b914d5778c9d278918bb30738f22f3da4bcbec9d1e2ec1371ad5aae"
+  },
+  {
+    "name": "rpi-mdfr-historico-temperatura.png",
+    "category": "sensores",
+    "alt": "Gráfica histórica original de temperatura ambiente en la cámara de maduración",
+    "caption": "Registro histórico de temperatura ambiente mostrado por el sistema.",
+    "width": 1372,
+    "height": 852,
+    "bytes": 105194,
+    "sha256": "22859a4f5104ae5b28a28193c518f53e88dd1914f41c50620562d87841be913e"
+  },
+  {
+    "name": "rpi-mdfr-historico-humedad.png",
+    "category": "sensores",
+    "alt": "Gráfica histórica original de humedad relativa en la cámara de maduración",
+    "caption": "Registro histórico de humedad relativa mostrado por el sistema.",
+    "width": 1305,
+    "height": 850,
+    "bytes": 101560,
+    "sha256": "904a7392a96428e8a464898e4421c479fe75294f914862e019b8738b846f14aa"
+  },
+  {
+    "name": "rpi-mdfr-historico-pt1000.png",
+    "category": "sensores",
+    "alt": "Gráfica histórica original de la sonda PT1000 del sistema RPI-MDFR",
+    "caption": "Registro histórico de la sonda PT1000. No se presenta como una gráfica de PT100.",
+    "width": 1248,
+    "height": 845,
+    "bytes": 71144,
+    "sha256": "3cb590e252491c9d71b40f2850f334ca085fd94a11088113df8aaa526fd7aed1"
+  },
+  {
+    "name": "rpi-mdfr-ciclos-co2.png",
+    "category": "historicos",
+    "alt": "Análisis original de ciclos de CO₂ por lote en RPI-MDFR",
+    "caption": "Interfaz original de análisis de ciclos de CO₂. El lote está rotulado SIM-36H-CICLOS: es un ejemplo de análisis, no un resultado de producción acreditado.",
+    "width": 1252,
+    "height": 713,
+    "bytes": 25808,
+    "sha256": "88e67d15d77bb6d95aa8c2cf0f9a94d1ef4ad53aa11e2c89ef69fec134ca9906"
+  }
+]

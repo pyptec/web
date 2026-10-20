@@ -1,0 +1,8 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+SEO y contenido inicial generados: /proyectos/rpi-mdfr -> D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\proyectos\rpi-mdfr\index.html
+SEO y contenido inicial generados: /proyectos/clg -> D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\proyectos\clg\index.html
+SEO y contenido inicial generados: / -> D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\index.html
+SEO y contenido inicial generados: /iot-industrial -> D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\iot-industrial\index.html
+SEO y contenido inicial generados: /monitoreo-energetico -> D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\monitoreo-energetico\index.html
+SEO y contenido inicial generados: /automatizacion-edge -> D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\automatizacion-edge\index.html
+Sitemap generado: D:\promate\web\pyp-web\docs\evidencias\PYP-032\build-temporal\comercial\sitemap.xml

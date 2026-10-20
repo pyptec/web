@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-20",
+  "externalGatePassed": true,
+  "passed": 44,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "final-spa recorrido completo",
+      "ok": true
+    },
+    {
+      "name": "final-spa etiqueta original y destino correcto",
+      "ok": true
+    },
+    {
+      "name": "final-spa historial/formularios efectivamente desactivados en configuración publicada",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline unknown-home",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline denied-home",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline accepted-home",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline initial-home-saved-consent",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline home-to-rpi-native-link",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline rpi-to-clg-router-history",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline history-back-rpi",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline history-forward-clg",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline revoke-clg",
+      "ok": true
+    },
+    {
+      "name": "final-spa baseline history-back-after-revoke",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified unknown-home",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified denied-home",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified accepted-home",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified initial-home-saved-consent",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified home-to-rpi-native-link",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified rpi-to-clg-router-history",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified history-back-rpi",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified history-forward-clg",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified revoke-clg",
+      "ok": true
+    },
+    {
+      "name": "final-spa classified history-back-after-revoke",
+      "ok": true
+    },
+    {
+      "name": "final-spa sin etiquetas ni configuraciones duplicadas",
+      "ok": true
+    },
+    {
+      "name": "final-spa sin envíos reales ni conversiones ficticias",
+      "ok": true
+    },
+    {
+      "name": "final-ui recorrido completo",
+      "ok": true
+    },
+    {
+      "name": "final-ui etiqueta original y destino correcto",
+      "ok": true
+    },
+    {
+      "name": "final-ui historial/formularios efectivamente desactivados en configuración publicada",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified unknown-home",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified denied-home",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified accepted-home",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified initial-home-saved-consent",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified home-to-rpi-native-link",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified rpi-to-home-real-header",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified home-to-clg-real-card",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified history-back-home-real-ui",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified history-forward-clg-real-ui",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified revoke-clg",
+      "ok": true
+    },
+    {
+      "name": "final-ui classified history-back-home-after-revoke",
+      "ok": true
+    },
+    {
+      "name": "final-ui sin etiquetas ni configuraciones duplicadas",
+      "ok": true
+    },
+    {
+      "name": "final-ui sin envíos reales ni conversiones ficticias",
+      "ok": true
+    },
+    {
+      "name": "Edge seis rutas, presentación e imágenes",
+      "ok": true
+    },
+    {
+      "name": "SEO seis rutas",
+      "ok": true
+    },
+    {
+      "name": "npm audit producción",
+      "ok": true
+    }
+  ],
+  "limits": "Etiqueta pública original ejecutada en build local; collect interceptado con 204 local. No prueba recepción ni producción. La publicación aún requiere validar selección y Git."
+}

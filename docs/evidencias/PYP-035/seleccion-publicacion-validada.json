@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-20",
+  "passed": true,
+  "indexTree": "baaae02d4bc2aabc409d4363aa8fa334aa94c576",
+  "sourceFilesCompared": 20,
+  "sameSources": true,
+  "endOfLineNormalized": [
+    "public/sitemap.xml",
+    "src/App.jsx",
+    "src/SiteRoutes.jsx",
+    "src/components/Analytics.jsx",
+    "src/components/AnalyticsConsent.jsx",
+    "src/data/rpi-mdfr-meta.js",
+    "src/data/rpi-mdfr.js",
+    "src/data/seo.js",
+    "src/data/structuredData.js",
+    "src/lib/analytics.js",
+    "src/pages/RpiMdfr.jsx"
+  ],
+  "forms": [
+    {
+      "route": "/",
+      "ok": true
+    },
+    {
+      "route": "/proyectos/clg/",
+      "ok": true
+    },
+    {
+      "route": "/proyectos/rpi-mdfr/",
+      "ok": true
+    },
+    {
+      "route": "/monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "route": "/iot-industrial/",
+      "ok": true
+    },
+    {
+      "route": "/automatizacion-edge/",
+      "ok": true
+    }
+  ],
+  "commands": [
+    {
+      "label": "build-seleccion",
+      "code": 0
+    },
+    {
+      "label": "prerender-seleccion",
+      "code": 0
+    },
+    {
+      "label": "seo-seleccion",
+      "code": 0
+    },
+    {
+      "label": "docs-seleccion",
+      "code": 0
+    }
+  ],
+  "artifact": "D:\\promate\\web\\pyp-web\\docs\\evidencias\\PYP-035\\build-temporal\\seleccion-baaae02d4bc2\\docs\\evidencias\\PYP-035\\build-temporal\\comercial",
+  "commitExecuted": false,
+  "pushExecuted": false,
+  "privacyGate": "Superada mediante etiqueta pública original: una vista por navegación y consentimiento correcto."
+}

@@ -1,0 +1,199 @@
+{
+  "date": "2026-10-19",
+  "execution": "Consolidado de 38 controles aprobados del recorrido completo y la continuación dirigida de ampliación/Analytics/StrictMode. Los intentos anteriores se conservan; no se presenta como una única ejecución.",
+  "sources": [
+    "navegador-intento-03.json",
+    "navegador-continuacion.json"
+  ],
+  "passed": 46,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Sin consentimiento: no tag GA",
+      "ok": true
+    },
+    {
+      "name": "Móvil: sin overflow, controles visibles >=44px",
+      "ok": true
+    },
+    {
+      "name": "Rechazo: panel cerrado, preferencia/foco y ninguna etiqueta",
+      "ok": true
+    },
+    {
+      "name": "Navegación sin Analytics y consentimiento persiste",
+      "ok": true
+    },
+    {
+      "name": "Editar preferencias: foco en título",
+      "ok": true
+    },
+    {
+      "name": "Primera página al aceptar: solo IoT actual",
+      "ok": true
+    },
+    {
+      "name": "Una sola etiqueta y config correctos",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /automatizacion-edge/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /automatizacion-edge/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /proyectos/rpi-mdfr/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /proyectos/rpi-mdfr/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /proyectos/clg/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /proyectos/clg/",
+      "ok": true
+    },
+    {
+      "name": "Query/hash no suman vistas",
+      "ok": true
+    },
+    {
+      "name": "CTA CLG identifica origen sin conversión",
+      "ok": true
+    },
+    {
+      "name": "Clics reales email/phone sin datos personales",
+      "ok": true
+    },
+    {
+      "name": "Formulario inválido no envía ni convierte",
+      "ok": true
+    },
+    {
+      "name": "Revocación preserva formulario escrito y activa opt-out",
+      "ok": true
+    },
+    {
+      "name": "POST interceptado sin recepción real ni generate_lead",
+      "ok": true
+    },
+    {
+      "name": "Etiqueta bloqueada: sitio y formulario funcionales",
+      "ok": true
+    },
+    {
+      "name": "Etiqueta bloqueada no bloquea rutas",
+      "ok": true
+    },
+    {
+      "name": "Escritorio: sin overflow",
+      "ok": true
+    },
+    {
+      "name": "Inicio 1440 tarjeta RPI íntegra/enlace",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 canonical/H1 sin overflow",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 infografía completa sin distorsión",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 siete capturas originales cargadas y ampliables",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 anclas locales válidas",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 contacto válido y sin formulario duplicado",
+      "ok": true
+    },
+    {
+      "name": "Inicio 390 tarjeta RPI íntegra/enlace",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 canonical/H1 sin overflow",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 infografía completa sin distorsión",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 siete capturas originales cargadas y ampliables",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 anclas locales válidas",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 contacto válido y sin formulario duplicado",
+      "ok": true
+    },
+    {
+      "name": "Infografía se amplía en pestaña nueva",
+      "ok": true
+    },
+    {
+      "name": "Analytics RPI: una vista con canonical y título propios",
+      "ok": true
+    },
+    {
+      "name": "React StrictMode desarrollo: una inicialización/vista",
+      "ok": true
+    },
+    {
+      "name": "StrictMode cambio ruta: una vista adicional",
+      "ok": true
+    },
+    {
+      "name": "StrictMode listener contacto sin duplicados",
+      "ok": true
+    },
+    {
+      "name": "Sin excepciones JavaScript",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Nunca generate_lead ficticio",
+      "ok": true
+    },
+    {
+      "name": "ID correcto en todas las cargas interceptadas",
+      "ok": true
+    }
+  ],
+  "exceptions": [],
+  "limitations": "Edge emulado local (390/1440); etiqueta Google sustituida, todos los externos interceptados, POST bloqueados. No confirma recepción ni configuración GA4 real, ni recepción Netlify."
+}

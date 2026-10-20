@@ -1,0 +1,11 @@
+{"run":"classified","name":"unknown-home","app":0,"network":0,"tagLoads":0,"markers":[]}
+{"run":"classified","name":"denied-home","app":0,"network":0,"tagLoads":0,"markers":[]}
+{"run":"classified","name":"accepted-home","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+{"run":"classified","name":"initial-home-saved-consent","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+{"run":"classified","name":"home-to-rpi-native-link","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+{"run":"classified","name":"rpi-to-home-real-header","app":1,"network":2,"tagLoads":0,"markers":["app",null]}
+{"run":"classified","name":"home-to-clg-real-card","app":1,"network":1,"tagLoads":1,"markers":["app"]}
+{"run":"classified","name":"history-back-home-real-ui","app":1,"network":1,"tagLoads":0,"markers":["app"]}
+{"run":"classified","name":"history-forward-clg-real-ui","app":1,"network":1,"tagLoads":0,"markers":["app"]}
+{"run":"classified","name":"revoke-clg","app":0,"network":0,"tagLoads":0,"markers":[]}
+{"run":"classified","name":"history-back-home-after-revoke","app":0,"network":0,"tagLoads":0,"markers":[]}

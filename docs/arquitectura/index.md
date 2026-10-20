@@ -54,3 +54,7 @@ React Router DOM queda fijado a 7.18.4 y arrastra react-router 7.18.4. Se mantie
 ## Vite comercial — PYP-017
 
 Vite directo se fija a 6.4.4 exacto con peers/engines verificados; no se modifican plugins ni configuración comercial. VitePress 1.6.4 mantiene Vite 5.4.21 anidado: el audit del paquete Vite puede persistir por esa copia aunque la directa ya esté corregida. El build sigue siendo Vite y luego el generador SEO existente. Comparación con PYP-016: artefacto comercial idéntico por hash y regresiones equivalentes. Preview 6.4.4 conserva la diferencia local de rutas sin barra; no se equipara a Netlify CDN. [Resultado de actualización y riesgos residuales](../evidencias/PYP-017/resultado.md).
+
+## Diagnóstico GA4 e historial — PYP-035
+
+[Vista manual, BFCache y bloqueo externo](./PYP-035-ga4.md).

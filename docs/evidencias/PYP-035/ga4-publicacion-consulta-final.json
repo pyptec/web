@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-20",
+  "records": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD",
+      "finalUrl": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD",
+      "status": 200,
+      "observedAt": "2026-10-20T14:46:23.796Z",
+      "sha256": "191ad286191189ac4540e78d8c8bf5b3283f42232b52b87819e187e475c0fb43",
+      "headers": {
+        "cache-control": "private, max-age=900",
+        "content-type": "application/javascript; charset=UTF-8",
+        "date": "Tue, 20 Oct 2026 14:48:37 GMT",
+        "expires": "Tue, 20 Oct 2026 14:48:37 GMT",
+        "vary": "Accept-Encoding"
+      },
+      "destinationTags": []
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD&pyp_final=1792507583039",
+      "finalUrl": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD&pyp_final=1792507583039",
+      "status": 200,
+      "observedAt": "2026-10-20T14:46:24.106Z",
+      "sha256": "6bed39f74944628a7602c304328124a50f461a846bb642cfe46bb8fba8550e08",
+      "headers": {
+        "cache-control": "private, max-age=900",
+        "content-type": "application/javascript; charset=UTF-8",
+        "date": "Tue, 20 Oct 2026 14:48:37 GMT",
+        "expires": "Tue, 20 Oct 2026 14:48:37 GMT",
+        "vary": "Accept-Encoding"
+      },
+      "destinationTags": []
+    }
+  ]
+}

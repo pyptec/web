@@ -1,0 +1,257 @@
+{
+  "date": "2026-10-19",
+  "results": [
+    {
+      "name": "Sin consentimiento: no tag GA",
+      "ok": true
+    },
+    {
+      "name": "Móvil: sin overflow, controles visibles >=44px",
+      "ok": true
+    },
+    {
+      "name": "Rechazo: panel cerrado, preferencia/foco y ninguna etiqueta",
+      "ok": true
+    },
+    {
+      "name": "Navegación sin Analytics y consentimiento persiste",
+      "ok": true
+    },
+    {
+      "name": "Editar preferencias: foco en título",
+      "ok": true
+    },
+    {
+      "name": "Primera página al aceptar: solo IoT actual",
+      "ok": true
+    },
+    {
+      "name": "Una sola etiqueta y config correctos",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /automatizacion-edge/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /automatizacion-edge/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /proyectos/clg/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /proyectos/clg/",
+      "ok": true
+    },
+    {
+      "name": "Query/hash no suman vistas",
+      "ok": true
+    },
+    {
+      "name": "Ejecución",
+      "ok": false,
+      "error": "Error: SyntaxError: Private field '#contacto' must be declared in an enclosing class\n    at ev (file:///D:/promate/web/pyp-web/docs/evidencias/PYP-031/navegador.mjs:52:147)\n    at async file:///D:/promate/web/pyp-web/docs/evidencias/PYP-031/navegador.mjs:88:2"
+    }
+  ],
+  "passed": 16,
+  "failed": 1,
+  "exceptions": [],
+  "commands": [
+    {
+      "phase": "accept",
+      "command": [
+        "js",
+        "2026-10-19T15:31:00.384Z"
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "https://pyptecnologia.com/iot-industrial/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "https://pyptecnologia.com/iot-industrial/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/monitoreo-energetico/",
+          "page_title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+          "page_path": "/monitoreo-energetico/",
+          "page_referrer": "https://pyptecnologia.com/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/monitoreo-energetico/",
+          "page_title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+          "page_path": "/monitoreo-energetico/",
+          "page_referrer": "https://pyptecnologia.com/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/automatizacion-edge/",
+          "page_title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+          "page_path": "/automatizacion-edge/",
+          "page_referrer": "https://pyptecnologia.com/monitoreo-energetico/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/automatizacion-edge/",
+          "page_title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+          "page_path": "/automatizacion-edge/",
+          "page_referrer": "https://pyptecnologia.com/monitoreo-energetico/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/automatizacion-edge/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/automatizacion-edge/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "tagRequests": [
+    {
+      "phase": "accept",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    }
+  ],
+  "limitations": "Edge emulado local (390/1440); etiqueta Google sustituida, todos los externos interceptados, POST bloqueados. No confirma recepción ni configuración GA4 real, ni recepción Netlify."
+}

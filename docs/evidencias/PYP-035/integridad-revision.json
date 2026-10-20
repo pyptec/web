@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-20",
+  "branch": "main",
+  "head": "6dd7bbe5cafbfda5ed8605893f4bd78b619bae39",
+  "unmerged": "",
+  "distCount": 17,
+  "dist": [
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\_redirects",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\index.html",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\robots.txt",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\sitemap.xml",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\alkosto-corrientes-BOfkpDuW.png",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\alkosto-resumen-DpYwZI6t.png",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\can-j1939-dashboard-BfrJt0k0.png",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\clg-DhiTCHTU.jpeg",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\index-B1swingV.js",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\index-DNMqQlni.css",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\log_pyp-CfCiXRW3.webp",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\lps-dKCpr1sb.webp",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\lps-instalacion-samee200-bGen6_4O.webp",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\paneles-solares-C7pGWbxP.webp",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\rpi-DDLAJPsT.jpg",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\assets\\samee200-5_kmpS0Y.jpeg",
+      "ok": true
+    },
+    {
+      "file": "D:\\promate\\web\\pyp-web\\dist\\monitoreo-energetico\\index.html",
+      "ok": true
+    }
+  ],
+  "commercialSourcesUnchanged": true,
+  "stagedFiles": 146,
+  "forbidden": [],
+  "secretFindings": [],
+  "limitations": "Revisión por patrones conocidos del índice preparado; no certifica ausencia absoluta de secretos. Archivos ajenos no se añaden."
+}

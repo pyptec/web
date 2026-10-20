@@ -1,0 +1,12 @@
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
+const base='docs/evidencias/PYP-032';
+const previous=JSON.parse(fs.readFileSync(base+'/navegador-intento-03.json','utf8'));
+const continuation=JSON.parse(fs.readFileSync(base+'/navegador-continuacion.json','utf8'));
+assert.equal(continuation.failed,0,'La continuación debe estar completamente aprobada');
+for(const failed of previous.results.filter(r=>!r.ok&&r.name!=='Ejecución'))assert(continuation.results.some(r=>r.name===failed.name&&r.ok),'Revalidación requerida: '+failed.name);
+const checks=[...previous.results.filter(r=>r.ok),...continuation.results];
+const result={date:'2026-10-19',execution:'Consolidado de 38 controles aprobados del recorrido completo y la continuación dirigida de ampliación/Analytics/StrictMode. Los intentos anteriores se conservan; no se presenta como una única ejecución.',sources:['navegador-intento-03.json','navegador-continuacion.json'],passed:checks.filter(r=>r.ok).length,failed:checks.filter(r=>!r.ok).length,results:checks,exceptions:[...previous.exceptions,...continuation.exceptions],limitations:continuation.limitations};
+assert.equal(result.exceptions.length,0);
+fs.writeFileSync(base+'/navegador.json',JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({passed:result.passed,failed:result.failed,exceptions:result.exceptions.length}));

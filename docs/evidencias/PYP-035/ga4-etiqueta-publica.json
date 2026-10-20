@@ -1,0 +1,43 @@
+{
+  "observedFlags": [
+    {
+      "field": "vtp_enableOutboundClick",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enableScroll",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enableDownload",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enableHistoryEvents",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enableForm",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enableVideo",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enablePageView",
+      "value": "true"
+    },
+    {
+      "field": "vtp_enableInPageEventsHidden",
+      "value": "false"
+    },
+    {
+      "field": "vtp_enableVariablesInDestinationId",
+      "value": "true"
+    }
+  ],
+  "limitation": "Descarga estática sin ejecutar Google tag ni enviar eventos; no sustituye acceso administrativo GA4.",
+  "status": 200,
+  "date": "2026-10-20"
+}

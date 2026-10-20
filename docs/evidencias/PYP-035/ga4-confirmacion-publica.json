@@ -1,0 +1,103 @@
+{
+  "limitation": "Inspección estática pública, sin ejecución ni eventos reales. Los campos ogt generales no bastan para concluir estado del destino; se revisa ccd_em_page_view específico. Sin acceso administrativo.",
+  "destination": "G-WJ6METJRZD",
+  "ownerConfirmed": {
+    "pageLoads": true,
+    "forms": false,
+    "savedAndRechecked": true,
+    "history": false
+  },
+  "records": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD",
+      "http": 200,
+      "observedAtUtc": "2026-10-20T14:10:27.0800766Z",
+      "formDestinationTagPresent": false,
+      "tags": [
+        {
+          "function": "__ogt_auto_events",
+          "priority": 22,
+          "vtp_enableOutboundClick": true,
+          "vtp_enableScroll": true,
+          "vtp_enableDownload": true,
+          "vtp_enableHistoryEvents": true,
+          "vtp_enableForm": true,
+          "vtp_enableVideo": true,
+          "vtp_enablePageView": true,
+          "vtp_enableInPageEventsHidden": false,
+          "vtp_hidePageViewToggle": false,
+          "tag_id": 6
+        },
+        {
+          "function": "__ccd_em_outbound_click",
+          "priority": 7,
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 16
+        },
+        {
+          "function": "__ccd_em_page_view",
+          "priority": 6,
+          "vtp_historyEvents": true,
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 15
+        },
+        {
+          "function": "__ccd_em_site_search",
+          "priority": 4,
+          "vtp_searchQueryParams": "q,s,search,query,keyword",
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 13
+        }
+      ]
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD&l=dataLayer&cx=c&pyp_check=20261020-confirmacion-03",
+      "http": 200,
+      "observedAtUtc": "2026-10-20T14:10:27.7087841Z",
+      "formDestinationTagPresent": false,
+      "tags": [
+        {
+          "function": "__ogt_auto_events",
+          "priority": 22,
+          "vtp_enableOutboundClick": true,
+          "vtp_enableScroll": true,
+          "vtp_enableDownload": true,
+          "vtp_enableHistoryEvents": true,
+          "vtp_enableForm": true,
+          "vtp_enableVideo": true,
+          "vtp_enablePageView": true,
+          "vtp_enableInPageEventsHidden": false,
+          "vtp_hidePageViewToggle": false,
+          "tag_id": 6
+        },
+        {
+          "function": "__ccd_em_outbound_click",
+          "priority": 7,
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 16
+        },
+        {
+          "function": "__ccd_em_page_view",
+          "priority": 6,
+          "vtp_historyEvents": true,
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 15
+        },
+        {
+          "function": "__ccd_em_site_search",
+          "priority": 4,
+          "vtp_searchQueryParams": "q,s,search,query,keyword",
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 13
+        }
+      ]
+    }
+  ],
+  "date": "2026-10-20"
+}

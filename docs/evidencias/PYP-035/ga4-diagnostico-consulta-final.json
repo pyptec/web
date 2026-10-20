@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-20",
+  "records": [
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD",
+      "finalUrl": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD",
+      "status": 200,
+      "observedAt": "2026-10-20T14:31:15.049Z",
+      "sha256": "a21c346c199b246e3ad95d9c66394ba100fb3d3d24134055e04590bb95889b46",
+      "headers": {
+        "cache-control": "private, max-age=900",
+        "content-type": "application/javascript; charset=UTF-8",
+        "date": "Tue, 20 Oct 2026 14:33:28 GMT",
+        "expires": "Tue, 20 Oct 2026 14:33:28 GMT",
+        "vary": "Accept-Encoding"
+      },
+      "destinationTags": [
+        {
+          "function": "__ccd_em_page_view",
+          "priority": 6,
+          "vtp_historyEvents": true,
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 15
+        }
+      ]
+    },
+    {
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD&pyp_final=1792506674385",
+      "finalUrl": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD&pyp_final=1792506674385",
+      "status": 200,
+      "observedAt": "2026-10-20T14:31:15.338Z",
+      "sha256": "47f87e8e4dfa8b063dcc852cd46d651a891534670ded606d7aa8523f0b756e97",
+      "headers": {
+        "cache-control": "private, max-age=900",
+        "content-type": "application/javascript; charset=UTF-8",
+        "date": "Tue, 20 Oct 2026 14:33:29 GMT",
+        "expires": "Tue, 20 Oct 2026 14:33:29 GMT",
+        "vary": "Accept-Encoding"
+      },
+      "destinationTags": [
+        {
+          "function": "__ccd_em_page_view",
+          "priority": 6,
+          "vtp_historyEvents": true,
+          "vtp_includeParams": true,
+          "vtp_instanceDestinationId": "G-WJ6METJRZD",
+          "tag_id": 15
+        }
+      ]
+    }
+  ]
+}

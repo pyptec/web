@@ -1,0 +1,289 @@
+{
+  "date": "2026-10-19",
+  "checked": 70,
+  "distFiles": 17,
+  "failed": [],
+  "indexEmpty": true,
+  "results": [
+    {
+      "file": "dist/assets/alkosto-corrientes-BOfkpDuW.png",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/alkosto-resumen-DpYwZI6t.png",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/can-j1939-dashboard-BfrJt0k0.png",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/clg-DhiTCHTU.jpeg",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/index-B1swingV.js",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/index-DNMqQlni.css",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/log_pyp-CfCiXRW3.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/lps-dKCpr1sb.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/lps-instalacion-samee200-bGen6_4O.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/paneles-solares-C7pGWbxP.webp",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/rpi-DDLAJPsT.jpg",
+      "ok": true
+    },
+    {
+      "file": "dist/assets/samee200-5_kmpS0Y.jpeg",
+      "ok": true
+    },
+    {
+      "file": "dist/index.html",
+      "ok": true
+    },
+    {
+      "file": "dist/monitoreo-energetico/index.html",
+      "ok": true
+    },
+    {
+      "file": "dist/robots.txt",
+      "ok": true
+    },
+    {
+      "file": "dist/sitemap.xml",
+      "ok": true
+    },
+    {
+      "file": "dist/_redirects",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-comercial.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/build-docs.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/diff-check.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/git-inicial.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/prerender.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/resultado.md",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/seo.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/structuredData-antes.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-030/validar-seo.mjs",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/analytics-tests.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/analytics.test.mjs",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/build-comercial.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/build-docs.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/diff-check.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/escritorio-clg.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/escritorio-preferencias.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/git-final.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/git-inicial.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/integridad-final.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/integridad-inicial.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/movil-consentimiento.png",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/navegador-intento-01.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/navegador-intento-02.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/navegador.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/navegador.mjs",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/npm-audit.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/prerender.txt",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/resultado.md",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/seo.json",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/validar-seo.mjs",
+      "ok": true
+    },
+    {
+      "file": "docs/evidencias/PYP-031/verificar-integridad.mjs",
+      "ok": true
+    },
+    {
+      "file": "docs/prompts/PYP-030.md",
+      "ok": true
+    },
+    {
+      "file": "docs/prompts/PYP-031.md",
+      "ok": true
+    },
+    {
+      "file": "src/pages/AutomatizacionEdge.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/pages/CLG.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/pages/IoTIndustrialLoRaWAN.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/pages/MonitoreoEnergetico.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/lib/analytics.js",
+      "ok": true
+    },
+    {
+      "file": "src/components/Analytics.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/components/AnalyticsConsent.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/components/Seo.jsx",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-infografia.png",
+      "ok": true
+    },
+    {
+      "file": "index.html",
+      "ok": true
+    },
+    {
+      "file": "package.json",
+      "ok": true
+    },
+    {
+      "file": "package-lock.json",
+      "ok": true
+    },
+    {
+      "file": "scripts/generar-seo.mjs",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-dashboard.png",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-historico-co2.png",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-historico-etileno.png",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-historico-temperatura.png",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-historico-humedad.png",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-historico-pt1000.png",
+      "ok": true
+    },
+    {
+      "file": "src/assets/proyectos/rpi-mdfr/rpi-mdfr-ciclos-co2.png",
+      "ok": true
+    }
+  ]
+}

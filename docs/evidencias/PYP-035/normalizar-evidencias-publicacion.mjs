@@ -1,0 +1,4 @@
+import fs from 'node:fs';import {createHash}from'node:crypto';import {execFileSync}from'node:child_process';
+const base='docs/evidencias/PYP-035',files=execFileSync('git',['diff','--cached','--name-only','-z','--',base],{encoding:'utf8'}).split('\0').filter(Boolean),saved=[];
+for(const file of files){if(!file.endsWith('.mjs')&&file!==base+'/analytics-regression-antes.txt')continue;const source=fs.readFileSync(file,'utf8');const clean=(file.endsWith('.mjs')?source:source.replace(/[\t ]+$/gm,'')).trimEnd()+'\n';if(source!==clean){saved.push({file,sha256:createHash('sha256').update(source).digest('hex'),originalSource:source,reason:'Formato exclusivamente: líneas vacías EOF o espacios de diagnóstico de node:test.'});fs.writeFileSync(file,clean);}}
+fs.writeFileSync(base+'/normalizacion-publicacion-originales.json',JSON.stringify({date:'2026-10-20',saved},null,2)+'\n');console.log(JSON.stringify({formatOnlyFiles:saved.length}));

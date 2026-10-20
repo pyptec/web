@@ -1,0 +1,247 @@
+{
+  "date": "2026-10-19",
+  "checks": [
+    {
+      "name": "/proyectos/clg JSON-LD sin Product ni datos comerciales ficticios",
+      "ok": true
+    },
+    {
+      "name": "/proyectos/clg Organization y WebSite intactos",
+      "ok": true
+    },
+    {
+      "name": "/proyectos/clg canonical único",
+      "ok": true
+    },
+    {
+      "name": "/proyectos/clg título, descripción y Open Graph",
+      "ok": true
+    },
+    {
+      "name": "/proyectos/clg imágenes locales presentes",
+      "ok": true
+    },
+    {
+      "name": "/proyectos/clg URL en sitemap",
+      "ok": true
+    },
+    {
+      "name": "/ JSON-LD sin Product ni datos comerciales ficticios",
+      "ok": true
+    },
+    {
+      "name": "/ Organization y WebSite intactos",
+      "ok": true
+    },
+    {
+      "name": "/ canonical único",
+      "ok": true
+    },
+    {
+      "name": "/ título, descripción y Open Graph",
+      "ok": true
+    },
+    {
+      "name": "/ imágenes locales presentes",
+      "ok": true
+    },
+    {
+      "name": "/ URL en sitemap",
+      "ok": true
+    },
+    {
+      "name": "/iot-industrial JSON-LD sin Product ni datos comerciales ficticios",
+      "ok": true
+    },
+    {
+      "name": "/iot-industrial Organization y WebSite intactos",
+      "ok": true
+    },
+    {
+      "name": "/iot-industrial canonical único",
+      "ok": true
+    },
+    {
+      "name": "/iot-industrial título, descripción y Open Graph",
+      "ok": true
+    },
+    {
+      "name": "/iot-industrial imágenes locales presentes",
+      "ok": true
+    },
+    {
+      "name": "/iot-industrial URL en sitemap",
+      "ok": true
+    },
+    {
+      "name": "/monitoreo-energetico JSON-LD sin Product ni datos comerciales ficticios",
+      "ok": true
+    },
+    {
+      "name": "/monitoreo-energetico Organization y WebSite intactos",
+      "ok": true
+    },
+    {
+      "name": "/monitoreo-energetico canonical único",
+      "ok": true
+    },
+    {
+      "name": "/monitoreo-energetico título, descripción y Open Graph",
+      "ok": true
+    },
+    {
+      "name": "/monitoreo-energetico imágenes locales presentes",
+      "ok": true
+    },
+    {
+      "name": "/monitoreo-energetico URL en sitemap",
+      "ok": true
+    },
+    {
+      "name": "/automatizacion-edge JSON-LD sin Product ni datos comerciales ficticios",
+      "ok": true
+    },
+    {
+      "name": "/automatizacion-edge Organization y WebSite intactos",
+      "ok": true
+    },
+    {
+      "name": "/automatizacion-edge canonical único",
+      "ok": true
+    },
+    {
+      "name": "/automatizacion-edge título, descripción y Open Graph",
+      "ok": true
+    },
+    {
+      "name": "/automatizacion-edge imágenes locales presentes",
+      "ok": true
+    },
+    {
+      "name": "/automatizacion-edge URL en sitemap",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: CLG — Audio inteligente y automatización IoT",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: 4 entradas digitales acopladas",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: 4 salidas de relé",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: 4 entradas analógicas ADC",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: Modbus RTU",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: Modbus TCP",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: CAN",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: RS-232",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: MQTT",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: RTC",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: Edge Computing",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: 47 dispositivos",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: Alkosto",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: Ktronix",
+      "ok": true
+    },
+    {
+      "name": "HTML visible: Solicitar evaluación CLG",
+      "ok": true
+    },
+    {
+      "name": "Datos React /proyectos/clg solo retiran Product",
+      "ok": true
+    },
+    {
+      "name": "Datos React /proyectos/clg/ solo retiran Product",
+      "ok": true
+    },
+    {
+      "name": "HTML CLG usa exactamente el esquema compartido",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: src/pages/CLG.jsx",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: src/App.jsx",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: src/data/clg.js",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: src/data/clg-meta.js",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: src/data/seo.js",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: src/components/Seo.jsx",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: scripts/generar-seo.mjs",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: index.html",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: public/sitemap.xml",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: package.json",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: package-lock.json",
+      "ok": true
+    },
+    {
+      "name": "Fuente conservada: docs/.vitepress/config.mjs",
+      "ok": true
+    }
+  ],
+  "passed": 60,
+  "failed": 0
+}

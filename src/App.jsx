@@ -7,7 +7,7 @@ import {
 
 import clgImg from "./assets/proyectos/clg.jpeg";
 import lpsImg from "./assets/proyectos/lps.webp";
-import rpiImg from "./assets/proyectos/rpi.jpg";
+import { RPI_MDFR_HERO } from "./data/rpi-mdfr-meta.js";
 import Navbar from "./components/Navbar.jsx";
 import SectionNav from "./components/SectionNav.jsx";
 
@@ -254,31 +254,15 @@ export default function App() {
           </article>
 
           {/* RPI-MDFR */}
-          <article className="group grid lg:grid-cols-[0.9fr_1.1fr] rounded-3xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#E5E7EB" }}>
-            <div className="relative min-h-[260px] lg:min-h-[330px] overflow-hidden">
-              <img src={rpiImg} alt="RPI-MDFR control Edge para maduración de banano" loading="lazy" className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-500" />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/10 to-transparent" />
-              <div className="absolute bottom-3 left-3 flex items-center gap-2 text-xs font-semibold text-white">
-                <Thermometer className="h-5 w-5" color={COLORS.energy} /> AGROINDUSTRIA · CONTROL EDGE
-              </div>
+          <article id="proyecto-rpi-mdfr" className="group grid lg:grid-cols-[0.9fr_1.1fr] rounded-3xl border bg-white overflow-hidden shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300" style={{ borderColor: "#E5E7EB" }}>
+            <div className="flex items-center bg-white p-4">
+              <a href="/proyectos/rpi-mdfr/" className="block w-full rounded focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#416D13]" aria-label="Conocer RPI-MDFR — Maduración inteligente de banano"><img {...RPI_MDFR_HERO} loading="lazy" decoding="async" className="block h-auto w-full object-contain" /></a>
             </div>
             <div className="p-7 md:p-9 flex flex-col justify-center">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900">RPI-MDFR — Maduración inteligente de banano</h3>
-              <p className="mt-3 text-gray-600 leading-relaxed">
-                Sistema Edge para supervisar y controlar procesos de maduración por lote. Integra temperatura y humedad del cuarto,
-                CO₂, etileno y temperatura de pulpa mediante PT100/PT1000.
-              </p>
-              <p className="mt-3 text-gray-600 leading-relaxed">
-                Controla HVAC Samsung y su setpoint de temperatura, recirculación, humidificación, inyección de etileno,
-                extracción de CO₂ y renovación con aire fresco. Integra estado de puerta y señal de seguridad de persona atrapada.
-              </p>
-              <p className="mt-3 text-gray-600 leading-relaxed">
-                El dashboard Edge permite configurar límites de proceso, visualizar señales en línea, consultar históricos y
-                conservar trazabilidad por lote. Puede operar en red local o replicar información hacia la nube.
-              </p>
-              <div className="mt-4 flex flex-wrap gap-2">
-                <Pill>HVAC</Pill><Pill>CO₂</Pill><Pill>C₂H₄</Pill><Pill>PT100/PT1000</Pill><Pill>Edge</Pill>
-              </div>
+              <p className="mt-3 text-gray-600 leading-relaxed">Solución IoT y Edge Computing para controlar las condiciones de cámaras de maduración, monitorear CO₂, etileno, temperatura y humedad, y analizar ciclos por lote.</p>
+              <div className="mt-4 flex flex-wrap gap-2"><Pill>HVAC</Pill><Pill>CO₂</Pill><Pill>C₂H₄</Pill><Pill>PT100/PT1000</Pill><Pill>Edge</Pill></div>
+              <a href="/proyectos/rpi-mdfr/" className="mt-6 inline-flex min-h-11 w-fit items-center rounded-xl bg-[#A6CE39] px-5 py-3 font-semibold text-[#1E1E1E] transition-colors hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">Conocer RPI-MDFR →</a>
             </div>
           </article>
         </div>

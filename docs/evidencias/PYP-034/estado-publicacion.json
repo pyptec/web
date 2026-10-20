@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-19",
+  "status": "pendiente-configuracion-GA4",
+  "commitPushAuthorized": true,
+  "privacyGatePassed": false,
+  "ownerConfirmedPending": true,
+  "commitExecuted": false,
+  "pushExecuted": false,
+  "currentHead": "6dd7bbe5cafbfda5ed8605893f4bd78b619bae39",
+  "currentRemoteMain": "6dd7bbe5cafbfda5ed8605893f4bd78b619bae39",
+  "publicMatchesLocal": false,
+  "netlifyNewDeployment": "No existe nuevo SHA de esta intervención",
+  "netlifyCreditsVerified": false,
+  "noPaymentsOrPlanChanges": true,
+  "selectedBuildPassed": true,
+  "selectedSourceFiles": 20
+}

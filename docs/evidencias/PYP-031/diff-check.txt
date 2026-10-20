@@ -1,0 +1,6 @@
+warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-029/resultado.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-029/seguimiento-seo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/SiteRoutes.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/structuredData.js', LF will be replaced by CRLF the next time Git touches it

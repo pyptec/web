@@ -1,0 +1,66 @@
+ D 01_ESTADO_Y_BITACORA.md
+ D 04_BITACORA_001_RESULTADO.md
+ M docs/BITACORA_DESARROLLO.md
+ M docs/evidencias/PYP-029/resultado.md
+ M docs/evidencias/PYP-029/seguimiento-seo.md
+ M docs/prompts/index.md
+ M public/sitemap.xml
+ M src/App.jsx
+ M src/SiteRoutes.jsx
+ M src/data/seo.js
+ M src/data/structuredData.js
+?? docs/arquitectura/PYP-024-clg.md
+?? docs/arquitectura/PYP-031-analytics.md
+?? docs/arquitectura/PYP-032-rpi-mdfr.md
+?? docs/evidencias/PYP-019/main.jsx.before.txt
+?? docs/evidencias/PYP-022/diff-producto.patch
+?? docs/evidencias/PYP-023/
+?? docs/evidencias/PYP-024/
+?? docs/evidencias/PYP-028/build-docs-01.stdout.txt
+?? docs/evidencias/PYP-029/build-docs-publicacion-final.log
+?? docs/evidencias/PYP-029/build-docs-publicacion.log
+?? docs/evidencias/PYP-029/build-publicacion-02.log
+?? docs/evidencias/PYP-029/commit.json
+?? docs/evidencias/PYP-029/comprobar-publicacion.mjs
+?? docs/evidencias/PYP-029/diff-final.txt
+?? docs/evidencias/PYP-029/esperar-publicacion.mjs
+?? docs/evidencias/PYP-029/estado-despliegue.mjs
+?? docs/evidencias/PYP-029/estado-final.json
+?? docs/evidencias/PYP-029/git-final.txt
+?? docs/evidencias/PYP-029/github-despliegue.json
+?? docs/evidencias/PYP-029/http-produccion-post-intento-01.json
+?? docs/evidencias/PYP-029/http-produccion-post-intento-02.json
+?? docs/evidencias/PYP-029/http-produccion-post.json
+?? docs/evidencias/PYP-029/incidencia-prueba-publicacion.txt
+?? docs/evidencias/PYP-029/integridad-final.mjs
+?? docs/evidencias/PYP-029/preparar-produccion.mjs
+?? docs/evidencias/PYP-029/prepublicacion.json
+?? docs/evidencias/PYP-029/prepublicacion.mjs
+?? docs/evidencias/PYP-029/produccion-browser/
+?? docs/evidencias/PYP-029/produccion-post-automatizacion-edge.html
+?? docs/evidencias/PYP-029/produccion-post-inicio.html
+?? docs/evidencias/PYP-029/produccion-post-iot-industrial.html
+?? docs/evidencias/PYP-029/produccion-post-monitoreo-energetico.html
+?? docs/evidencias/PYP-029/produccion-post-proyectos-clg.html
+?? docs/evidencias/PYP-029/publicacion-local/
+?? docs/evidencias/PYP-029/publicar.mjs
+?? docs/evidencias/PYP-029/push.json
+?? docs/evidencias/PYP-029/sondeo-publicacion.json
+?? docs/evidencias/PYP-029/staged-name-status.txt
+?? docs/evidencias/PYP-029/validar-produccion-browser.mjs
+?? docs/evidencias/PYP-030/
+?? docs/evidencias/PYP-031/
+?? docs/evidencias/PYP-032/
+?? docs/prompts/PYP-024.md
+?? docs/prompts/PYP-030.md
+?? docs/prompts/PYP-031.md
+?? docs/prompts/PYP-032.md
+?? docs/prompts/PYP-034.md
+?? public/rpi-mdfr-infografia.png
+?? src/assets/proyectos/rpi-mdfr/
+?? src/components/Analytics.jsx
+?? src/components/AnalyticsConsent.jsx
+?? src/data/rpi-mdfr-meta.js
+?? src/data/rpi-mdfr.js
+?? src/lib/
+?? src/pages/RpiMdfr.jsx

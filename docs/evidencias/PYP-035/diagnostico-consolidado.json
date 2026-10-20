@@ -1,0 +1,245 @@
+{
+  "date": "2026-10-20",
+  "passed": 36,
+  "failed": 0,
+  "publicationReady": false,
+  "blocker": "Etiqueta pública ejecutada genera page_view adicional por historial. Corrección BFCache local verificada; corrección externa no realizada.",
+  "checks": [
+    {
+      "name": "baseline recorrido completo sin excepciones",
+      "ok": true
+    },
+    {
+      "name": "baseline sin consentimiento/rechazo: cero carga, vistas y cookies",
+      "ok": true
+    },
+    {
+      "name": "baseline revocación y retorno: cero recopilación/cookies",
+      "ok": true
+    },
+    {
+      "name": "baseline una configuración por carga, ninguna etiqueta extra",
+      "ok": true
+    },
+    {
+      "name": "baseline todo collect interceptado; sin lead ni formulario",
+      "ok": true
+    },
+    {
+      "name": "uiBefore recorrido completo sin excepciones",
+      "ok": true
+    },
+    {
+      "name": "uiBefore sin consentimiento/rechazo: cero carga, vistas y cookies",
+      "ok": true
+    },
+    {
+      "name": "uiBefore revocación y retorno: cero recopilación/cookies",
+      "ok": true
+    },
+    {
+      "name": "uiBefore una configuración por carga, ninguna etiqueta extra",
+      "ok": true
+    },
+    {
+      "name": "uiBefore todo collect interceptado; sin lead ni formulario",
+      "ok": true
+    },
+    {
+      "name": "uiAfter recorrido completo sin excepciones",
+      "ok": true
+    },
+    {
+      "name": "uiAfter sin consentimiento/rechazo: cero carga, vistas y cookies",
+      "ok": true
+    },
+    {
+      "name": "uiAfter revocación y retorno: cero recopilación/cookies",
+      "ok": true
+    },
+    {
+      "name": "uiAfter una configuración por carga, ninguna etiqueta extra",
+      "ok": true
+    },
+    {
+      "name": "uiAfter todo collect interceptado; sin lead ni formulario",
+      "ok": true
+    },
+    {
+      "name": "control recorrido completo sin excepciones",
+      "ok": true
+    },
+    {
+      "name": "control sin consentimiento/rechazo: cero carga, vistas y cookies",
+      "ok": true
+    },
+    {
+      "name": "control revocación y retorno: cero recopilación/cookies",
+      "ok": true
+    },
+    {
+      "name": "control una configuración por carga, ninguna etiqueta extra",
+      "ok": true
+    },
+    {
+      "name": "control todo collect interceptado; sin lead ni formulario",
+      "ok": true
+    },
+    {
+      "name": "Duplicación demostrada rpi-to-clg-router-history",
+      "ok": true
+    },
+    {
+      "name": "Marcador no causa duplicación rpi-to-clg-router-history",
+      "ok": true
+    },
+    {
+      "name": "Control offline solo historial desactivado elimina duplicación rpi-to-clg-router-history",
+      "ok": true
+    },
+    {
+      "name": "Duplicación demostrada history-back-rpi",
+      "ok": true
+    },
+    {
+      "name": "Marcador no causa duplicación history-back-rpi",
+      "ok": true
+    },
+    {
+      "name": "Control offline solo historial desactivado elimina duplicación history-back-rpi",
+      "ok": true
+    },
+    {
+      "name": "Duplicación demostrada history-forward-clg",
+      "ok": true
+    },
+    {
+      "name": "Marcador no causa duplicación history-forward-clg",
+      "ok": true
+    },
+    {
+      "name": "Control offline solo historial desactivado elimina duplicación history-forward-clg",
+      "ok": true
+    },
+    {
+      "name": "Enlace real RPI→Inicio duplica sin dos llamadas de aplicación",
+      "ok": true
+    },
+    {
+      "name": "Corrección BFCache history-back-home-real-ui",
+      "ok": true
+    },
+    {
+      "name": "Corrección BFCache history-forward-clg-real-ui",
+      "ok": true
+    },
+    {
+      "name": "Vista inicial/documento único accepted-home",
+      "ok": true
+    },
+    {
+      "name": "Vista inicial/documento único initial-home-saved-consent",
+      "ok": true
+    },
+    {
+      "name": "Vista inicial/documento único home-to-rpi-native-link",
+      "ok": true
+    },
+    {
+      "name": "Vista inicial/documento único home-to-clg-real-card",
+      "ok": true
+    }
+  ],
+  "matrix": [
+    {
+      "scenario": "unknown-home",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    },
+    {
+      "scenario": "denied-home",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    },
+    {
+      "scenario": "accepted-home",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "initial-home-saved-consent",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "home-to-rpi-native-link",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "rpi-to-home-real-header",
+      "app": 1,
+      "networkPageViews": 2,
+      "automatic": 1,
+      "tagLoads": 0,
+      "cookies": 2
+    },
+    {
+      "scenario": "home-to-clg-real-card",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "history-back-home-real-ui",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 2
+    },
+    {
+      "scenario": "history-forward-clg-real-ui",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 2
+    },
+    {
+      "scenario": "revoke-clg",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    },
+    {
+      "scenario": "history-back-home-after-revoke",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    }
+  ],
+  "externalCorrectionRequired": "Publicar configuración efectiva __ccd_em_page_view/historyEvents:false para G-WJ6METJRZD y repetir diagnóstico con etiqueta original sin modificar.",
+  "controlWarning": "El control cambia una copia local, no la propiedad GA4; no prueba corrección pública ni recepción de eventos."
+}

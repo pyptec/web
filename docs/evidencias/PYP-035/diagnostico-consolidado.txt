@@ -1,0 +1,94 @@
+{
+  "passed": 36,
+  "failed": 0,
+  "matrix": [
+    {
+      "scenario": "unknown-home",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    },
+    {
+      "scenario": "denied-home",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    },
+    {
+      "scenario": "accepted-home",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "initial-home-saved-consent",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "home-to-rpi-native-link",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "rpi-to-home-real-header",
+      "app": 1,
+      "networkPageViews": 2,
+      "automatic": 1,
+      "tagLoads": 0,
+      "cookies": 2
+    },
+    {
+      "scenario": "home-to-clg-real-card",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 1,
+      "cookies": 2
+    },
+    {
+      "scenario": "history-back-home-real-ui",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 2
+    },
+    {
+      "scenario": "history-forward-clg-real-ui",
+      "app": 1,
+      "networkPageViews": 1,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 2
+    },
+    {
+      "scenario": "revoke-clg",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    },
+    {
+      "scenario": "history-back-home-after-revoke",
+      "app": 0,
+      "networkPageViews": 0,
+      "automatic": 0,
+      "tagLoads": 0,
+      "cookies": 0
+    }
+  ]
+}

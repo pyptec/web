@@ -1,0 +1,21 @@
+import fs from 'node:fs';
+import {createHash} from 'node:crypto';
+import {execFileSync} from 'node:child_process';
+import assert from 'node:assert/strict';
+const base='docs/evidencias/PYP-035';
+const git=args=>execFileSync('git',args,{encoding:'utf8',windowsHide:true}).trim();
+const before=JSON.parse(fs.readFileSync(base+'/dist-inicial.json','utf8').replace(/^\uFEFF/,''));
+const files=before.map(x=>({file:x.path,ok:fs.existsSync(x.path)&&createHash('sha256').update(fs.readFileSync(x.path)).digest('hex').toUpperCase()===x.hash}));
+const changed=git(['diff','--name-only','--','src','public']).split('\n').filter(Boolean);
+assert.deepEqual(changed,['src/lib/analytics.js']);assert.equal(files.length,17);assert(files.every(f=>f.ok));
+assert.equal(git(['branch','--show-current']),'main');assert.equal(git(['diff','--name-only','--diff-filter=U']),'');
+const selected=JSON.parse(fs.readFileSync('docs/evidencias/PYP-034/manifiesto.json','utf8')).files.filter(f=>f.startsWith('src/')||f.startsWith('public/'));
+const sameAsBefore=selected.filter(f=>f!=='src/lib/analytics.js').map(file=>{
+ const local=fs.readFileSync(file),staged=execFileSync('git',['show',':'+file],{windowsHide:true,maxBuffer:16*1024*1024});
+ const ok=/\.(png|jpe?g|webp)$/i.test(file)?local.equals(staged):local.toString('utf8').replace(/\r\n/g,'\n')===staged.toString('utf8').replace(/\r\n/g,'\n');
+ return {file,ok};
+});
+assert(sameAsBefore.every(f=>f.ok));
+const output={date:'2026-10-20',branch:git(['branch','--show-current']),head:git(['rev-parse','HEAD']),distCount:17,files,allowedSourceChanges:changed,otherApprovedSourcesUnchanged:sameAsBefore,stagingModified:false,correction:'pageshow.persisted relee consentimiento y registra vista de restauración BFCache. Diseño/formulario/dependencias intactos.'};
+fs.writeFileSync(base+'/integridad-diagnostico-final.json',JSON.stringify(output,null,2)+'\n');
+console.log(JSON.stringify({distUnchanged:17,changed,otherApprovedSourcesUnchanged:sameAsBefore.length,head:output.head}));

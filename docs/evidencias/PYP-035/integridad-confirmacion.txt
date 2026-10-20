@@ -1,0 +1,7 @@
+warning: in the working copy of 'docs/BITACORA_DESARROLLO.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-029/resultado.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-029/seguimiento-seo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-034/indice-preparado.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-034/staged-name-status.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it
+{"distCount":17,"distUnchanged":true,"commercialSourcesUnchanged":true,"stagedFiles":146,"forbidden":[],"secretFindings":[],"unmerged":""}

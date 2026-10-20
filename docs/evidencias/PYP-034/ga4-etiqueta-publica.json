@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-19T17:05:59.800Z",
+  "url": "https://www.googletagmanager.com/gtag/js?id=G-WJ6METJRZD",
+  "status": 200,
+  "sha256": "4889c480dabd8cf486df921572909a224a7b691d4cfd064e86acab9d1463e9a8",
+  "bytes": 538650,
+  "observedFlags": [
+    {
+      "field": "vtp_enableOutboundClick",
+      "value": true
+    },
+    {
+      "field": "vtp_enableScroll",
+      "value": true
+    },
+    {
+      "field": "vtp_enableDownload",
+      "value": true
+    },
+    {
+      "field": "vtp_enableHistoryEvents",
+      "value": true
+    },
+    {
+      "field": "vtp_enableForm",
+      "value": true
+    },
+    {
+      "field": "vtp_enableVideo",
+      "value": true
+    },
+    {
+      "field": "vtp_enablePageView",
+      "value": true
+    },
+    {
+      "field": "vtp_enableInPageEventsHidden",
+      "value": false
+    },
+    {
+      "field": "vtp_enableVariablesInDestinationId",
+      "value": true
+    }
+  ],
+  "limitations": "Descarga estática sin ejecución ni eventos. Flags en un script no demuestran por sí solos la configuración efectiva de la cuenta. No sustituye confirmación administrativa. El propietario confirmó los ajustes pendientes."
+}
