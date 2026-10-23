@@ -1,0 +1,84 @@
+ D 01_ESTADO_Y_BITACORA.md
+ D 04_BITACORA_001_RESULTADO.md
+ M docs/BITACORA_DESARROLLO.md
+ M docs/evidencias/PYP-029/resultado.md
+ M docs/evidencias/PYP-029/seguimiento-seo.md
+ M docs/evidencias/PYP-035/resultado.md
+ M docs/evidencias/PYP-035/staged-publicacion.txt
+ M docs/prompts/index.md
+ M src/data/seo.js
+ M src/pages/AutomatizacionEdge.jsx
+ M src/pages/IoTIndustrialLoRaWAN.jsx
+ M src/pages/MonitoreoEnergetico.jsx
+?? docs/arquitectura/PYP-024-clg.md
+?? docs/evidencias/PYP-019/main.jsx.before.txt
+?? docs/evidencias/PYP-022/diff-producto.patch
+?? docs/evidencias/PYP-023/
+?? docs/evidencias/PYP-024/
+?? docs/evidencias/PYP-028/build-docs-01.stdout.txt
+?? docs/evidencias/PYP-029/build-docs-publicacion-final.log
+?? docs/evidencias/PYP-029/build-docs-publicacion.log
+?? docs/evidencias/PYP-029/build-publicacion-02.log
+?? docs/evidencias/PYP-029/commit.json
+?? docs/evidencias/PYP-029/comprobar-publicacion.mjs
+?? docs/evidencias/PYP-029/diff-final.txt
+?? docs/evidencias/PYP-029/esperar-publicacion.mjs
+?? docs/evidencias/PYP-029/estado-despliegue.mjs
+?? docs/evidencias/PYP-029/estado-final.json
+?? docs/evidencias/PYP-029/git-final.txt
+?? docs/evidencias/PYP-029/github-despliegue.json
+?? docs/evidencias/PYP-029/http-produccion-post-intento-01.json
+?? docs/evidencias/PYP-029/http-produccion-post-intento-02.json
+?? docs/evidencias/PYP-029/http-produccion-post.json
+?? docs/evidencias/PYP-029/incidencia-prueba-publicacion.txt
+?? docs/evidencias/PYP-029/integridad-final.mjs
+?? docs/evidencias/PYP-029/preparar-produccion.mjs
+?? docs/evidencias/PYP-029/prepublicacion.json
+?? docs/evidencias/PYP-029/prepublicacion.mjs
+?? docs/evidencias/PYP-029/produccion-browser/
+?? docs/evidencias/PYP-029/produccion-post-automatizacion-edge.html
+?? docs/evidencias/PYP-029/produccion-post-inicio.html
+?? docs/evidencias/PYP-029/produccion-post-iot-industrial.html
+?? docs/evidencias/PYP-029/produccion-post-monitoreo-energetico.html
+?? docs/evidencias/PYP-029/produccion-post-proyectos-clg.html
+?? docs/evidencias/PYP-029/publicacion-local/
+?? docs/evidencias/PYP-029/publicar.mjs
+?? docs/evidencias/PYP-029/push.json
+?? docs/evidencias/PYP-029/sondeo-publicacion.json
+?? docs/evidencias/PYP-029/staged-name-status.txt
+?? docs/evidencias/PYP-029/validar-produccion-browser.mjs
+?? docs/evidencias/PYP-034/diff-inicial.txt
+?? docs/evidencias/PYP-035/commit-salida.txt
+?? docs/evidencias/PYP-035/consolidacion-publicacion-final.txt
+?? docs/evidencias/PYP-035/consolidar-publicacion-final.mjs
+?? docs/evidencias/PYP-035/despliegue-final.txt
+?? docs/evidencias/PYP-035/despliegue-intento01.txt
+?? docs/evidencias/PYP-035/diagnostico-runtime-produccion-formulario.json
+?? docs/evidencias/PYP-035/diagnostico-runtime-produccion-publica.json
+?? docs/evidencias/PYP-035/diff-cierre-final.txt
+?? docs/evidencias/PYP-035/diff-comercial-inicial.patch
+?? docs/evidencias/PYP-035/docs-cierre-final.txt
+?? docs/evidencias/PYP-035/docs-post-push.txt
+?? docs/evidencias/PYP-035/estado-final-publicacion.json
+?? docs/evidencias/PYP-035/git-antes-commit.txt
+?? docs/evidencias/PYP-035/git-post-push.txt
+?? docs/evidencias/PYP-035/github-netlify-final.json
+?? docs/evidencias/PYP-035/github-netlify-intento01.json
+?? docs/evidencias/PYP-035/http-produccion-final.json
+?? docs/evidencias/PYP-035/http-produccion-intento01.json
+?? docs/evidencias/PYP-035/integridad-cierre.txt
+?? docs/evidencias/PYP-035/integridad-post-push.json
+?? docs/evidencias/PYP-035/preparacion-publicacion.txt
+?? docs/evidencias/PYP-035/produccion-edge.txt
+?? docs/evidencias/PYP-035/produccion-final.txt
+?? docs/evidencias/PYP-035/produccion-formulario.txt
+?? docs/evidencias/PYP-035/produccion-intento01.txt
+?? docs/evidencias/PYP-035/publicacion-git.json
+?? docs/evidencias/PYP-035/push-salida.txt
+?? docs/evidencias/PYP-035/remoto-cierre-final.txt
+?? docs/evidencias/PYP-035/verificar-formulario-produccion.mjs
+?? docs/evidencias/PYP-035/verificar-post-push.mjs
+?? docs/evidencias/PYP-036/
+?? docs/prompts/PYP-024.md
+?? docs/prompts/PYP-036.md
+?? src/assets/proyectos/rpi-mdfr/RPI-MDFR_Graficas_Sensores/

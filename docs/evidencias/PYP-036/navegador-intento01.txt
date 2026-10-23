@@ -1,0 +1,18 @@
+[baseline-browser-mapping] The data in this module is over two months old.  To ensure accurate Baseline data, please update: `npm i baseline-browser-mapping@latest -D`
+Controles Edge: 10
+Controles Edge: 20
+{
+  "passed": 22,
+  "failed": 2,
+  "failures": [
+    {
+      "name": "POST interceptado sin recepción real ni generate_lead",
+      "ok": false
+    },
+    {
+      "name": "Ejecución",
+      "ok": false,
+      "error": "Error: POST interceptado sin recepción real ni generate_lead\n    at check (file:///D:/promate/web/pyp-web/docs/evidencias/PYP-036/navegador.mjs:10:175)\n    at file:///D:/promate/web/pyp-web/docs/evidencias/PYP-036/navegador.mjs:104:2"
+    }
+  ]
+}

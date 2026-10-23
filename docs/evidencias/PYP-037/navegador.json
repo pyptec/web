@@ -1,0 +1,796 @@
+{
+  "date": "2026-10-23",
+  "results": [
+    {
+      "name": "Sin consentimiento: no tag GA",
+      "ok": true
+    },
+    {
+      "name": "Móvil: sin overflow, controles visibles >=44px",
+      "ok": true
+    },
+    {
+      "name": "Rechazo: panel cerrado, preferencia/foco y ninguna etiqueta",
+      "ok": true
+    },
+    {
+      "name": "Navegación sin Analytics y consentimiento persiste",
+      "ok": true
+    },
+    {
+      "name": "Editar preferencias: foco en título",
+      "ok": true
+    },
+    {
+      "name": "Primera página al aceptar: solo IoT actual",
+      "ok": true
+    },
+    {
+      "name": "Una sola etiqueta y config correctos",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /monitoreo-energetico/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /automatizacion-edge/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /automatizacion-edge/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /proyectos/rpi-mdfr/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /proyectos/rpi-mdfr/",
+      "ok": true
+    },
+    {
+      "name": "SPA vista única/título/canonical /proyectos/clg/",
+      "ok": true
+    },
+    {
+      "name": "Móvil ruta/imágenes /proyectos/clg/",
+      "ok": true
+    },
+    {
+      "name": "Query/hash no suman vistas",
+      "ok": true
+    },
+    {
+      "name": "CTA CLG identifica origen sin conversión",
+      "ok": true
+    },
+    {
+      "name": "Clics reales email/phone sin datos personales",
+      "ok": true
+    },
+    {
+      "name": "Formulario inválido no envía ni convierte",
+      "ok": true
+    },
+    {
+      "name": "Revocación preserva formulario escrito y activa opt-out",
+      "ok": true
+    },
+    {
+      "name": "Sin conversiones ficticias después de revocar",
+      "ok": true
+    },
+    {
+      "name": "Etiqueta bloqueada: sitio y formulario funcionales",
+      "ok": true
+    },
+    {
+      "name": "Etiqueta bloqueada no bloquea rutas",
+      "ok": true
+    },
+    {
+      "name": "Escritorio: sin overflow",
+      "ok": true
+    },
+    {
+      "name": "Sección y móvil monitoreo-energetico 1440",
+      "ok": true
+    },
+    {
+      "name": "CTA formulario monitoreo-energetico 1440",
+      "ok": true
+    },
+    {
+      "name": "Sección y móvil iot-industrial 1440",
+      "ok": true
+    },
+    {
+      "name": "Sección y móvil automatizacion-edge 1440",
+      "ok": true
+    },
+    {
+      "name": "CTA formulario automatizacion-edge 1440",
+      "ok": true
+    },
+    {
+      "name": "Sección y móvil monitoreo-energetico 390",
+      "ok": true
+    },
+    {
+      "name": "CTA formulario monitoreo-energetico 390",
+      "ok": true
+    },
+    {
+      "name": "Sección y móvil iot-industrial 390",
+      "ok": true
+    },
+    {
+      "name": "Sección y móvil automatizacion-edge 390",
+      "ok": true
+    },
+    {
+      "name": "CTA formulario automatizacion-edge 390",
+      "ok": true
+    },
+    {
+      "name": "Inicio 1440 tarjeta RPI íntegra/enlace",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 canonical/H1 sin overflow",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 infografía completa sin distorsión",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 siete capturas originales cargadas y ampliables",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 anclas locales válidas",
+      "ok": true
+    },
+    {
+      "name": "RPI 1440 contacto válido y sin formulario duplicado",
+      "ok": true
+    },
+    {
+      "name": "Inicio 390 tarjeta RPI íntegra/enlace",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 canonical/H1 sin overflow",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 infografía completa sin distorsión",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 siete capturas originales cargadas y ampliables",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 anclas locales válidas",
+      "ok": true
+    },
+    {
+      "name": "RPI 390 contacto válido y sin formulario duplicado",
+      "ok": true
+    },
+    {
+      "name": "Infografía se amplía en pestaña nueva",
+      "ok": true
+    },
+    {
+      "name": "Analytics RPI: una vista con canonical y título propios",
+      "ok": true
+    },
+    {
+      "name": "React StrictMode desarrollo: una inicialización/vista",
+      "ok": true
+    },
+    {
+      "name": "StrictMode cambio ruta: una vista adicional",
+      "ok": true
+    },
+    {
+      "name": "StrictMode listener contacto sin duplicados",
+      "ok": true
+    },
+    {
+      "name": "Sin excepciones JavaScript",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Nunca generate_lead ficticio",
+      "ok": true
+    },
+    {
+      "name": "ID correcto en todas las cargas interceptadas",
+      "ok": true
+    }
+  ],
+  "passed": 56,
+  "failed": 0,
+  "exceptions": [],
+  "commands": [
+    {
+      "phase": "accept",
+      "command": [
+        "js",
+        "2026-10-23T14:23:39.864Z"
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "accept",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/iot-industrial/",
+          "page_title": "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+          "page_path": "/iot-industrial/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "https://pyptecnologia.com/iot-industrial/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "https://pyptecnologia.com/iot-industrial/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/monitoreo-energetico/",
+          "page_title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+          "page_path": "/monitoreo-energetico/",
+          "page_referrer": "https://pyptecnologia.com/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/monitoreo-energetico/",
+          "page_title": "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+          "page_path": "/monitoreo-energetico/",
+          "page_referrer": "https://pyptecnologia.com/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/automatizacion-edge/",
+          "page_title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+          "page_path": "/automatizacion-edge/",
+          "page_referrer": "https://pyptecnologia.com/monitoreo-energetico/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/automatizacion-edge/",
+          "page_title": "Automatización Industrial y Edge Computing | PYP Tecnología",
+          "page_path": "/automatizacion-edge/",
+          "page_referrer": "https://pyptecnologia.com/monitoreo-energetico/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "https://pyptecnologia.com/automatizacion-edge/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "https://pyptecnologia.com/automatizacion-edge/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/proyectos/rpi-mdfr/"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "contact_cta_click",
+        {
+          "page_path": "/proyectos/clg/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "js",
+        "2026-10-23T14:23:41.344Z"
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "routes",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "contacts",
+      "command": [
+        "event",
+        "contact_click",
+        {
+          "contact_method": "email",
+          "page_path": "/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "contacts",
+      "command": [
+        "event",
+        "contact_click",
+        {
+          "contact_method": "phone",
+          "page_path": "/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "desktop",
+      "command": [
+        "js",
+        "2026-10-23T14:23:43.860Z"
+      ]
+    },
+    {
+      "phase": "desktop",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "desktop",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "desktop",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "desktop",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "js",
+        "2026-10-23T14:24:00.730Z"
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "rpi-zoom",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/rpi-mdfr/",
+          "page_title": "RPI-MDFR | Maduración inteligente de banano | PYP",
+          "page_path": "/proyectos/rpi-mdfr/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "js",
+        "2026-10-23T14:24:07.513Z"
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "config",
+        "G-WJ6METJRZD",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "send_page_view": false,
+          "allow_google_signals": false,
+          "allow_ad_personalization_signals": false,
+          "cookie_expires": 34128000,
+          "cookie_update": false
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": ""
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/",
+          "page_title": "IoT Industrial y Monitoreo Energético en Colombia | PYP Tecnología",
+          "page_path": "/",
+          "page_referrer": "",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "set",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "event",
+        "page_view",
+        {
+          "page_location": "https://pyptecnologia.com/proyectos/clg/",
+          "page_title": "CLG | Audio Inteligente y Automatización IoT | PYP",
+          "page_path": "/proyectos/clg/",
+          "page_referrer": "https://pyptecnologia.com/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    },
+    {
+      "phase": "strictmode-dev",
+      "command": [
+        "event",
+        "contact_cta_click",
+        {
+          "page_path": "/proyectos/clg/",
+          "send_to": "G-WJ6METJRZD"
+        }
+      ]
+    }
+  ],
+  "blocked": [],
+  "tagRequests": [
+    {
+      "phase": "accept",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    },
+    {
+      "phase": "routes",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    },
+    {
+      "phase": "blocked-tag",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    },
+    {
+      "phase": "desktop",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    },
+    {
+      "phase": "rpi-zoom",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    },
+    {
+      "phase": "strictmode-dev",
+      "path": "/gtag/js",
+      "id": "G-WJ6METJRZD"
+    }
+  ],
+  "limitations": "Edge emulado local (390/1440); etiqueta Google sustituida, todos los externos interceptados, POST bloqueados. No confirma recepción ni configuración GA4 real, ni recepción Netlify."
+}

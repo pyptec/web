@@ -1,0 +1,4 @@
+import fs from 'node:fs';import{execFileSync}from'node:child_process';
+const sha=execFileSync('git',['rev-parse','HEAD'],{encoding:'utf8'}).trim();const records=[];
+for(const tail of ['commits/'+sha+'/status','commits/'+sha+'/check-runs','deployments?sha='+sha]){try{const r=await fetch('https://api.github.com/repos/pyptec/web/'+tail,{headers:{Accept:'application/vnd.github+json'},signal:AbortSignal.timeout(20000)});records.push({tail,status:r.status,data:await r.json()});}catch(e){records.push({tail,error:e.message});}}
+fs.writeFileSync('docs/evidencias/PYP-037/github-netlify-'+(process.argv[2]||'final')+'.json',JSON.stringify({date:new Date().toISOString(),sha,records},null,2)+'\n');console.log(JSON.stringify({sha,records:records.map(r=>({tail:r.tail,status:r.status,state:r.data?.state,total:r.data?.total_count,deployments:Array.isArray(r.data)?r.data.length:undefined,error:r.error}))},null,2));

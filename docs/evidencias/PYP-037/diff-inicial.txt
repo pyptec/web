@@ -1,0 +1,13 @@
+ 01_ESTADO_Y_BITACORA.md                        | 48 ------------------------
+ 04_BITACORA_001_RESULTADO.md                   | 31 ----------------
+ docs/BITACORA_DESARROLLO.md                    | 51 ++++++++++++++++++++++++++
+ docs/evidencias/PYP-029/resultado.md           | 36 ++++++++++++++++++
+ docs/evidencias/PYP-029/seguimiento-seo.md     |  4 ++
+ docs/evidencias/PYP-035/resultado.md           | 43 +++++++++++++++++++++-
+ docs/evidencias/PYP-035/staged-publicacion.txt | 11 ++++++
+ docs/prompts/index.md                          |  3 ++
+ src/data/seo.js                                |  6 +--
+ src/pages/AutomatizacionEdge.jsx               | 12 ++++++
+ src/pages/IoTIndustrialLoRaWAN.jsx             | 11 ++++++
+ src/pages/MonitoreoEnergetico.jsx              | 13 +++++++
+ 12 files changed, 186 insertions(+), 83 deletions(-)

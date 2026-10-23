@@ -64,3 +64,7 @@
 - [PYP-035 — Diagnóstico definitivo de discrepancia GA4](./PYP-035-diagnostico-ga4.md)
 
 - [PYP-035 — Verificación final GA4 y publicación](./PYP-035-verificacion-final-publicacion.md)
+
+- [PYP-036 — Actualización comercial: integración abierta, TPM y medición como servicio](./PYP-036.md)
+
+- [PYP-037 — Publicación controlada y verificación en producción de PYP-036](./PYP-037.md)

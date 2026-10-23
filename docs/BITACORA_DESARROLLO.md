@@ -657,3 +657,32 @@ Objetivo: verificar ajuste en GT-K824G9N8/G-WJ6METJRZD y publicar selección apr
 ### PYP-035 — Selección final validada antes de commit — 2026-10-20
 
 Build/prerender/SEO (77 controles) y VitePress estricto de la copia del índice correctos. 20 fuentes/assets coinciden con el árbol de trabajo y seis formularios estáticos conservados. 286 archivos inicialmente seleccionados, sin secretos detectados por patrones; normalización exclusivamente documental de EOF/espacios con originales preservados. Se agregan informes y auxiliares finales de seguimiento GitHub/Netlify y producción, sin cambiar producto. Puerta GA4 superada con 44 controles y etiqueta original, 17 pruebas Analytics y 46 Edge correctas. Commit/push autorizados se ejecutarán tras la comprobación final de main y blobs de fuentes del índice; resultados con SHA quedarán en cierre local posterior. [Evidencia](evidencias/PYP-035/seleccion-publicacion-validada.json).
+
+## PYP-036 — Integración abierta, TPM y medición como servicio — 2026-10-23
+
+- Objetivo: ampliar la comunicación comercial de las tres páginas existentes con contratación flexible, integración de equipos/plataformas e indicadores industriales sujetos a evaluación.
+- Prompt: [texto íntegro](prompts/PYP-036.md).
+- Estado inicial: main, HEAD 3dae972b5a14c92757b1eeaad01437385ab1a0dc; cambios documentales, bajas raíz y archivos sin seguimiento previos preservados. [Git inicial](evidencias/PYP-036/git-inicial.txt).
+- Archivos: src/pages/MonitoreoEnergetico.jsx, src/pages/IoTIndustrialLoRaWAN.jsx, src/pages/AutomatizacionEdge.jsx y src/data/seo.js; nuevo prompt, enlace en índice, esta entrada y docs/evidencias/PYP-036/.
+- Explicación técnica: cuatro modalidades energéticas; equipos existentes, protocolos de campo/transmisión y plataformas abiertas; OEE/MTBF/MTTR y límites de datos. Componentes, colores y botones actuales reutilizados, dos CTA al formulario corporativo existente, solo tres descripciones SEO actualizadas. Sin dependencias/rutas nuevas, cifras inventadas ni afirmación de certificación ISO. TPM sujeto a evaluación/validación.
+- Validaciones: build comercial en directorio temporal y prerender correctos; 17 pruebas Analytics, 73 controles SEO y 56 controles Edge correctos; cero excepciones JavaScript. VitePress correcto. SHA-256 de 82 archivos: únicamente cambian las cuatro fuentes autorizadas, 17 dist byteidénticos; CLG/RPI/formulario/Analytics/rutas/sitemap/dependencias intactos. Capturas reales 390/1440 de las tres secciones, CTA y SPA verificados. Diff-check correcto antes del cierre, repetición final registrada en evidencias.
+- Evidencias: [informe, comandos y enlaces a capturas](evidencias/PYP-036/resultado.md), [integridad](evidencias/PYP-036/integridad.json), [navegador](evidencias/PYP-036/navegador.json).
+- Incidencias: selector inicial de contacto no contemplaba saltos de línea, corregido antes de editar fuentes. Primer recorrido pasó 22 controles y se detuvo en expectativa heredada de POST no observado; intento conservado y retirado del recorrido final, sin declarar recepción de formulario. Avisos preexistentes Browserslist/Baseline; sin actualizar dependencias. Capturas de sección con encabezado fijo superpuesto en la parte superior.
+- Pendientes: revisión visual del propietario y móvil físico; recepción externa GA4/formulario no verificada; pendientes remotos heredados de PYP-035 conservados. Listo para revisión visual local.
+- Aprobación: implementación local autorizada, aprobación visual pendiente. Sin staging, commit, push ni despliegue; **NO PUBLICADO**. [Estado final Git](evidencias/PYP-036/git-final.txt).
+
+Cierre PYP-036: seis enlaces a logs no admitidos por VitePress corregidos mediante copias .txt, conservando los originales y el control estricto de enlaces. Sin cambios comerciales adicionales.
+
+
+## PYP-037 — Publicación controlada de PYP-036 — 2026-10-23
+
+- Objetivo: publicar exclusivamente las mejoras comerciales PYP-036 y verificar las seis rutas públicas.
+- Prompt: [texto íntegro](prompts/PYP-037.md).
+- Estado inicial: main, HEAD 3dae972b5a14c92757b1eeaad01437385ab1a0dc; cuatro fuentes comerciales PYP-036 pendientes y documentación previa ajena identificada. Sin conflictos ni staging. [Estado inicial](evidencias/PYP-037/git-inicial.txt).
+- Archivos seleccionados: cuatro fuentes PYP-036, prompt y evidencias PYP-036, prompt y evidencias PYP-037; únicamente entradas PYP-036/037 en bitácora e índice. Se excluyen bajas raíz, documentos/evidencias anteriores, dist, perfiles, builds y temporales.
+- Explicación técnica: publicación mediante commit selectivo y push normal origin main, usando el mecanismo automático Netlify existente; sin cambios nuevos de producto o configuración.
+- Validaciones/evidencias: [informe](evidencias/PYP-037/resultado.md); resultados se incorporarán antes del commit. Integridad de fuentes, dist y trabajo ajeno comprobada antes y después.
+- Incidencias y pendientes: sin acceso autenticado Netlify demostrado; no se inferirá ID, SHA del proveedor ni créditos. Recepción real GA4/formulario y revisión móvil física no se declararán verificadas. Aprobación de publicación expresa mediante PYP-037.
+- Commit y publicación: autorizados sujetos a validaciones; todavía no ejecutados en esta preparación. Cierre posterior se registrará explícitamente sin incluir trabajo ajeno.
+
+PYP-037 — Validación previa: build/prerender correctos, Analytics 17/17, SEO 73/73, Edge 56/56 y cero excepciones; 17 dist y fuentes sin cambios durante la preparación. Remoto main coincide con HEAD de referencia. Se prepara selección parcial documental y validación estricta antes del commit autorizado.

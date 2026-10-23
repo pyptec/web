@@ -1909,6 +1909,19 @@ export default function MonitoreoEnergetico() {
 
         {/* CONTACTO */}
 
+        <section id="modalidades" className="bg-[#F5F5F5] py-20"><div className="mx-auto max-w-7xl px-6">
+<SectionTitle eyebrow="Modelos de contratación" title="Medición energética flexible: compra, arrendamiento o servicio" description="PYP Tecnología Electrónica S.A.S. desarrolla soluciones IIoT para medición y gestión energética, adaptadas a la infraestructura y al modelo de contratación del cliente." />
+<div className="grid gap-6 md:grid-cols-2">
+<FeatureCard icon={Gauge} title="Suministro e integración" description="Venta, configuración e integración de sistemas de medición y monitoreo energético." />
+<FeatureCard icon={Activity} title="Arrendamiento de equipos de medición" description="Equipos de adquisición y medición mediante un contrato periódico, con mantenimiento y soporte definidos según el alcance contratado." />
+<FeatureCard icon={Cloud} title="Medición como servicio (MaaS)" description="Servicio integral que puede incluir instrumentación, adquisición de datos, comunicaciones, plataforma, almacenamiento, alarmas y reportes, de acuerdo con el contrato." />
+<FeatureCard icon={BarChart3} title="Datos y analítica como servicio" description="Aprovechamiento de la instrumentación existente para recopilar datos, generar indicadores y entregar información útil sin requerir necesariamente nuevos medidores." />
+</div>
+<p className="mt-8 rounded-2xl border border-[#DCE9BD] bg-[#F7FAEF] p-6 text-lg font-semibold text-[#416D13]">Aprovechamos su infraestructura de medición existente y agregamos únicamente los componentes necesarios.</p>
+<p className="mt-4 leading-relaxed text-gray-700">Los modelos de suministro, arrendamiento y servicios recurrentes se definen para cada proyecto. Puede existir un costo de instalación, adecuación o conectividad según la infraestructura.</p>
+<a href="/#contacto" className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#A6CE39] px-6 py-3 font-semibold text-[#1E1E1E] hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">Solicitar evaluación de infraestructura <ArrowRight size={18} aria-hidden="true" /></a>
+        </div></section>
+
         <section
 
           id="contacto"

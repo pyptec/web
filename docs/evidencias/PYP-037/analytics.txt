@@ -1,0 +1,112 @@
+TAP version 13
+# Subtest: SSR: importing/starting analytics never accesses window
+ok 1 - SSR: importing/starting analytics never accesses window
+  ---
+  duration_ms: 15.5898
+  type: 'test'
+  ...
+# Subtest: Unknown and denied: zero tag, cookies, commands; no pre-consent replay
+ok 2 - Unknown and denied: zero tag, cookies, commands; no pre-consent replay
+  ---
+  duration_ms: 4.6216
+  type: 'test'
+  ...
+# Subtest: One config/tag, correct ID, no automatic page_view, ad personalization disabled
+ok 3 - One config/tag, correct ID, no automatic page_view, ad personalization disabled
+  ---
+  duration_ms: 4.5022
+  type: 'test'
+  ...
+# Subtest: All five routes, title/canonical, repeat effects, slash/query/hash, return visits
+ok 4 - All five routes, title/canonical, repeat effects, slash/query/hash, return visits
+  ---
+  duration_ms: 4.0625
+  type: 'test'
+  ...
+# Subtest: Slow tag: first view is current route, no navigation replay
+ok 5 - Slow tag: first view is current route, no navigation replay
+  ---
+  duration_ms: 4.9667
+  type: 'test'
+  ...
+# Subtest: Revoke mid-load then accept: no event while denied, one initialization
+ok 6 - Revoke mid-load then accept: no event while denied, one initialization
+  ---
+  duration_ms: 3.9609
+  type: 'test'
+  ...
+# Subtest: Revoke after load: opt-out flag, remove only GA cookies, no events, accept current page
+ok 7 - Revoke after load: opt-out flag, remove only GA cookies, no events, accept current page
+  ---
+  duration_ms: 3.5292
+  type: 'test'
+  ...
+# Subtest: Cross-tab revoke/storage deletion and expired/invalid choices default to no collection
+ok 8 - Cross-tab revoke/storage deletion and expired/invalid choices default to no collection
+  ---
+  duration_ms: 9.7203
+  type: 'test'
+  ...
+# Subtest: Unavailable localStorage: can reject/accept within this tab without throwing
+ok 9 - Unavailable localStorage: can reject/accept within this tab without throwing
+  ---
+  duration_ms: 3.7746
+  type: 'test'
+  ...
+# Subtest: Tag blocked/CSP, failed/retry and throwing gtag cannot break navigation
+ok 10 - Tag blocked/CSP, failed/retry and throwing gtag cannot break navigation
+  ---
+  duration_ms: 6.3399
+  type: 'test'
+  ...
+# Subtest: UTM allowlist: sanitized campaign tokens only; canonical excludes query/hash and referrer path
+ok 11 - UTM allowlist: sanitized campaign tokens only; canonical excludes query/hash and referrer path
+  ---
+  duration_ms: 6.3634
+  type: 'test'
+  ...
+# Subtest: Invalid UTM values are discarded
+ok 12 - Invalid UTM values are discarded
+  ---
+  duration_ms: 2.7833
+  type: 'test'
+  ...
+# Subtest: Contact clicks email/phone/WhatsApp and CLG CTA: allowlisted fields, duplicate event suppressed
+ok 13 - Contact clicks email/phone/WhatsApp and CLG CTA: allowlisted fields, duplicate event suppressed
+  ---
+  duration_ms: 4.1804
+  type: 'test'
+  ...
+# Subtest: Rejected/no tag: contact clicks and form interactions never emit generate_lead
+ok 14 - Rejected/no tag: contact clicks and form interactions never emit generate_lead
+  ---
+  duration_ms: 3.6377
+  type: 'test'
+  ...
+# Subtest: BFCache restore: one new view, no new tag/config; ordinary pageshow does not duplicate
+ok 15 - BFCache restore: one new view, no new tag/config; ordinary pageshow does not duplicate
+  ---
+  duration_ms: 2.9044
+  type: 'test'
+  ...
+# Subtest: BFCache restore rereads revoked/expired consent and stops collection
+ok 16 - BFCache restore rereads revoked/expired consent and stops collection
+  ---
+  duration_ms: 3.3385
+  type: 'test'
+  ...
+# Subtest: BFCache restore can read consent granted in another document without replay
+ok 17 - BFCache restore can read consent granted in another document without replay
+  ---
+  duration_ms: 4.0615
+  type: 'test'
+  ...
+1..17
+# tests 17
+# suites 0
+# pass 17
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 275.6194

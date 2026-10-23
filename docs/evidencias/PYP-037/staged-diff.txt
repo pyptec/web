@@ -1,0 +1,143 @@
+diff --git a/docs/BITACORA_DESARROLLO.md b/docs/BITACORA_DESARROLLO.md
+index ded8b3d..8ee74b0 100644
+--- a/docs/BITACORA_DESARROLLO.md
++++ b/docs/BITACORA_DESARROLLO.md
+@@ -657,3 +657,32 @@ Objetivo: verificar ajuste en GT-K824G9N8/G-WJ6METJRZD y publicar selección apr
+ ### PYP-035 — Selección final validada antes de commit — 2026-10-20
+
+ Build/prerender/SEO (77 controles) y VitePress estricto de la copia del índice correctos. 20 fuentes/assets coinciden con el árbol de trabajo y seis formularios estáticos conservados. 286 archivos inicialmente seleccionados, sin secretos detectados por patrones; normalización exclusivamente documental de EOF/espacios con originales preservados. Se agregan informes y auxiliares finales de seguimiento GitHub/Netlify y producción, sin cambiar producto. Puerta GA4 superada con 44 controles y etiqueta original, 17 pruebas Analytics y 46 Edge correctas. Commit/push autorizados se ejecutarán tras la comprobación final de main y blobs de fuentes del índice; resultados con SHA quedarán en cierre local posterior. [Evidencia](evidencias/PYP-035/seleccion-publicacion-validada.json).
++
++## PYP-036 — Integración abierta, TPM y medición como servicio — 2026-10-23
++
++- Objetivo: ampliar la comunicación comercial de las tres páginas existentes con contratación flexible, integración de equipos/plataformas e indicadores industriales sujetos a evaluación.
++- Prompt: [texto íntegro](prompts/PYP-036.md).
++- Estado inicial: main, HEAD 3dae972b5a14c92757b1eeaad01437385ab1a0dc; cambios documentales, bajas raíz y archivos sin seguimiento previos preservados. [Git inicial](evidencias/PYP-036/git-inicial.txt).
++- Archivos: src/pages/MonitoreoEnergetico.jsx, src/pages/IoTIndustrialLoRaWAN.jsx, src/pages/AutomatizacionEdge.jsx y src/data/seo.js; nuevo prompt, enlace en índice, esta entrada y docs/evidencias/PYP-036/.
++- Explicación técnica: cuatro modalidades energéticas; equipos existentes, protocolos de campo/transmisión y plataformas abiertas; OEE/MTBF/MTTR y límites de datos. Componentes, colores y botones actuales reutilizados, dos CTA al formulario corporativo existente, solo tres descripciones SEO actualizadas. Sin dependencias/rutas nuevas, cifras inventadas ni afirmación de certificación ISO. TPM sujeto a evaluación/validación.
++- Validaciones: build comercial en directorio temporal y prerender correctos; 17 pruebas Analytics, 73 controles SEO y 56 controles Edge correctos; cero excepciones JavaScript. VitePress correcto. SHA-256 de 82 archivos: únicamente cambian las cuatro fuentes autorizadas, 17 dist byteidénticos; CLG/RPI/formulario/Analytics/rutas/sitemap/dependencias intactos. Capturas reales 390/1440 de las tres secciones, CTA y SPA verificados. Diff-check correcto antes del cierre, repetición final registrada en evidencias.
++- Evidencias: [informe, comandos y enlaces a capturas](evidencias/PYP-036/resultado.md), [integridad](evidencias/PYP-036/integridad.json), [navegador](evidencias/PYP-036/navegador.json).
++- Incidencias: selector inicial de contacto no contemplaba saltos de línea, corregido antes de editar fuentes. Primer recorrido pasó 22 controles y se detuvo en expectativa heredada de POST no observado; intento conservado y retirado del recorrido final, sin declarar recepción de formulario. Avisos preexistentes Browserslist/Baseline; sin actualizar dependencias. Capturas de sección con encabezado fijo superpuesto en la parte superior.
++- Pendientes: revisión visual del propietario y móvil físico; recepción externa GA4/formulario no verificada; pendientes remotos heredados de PYP-035 conservados. Listo para revisión visual local.
++- Aprobación: implementación local autorizada, aprobación visual pendiente. Sin staging, commit, push ni despliegue; **NO PUBLICADO**. [Estado final Git](evidencias/PYP-036/git-final.txt).
++
++Cierre PYP-036: seis enlaces a logs no admitidos por VitePress corregidos mediante copias .txt, conservando los originales y el control estricto de enlaces. Sin cambios comerciales adicionales.
++
++
++## PYP-037 — Publicación controlada de PYP-036 — 2026-10-23
++
++- Objetivo: publicar exclusivamente las mejoras comerciales PYP-036 y verificar las seis rutas públicas.
++- Prompt: [texto íntegro](prompts/PYP-037.md).
++- Estado inicial: main, HEAD 3dae972b5a14c92757b1eeaad01437385ab1a0dc; cuatro fuentes comerciales PYP-036 pendientes y documentación previa ajena identificada. Sin conflictos ni staging. [Estado inicial](evidencias/PYP-037/git-inicial.txt).
++- Archivos seleccionados: cuatro fuentes PYP-036, prompt y evidencias PYP-036, prompt y evidencias PYP-037; únicamente entradas PYP-036/037 en bitácora e índice. Se excluyen bajas raíz, documentos/evidencias anteriores, dist, perfiles, builds y temporales.
++- Explicación técnica: publicación mediante commit selectivo y push normal origin main, usando el mecanismo automático Netlify existente; sin cambios nuevos de producto o configuración.
++- Validaciones/evidencias: [informe](evidencias/PYP-037/resultado.md); resultados se incorporarán antes del commit. Integridad de fuentes, dist y trabajo ajeno comprobada antes y después.
++- Incidencias y pendientes: sin acceso autenticado Netlify demostrado; no se inferirá ID, SHA del proveedor ni créditos. Recepción real GA4/formulario y revisión móvil física no se declararán verificadas. Aprobación de publicación expresa mediante PYP-037.
++- Commit y publicación: autorizados sujetos a validaciones; todavía no ejecutados en esta preparación. Cierre posterior se registrará explícitamente sin incluir trabajo ajeno.
++
++PYP-037 — Validación previa: build/prerender correctos, Analytics 17/17, SEO 73/73, Edge 56/56 y cero excepciones; 17 dist y fuentes sin cambios durante la preparación. Remoto main coincide con HEAD de referencia. Se prepara selección parcial documental y validación estricta antes del commit autorizado.
+diff --git a/docs/prompts/index.md b/docs/prompts/index.md
+index 6899075..7aefc56 100644
+--- a/docs/prompts/index.md
++++ b/docs/prompts/index.md
+@@ -64,3 +64,7 @@
+ - [PYP-035 — Diagnóstico definitivo de discrepancia GA4](./PYP-035-diagnostico-ga4.md)
+
+ - [PYP-035 — Verificación final GA4 y publicación](./PYP-035-verificacion-final-publicacion.md)
++
++- [PYP-036 — Actualización comercial: integración abierta, TPM y medición como servicio](./PYP-036.md)
++
++- [PYP-037 — Publicación controlada y verificación en producción de PYP-036](./PYP-037.md)
+diff --git a/src/data/seo.js b/src/data/seo.js
+index 1b613d6..83d07f5 100644
+--- a/src/data/seo.js
++++ b/src/data/seo.js
+@@ -22,17 +22,17 @@ export const SEO_PAGES = {
+   "/iot-industrial": {
+     title: "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
+     description:
+-      "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
++      "IoT industrial e integración de medidores, PLC y sensores existentes. Conectividad Modbus, MQTT y API con plataformas del cliente e IoTrack de PYP.",
+   },
+   "/monitoreo-energetico": {
+     title: "Monitoreo Energético Industrial y Solar | PYP Tecnología",
+     description:
+-      "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
++      "Monitoreo energético industrial y solar: integración de medidores existentes, suministro, arrendamiento y medición como servicio según cada proyecto.",
+   },
+   "/automatizacion-edge": {
+     title: "Automatización Industrial y Edge Computing | PYP Tecnología",
+     description:
+-      "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
++      "Automatización industrial y Edge Computing. Integración y análisis de indicadores TPM, OEE, MTBF y MTTR sujetos a evaluación y validación del proyecto.",
+   },
+ };
+
+diff --git a/src/pages/AutomatizacionEdge.jsx b/src/pages/AutomatizacionEdge.jsx
+index 85731a2..c65350e 100644
+--- a/src/pages/AutomatizacionEdge.jsx
++++ b/src/pages/AutomatizacionEdge.jsx
+@@ -97,6 +97,18 @@ export default function AutomatizacionEdge() {
+         <p className="mt-8 max-w-3xl leading-relaxed text-gray-700">Para aplicaciones de comunicación audible por eventos, <a href="/proyectos/clg/" className="font-semibold text-[#416D13] underline underline-offset-4">CLG integra audio inteligente y automatización local</a>, con entradas y salidas y vías de integración industrial que se definen por proyecto.</p>
+         <div className="mt-9 flex flex-wrap gap-3"><Btn href="/monitoreo-energetico" outline>Ver monitoreo energético</Btn><Btn href="/iot-industrial" outline>Ver IoT y LoRaWAN</Btn></div>
+       </div></section>
++        <section id="indicadores-tpm" className="bg-[#F5F5F5] py-20"><div className="mx-auto max-w-7xl px-6">
++<Heading label="Productividad y mantenimiento" title="Indicadores de productividad y mantenimiento industrial — TPM" desc="Integramos información operativa y eventos de los equipos para construir indicadores de desempeño industrial. Son capacidades de integración y análisis sujetas a evaluación y validación en cada proyecto; no todos los módulos TPM están desplegados en producción." />
++<div className="grid gap-6 md:grid-cols-2">
++<Feature icon={Gauge} title="Disponibilidad y OEE">Disponibilidad operacional y OEE: eficiencia global de los equipos. OEE = Disponibilidad × Rendimiento × Calidad. Su cálculo requiere datos de operación, producción y calidad.</Feature>
++<Feature icon={Settings2} title="Mantenimiento industrial">MTBF: tiempo medio entre fallas. MTTR: tiempo medio de reparación. Se construyen a partir de registros de fallas e intervenciones con tiempos y criterios definidos.</Feature>
++<Feature icon={Activity} title="Eventos y tendencias">Registro y clasificación de paradas, tendencias de funcionamiento e identificación de anomalías para orientar el análisis operativo.</Feature>
++<Feature icon={Zap} title="Energía y producción">Relación entre consumo energético y producción para analizar el desempeño del proceso a partir de datos sincronizados y contextualizados.</Feature>
++</div>
++<div className="mt-8 rounded-2xl border border-[#DCE9BD] bg-[#F7FAEF] p-6"><p className="text-lg font-semibold text-[#416D13]">La disponibilidad de cada indicador depende de la instrumentación instalada, los datos de producción y la calidad de los registros operacionales.</p><p className="mt-3 leading-relaxed text-gray-700">El monitoreo eléctrico por sí solo no permite determinar automáticamente todas las causas de falla, unidades rechazadas o tiempos de reparación. Evaluamos las fuentes disponibles y validamos los indicadores antes de su uso operacional.</p></div>
++<div className="mt-8"><Btn href="/#contacto">Consultar integración de indicadores TPM <ArrowRight size={18} aria-hidden="true" /></Btn></div>
++        </div></section>
++
+       <section id="contacto" className="scroll-mt-28 bg-[#F7FAEF] py-20"><div className="mx-auto max-w-7xl px-6"><div className="rounded-3xl border border-[#DCE9BD] bg-white p-8 md:p-12">
+         <Heading label="Hablemos de tu proyecto" title="¿Necesitas integrar o automatizar un proceso?" desc="Revisamos la instrumentación existente, las interfaces de comunicación, las necesidades de control y las condiciones de operación." />
+         <div className="flex flex-wrap items-center gap-4"><Btn href="mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20automatizacion%20industrial"><Mail size={19}/> Solicitar evaluación</Btn><a className="inline-flex items-center gap-2 font-semibold text-[#416D13] underline underline-offset-4" href="tel:+573204929150"><Phone size={18}/> +57 320 492 9150</a></div>
+diff --git a/src/pages/IoTIndustrialLoRaWAN.jsx b/src/pages/IoTIndustrialLoRaWAN.jsx
+index e95d1d6..d08cfed 100644
+--- a/src/pages/IoTIndustrialLoRaWAN.jsx
++++ b/src/pages/IoTIndustrialLoRaWAN.jsx
+@@ -103,6 +103,17 @@ export default function IoTIndustrialLoRaWAN() {
+         <section className="py-20"><div className="mx-auto max-w-7xl px-6"><Heading eyebrow="Aplicaciones" title="Dónde aplicamos IoT industrial" text="La misma arquitectura puede adaptarse a distintos procesos, sensores y objetivos de monitoreo."/><div className="grid gap-6 md:grid-cols-3"><Card icon={Zap} title="Energía y producción">Medición de consumos, seguimiento de equipos, indicadores y detección de cambios operativos.</Card><Card icon={Thermometer} title="Ambiente y cadena productiva">Registro de temperatura, humedad y otras variables para trazabilidad y análisis de procesos.</Card><Card icon={Activity} title="Infraestructura remota">Telemetría de instalaciones distribuidas con redes de largo alcance o conectividad celular.</Card></div><div className="mt-8"><a href="/monitoreo-energetico" className="inline-flex items-center gap-2 font-bold text-[#416D13] underline-offset-4 hover:underline">Ver solución de monitoreo energético <ArrowRight size={18} aria-hidden="true"/></a></div></div></section>
+
+         <section className="bg-white pb-16"><div className="mx-auto max-w-7xl px-6"><p className="max-w-3xl leading-relaxed text-gray-700">Cuando un evento necesita convertirse en un mensaje audible, <a href="/proyectos/clg/" className="font-semibold text-[#416D13] underline underline-offset-4">CLG conecta audio comercial y automatización IoT</a> con procesamiento local e integración de señales y datos según el alcance del proyecto.</p></div></section>
++        <section id="integracion-abierta" className="bg-[#F5F5F5] py-20"><div className="mx-auto max-w-7xl px-6">
++<Heading eyebrow="Integración abierta" title="Integramos su infraestructura, no la reemplazamos" text="Conectamos equipos y plataformas existentes para transformar datos en información útil para la eficiencia energética, la productividad y el mantenimiento." />
++<div className="grid gap-6 md:grid-cols-2">
++<div className="rounded-2xl border border-gray-200 bg-white p-6"><Gauge size={25} color={C.icon} aria-hidden="true" /><h3 className="mt-4 text-xl font-bold">Equipos existentes</h3><ul className="mt-3 list-disc space-y-2 pl-5 text-gray-700"><li>Medidores de energía y analizadores de redes.</li><li>PLC y controladores industriales.</li><li>Sensores e instrumentos de proceso.</li><li>Inversores solares.</li><li>Equipos industriales con interfaces de comunicación compatibles.</li><li>Sistemas de adquisición o gateways existentes que permitan acceso autorizado a sus datos.</li></ul></div>
++<Card icon={Network} title="Integración con plataformas propietarias">Entregamos información a plataformas desarrolladas por el cliente, sistemas SCADA, plataformas MES, sistemas ERP o CMMS mediante interfaces compatibles, servicios en la nube y la plataforma IoTrack de PYP. El tratamiento, acceso y entrega de información se definen contractualmente y requieren autorización del titular de los sistemas.</Card>
++<Card icon={Cable} title="Compatibilidad e integración">En campo, RS-485 es una interfaz física y Modbus RTU/TCP permite intercambiar datos con equipos compatibles. Para transmitir e integrar información con plataformas se utilizan MQTT y HTTPS/API, según el proyecto. La adquisición depende de los protocolos disponibles, documentación técnica, permisos de acceso y condiciones de la instalación.</Card>
++<Card icon={HardDrive} title="Continuidad de adquisición">Las soluciones pueden incorporar almacenamiento temporal y reenvío de eventos ante interrupciones de conectividad, según configuración y alcance del proyecto. La recuperación depende de la capacidad de almacenamiento y de las condiciones de operación y comunicación.</Card>
++</div>
++<p className="mt-8 rounded-2xl border border-[#DCE9BD] bg-[#F7FAEF] p-6 text-lg font-semibold text-[#416D13]">Sus equipos, sus datos y su plataforma. PYP aporta la conectividad y la inteligencia de integración.</p>
++        </div></section>
++
+         <section id="contacto" className="scroll-mt-24 bg-white py-20"><div className="mx-auto max-w-7xl px-6"><div className="rounded-3xl border border-gray-200 bg-[#F5F5F5] p-8 md:p-12"><p className="text-sm font-bold uppercase tracking-widest text-[#416D13]">Hablemos de tu proyecto</p><h2 className="mt-3 text-3xl font-extrabold md:text-4xl">¿Necesitas conectar equipos o sensores?</h2><p className="mt-5 max-w-3xl text-lg leading-relaxed text-gray-700">Revisamos las variables a medir, protocolos disponibles, cobertura, frecuencia de muestreo y necesidades de visualización para definir una solución IoT adecuada.</p><div className="mt-8 flex flex-wrap gap-3"><Button href="mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20IoT%20industrial%20y%20LoRaWAN"><Mail size={19} aria-hidden="true"/> Solicitar evaluación</Button><Button href="tel:+573204929150" secondary><Phone size={19} aria-hidden="true"/> +57 320 492 9150</Button></div><p className="mt-5 text-sm text-gray-700">jaime.pedraza@pyptecnologia.com</p></div></div></section>
+       </main>
+       <footer className="border-t border-gray-200 bg-white px-6 py-8 text-center text-sm text-gray-600">© {year} PYP Tecnología Electrónica SAS · IoT industrial · LoRaWAN · Automatización</footer>
+diff --git a/src/pages/MonitoreoEnergetico.jsx b/src/pages/MonitoreoEnergetico.jsx
+index 90479c1..464b06b 100644
+--- a/src/pages/MonitoreoEnergetico.jsx
++++ b/src/pages/MonitoreoEnergetico.jsx
+@@ -1909,6 +1909,19 @@ export default function MonitoreoEnergetico() {
+
+         {/* CONTACTO */}
+
++        <section id="modalidades" className="bg-[#F5F5F5] py-20"><div className="mx-auto max-w-7xl px-6">
++<SectionTitle eyebrow="Modelos de contratación" title="Medición energética flexible: compra, arrendamiento o servicio" description="PYP Tecnología Electrónica S.A.S. desarrolla soluciones IIoT para medición y gestión energética, adaptadas a la infraestructura y al modelo de contratación del cliente." />
++<div className="grid gap-6 md:grid-cols-2">
++<FeatureCard icon={Gauge} title="Suministro e integración" description="Venta, configuración e integración de sistemas de medición y monitoreo energético." />
++<FeatureCard icon={Activity} title="Arrendamiento de equipos de medición" description="Equipos de adquisición y medición mediante un contrato periódico, con mantenimiento y soporte definidos según el alcance contratado." />
++<FeatureCard icon={Cloud} title="Medición como servicio (MaaS)" description="Servicio integral que puede incluir instrumentación, adquisición de datos, comunicaciones, plataforma, almacenamiento, alarmas y reportes, de acuerdo con el contrato." />
++<FeatureCard icon={BarChart3} title="Datos y analítica como servicio" description="Aprovechamiento de la instrumentación existente para recopilar datos, generar indicadores y entregar información útil sin requerir necesariamente nuevos medidores." />
++</div>
++<p className="mt-8 rounded-2xl border border-[#DCE9BD] bg-[#F7FAEF] p-6 text-lg font-semibold text-[#416D13]">Aprovechamos su infraestructura de medición existente y agregamos únicamente los componentes necesarios.</p>
++<p className="mt-4 leading-relaxed text-gray-700">Los modelos de suministro, arrendamiento y servicios recurrentes se definen para cada proyecto. Puede existir un costo de instalación, adecuación o conectividad según la infraestructura.</p>
++<a href="/#contacto" className="mt-8 inline-flex items-center gap-2 rounded-xl bg-[#A6CE39] px-6 py-3 font-semibold text-[#1E1E1E] hover:bg-[#416D13] hover:text-white focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#416D13]">Solicitar evaluación de infraestructura <ArrowRight size={18} aria-hidden="true" /></a>
++        </div></section>
++
+         <section
+
+           id="contacto"

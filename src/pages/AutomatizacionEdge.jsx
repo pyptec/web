@@ -97,6 +97,18 @@ export default function AutomatizacionEdge() {
         <p className="mt-8 max-w-3xl leading-relaxed text-gray-700">Para aplicaciones de comunicación audible por eventos, <a href="/proyectos/clg/" className="font-semibold text-[#416D13] underline underline-offset-4">CLG integra audio inteligente y automatización local</a>, con entradas y salidas y vías de integración industrial que se definen por proyecto.</p>
         <div className="mt-9 flex flex-wrap gap-3"><Btn href="/monitoreo-energetico" outline>Ver monitoreo energético</Btn><Btn href="/iot-industrial" outline>Ver IoT y LoRaWAN</Btn></div>
       </div></section>
+        <section id="indicadores-tpm" className="bg-[#F5F5F5] py-20"><div className="mx-auto max-w-7xl px-6">
+<Heading label="Productividad y mantenimiento" title="Indicadores de productividad y mantenimiento industrial — TPM" desc="Integramos información operativa y eventos de los equipos para construir indicadores de desempeño industrial. Son capacidades de integración y análisis sujetas a evaluación y validación en cada proyecto; no todos los módulos TPM están desplegados en producción." />
+<div className="grid gap-6 md:grid-cols-2">
+<Feature icon={Gauge} title="Disponibilidad y OEE">Disponibilidad operacional y OEE: eficiencia global de los equipos. OEE = Disponibilidad × Rendimiento × Calidad. Su cálculo requiere datos de operación, producción y calidad.</Feature>
+<Feature icon={Settings2} title="Mantenimiento industrial">MTBF: tiempo medio entre fallas. MTTR: tiempo medio de reparación. Se construyen a partir de registros de fallas e intervenciones con tiempos y criterios definidos.</Feature>
+<Feature icon={Activity} title="Eventos y tendencias">Registro y clasificación de paradas, tendencias de funcionamiento e identificación de anomalías para orientar el análisis operativo.</Feature>
+<Feature icon={Zap} title="Energía y producción">Relación entre consumo energético y producción para analizar el desempeño del proceso a partir de datos sincronizados y contextualizados.</Feature>
+</div>
+<div className="mt-8 rounded-2xl border border-[#DCE9BD] bg-[#F7FAEF] p-6"><p className="text-lg font-semibold text-[#416D13]">La disponibilidad de cada indicador depende de la instrumentación instalada, los datos de producción y la calidad de los registros operacionales.</p><p className="mt-3 leading-relaxed text-gray-700">El monitoreo eléctrico por sí solo no permite determinar automáticamente todas las causas de falla, unidades rechazadas o tiempos de reparación. Evaluamos las fuentes disponibles y validamos los indicadores antes de su uso operacional.</p></div>
+<div className="mt-8"><Btn href="/#contacto">Consultar integración de indicadores TPM <ArrowRight size={18} aria-hidden="true" /></Btn></div>
+        </div></section>
+
       <section id="contacto" className="scroll-mt-28 bg-[#F7FAEF] py-20"><div className="mx-auto max-w-7xl px-6"><div className="rounded-3xl border border-[#DCE9BD] bg-white p-8 md:p-12">
         <Heading label="Hablemos de tu proyecto" title="¿Necesitas integrar o automatizar un proceso?" desc="Revisamos la instrumentación existente, las interfaces de comunicación, las necesidades de control y las condiciones de operación." />
         <div className="flex flex-wrap items-center gap-4"><Btn href="mailto:jaime.pedraza@pyptecnologia.com?subject=Consulta%20automatizacion%20industrial"><Mail size={19}/> Solicitar evaluación</Btn><a className="inline-flex items-center gap-2 font-semibold text-[#416D13] underline underline-offset-4" href="tel:+573204929150"><Phone size={18}/> +57 320 492 9150</a></div>

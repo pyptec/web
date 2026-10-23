@@ -22,17 +22,17 @@ export const SEO_PAGES = {
   "/iot-industrial": {
     title: "IoT Industrial y LoRaWAN en Colombia | PYP Tecnología",
     description:
-      "Soluciones IoT industrial y LoRaWAN: gateways Edge, sensores, Modbus, MQTT, telemetría, almacenamiento local e integración con AWS IoT y plataformas empresariales.",
+      "IoT industrial e integración de medidores, PLC y sensores existentes. Conectividad Modbus, MQTT y API con plataformas del cliente e IoTrack de PYP.",
   },
   "/monitoreo-energetico": {
     title: "Monitoreo Energético Industrial y Solar | PYP Tecnología",
     description:
-      "Soluciones IoT SAMEE100 y SAMEE200 para monitoreo energético industrial y solar. Medición eléctrica, dashboards, alarmas e indicadores ISO 50001.",
+      "Monitoreo energético industrial y solar: integración de medidores existentes, suministro, arrendamiento y medición como servicio según cada proyecto.",
   },
   "/automatizacion-edge": {
     title: "Automatización Industrial y Edge Computing | PYP Tecnología",
     description:
-      "Desarrollo electrónico, gateways industriales, control Edge, Modbus, CAN J1939, supervisión local y automatización de procesos en Colombia.",
+      "Automatización industrial y Edge Computing. Integración y análisis de indicadores TPM, OEE, MTBF y MTTR sujetos a evaluación y validación del proyecto.",
   },
 };
 

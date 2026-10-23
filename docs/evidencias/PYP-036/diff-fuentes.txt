@@ -1,0 +1,5 @@
+ src/data/seo.js                    |  6 +++---
+ src/pages/AutomatizacionEdge.jsx   | 12 ++++++++++++
+ src/pages/IoTIndustrialLoRaWAN.jsx | 11 +++++++++++
+ src/pages/MonitoreoEnergetico.jsx  | 13 +++++++++++++
+ 4 files changed, 39 insertions(+), 3 deletions(-)

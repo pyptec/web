@@ -1,0 +1,10 @@
+Exit code: 0
+warning: in the working copy of 'docs/evidencias/PYP-029/resultado.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-029/seguimiento-seo.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-035/resultado.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/evidencias/PYP-035/staged-publicacion.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'docs/prompts/index.md', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/data/seo.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/AutomatizacionEdge.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/IoTIndustrialLoRaWAN.jsx', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/pages/MonitoreoEnergetico.jsx', LF will be replaced by CRLF the next time Git touches it
